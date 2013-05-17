@@ -1,0 +1,45 @@
+Sat Jul 28 13:09:03 BOT 2012: Mostrar Megusta > tono: 103484 msisdn:75639385 > cantidad de registros: 0
+Sat Jul 28 13:11:40 BOT 2012: Ajax->Mostrar Reproducciones:  
+Sat Jul 28 13:11:55 BOT 2012: Mostrar Ranking: tono:135727 calificacion: 
+Sat Jul 28 13:13:07 BOT 2012: Ajax->Mostrar Comentarios:  
+Sat Jul 28 13:13:07 BOT 2012: Session Start>  session por defecto 
+Sat Jul 28 13:13:56 BOT 2012: Ajax->Mostrar Megusta:  
+Sat Jul 28 13:15:20 BOT 2012: Ajax->Mostrar Imagen Portada:  
+Sat Jul 28 13:16:02 BOT 2012: Mostrar Megusta > tono: 104458 msisdn:75639385 > cantidad de registros: 0
+Sat Jul 28 13:16:05 BOT 2012: ASYNC -> STATS> Tiempo respuesta 0.0044179999999999 seg.
+Sat Jul 28 13:16:08 BOT 2012: Consulta de precio de reason:10 - msisdn:77808205 tono:105367 Async responde:350
+ 
+Sat Jul 28 13:16:11 BOT 2012: ASYNC -> STATS> Tiempo respuesta -0.002065 seg.
+Sat Jul 28 13:16:11 BOT 2012: Ajax->Mostrar Ranking:  
+Sat Jul 28 13:16:11 BOT 2012: Ajax->Mostrar Ranking:  
+Sat Jul 28 13:16:17 BOT 2012: ASYNC -> STATS> Tiempo respuesta 0.00011000000000005 seg.
+Sat Jul 28 13:18:00 BOT 2012: Ajax-> Mostrar  Nombre Genero > tono:109249 
+Sat Jul 28 13:19:06 BOT 2012: ASYNC -> STATS> Tiempo respuesta 0.004492 seg.
+Sat Jul 28 13:19:06 BOT 2012: Ajax->Mostrar Ranking:  
+Sat Jul 28 13:19:30 BOT 2012: Consulta de precio de reason:10 - msisdn: tono:103821 Async responde:350
+ 
+Sat Jul 28 13:19:30 BOT 2012: Asignar backtone escuchado > Asi termino:123538,131040,104202,105550,113619,103276,109964,124243,106234,106235,105367,105864,117854,104544,145263,143765,143764,146577,145264,145218,
+Sat Jul 28 13:19:33 BOT 2012: ASYNC -> STATS> Tiempo respuesta 0.00054599999999994 seg.
+Sat Jul 28 13:19:57 BOT 2012: Ajax->Mostrar Megusta:  
+Sat Jul 28 13:20:21 BOT 2012: Ajax-> Mostrar  Imagen Portada> tono:145330 
+Sat Jul 28 13:20:57 BOT 2012: Asignar backtone escuchado > Asi termino:128604,
+Sat Jul 28 13:21:34 BOT 2012: Ajax-> Mostrar Comentarios> tono:103342 
+Sat Jul 28 13:23:28 BOT 2012: Busqueda Inteligente: resultados >145906
+Sat Jul 28 13:23:34 BOT 2012: Ajax->Mostrar Ranking:  
+Sat Jul 28 13:23:43 BOT 2012: Ajax->Mostrar Imagen Portada:  
+Sat Jul 28 13:23:49 BOT 2012: ASYNC -> STATS> Tiempo respuesta -0.011377 seg.
+Sat Jul 28 15:13:40 BOT 2012: Ajax-> Mostrar  Imagen Portada> tono:109242 
+Sat Jul 28 15:14:20 BOT 2012: Ajax-> Mostrar Ranking > tono:135727 
+Sat Jul 28 15:15:20 BOT 2012: Ajax-> Mostrar Comentarios> tono:135727 
+Sat Jul 28 15:21:51 BOT 2012: Ajax-> Mostrar Comentarios> tono:144109 
+Sat Jul 28 15:23:31 BOT 2012: Ajax->Mostrar Nombre Artista:  
+Sat Jul 28 15:27:50 BOT 2012: ASYNC -> STATS> Tiempo respuesta -0.534188 seg.
+Sat Jul 28 15:36:55 BOT 2012: Ajax->Mostrar Nombre Genero:  
+Sat Jul 28 15:43:18 BOT 2012: Mostrar Ranking: tono:103274 calificacion: 
+Sat Jul 28 15:43:18 BOT 2012: Mostrar Ranking: tono:131049 calificacion: 1
+Sat Jul 28 15:43:39 BOT 2012: Ajax->Mostrar Reproducciones:  
+Sat Jul 28 15:45:46 BOT 2012: Ajax->Mostrar Reproducciones:  
+Sat Jul 28 15:48:49 BOT 2012: Session Start>  session por defecto 
+Sat Jul 28 15:51:02 BOT 2012: Mostrar Ranking: tono:123538 calificacion: 5
+Sat Jul 28 15:53:45 BOT 2012: Ajax->Mostrar Nombre Genero:  
+Sat Jul 28 15:56:46 BOT 2012: Mostrar Ranking: tono:131048 calificacion: 

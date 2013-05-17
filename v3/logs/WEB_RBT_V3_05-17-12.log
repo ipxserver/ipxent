@@ -1,0 +1,40 @@
+Thu May 17 18:50:44 BOT 2012: Ajax->Mostrar Reproducciones:  
+Thu May 17 18:51:11 BOT 2012: Mostrar Ranking: tono:102630 calificacion: 
+Thu May 17 18:53:44 BOT 2012: ASYNC -> STATS> Tiempo respuesta 0.536062 seg.
+Thu May 17 18:53:44 BOT 2012: ASYNC -> STATS> Tiempo respuesta 0.061365 seg.
+Thu May 17 18:55:57 BOT 2012: Ajax-> Mostrar Ranking > tono:106237 
+Thu May 17 19:00:21 BOT 2012: Consulta de precio de reason:2 - msisdn: tono:109245 Async responde:350
+ 
+Thu May 17 19:00:30 BOT 2012: Ajax-> Mostrar  Nombre Artista > tono:103107 
+Thu May 17 19:00:48 BOT 2012: Ajax-> Mostrar  Imagen Portada> tono:109406 
+Thu May 17 19:01:28 BOT 2012: Busqueda Inteligente: Fito Paez
+Thu May 17 19:04:04 BOT 2012: ASYNC -> STATS> Tiempo respuesta -0.07451 seg.
+Thu May 17 19:04:04 BOT 2012: ASYNC -> STATS> Tiempo respuesta -0.190902 seg.
+Thu May 17 19:04:19 BOT 2012: Busqueda Inteligente: resultados >110495
+Thu May 17 19:05:43 BOT 2012: Ajax->Mostrar Megusta:  
+Thu May 17 19:08:29 BOT 2012: ASYNC -> STATS> Tiempo respuesta 0.003421 seg.
+Thu May 17 19:09:26 BOT 2012: Ajax-> Mostrar Comentarios> tono:137830 
+Thu May 17 19:10:02 BOT 2012: Ajax->Mostrar Nombre Genero:  
+Thu May 17 19:10:41 BOT 2012: Ajax->Mostrar Megusta:  
+Thu May 17 19:14:42 BOT 2012: ASYNC -> STATS> Tiempo respuesta 0.003123 seg.
+Thu May 17 19:14:45 BOT 2012: Busqueda Inteligente: 
+Thu May 17 19:14:51 BOT 2012: Ajax->Mostrar Comentarios:  
+Thu May 17 19:15:09 BOT 2012: Ajax->Mostrar Nombre Genero:  
+Thu May 17 19:16:03 BOT 2012: Ajax-> Mostrar  Nombre Genero > tono:104602 
+Thu May 17 19:18:48 BOT 2012: Mostrar Cantidad reproducciones: tono:109318 cantidad: 0
+Thu May 17 19:19:18 BOT 2012: ASYNC -> STATS> Tiempo respuesta -0.112528 seg.
+Thu May 17 19:19:36 BOT 2012: Ajax->Mostrar Megusta:  
+Thu May 17 19:20:48 BOT 2012: Asignar backtone escuchado > Asi termino:104991,146592,144562,143738,141134,141128,141122,146574,143076,120257,142287,143742,137884,137880,146577,133447,141946,137877,145218,140832,
+Thu May 17 19:22:58 BOT 2012: Ajax->Mostrar Ranking:  
+Thu May 17 19:23:10 BOT 2012: Msisdn2:76002492.Tono:149592Renovacion:0
+Thu May 17 19:26:13 BOT 2012: Asignar backtone escuchado > Asi termino:420,142908,145311,142888,145313,145315,142904,142894,142906,103619,103522,103521,150596,
+Thu May 17 19:26:58 BOT 2012: Ajax->Mostrar Ranking:  
+Thu May 17 19:28:56 BOT 2012: Ajax-> Mostrar Ranking > tono:104576 
+Thu May 17 19:29:26 BOT 2012: Mostrar Comentarios : tono:131837 
+Thu May 17 19:30:20 BOT 2012: Ajax-> Mostrar  Nombre Artista > tono:128221 
+Thu May 17 19:30:35 BOT 2012: Mostrar Genero: >G&eacute;nero:  <a href='index.php?seccion=playlist&genero=130'>Rancheras</a>
+Thu May 17 19:30:41 BOT 2012: Ajax->Mostrar Nombre Artista:  
+Thu May 17 19:31:17 BOT 2012: Ajax->Mostrar Nombre Artista:  
+Thu May 17 19:32:50 BOT 2012: Ajax->Mostrar Megusta:  
+Thu May 17 19:33:53 BOT 2012: Ajax-> Mostrar Ranking > tono:103469 
+Thu May 17 19:34:33 BOT 2012: Ajax->Mostrar Imagen Portada:  

@@ -1,0 +1,15 @@
+Mon Apr 23 12:22:04 BOT 2012: ASYNC -> STATS> Tiempo respuesta -0.514797 seg.
+Mon Apr 23 12:22:10 BOT 2012: Consulta de precio de reason:3 - msisdn: tono:145328 Async responde:350
+ 
+Mon Apr 23 12:23:13 BOT 2012: ASYNC -> STATS> Tiempo respuesta 0.002828 seg.
+Mon Apr 23 12:23:40 BOT 2012: Asignar backtone escuchado > Asi termino:131747,131824,131751,124053,124048,133678,124047,131816,132078,104959,103935,102610,
+Mon Apr 23 12:24:04 BOT 2012: Envio a ASYNC - msisdn:75502871 tono:116466
+Mon Apr 23 12:24:19 BOT 2012: Ajax->Mostrar Megusta:  
+Mon Apr 23 19:17:26 BOT 2012: Busqueda Inteligente: resultados >124971
+Mon Apr 23 19:19:14 BOT 2012: ASYNC -> STATS> Tiempo respuesta 0.0024569999999999 seg.
+Mon Apr 23 19:19:23 BOT 2012: ASYNC -> STATS> Tiempo respuesta 0.003904 seg.
+Mon Apr 23 19:19:23 BOT 2012: Session Start>  session por defecto 
+Mon Apr 23 19:21:30 BOT 2012: WEB_REPRODUCIR_BUSQUEDA > Se recibieron:114 tonos
+Mon Apr 23 19:22:01 BOT 2012: Busqueda Inteligente: resultados >
+Mon Apr 23 19:23:39 BOT 2012: Ajax->Mostrar Megusta:  
+Mon Apr 23 19:25:06 BOT 2012: Session Start>  Chequeo de sesion

@@ -1,0 +1,87 @@
+<div id="panel-busqueda">
+<!-- Breadcrumb -->
+        <div id="menu-bar">
+                <div  style="float:right; display:none;line-height:14px;" id="menu-home-inicio" >
+                    <img src="estilos/tigo/images/home-inicio3.png" alt="" height="10"/>&nbsp;<a href="index.php" class="estilo-enlace-home">Inicio</a>
+                </div>
+                <div  style="float:right; display:none;line-height:14px;" id="menu-home-perfil" >
+                    <img src="estilos/tigo/images/home-inicio3.png" alt="" height="10"/>&nbsp;<a href="index.php" class="estilo-enlace-home">Inicio</a>
+                <img src="estilos/tigo/images/home-mis-amigos3.png" alt="" height="10"/>&nbsp;<a href="index.php?seccion=amigos" class="estilo-enlace-home">Mis Amigos</a>
+                <img src="estilos/tigo/images/home-mis-grupos3.png" alt=""  height="10"/>&nbsp;<a href="index.php?seccion=grupos" class="estilo-enlace-home">Mis Grupos </a>
+                <img src="estilos/tigo/images/home-mis-backtones3.png" alt=""  height="10"/>&nbsp;<a href="index.php?seccion=mis_backtones" class="estilo-enlace-home">Mis Backtones </a>
+                </div>
+        </div>
+      
+<!-- Alphabet bar -->
+        <div id="abc">
+                <div id="abc-title">Busca tu artista por orden alfab&eacute;tico</div>
+                <div id="abc-words"> <span class="letters">
+                <a href='index.php?seccion=busqueda&artista=a'>A</a>
+                <a href='index.php?seccion=busqueda&artista=b'>B</a>
+                <a href='index.php?seccion=busqueda&artista=c'>C</a>
+                <a href='index.php?seccion=busqueda&artista=d'>D</a>
+                <a href='index.php?seccion=busqueda&artista=e'>E</a>
+                <a href='index.php?seccion=busqueda&artista=f'>F</a>
+                <a href='index.php?seccion=busqueda&artista=g'>G</a>
+                <a href='index.php?seccion=busqueda&artista=h'>H</a>
+                <a href='index.php?seccion=busqueda&artista=i'>I</a>
+                <a href='index.php?seccion=busqueda&artista=j'>J</a>
+                <a href='index.php?seccion=busqueda&artista=k'>K</a>
+                <a href='index.php?seccion=busqueda&artista=l'>L</a>
+                <a href='index.php?seccion=busqueda&artista=m'>M</a>
+                <a href='index.php?seccion=busqueda&artista=n'>N</a>
+                <a href='index.php?seccion=busqueda&artista=o'>O</a>
+                <a href='index.php?seccion=busqueda&artista=p'>P</a>
+                <a href='index.php?seccion=busqueda&artista=q'>Q</a>
+                <a href='index.php?seccion=busqueda&artista=r'>R</a>
+                <a href='index.php?seccion=busqueda&artista=s'>S</a>
+                <a href='index.php?seccion=busqueda&artista=t'>T</a>
+                <a href='index.php?seccion=busqueda&artista=u'>U</a>
+                <a href='index.php?seccion=busqueda&artista=v'>V</a>
+                <a href='index.php?seccion=busqueda&artista=w'>W</a>
+                <a href='index.php?seccion=busqueda&artista=x'>X</a>
+                <a href='index.php?seccion=busqueda&artista=y'>Y</a>
+                <a href='index.php?seccion=busqueda&artista=z'>Z</a>
+                <a href='index.php?seccion=busqueda&artista=0-9'>#</a>
+                </span>
+                </div>
+        </div>
+
+<!-- Finder bar -->
+        <div id="finder">
+                <div id="search">
+                    <form action="index.php?seccion=playlist" method="POST" name="form_search" id="form_search">
+                      <div class="panel-busqueda">
+                        <div class="contenedor_texto_busqueda">
+Buscar M&uacute;sica	<input type="text" id="label" name="tb_texto_busqueda" value="{tpl-texto-busqueda}" size="20" />
+                        </div>
+                        <div class="contenedor_tipo_busqueda">
+                            <div style="width:145px; height:20px; float:left; display:inline;">
+                            <span style="font-size:10px;"> en: </span>
+                            <input name="accion" type="hidden" id="accion" value="busqueda" />
+                            <select  id="tb_filtro_tipo"  name="tb_filtro_tipo"   style="height:18px; font-size:10px; width:70px;">
+                                    <option value="todo" {tbl-selected-todo} >--</option>
+                                    <option value="temas"  {tbl-selected-temas}>Temas</option>
+                                    <option value="albumes"  {tbl-selected-albumes}>Albumes</option>
+                                    <option value="artistas"  {tbl-selected-artistas}>Artistas</option>
+                            </select>
+                            </div>
+                            <div style="width:145px;  height:20px; float:left; display:inline;">
+                            <input name="accion" type="hidden" id="accion" value="busqueda" />                            
+                            <span style="font-size:10px;"> precio: </span>
+                            <select  id="filtro" name="tb_filtro_precio" style="height:18px; width:70px;font-size:10px;" onchange="selectSearch(this)">
+                                <option value="todo" {tbl-selected-precio-todo}>--</option>
+                                    <option value="0;150"  {tbl-selected-0-150}> 0 -1,5 Bs.</option>
+                                    <option value="200;250"  {tbl-selected-200-250}>2 -2,5 Bs.</option>
+                                    <option value="300;350"  {tbl-selected-300-350}>3 -3,5 Bs.</option>
+                            </select>
+                            </div>
+                        </div>
+                        <div class="contenedor_boton">
+                        <input type="submit" class="button-blue" value="Buscar" />
+                        </div>
+                   </div>
+                </form>
+                </div>
+        </div>
+</div>

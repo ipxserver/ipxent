@@ -1,0 +1,405 @@
+<div class="section-title main-title">
+  <h2>{tpl-nombre-artista}</h2>
+</div>
+<div id="content-download">
+        <div id="picture-download" style="height:380px;">
+            <div id="imagen-cover-album"  style="width:240px; border:none; min-height: 200px; padding-bottom:0px;margin-bottom:0px; text-align:center;float:left; display:inline-block; vertical-align:middle;">
+            <img src="{tpl-imagen-album}" class="border-picture"  style=' padding-bottom:0px; margin-bottom:0px;' alt="Artista" title="Artista" />
+            </div>
+            <div id="contenido-album"  style="float:left; margin-top:0px; padding-top:0px;">
+                <p>
+                    <span>Artista: <a href="index.php?seccion=playlist&autor={tpl-id-artista}">{tpl-nombre-artista}</a>&nbsp;</span><br />
+                    {tpl-album}&nbsp;
+                    <span>G&eacute;nero: <a href="index.php?seccion=playlist&genero={tpl-id-genero}">{tpl-nombre-genero}</a>&nbsp;</span><br />
+                   <span>Precio del Backtone:</span> <br>
+                    <font style="font-size: 10px; line-height:12px;">
+                        <span> El costo del tono es 3.5 Bs.&nbsp;(IVA incluido) y la renovaci&oacute;n mensual es 3.5 Bs.&nbsp;(IVA Incluido).&nbsp;</span></font><br/>
+                    <span>Vigencia de Uso:</span>
+                    <font style="font-size: 10px; line-height: 12px;"><span> Un mes renovable automaticamente. Para cancelar el uso de este tono, ingresa a la opci&oacute;n "Mis Tonos"</span></font>
+                </p>
+            </div>
+        </div>
+        <div id="other-tracks">
+                <dl>
+                    <dt>Listado de temas del album</dt>
+                    <dd>
+                        <div  style="position: absolute;background:white; overflow:hidden; width:280px;  height:340px; ">
+                            <div id="contenedor-scroller-player"  >
+                            <!-- FLECHA ARRIBA !-->
+                            <div id="scroller-player" ></div>
+                            </div>
+                            <div class="contenedor-lista-backtones" style="position: relative;  height:300px;">
+                                <div class="jp-playlist-player">
+                                    <div id="jplayer_playlist" class="jp-playlist" >
+                                        <ul>
+                                            <li></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- SCROLLER !-->
+
+                        </div>
+                    </dd>
+                </dl>
+        </div>
+         <div style="padding-left:10px;padding-top:5px; padding-bottom:5px; float:left;">
+                <div id="jquery_jplayer" ></div>
+                <div class="jp-playlist-player">
+                        <div class="jp-interface">
+                            <div class="jp-trackname">
+                                  <p id="reproduccion-nombre">Tema: <span style="font-weight:bold;" id="trackname">n</span> <span class="play-info" id="play-info"></span></p>
+                            </div>
+                                <ul class="jp-controls">
+                                        <li><a href="#" id="jplayer_play" class="jp-play" tabindex="1">play</a></li>
+                                        <li><a href="#" id="jplayer_pause" class="jp-pause" tabindex="1">pause</a></li>
+                                        <li><a href="#" id="jplayer_stop" class="jp-stop" tabindex="1">stop</a></li>
+                                        <li><a href="#" id="jplayer_volume_min" class="jp-volume-min" tabindex="1">min volume</a></li>
+                                        <li><a href="#" id="jplayer_volume_max" class="jp-volume-max" tabindex="1">max volume</a></li>
+                                        <li><a href="#" id="jplayer_previous" class="jp-previous" tabindex="1">previous</a></li>
+                                        <li><a href="#" id="jplayer_next" class="jp-next" tabindex="1">next</a></li>
+                                </ul>
+                                <div class="jp-progress">
+                                        <div id="jplayer_load_bar" class="jp-load-bar">
+                                                <div id="jplayer_play_bar" class="jp-play-bar"></div>
+                                        </div>
+                                </div>
+                                <div id="jplayer_volume_bar" class="jp-volume-bar">
+                                <div id="jplayer_volume_bar_value" class="jp-volume-bar-value"></div>
+                                </div>
+                                <div class="jp-acciones-backtones">
+                                        <div id="bt-comprar" class="jp-bt-comprar"></div>
+                                        <div id="bt-regalar" class="jp-bt-regalar"></div>
+                                        <div id="bt-pedir" class="jp-bt-pedir"></div>
+                                        <div id="bt-descargar" class="jp-bt-descargar"></div>
+                                </div>
+                                <div id="jplayer_play_time" class="jp-play-time"></div>
+                                <div id="jplayer_total_time" class="jp-total-time"></div>
+                        </div>
+                </div>
+        </div>
+<div class="jump">&nbsp;</div>
+<div class="jump">&nbsp;</div>
+</div>
+<div id="flash">
+    <!-- CAMPOS DE CONTROL !-->
+    <input type="hidden" size="10" name="tb_id_tono" id="tb_id_tono"/>
+    <input type="hidden" size="10" name="tb_nombre_tono" id="tb_nombre_tono"/>
+    <input type="hidden" size="10" name="tb_precio_compra" id="tb_precio_compra"/>
+    <input type="hidden" size="10" name="tb_precio_regalo" id="tb_precio_regalo"/>
+    <input type="hidden" size="10" name="tb_precio_descarga" id="tb_precio_descarga"/>
+    <div id="contenedor_debug" style="display:none;width:500px; height:200px; overflow:scroll; border:1px solid red;">
+        <span id="depurador" style="color:gray;">log</span>
+    </div>
+    <div style="width:550px; height:175px; position:relative; line-height:10px;padding:0px; margin:0px;">
+
+        <!-- CONTENEDOR COMENTARIOS!-->
+        <div id='contenedor-comentarios' >
+            <input type="button" name="bt-ingresar-comentario" id="bt-ingresar-comentario" value="comentar"  style="width:55px; height:22px;font-size:10px;cursor:pointer;" class="estilo-input submit" >
+            <input type="input"  name="tb_ingresar_comentario" id="tb_ingresar_comentario"  class="estilo-input" MAXLENGTH="100" style="width:200px;font-size:10px;"/>
+            <input type="button" name="bt-ocultar-comentario" id="bt-ocultar-comentario" value="(x)"  style="width:20px; height:22px;font-size:10px;cursor:pointer;" class="estilo-input submit" >
+        </div>
+
+        <div id='contenedor-comentarios-contenido' style="display:inline-block; " >
+        </div>
+        <!-- CONTENEDOR COMENTARIOS ENLACES !-->
+        <div id="contenedor-comentarios-enlaces" style="display:inline-block;">
+            <div style="float:left;">
+            <img src="estilos/tigo/images/icon-comentar2.png" alt="" /><a href="#comentar" name="comentar"  id="link-comentar" >Comentar </a>
+            </div>
+            <div id="contenedor-todos-los-comentarios" style="display:none;float:left;padding-left:10px;">
+                <img src="estilos/tigo/images/icon-todos-los-comentarios.png" alt="" /><a href="#comentar" name="comentar"  id="link-ver-comentarios" >Ver todos los comentarios </a>
+            </div>
+            <input type="hidden" id="tb_tono_comentario" size="10"/>
+        </div>
+        <!-- CONTENEDOR ME GUSTA!-->
+        <div id='contenedor-megusta'>
+            <div id="bt-megusta">
+                <div id="txt-megusta">
+                    <a href="#megusta" name="megusta"><img src="estilos/tigo/images/me_gusta_fb.png" alt="me gusta este backtone" border="0"></a>
+                </div>
+            </div>
+        </div>
+        <div id="contenedor-megusta-resultado">
+
+        </div>
+        <!-- CONTENEDOR SHARE !-->
+        <div id='contenedor-share'>
+            <a href="javascript: void(0);"   onclick="javascript:MTD_MOSTRAR_POPUP_FACEBOOK()">
+            <img src="estilos/tigo/images/icon-share-facebook.jpg" border="0"/></a>
+
+            <a href="http://twitter.com/home?status=Escuchando el Backtone Tigo {tpl-url}" target="_blank"> <img src="estilos/tigo/images/icon-share-twitter.jpg" border="0"/></a>
+            <span>Compartir&nbsp;</span>
+        </div>
+
+        <!-- CONTENEDOR CONTADOR REPRODUCCIONES !-->
+        <div id='contenedor-contador-reproducciones'>
+        </div>
+
+        <!-- CONTENEDOR RATING !-->
+        <div id='contenedor-ranking' class="rating" >
+
+        </div>
+    </div>
+</div><!-- flash !-->
+
+
+<script type="text/javascript">
+<!--
+
+$(document).ready(function(){
+
+	var playItem = {tpl-id-tema-escuchar};
+        var flag_compra=false;
+        var vg_arreglo_tonos = new Array();
+        var myPlayList =  [{tpl-listado-backtones}];
+
+        $('#scroller-player').draggable({ axis: 'y',  containment: "parent" ,stop: function(event, ui) { FN_SCROLLER_PLAYLIST()}});
+
+	var jpPlayTime = $("#jplayer_play_time");
+	var jpTotalTime = $("#jplayer_total_time");
+        var posx=0;
+        var posy=0;
+
+
+
+        function FN_SCROLLER_PLAYLIST()
+        {
+            var porcentaje_scroller=0;
+            var posicion_top=0;
+            var altura_playlist=0;
+            var contenedor_height=0;
+            var contenedor_top=0;
+            var p = $("#scroller-player");
+            var offset = p.offset();
+
+            posicion_top = offset.top - 194;
+            porcentaje_scroller = (posicion_top * 100) / 340;
+            contenedor_height = $(".jp-playlist-player").height();
+            contenedor_top = ((porcentaje_scroller * contenedor_height ) /100 ) * -1;
+            $(".contenedor-lista-backtones").animate({"top": ""+contenedor_top +"px"}, "medium");
+
+        }
+
+        function FN_SCROLLER_PLAYLIST2(vp_top)
+        {
+            var porcentaje_scroller=0;
+            var posicion_top=0;
+            var altura_playlist=0;
+            var contenedor_height=0;
+            var contenedor_top=0;
+            posicion_top = vp_top;
+            porcentaje_scroller = (posicion_top * 100) / 340;
+            contenedor_height = $(".jp-playlist-player").height();
+            contenedor_top = ((porcentaje_scroller * contenedor_height ) /100 ) * -1;
+            $(".contenedor-lista-backtones").animate({"top": ""+contenedor_top +"px"}, "medium");
+
+        }
+        $("#contenedor-scroller-player").mousemove(function(e){
+            posx = e.pageX;
+            posy = e.pageY;
+        });
+        $("#contenedor-scroller-player").click(function(){
+            var top_scroll=0;
+            top_scroll = posy - 194;
+            $("#scroller-player").animate({"top": ""+top_scroll+"px"}, "medium");
+            FN_SCROLLER_PLAYLIST2(top_scroll );
+        });
+
+        $('#tb_ranking').CreateBubblePopup({
+                           themePath: 'estilos/tigo/images/jquerybubblepopup-theme/',
+                           themeName: 'orange',
+                           innerHtml: 'Atecion, voto realizado exitosamente', mouseOver: 'hide'
+        });
+
+        $('#bt-comprar').CreateBubblePopup({
+                           themePath: 'estilos/tigo/images/jquerybubblepopup-theme/',
+                           themeName: 'orange',
+                           innerHtml: 'Atecion, debe ingresar sus datos para realizar la adquisicion de un backtone', mouseOver: 'hide'
+         });
+         $('#bt-descargar').CreateBubblePopup({
+                       themePath: 'estilos/tigo/images/jquerybubblepopup-theme/',
+                       themeName: 'orange',
+                       innerHtml: 'Atecion, debe ingresar sus datos para realizar la adquisicion de un backtone', mouseOver: 'hide'
+        });
+        $('#bt-pedir').CreateBubblePopup({
+                       themePath: 'estilos/tigo/images/jquerybubblepopup-theme/',
+                       themeName: 'orange',
+                       innerHtml: 'Atecion, debe ingresar sus datos para realizar la adquisicion de un backtone', mouseOver: 'hide'
+        });
+        $('#bt-regalar').CreateBubblePopup({
+                       themePath: 'estilos/tigo/images/jquerybubblepopup-theme/',
+                       themeName: 'orange',
+                       innerHtml: 'Atecion, debe ingresar sus datos para realizar la adquisicion de un backtone', mouseOver: 'hide'
+        });
+        $('#bt-megusta').CreateBubblePopup({
+                       themePath: 'estilos/tigo/images/jquerybubblepopup-theme/',
+                       themeName: 'orange',
+                       innerHtml: '', mouseOver: 'hide'
+        });
+
+	$("#jquery_jplayer").jPlayer({
+		ready: function() {
+			displayPlayList();
+			playListInit(true);
+		},
+		oggSupport: false
+	})
+
+	.jPlayer("onProgressChange", function(loadPercent, playedPercentRelative, playedPercentAbsolute, playedTime, totalTime,lp,ppr,ppa,pt,tt){
+                errorAlerts:true;nativeSuport:false;
+		jpPlayTime.text($.jPlayer.convertTime(playedTime));
+		jpTotalTime.text($.jPlayer.convertTime(totalTime));
+
+	})
+
+	.jPlayer("onSoundComplete", function() {
+		playListNext();
+	});
+
+	$("#jplayer_previous").click( function() {
+		playListPrev();
+		$(this).blur();
+		return false;
+	});
+
+	$("#jplayer_next").click( function() {
+		playListNext();
+		$(this).blur();
+		return false;
+	});
+
+
+	function displayPlayList() {
+		$("#jplayer_playlist ul").empty();
+		for (i=0; i < myPlayList.length; i++) {
+			var listItem = (i == myPlayList.length-1) ? "<li class='jplayer_playlist_item_last'>" : "<li>";
+			listItem += "<a href='#' id='jplayer_playlist_item_"+i+"' tabindex='1'>"+ myPlayList[i].name +"</a></li>";
+			$("#jplayer_playlist ul").append(listItem);
+			$("#jplayer_playlist_item_"+i).data( "index", i ).click( function() {
+				var index = $(this).data("index");
+				if (playItem != index) {
+					playListChange( index );
+				} else {
+                                    $("#jquery_jplayer").jPlayer("play");
+				}
+
+				$(this).blur();
+				return false;
+			});
+		}
+	}
+
+	function playListInit(autoplay) {
+		if(autoplay) {
+			playListChange( playItem );
+
+		} else {
+			playListConfig( playItem );
+		}
+	}
+
+	function playListConfig( index ) {
+		$("#jplayer_playlist_item_"+playItem).removeClass("jplayer_playlist_current").parent().removeClass("jplayer_playlist_current");
+		$("#jplayer_playlist_item_"+index).addClass("jplayer_playlist_current").parent().addClass("jplayer_playlist_current");
+		playItem = index;
+                $("#trackname").html(myPlayList[playItem].name);
+		$("#jquery_jplayer").jPlayer("setFile", myPlayList[playItem].mp3, myPlayList[playItem].ogg);
+
+	}
+
+	function playListChange( index ) {
+                var tope= 0;
+                var altura=0;
+                var porcentaje=0;
+                tope = index * 23.8 * -1;
+                MTD_LIMPIAR_CONTENEDORES();
+                $("#tb_id_tono").val(myPlayList[index].id);
+                $("#tb_nombre_tono").val(myPlayList[index].name);
+                MTD_CONSULTA_PRECIO(5);
+                MTD_CONSULTA_PRECIO(10);
+                MTD_ASIGNA_BACKTONE_ESCUCHADO();
+                MTD_MOSTRAR_RANKING();
+                MTD_MOSTRAR_REPRODUCCIONES();
+                MTD_MOSTRAR_MEGUSTA();
+                MTD_MOSTRAR_COMENTARIOS();
+		playListConfig( index );
+		$("#jquery_jplayer").jPlayer("play");
+                $(".contenedor-lista-backtones").animate({"top": ""+tope+"px"}, "medium");
+                FN_MOVER_SCROLL(tope);
+	}
+        function FN_MOVER_SCROLL(vp_tope)
+        {
+            var contenedor_height=0;
+            var contenedor_tope = 0;
+            var porcentaje_contenedor=0;
+            var scroller_altura =0;
+            contenedor_tope = vp_tope  * -1;
+            contenedor_height = $(".jp-playlist-player").height();
+
+            porcentaje_contenedor = (contenedor_tope  * 100) / contenedor_height;
+            scroller_altura  = (porcentaje_contenedor * 340) / 100;
+            $("#scroller-player").animate({"top": ""+scroller_altura+"px"}, "medium");
+
+        }
+
+	function playListNext() {
+		var index = (playItem+1 < myPlayList.length) ? playItem+1 : 0;
+		playListChange( index );
+	}
+
+	function playListPrev() {
+		var index = (playItem-1 >= 0) ? playItem-1 : myPlayList.length-1;
+		playListChange( index );
+	}
+        $("#flecha_arriba_player").click(function() {
+            playListNext();
+        });
+        $("#flecha_abajo_player").click(function() {
+            playListNext();
+        });
+
+        $("#bt-comprar").click(function() {
+            MTD_COMPRAR_BACKTONE();
+        });
+        $("#bt-pedir").click(function() {
+            MTD_LISTAR_AMIGOS('pedir');
+        });
+        $("#bt-regalar").click(function() {
+            MTD_LISTAR_AMIGOS('regalar');
+        });
+        $("#bt-descargar").click(function() {
+            MTD_DESCARGAR_BACKTONE();
+        });
+        $("#txt-megusta").click(function() {
+            MTD_VOTAR_MEGUSTA();
+        });
+        $("#bt-ingresar-comentario").click(function() {
+            MTD_INGRESAR_COMENTARIO();
+        });
+        $("#bt-ocultar-comentario").click(function() {
+            $("#contenedor-comentarios").fadeOut();
+        });
+
+        $("#link-comentar").click(function() {
+           FN_ACTIVA_COMENTARIOS();
+        });
+        $("#link-ver-comentarios").click(function() {
+           MTD_MOSTRAR_TODOS_LOS_COMENTARIOS();
+        });
+
+
+        function FN_ACTIVA_COMENTARIOS(){
+         var vl_id_tono=0;
+         vl_id_tono=$("#tb_id_tono").val();
+         $("#tb_tono_comentario").val(vl_id_tono);
+         $("#contenedor-comentarios").fadeIn();
+
+        };
+
+
+
+
+});
+-->
+</script>

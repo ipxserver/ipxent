@@ -1,0 +1,47 @@
+Fri Mar 30 15:42:07 BOT 2012: Ajax-> Mostrar  Imagen Portada> tono:129938 
+Fri Mar 30 15:46:20 BOT 2012: Compra exitosa de backtone - ingresando el backtone al usuario  msisdn:75225597 tono:103654
+Fri Mar 30 15:46:53 BOT 2012: Ajax-> Mostrar  Nombre Genero > tono:104958 
+Fri Mar 30 15:52:48 BOT 2012: Ajax-> Mostrar Ranking > tono:129531 
+Fri Mar 30 15:54:48 BOT 2012: Check Session > msisdn: 77455811 > Usuario Valido 
+Fri Mar 30 15:58:28 BOT 2012: Ajax-> Mostrar Megusta> tono:103474 
+Fri Mar 30 16:00:28 BOT 2012: Mostrar Album: >Artista:  <a href='index.php?seccion=playlist&autor=257'>New Bolivia band</a>
+Fri Mar 30 16:01:43 BOT 2012: Ajax->Mostrar Nombre Genero:  
+Fri Mar 30 16:04:02 BOT 2012: Busqueda Inteligente: resultados >
+Fri Mar 30 16:05:11 BOT 2012: Ajax-> Mostrar Ranking > tono:142141 
+Fri Mar 30 16:06:02 BOT 2012: Ajax-> Mostrar  Imagen Portada> tono:131642 
+Fri Mar 30 19:43:47 BOT 2012: Ajax-> Mostrar Ranking > tono:103782 
+Fri Mar 30 19:47:24 BOT 2012: Ajax->Mostrar Nombre Genero:  
+Fri Mar 30 19:49:15 BOT 2012: Ajax->Mostrar Megusta:  
+Fri Mar 30 19:50:40 BOT 2012: Ajax->Mostrar Ranking:  
+Fri Mar 30 19:53:52 BOT 2012: Busqueda Inteligente: 
+Fri Mar 30 19:54:19 BOT 2012: Ajax->Mostrar Comentarios:  
+Fri Mar 30 19:54:19 BOT 2012: Ajax-> Mostrar Ranking > tono:126470 
+Fri Mar 30 19:56:25 BOT 2012: Ajax->Mostrar Comentarios:  
+Fri Mar 30 19:57:02 BOT 2012: Session Start>  session por defecto 
+Fri Mar 30 19:58:32 BOT 2012: ASYNC -> STATS> Tiempo respuesta 0.002299 seg.
+Fri Mar 30 19:59:29 BOT 2012: Ajax-> Mostrar Ranking > tono:109323 
+Fri Mar 30 20:00:56 BOT 2012: Ajax->Mostrar Imagen Portada:  
+Fri Mar 30 20:06:03 BOT 2012: Session Start>  Chequeo de sesion
+Fri Mar 30 20:06:51 BOT 2012: WEB REPROD BUSQ > Facebook link: http%3A%2F%2Fbacktones.tigo.com.bo%2Fv3%2Findex.php%3Fseccion%3Dplaylist%26genero%3D98%26f%3D1%26t%3D123123
+Fri Mar 30 20:09:34 BOT 2012: Ajax->Mostrar Nombre Genero:  
+Fri Mar 30 20:10:28 BOT 2012: Ajax-> Mostrar  Nombre Genero > tono:125661 
+Fri Mar 30 20:14:20 BOT 2012: Ajax->Mostrar Ranking:  
+Fri Mar 30 20:14:50 BOT 2012: STATS > BUSQUEDA DE BACKTONE >Tiempo: 0.090668 seg. | registros: 21
+Fri Mar 30 20:17:26 BOT 2012: Ajax-> Mostrar Ranking > tono:104463 
+Fri Mar 30 20:23:57 BOT 2012: Mostrar Ranking: tono:147352 calificacion: 
+Fri Mar 30 20:31:17 BOT 2012: Ajax-> Mostrar  Nombre Genero > tono:105986 
+Fri Mar 30 20:35:29 BOT 2012: Ajax->Mostrar Nombre Genero:  
+Fri Mar 30 20:37:18 BOT 2012: WEB_REPRODUCIR_BUSQUEDA > Se recibieron:48 tonos
+Fri Mar 30 20:38:12 BOT 2012: Ajax-> Mostrar Ranking > tono:125514 
+Fri Mar 30 20:43:07 BOT 2012: Ajax-> Mostrar Megusta> tono:144686 
+Fri Mar 30 20:43:16 BOT 2012: Ajax-> Mostrar  Imagen Portada> tono:104940 
+Fri Mar 30 20:45:19 BOT 2012: Ajax->Mostrar Reproducciones:  
+Fri Mar 30 20:45:37 BOT 2012: Asignar backtone escuchado > Asi termino:103086,163,102630,103466,103790,107567,103420,109227,105274,105271,133786,553,105275,105268,105276,240,
+Fri Mar 30 20:46:07 BOT 2012: Ajax-> Mostrar Megusta> tono:209 
+Fri Mar 30 20:48:01 BOT 2012: Ajax->Mostrar Nombre Artista:  
+Fri Mar 30 20:51:29 BOT 2012: Mostrar Megusta> tono: 124055 msisdn: > a otros 6  les gusta 
+Fri Mar 30 20:54:23 BOT 2012: ASYNC -> STATS> Tiempo respuesta 0.001572 seg.
+Fri Mar 30 20:55:45 BOT 2012: Ajax->Mostrar Reproducciones:  
+Fri Mar 30 20:56:24 BOT 2012: WEB_REPRODUCIR_BUSQUEDA > Se recibieron:3 tonos
+Fri Mar 30 20:57:42 BOT 2012: Consulta de precio de reason:2 - msisdn: tono:128231 Async responde:350
+ 

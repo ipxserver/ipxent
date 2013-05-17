@@ -1,0 +1,49 @@
+<div id="left-column" style="float:left;">
+<dl>
+    <dt>Selecciona el G&eacute;nero</dt>    
+        <!-- MARCO EXTERNO !-->        
+        <dd style="height:220px;">
+        <div  id="contenedor-seleccion-genero">
+              <!-- FLECHA ARRIBA !-->
+              <div id="arriba_genero" ></div>
+              <!-- MARCO INTERNO !-->
+              <div id="bloque_genero" class="bloque_genero">
+                  <div id="contenedor_bloque_genero">
+                  <ul id="lista_generos_contenedor">
+                    {tpl-lista-generos}
+                  </ul>
+                  </div>
+              </div>
+              <!-- FLECHA ABAJO !-->
+                <div id="abajo_genero"></div>              
+        </div>
+        </dd>
+        
+</dl>
+</div>
+
+ <script>
+ var top_genero=5;
+ var tope_genero = ($("#contenedor_bloque_genero").height() - 200) * -1;
+$("#arriba_genero").click(function(){
+    if (top_genero < 4)
+    {
+        top_genero= top_genero  + 200;
+        $(".bloque_genero").animate({"top": top_genero}, "medium");
+    }
+});
+
+$("#info_genero").click(function(){
+  top_genero= -560;
+  $(".bloque_genero").animate({"top": top_genero}, "medium");
+});
+
+$("#abajo_genero").click(function(){
+    if (top_genero > tope_genero)
+    {
+     top_genero= top_genero  - 200;
+     $(".bloque_genero").animate({"top": top_genero }, "medium");
+    }
+});
+
+</script>

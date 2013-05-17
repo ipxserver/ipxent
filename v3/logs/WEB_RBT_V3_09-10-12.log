@@ -1,0 +1,957 @@
+Mon Sep 10 0:01:24 BOT 2012: Busqueda de Backtones Intel: 
+ SQL:SELECT t.id, t.nombre as tono,aut.nombre as autor, alb.imagen, round(avg(wr.calificacion),0) as calificacion
+                    FROM tonos as t
+                    inner join autores as aut on ( t.autor = aut.id)
+                    inner join billing as bil on (t.billing = bil.caso  and bil.concepto=2)
+                    left join albumes as alb on (t.album = alb.id_album)
+                    left join web_tonos_ranking as wr on (t.id = wr.tonos_id)
+                    WHERE
+                    FIND_IN_SET(t.id, '104886,113598,602,103885,155502,103886,113600,113602,105259,103558,103887,113603,103888,113604,113605,113607,113609,113611,110108,152504,105260,120231,113612,105535,113614,137044,110106,113616,113617,103889,103921,120233,103922,103923,105261,103890,113619,105306,155396,113620,103891,113621,113623,113625,601,155498,113627,103894,556,103896,129243,113628,113630,113631,155476,113632,103557,103897,155394,113634,122283,130993,105534,148,126470,105302,129245,105285,150068,104846,126471,39,160,145235,125504,126991,105494,105248,118747,105133,105660,102735,161,131771,135671,103841,103066,104848,103524,102622,102610,104178,150405,104532,')
+                     AND t.autor=516 
+                    and t.categoria <> 207 and t.interfases &1 
+                    group by t.id, t.nombre ,aut.nombre , alb.imagen
+                    order by FIND_IN_SET(t.id, '104886,113598,602,103885,155502,103886,113600,113602,105259,103558,103887,113603,103888,113604,113605,113607,113609,113611,110108,152504,105260,120231,113612,105535,113614,137044,110106,113616,113617,103889,103921,120233,103922,103923,105261,103890,113619,105306,155396,113620,103891,113621,113623,113625,601,155498,113627,103894,556,103896,129243,113628,113630,113631,155476,113632,103557,103897,155394,113634,122283,130993,105534,148,126470,105302,129245,105285,150068,104846,126471,39,160,145235,125504,126991,105494,105248,118747,105133,105660,102735,161,131771,135671,103841,103066,104848,103524,102622,102610,104178,150405,104532,')
+                    limit 114 
+Mon Sep 10 0:11:31 BOT 2012: Ajax->Mostrar Nombre Artista:  
+Mon Sep 10 0:12:58 BOT 2012: ASYNC -> STATS> Tiempo respuesta 0.28851 seg.
+Mon Sep 10 0:19:51 BOT 2012: Mostrar Genero: >G&eacute;nero:  <a href='index.php?seccion=playlist&genero=153'>Rock Latino</a>
+Mon Sep 10 0:25:46 BOT 2012: Asignar backtone escuchado > Asi termino:103938,105233,103939,120964,120949,103940,516,517,104404,103054,104403,103233,125516,112468,112469,118180,145928,145930,509,112706,
+Mon Sep 10 0:28:14 BOT 2012: Ajax-> Mostrar  Imagen Portada> tono:113611 
+Mon Sep 10 0:31:17 BOT 2012: Asignar backtone escuchado > Asi termino:113616,103886,113600,110108,113611,113609,113607,104886,622,621,293,104829,104830,104827,
+Mon Sep 10 0:31:20 BOT 2012: Asignar backtone escuchado > Asi termino:135108,127759,118745,118727,118725,118724,
+Mon Sep 10 0:33:45 BOT 2012: Asignar backtone escuchado > Asi termino:104894,145895,133415,104972,104980,104300,105610,103823,103627,103142,102882,102639,103479,105036,105096,135108,127759,118745,118727,118725,
+Mon Sep 10 0:33:51 BOT 2012: Ajax-> Mostrar Ranking > tono:104894 
+Mon Sep 10 0:34:24 BOT 2012: Ajax-> Mostrar  Imagen Portada> tono:104886 
+Mon Sep 10 0:39:49 BOT 2012: Ajax->Mostrar Ranking:  
+Mon Sep 10 0:43:17 BOT 2012: ASYNC -> STATS> Tiempo respuesta -0.293476 seg.
+Mon Sep 10 0:43:23 BOT 2012: ASYNC -> STATS> Tiempo respuesta -0.20892 seg.
+Mon Sep 10 0:48:48 BOT 2012: Busqueda Inteligente: resultados >143744
+Mon Sep 10 0:52:28 BOT 2012: Ajax->Mostrar Megusta:  
+Mon Sep 10 0:52:52 BOT 2012: Asignar backtone escuchado > Asi termino:155380,152118,155372,103940,103939,120964,105233,103938,120962,120949,516,517,104404,103054,104403,103233,125516,112468,112469,
+Mon Sep 10 0:57:02 BOT 2012: Ajax->Mostrar Megusta:  
+Mon Sep 10 1:04:48 BOT 2012: Ajax->Mostrar Comentarios:  
+Mon Sep 10 1:13:20 BOT 2012: Ajax-> Mostrar Comentarios> tono:129901 
+Mon Sep 10 1:21:43 BOT 2012: Retornando el siguiente resultado 
+ <div><div id='contenedor-albumes'><div  id="contenedor-busqueda" style="height:35px;">
+    <div class="contenedor-enlaces-busqueda"  >
+        <a class="enlaces-busqueda" style="color:navy;"href='index.php?seccion=playlist&autor=213' >Factoria</a>
+    </div>
+</div>
+<div  id="contenedor-busqueda" style="height:35px;">
+    <div class="contenedor-enlaces-busqueda"  >
+        <a class="enlaces-busqueda" style="color:navy;"href='index.php?seccion=playlist&autor=366' >Faithless</a>
+    </div>
+</div>
+<div  id="contenedor-busqueda" style="height:35px;">
+    <div class="contenedor-enlaces-busqueda"  >
+        <a class="enlaces-busqueda" style="color:navy;"href='index.php?seccion=playlist&autor=775' >Familia Lirika</a>
+    </div>
+</div>
+<div  id="contenedor-busqueda" style="height:35px;">
+    <div class="contenedor-enlaces-busqueda"  >
+        <a class="enlaces-busqueda" style="color:navy;"href='index.php?seccion=playlist&autor=349' >Fanny Lu</a>
+    </div>
+</div>
+<div  id="contenedor-busqueda" style="height:35px;">
+    <div class="contenedor-enlaces-busqueda"  >
+        <a class="enlaces-busqueda" style="color:navy;"href='index.php?seccion=playlist&autor=1309' >Far East Movement</a>
+    </div>
+</div>
+<div  id="contenedor-busqueda" style="height:35px;">
+    <div class="contenedor-enlaces-busqueda"  >
+        <a class="enlaces-busqueda" style="color:navy;"href='index.php?seccion=playlist&autor=254' >Farias</a>
+    </div>
+</div>
+<div  id="contenedor-busqueda" style="height:35px;">
+    <div class="contenedor-enlaces-busqueda"  >
+        <a class="enlaces-busqueda" style="color:navy;"href='index.php?seccion=playlist&autor=1398' >Farruko</a>
+    </div>
+</div>
+<div  id="contenedor-busqueda" style="height:35px;">
+    <div class="contenedor-enlaces-busqueda"  >
+        <a class="enlaces-busqueda" style="color:navy;"href='index.php?seccion=playlist&autor=374' >Fatboyslim</a>
+    </div>
+</div>
+<div  id="contenedor-busqueda" style="height:35px;">
+    <div class="contenedor-enlaces-busqueda"  >
+        <a class="enlaces-busqueda" style="color:navy;"href='index.php?seccion=playlist&autor=118' >Fey</a>
+    </div>
+</div>
+<div  id="contenedor-busqueda" style="height:35px;">
+    <div class="contenedor-enlaces-busqueda"  >
+        <a class="enlaces-busqueda" style="color:navy;"href='index.php?seccion=playlist&autor=621' >Fidel Nadal</a>
+    </div>
+</div>
+<div  id="contenedor-busqueda" style="height:35px;">
+    <div class="contenedor-enlaces-busqueda"  >
+        <a class="enlaces-busqueda" style="color:navy;"href='index.php?seccion=playlist&autor=505' >Fito Paez</a>
+    </div>
+</div>
+<div  id="contenedor-busqueda" style="height:35px;">
+    <div class="contenedor-enlaces-busqueda"  >
+        <a class="enlaces-busqueda" style="color:navy;"href='index.php?seccion=playlist&autor=252' >Flash 5</a>
+    </div>
+</div>
+<div  id="contenedor-busqueda" style="height:35px;">
+    <div class="contenedor-enlaces-busqueda"  >
+        <a class="enlaces-busqueda" style="color:navy;"href='index.php?seccion=playlist&autor=436' >Flip y djuma</a>
+    </div>
+</div>
+<div  id="contenedor-busqueda" style="height:35px;">
+    <div class="contenedor-enlaces-busqueda"  >
+        <a class="enlaces-busqueda" style="color:navy;"href='index.php?seccion=playlist&autor=1513' >Florence and the Machine</a>
+    </div>
+</div>
+<div  id="contenedor-busqueda" style="height:35px;">
+    <div class="contenedor-enlaces-busqueda"  >
+        <a class="enlaces-busqueda" style="color:navy;"href='index.php?seccion=playlist&autor=1662' >Fonseca</a>
+    </div>
+</div>
+<div  id="contenedor-busqueda" style="height:35px;">
+    <div class="contenedor-enlaces-busqueda"  >
+        <a class="enlaces-busqueda" style="color:navy;"href='index.php?seccion=playlist&autor=1492' >Foo Fighters</a>
+    </div>
+</div>
+<div  id="contenedor-busqueda" style="height:35px;">
+    <div class="contenedor-enlaces-busqueda"  >
+        <a class="enlaces-busqueda" style="color:navy;"href='index.php?seccion=playlist&autor=367' >FooFighters</a>
+    </div>
+</div>
+<div  id="contenedor-busqueda" style="height:35px;">
+    <div class="contenedor-enlaces-busqueda"  >
+        <a class="enlaces-busqueda" style="color:navy;"href='index.php?seccion=playlist&autor=1521' >Foster The People</a>
+    </div>
+</div>
+<div  id="contenedor-busqueda" style="height:35px;">
+    <div class="contenedor-enlaces-busqueda"  >
+        <a class="enlaces-busqueda" style="color:navy;"href='index.php?seccion=playlist&autor=437' >FPS</a>
+    </div>
+</div>
+<div  id="contenedor-busqueda" style="height:35px;">
+    <div class="contenedor-enlaces-busqueda"  >
+        <a class="enlaces-busqueda" style="color:navy;"href='index.php?seccion=playlist&autor=462' >fRANCO dE vITA</a>
+    </div>
+</div>
+<div  id="contenedor-busqueda" style="height:35px;">
+    <div class="contenedor-enlaces-busqueda"  >
+        <a class="enlaces-busqueda" style="color:navy;"href='index.php?seccion=playlist&autor=703' >Frank Sinatra</a>
+    </div>
+</div>
+<div  id="contenedor-busqueda" style="height:35px;">
+    <div class="contenedor-enlaces-busqueda"  >
+        <a class="enlaces-busqueda" style="color:navy;"href='index.php?seccion=playlist&autor=375' >FranzFerdinand</a>
+    </div>
+</div>
+<div  id="contenedor-busqueda" style="height:35px;">
+    <div class="contenedor-enlaces-busqueda"  >
+        <a class="enlaces-busqueda" style="color:navy;"href='index.php?seccion=playlist&autor=1300' >Fuego Opratel</a>
+    </div>
+</div>
+<div  id="contenedor-busqueda" style="height:35px;">
+    <div class="contenedor-enlaces-busqueda"  >
+        <a class="enlaces-busqueda" style="color:navy;"href='index.php?seccion=playlist&autor=423' >Funky</a>
+    </div>
+</div>
+</div></div>
+Mon Sep 10 1:23:28 BOT 2012: Session Start>  session por defecto 
+Mon Sep 10 1:42:11 BOT 2012: Ajax-> Mostrar  Imagen Portada> Album:Artista:  <a href='index.php?seccion=playlist&autor=48'>Gilda</a>
+Mon Sep 10 1:53:02 BOT 2012: Ajax->Mostrar Megusta:  
+Mon Sep 10 1:53:11 BOT 2012: Ajax-> Mostrar  Nombre Artista > tono:104506 
+Mon Sep 10 2:10:17 BOT 2012: Session Start>  session por defecto 
+Mon Sep 10 2:12:39 BOT 2012: ASYNC -> STATS> Tiempo respuesta 0.001951 seg.
+Mon Sep 10 2:17:07 BOT 2012: Ajax-> Mostrar  Nombre Genero > tono:103938 
+Mon Sep 10 2:18:28 BOT 2012: ASYNC -> STATS> Tiempo respuesta 0.001646 seg.
+Mon Sep 10 2:29:51 BOT 2012: Busqueda Inteligente: resultados >125511
+Mon Sep 10 8:44:34 BOT 2012: Mostrar Ranking: tono:104807 calificacion: 
+Mon Sep 10 8:50:21 BOT 2012: Error al consultar precio de renovacion - msisdn: tono:109410 - Async responde -3
+Mon Sep 10 8:50:24 BOT 2012: ASYNC -> STATS> Tiempo respuesta 0.001994 seg.
+Mon Sep 10 8:53:15 BOT 2012: Ajax->Mostrar Nombre Artista:  
+Mon Sep 10 8:56:59 BOT 2012: Ajax->Mostrar Comentarios:  
+Mon Sep 10 9:15:21 BOT 2012: DB_LISTAR_TONOS> Se econtraron 3 resultados con estos ID:124243,152504,106266, 
+Mon Sep 10 9:27:09 BOT 2012: Ajax->Mostrar Nombre Genero:  
+Mon Sep 10 9:34:50 BOT 2012: Ajax-> Mostrar  Nombre Genero > tono:146557 
+Mon Sep 10 9:37:15 BOT 2012: Ajax->Actualizar pin usuario
+Mon Sep 10 9:39:46 BOT 2012: MTD_DB_BUSCAR_ARTISTAS > retornando registros:41
+Mon Sep 10 10:33:50 BOT 2012: Ajax-> Mostrar Ranking > tono:471 
+Mon Sep 10 10:34:02 BOT 2012: ASYNC -> STATS> Tiempo respuesta 0.001389 seg.
+Mon Sep 10 10:35:15 BOT 2012: Ajax-> Mostrar Comentarios> tono:107749 
+Mon Sep 10 10:36:27 BOT 2012: Asignar backtone escuchado > Asi termino:107752,107751,107749,107747,132449,578,446,107794,150314,
+Mon Sep 10 10:36:27 BOT 2012: Asignar backtone escuchado > Asi termino:104557,104091,105704,102727,113052,127440,104092,436,135213,127447,155148,471,127457,129892,105294,104556,103818,129891,103447,
+Mon Sep 10 10:36:54 BOT 2012: Ajax-> Mostrar  Nombre Genero > tono:123010 
+Mon Sep 10 10:37:15 BOT 2012: Asignar backtone escuchado > Asi termino:103853,127895,104577,102593,102594,102595,102596,102597,103970,127897,127898,103565,103563,104053,104052,104050,103552,155266,103573,
+Mon Sep 10 10:38:27 BOT 2012: Mostrar Album: >albumes/Pitbull-Back_in_Time_feat_Men_In_Black_III.jpg
+Mon Sep 10 10:39:31 BOT 2012: Mostrar Megusta > tono: 103273 msisdn:76159088 > cantidad de registros: 0
+Mon Sep 10 10:40:10 BOT 2012: Mostrar Album: >albumes/album-default.jpg
+Mon Sep 10 10:41:37 BOT 2012: Ajax->Mostrar Ranking:  
+Mon Sep 10 10:45:53 BOT 2012: Ajax-> Mostrar Megusta> tono:106370 
+Mon Sep 10 10:47:39 BOT 2012: Ajax->Mostrar Imagen Portada:  
+Mon Sep 10 10:51:34 BOT 2012: Ajax-> Mostrar Megusta> tono:103351 
+Mon Sep 10 10:52:46 BOT 2012: Ajax->Mostrar Imagen Portada:  
+Mon Sep 10 10:52:58 BOT 2012: Ajax-> Mostrar Ranking > tono:104900 
+Mon Sep 10 10:54:14 BOT 2012: Ajax->Mostrar Ranking:  
+Mon Sep 10 10:54:14 BOT 2012: Ajax->Mostrar Ranking:  
+Mon Sep 10 11:00:03 BOT 2012: ASYNC -> STATS> Tiempo respuesta 0.002852 seg.
+Mon Sep 10 11:00:03 BOT 2012: Ajax-> Mostrar Comentarios> tono:386 
+Mon Sep 10 11:00:48 BOT 2012: Ajax-> Mostrar Ranking > tono:102944 
+Mon Sep 10 11:01:31 BOT 2012: Ajax->Mostrar Imagen Portada:  
+Mon Sep 10 11:03:07 BOT 2012: Ajax-> Mostrar  Imagen Portada> tono:155264 
+Mon Sep 10 11:03:10 BOT 2012: Ajax-> Mostrar Comentarios> tono:135079 
+Mon Sep 10 11:03:49 BOT 2012: Busqueda Inteligente: resultados >103994
+Mon Sep 10 11:04:31 BOT 2012: ASYNC -> STATS> Tiempo respuesta 0.003364 seg.
+Mon Sep 10 11:06:35 BOT 2012: ASYNC -> STATS> Tiempo respuesta 0.00311 seg.
+Mon Sep 10 11:06:47 BOT 2012: Ajax-> Mostrar Ranking > tono:107794 
+Mon Sep 10 11:06:47 BOT 2012: Ajax->Mostrar Megusta:  
+Mon Sep 10 11:07:44 BOT 2012: Asignar backtone escuchado > Asi termino:135275,135050,141,135281,135051,135064,103492,135054,104915,155406,135279,155646,135097,127260,147097,139846,127291,103659,103483,103666,
+Mon Sep 10 11:09:45 BOT 2012: Ajax-> Mostrar Ranking > tono:130814 
+Mon Sep 10 11:10:24 BOT 2012: Ajax->Mostrar Imagen Portada:  
+Mon Sep 10 11:11:30 BOT 2012: Ajax->Mostrar Nombre Artista:  
+Mon Sep 10 11:11:30 BOT 2012: Ajax->Mostrar Nombre Genero:  
+Mon Sep 10 11:12:15 BOT 2012: Mostrar Ranking: tono:104790 calificacion: 
+Mon Sep 10 11:13:18 BOT 2012: Ajax-> Mostrar  Nombre Artista > tono:103813 
+Mon Sep 10 11:13:25 BOT 2012: Asignar backtone escuchado > Asi termino:155090,103813,155174,154234,142223,145176,137283,130986,126993,129675,153334,130993,126167,103489,446,107794,132090,131749,103758,155246,
+Mon Sep 10 11:18:14 BOT 2012: Check Session > msisdn: 77290082 > Usuario Valido 
+Mon Sep 10 11:18:14 BOT 2012: Ajax->Mostrar Nombre Artista:  
+Mon Sep 10 11:19:50 BOT 2012: Ajax-> Login Usuario msisdn: 78787843  pin:6430 > Validar msisdn
+Mon Sep 10 11:20:14 BOT 2012: Ajax-> Mostrar Megusta> tono:124975 
+Mon Sep 10 11:20:17 BOT 2012: ASYNC -> STATS> Tiempo respuesta 0.003987 seg.
+Mon Sep 10 11:20:26 BOT 2012: Ajax-> Mostrar Ranking > tono:102778 
+Mon Sep 10 11:21:27 BOT 2012: Session Start>  session por defecto 
+Mon Sep 10 11:21:36 BOT 2012: Ajax-> Mostrar  Nombre Genero > tono:209 
+Mon Sep 10 11:24:48 BOT 2012: Ajax->Mostrar Ranking:  
+Mon Sep 10 11:28:04 BOT 2012: Mostrar Cantidad reproducciones: tono:104035 cantidad: 0
+Mon Sep 10 11:28:28 BOT 2012: Ajax->Mostrar Comentarios:  
+Mon Sep 10 11:30:17 BOT 2012: Ajax->Mostrar Ranking:  
+Mon Sep 10 11:30:23 BOT 2012: Ajax-> Mostrar  Nombre Genero > tono:129211 
+Mon Sep 10 11:30:53 BOT 2012: Asignar backtone escuchado > Asi termino:548,127892,144650,145180,152482,155262,151286,137281,102756,104957,103187,126095,62,105342,150302,126470,126857,127904,136258,103745,
+Mon Sep 10 11:31:05 BOT 2012: ASYNC -> STATS> Tiempo respuesta 0.003104 seg.
+Mon Sep 10 11:33:02 BOT 2012: Ajax->Mostrar Ranking:  
+Mon Sep 10 11:34:03 BOT 2012: Ajax-> Mostrar  Nombre Artista > tono:142230 
+Mon Sep 10 11:37:58 BOT 2012: Ajax->Mostrar Nombre Genero:  
+Mon Sep 10 11:39:35 BOT 2012: Ajax-> Mostrar Ranking > tono:104797 
+Mon Sep 10 11:39:53 BOT 2012: Ajax->Mostrar Comentarios:  
+Mon Sep 10 11:41:11 BOT 2012: ASYNC -> STATS> Tiempo respuesta 0.00305 seg.
+Mon Sep 10 11:43:45 BOT 2012: Ajax->Mostrar Comentarios:  
+Mon Sep 10 11:43:45 BOT 2012: Ajax-> Mostrar Comentarios> tono:103782 
+Mon Sep 10 11:45:33 BOT 2012: ASYNC -> STATS> Tiempo respuesta 0.121583 seg.
+Mon Sep 10 11:45:33 BOT 2012: Ajax->Mostrar Ranking:  
+Mon Sep 10 11:51:26 BOT 2012: STATS > BUSQUEDA DE BACKTONE >Tiempo: 0.043591 seg. | registros: 114
+Mon Sep 10 11:52:47 BOT 2012: Ajax-> Mostrar Ranking > tono:120230 
+Mon Sep 10 11:53:08 BOT 2012: Ajax->Mostrar Megusta:  
+Mon Sep 10 11:53:32 BOT 2012: Ajax->Mostrar Comentarios:  
+Mon Sep 10 11:54:29 BOT 2012: Ajax->Mostrar Reproducciones:  
+Mon Sep 10 11:55:00 BOT 2012: Mostrar Cantidad reproducciones: tono:135285 cantidad: 0
+Mon Sep 10 11:56:09 BOT 2012: Mostrar Comentarios : tono:103619 
+Mon Sep 10 11:57:42 BOT 2012: Ajax-> Mostrar  Imagen Portada> tono:104179 
+Mon Sep 10 12:03:50 BOT 2012: ASYNC -> STATS> Tiempo respuesta 0.003856 seg.
+Mon Sep 10 12:07:06 BOT 2012: Mostrar Ranking: tono:117857 calificacion: 
+Mon Sep 10 12:08:00 BOT 2012: Ajax->Mostrar Reproducciones:  
+Mon Sep 10 12:08:18 BOT 2012: ASYNC -> STATS> Tiempo respuesta 0.378105 seg.
+Mon Sep 10 12:08:45 BOT 2012: Ajax->Mostrar Imagen Portada:  
+Mon Sep 10 12:09:34 BOT 2012: ASYNC -> STATS> Tiempo respuesta 0.001601 seg.
+Mon Sep 10 12:09:37 BOT 2012: Consulta de precio de reason:10 - msisdn: tono:105041 Async responde:350
+ 
+Mon Sep 10 12:09:37 BOT 2012: Ajax->Mostrar Imagen Portada:  
+Mon Sep 10 12:09:58 BOT 2012: Ajax->Mostrar Ranking:  
+Mon Sep 10 12:10:46 BOT 2012: Ajax-> Mostrar Ranking > tono:104154 
+Mon Sep 10 12:10:49 BOT 2012: ASYNC -> STATS> Tiempo respuesta 0.005104 seg.
+Mon Sep 10 12:10:49 BOT 2012: ASYNC -> STATS> Tiempo respuesta 0.084914 seg.
+Mon Sep 10 12:10:52 BOT 2012: Ajax-> Mostrar Ranking > tono:103261 
+Mon Sep 10 12:11:07 BOT 2012: ASYNC -> STATS> Tiempo respuesta 0.037291 seg.
+Mon Sep 10 12:11:07 BOT 2012: ASYNC -> STATS> Tiempo respuesta 0.02944 seg.
+Mon Sep 10 12:13:20 BOT 2012: Ajax->Mostrar Imagen Portada:  
+Mon Sep 10 12:14:23 BOT 2012: Ajax->Mostrar Megusta:  
+Mon Sep 10 12:15:38 BOT 2012: Ajax-> Mostrar Comentarios> tono:153344 
+Mon Sep 10 12:16:15 BOT 2012: Ajax-> Mostrar Ranking > tono:149822 
+Mon Sep 10 12:16:24 BOT 2012: Ajax-> Mostrar  Imagen Portada> tono:104562 
+Mon Sep 10 12:18:54 BOT 2012: Ajax->Mostrar Imagen Portada:  
+Mon Sep 10 12:22:34 BOT 2012: Ajax->Mostrar Megusta:  
+Mon Sep 10 12:30:57 BOT 2012: Ajax->Mostrar Ranking:  
+Mon Sep 10 12:40:18 BOT 2012: Ajax-> Mostrar Ranking > tono:109240 
+Mon Sep 10 12:43:39 BOT 2012: Ajax-> Mostrar Comentarios> tono:153384 
+Mon Sep 10 12:52:03 BOT 2012: Ajax-> Mostrar Megusta> tono:153382 
+Mon Sep 10 12:53:42 BOT 2012: Ajax-> Mostrar  Imagen Portada> Album:Artista:  <a href='index.php?seccion=playlist&autor=503'>Version Opratel</a>
+Mon Sep 10 13:08:50 BOT 2012: ASYNC -> STATS> Tiempo respuesta 0.00158 seg.
+Mon Sep 10 13:13:24 BOT 2012: Ajax->Mostrar Comentarios:  
+Mon Sep 10 13:18:46 BOT 2012: Ajax->Mostrar Ranking:  
+Mon Sep 10 13:19:41 BOT 2012: ASYNC -> STATS> Tiempo respuesta 0.001841 seg.
+Mon Sep 10 13:22:50 BOT 2012: Session Start>  session por defecto 
+Mon Sep 10 13:23:33 BOT 2012: Ajax-> Mostrar Ranking > tono:104788 
+Mon Sep 10 13:25:21 BOT 2012: Ajax-> Mostrar Ranking > tono:155680 
+Mon Sep 10 13:26:24 BOT 2012: Ajax->Mostrar Reproducciones:  
+Mon Sep 10 13:28:19 BOT 2012: Ajax->Mostrar Nombre Artista:  
+Mon Sep 10 13:30:04 BOT 2012: ASYNC -> STATS> Tiempo respuesta 0.295102 seg.
+Mon Sep 10 13:31:50 BOT 2012: Asignar backtone escuchado > Asi termino:126462,130984,134015,149822,109227,103472,103477,103478,105746,106295,103328,106288,102622,104195,105533,152126,155380,152118,155372,105036,
+Mon Sep 10 13:33:23 BOT 2012: Ajax->Mostrar Imagen Portada:  
+Mon Sep 10 13:33:35 BOT 2012: Ajax-> Mostrar Megusta> tono:142113 
+Mon Sep 10 13:33:38 BOT 2012: Ajax->Mostrar Nombre Artista:  
+Mon Sep 10 13:35:42 BOT 2012: Ajax->Mostrar Megusta:  
+Mon Sep 10 13:36:03 BOT 2012: Ajax-> Mostrar Megusta> tono:112705 
+Mon Sep 10 13:38:31 BOT 2012: Asignar backtone escuchado > Asi termino:104807,105041,104806,104805,104804,104803,104802,124975,104801,104800,104799,104798,104797,104796,104795,104794,104793,104792,104791,104790,
+Mon Sep 10 13:38:34 BOT 2012: Ajax->Mostrar Reproducciones:  
+Mon Sep 10 13:40:19 BOT 2012: Asignar backtone escuchado > Asi termino:127001,126994,150076,126991,154234,509,104740,104771,141915,142130,142122,140782,142124,142113,140780,142128,140778,142119,140785,145418,
+Mon Sep 10 13:42:26 BOT 2012: Ajax->Mostrar Ranking:  
+Mon Sep 10 13:42:26 BOT 2012: Ajax->Mostrar Ranking:  
+Mon Sep 10 13:46:42 BOT 2012: Ajax->Mostrar Nombre Genero:  
+Mon Sep 10 13:46:54 BOT 2012: Busqueda Inteligente: resultados >104963
+Mon Sep 10 13:48:54 BOT 2012: Ajax-> Mostrar Megusta> tono:118725 
+Mon Sep 10 13:48:54 BOT 2012: Ajax-> Mostrar Ranking > tono:146587 
+Mon Sep 10 13:53:37 BOT 2012: Ajax->Mostrar Nombre Artista:  
+Mon Sep 10 13:53:55 BOT 2012: Ajax->Actualizar pin usuario
+Mon Sep 10 13:55:38 BOT 2012: Ajax-> Mostrar Ranking > tono:145319 
+Mon Sep 10 14:03:28 BOT 2012: Ajax-> Mostrar  Genero > G&eacute;nero:  <a href='index.php?seccion=playlist&genero=102'>Chistes</a>
+Mon Sep 10 14:04:13 BOT 2012: Asignar backtone escuchado > Asi termino:152124,152114,120251,155368,142231,120254,141126,137875,141124,141120,106385,143743,141118,140834,120258,120252,141122,140816,140814,142223,
+Mon Sep 10 14:04:22 BOT 2012: Consulta de precio de reason:2 - msisdn: tono:107747 Async responde:350
+ 
+Mon Sep 10 14:04:25 BOT 2012: ASYNC -> STATS> Tiempo respuesta -0.003377 seg.
+Mon Sep 10 14:04:25 BOT 2012: Ajax-> Mostrar  Nombre Genero > tono:152124 
+Mon Sep 10 14:04:28 BOT 2012: Asignar backtone escuchado > Asi termino:139964,147077,131001,139963,147079,118747,139961,147081,118754,118749,118736,147090,139960,152500,118738,118741,118748,139844,147092,139956,
+Mon Sep 10 14:05:16 BOT 2012: ASYNC -> STATS> Tiempo respuesta 0.001319 seg.
+Mon Sep 10 14:07:35 BOT 2012: Ajax->Mostrar Nombre Genero:  
+Mon Sep 10 14:08:36 BOT 2012: Ajax->Mostrar Nombre Artista:  
+Mon Sep 10 14:14:32 BOT 2012: Ajax-> Mostrar Ranking > tono:144692 
+Mon Sep 10 14:16:05 BOT 2012: MTD_LISTAR_TONOS -> Se encontraron los siguientes tonos:
+Mon Sep 10 14:17:50 BOT 2012: STATS > BUSQUEDA DE BACKTONE >Tiempo: 0.08941 seg. | registros: 114
+Mon Sep 10 14:17:53 BOT 2012: ASYNC -> STATS> Tiempo respuesta 0.00312 seg.
+Mon Sep 10 14:18:15 BOT 2012: Ajax->Mostrar Ranking:  
+Mon Sep 10 14:18:15 BOT 2012: Ajax->Mostrar Nombre Genero:  
+Mon Sep 10 14:23:43 BOT 2012: Mostrar Genero: >G&eacute;nero:  <a href='index.php?seccion=playlist&genero=110'>Cumbia</a>
+Mon Sep 10 14:27:20 BOT 2012: ASYNC -> STATS> Tiempo respuesta 0.003452 seg.
+Mon Sep 10 14:29:17 BOT 2012: Ajax->Mostrar Comentarios:  
+Mon Sep 10 14:29:35 BOT 2012: Ajax-> Mostrar Ranking > tono:124055 
+Mon Sep 10 14:30:11 BOT 2012: Asignar backtone escuchado > Asi termino:155502,
+Mon Sep 10 14:38:38 BOT 2012: Ajax-> Mostrar Ranking > tono:124055 
+Mon Sep 10 14:39:02 BOT 2012: ASYNC -> STATS> Tiempo respuesta 0.006948 seg.
+Mon Sep 10 14:42:39 BOT 2012: Ajax-> Mostrar Megusta> tono:147090 
+Mon Sep 10 14:43:54 BOT 2012: Ajax->Mostrar Megusta:  
+Mon Sep 10 14:49:19 BOT 2012: Ajax-> Mostrar Ranking > tono:106232 
+Mon Sep 10 14:52:35 BOT 2012: Mostrar Cantidad reproducciones: tono:131003 cantidad: 0
+Mon Sep 10 14:54:08 BOT 2012: Consulta de precio de reason:10 - msisdn:75693753 tono:152118 Async responde:350
+ 
+Mon Sep 10 14:54:17 BOT 2012: Session Start>  session por defecto 
+Mon Sep 10 14:56:24 BOT 2012: Ajax->Mostrar Ranking:  
+Mon Sep 10 15:02:25 BOT 2012: Ajax->Mostrar Imagen Portada:  
+Mon Sep 10 15:06:51 BOT 2012: Ajax-> Mostrar  Nombre Genero > tono:145176 
+Mon Sep 10 15:10:34 BOT 2012: Ajax->Mostrar Comentarios:  
+Mon Sep 10 15:11:10 BOT 2012: Retornando el siguiente resultado 
+ <div><div id='contenedor-albumes'><div  id="contenedor-busqueda" style="height:35px;">
+    <div class="contenedor-enlaces-busqueda"  >
+        <a class="enlaces-busqueda" style="color:navy;"href='index.php?seccion=playlist&autor=223' >A Banda Sombra</a>
+    </div>
+</div>
+<div  id="contenedor-busqueda" style="height:35px;">
+    <div class="contenedor-enlaces-busqueda"  >
+        <a class="enlaces-busqueda" style="color:navy;"href='index.php?seccion=playlist&autor=1273' >A.B. Quintanilla</a>
+    </div>
+</div>
+<div  id="contenedor-busqueda" style="height:35px;">
+    <div class="contenedor-enlaces-busqueda"  >
+        <a class="enlaces-busqueda" style="color:navy;"href='index.php?seccion=playlist&autor=1349' >Abba Opratel</a>
+    </div>
+</div>
+<div  id="contenedor-busqueda" style="height:35px;">
+    <div class="contenedor-enlaces-busqueda"  >
+        <a class="enlaces-busqueda" style="color:navy;"href='index.php?seccion=playlist&autor=532' >Abel Zavala</a>
+    </div>
+</div>
+<div  id="contenedor-busqueda" style="height:35px;">
+    <div class="contenedor-enlaces-busqueda"  >
+        <a class="enlaces-busqueda" style="color:navy;"href='index.php?seccion=playlist&autor=362' >ACDC</a>
+    </div>
+</div>
+<div  id="contenedor-busqueda" style="height:35px;">
+    <div class="contenedor-enlaces-busqueda"  >
+        <a class="enlaces-busqueda" style="color:navy;"href='index.php?seccion=playlist&autor=1610' >Adele</a>
+    </div>
+</div>
+<div  id="contenedor-busqueda" style="height:35px;">
+    <div class="contenedor-enlaces-busqueda"  >
+        <a class="enlaces-busqueda" style="color:navy;"href='index.php?seccion=playlist&autor=1306' >Aerosmith</a>
+    </div>
+</div>
+<div  id="contenedor-busqueda" style="height:35px;">
+    <div class="contenedor-enlaces-busqueda"  >
+        <a class="enlaces-busqueda" style="color:navy;"href='index.php?seccion=playlist&autor=1392' >Agente 86</a>
+    </div>
+</div>
+<div  id="contenedor-busqueda" style="height:35px;">
+    <div class="contenedor-enlaces-busqueda"  >
+        <a class="enlaces-busqueda" style="color:navy;"href='index.php?seccion=playlist&autor=137' >Agrupacion marilyn</a>
+    </div>
+</div>
+<div  id="contenedor-busqueda" style="height:35px;">
+    <div class="contenedor-enlaces-busqueda"  >
+        <a class="enlaces-busqueda" style="color:navy;"href='index.php?seccion=playlist&autor=171' >Agrupacion marylin</a>
+    </div>
+</div>
+<div  id="contenedor-busqueda" style="height:35px;">
+    <div class="contenedor-enlaces-busqueda"  >
+        <a class="enlaces-busqueda" style="color:navy;"href='index.php?seccion=playlist&autor=1628' >Agua Marina</a>
+    </div>
+</div>
+<div  id="contenedor-busqueda" style="height:35px;">
+    <div class="contenedor-enlaces-busqueda"  >
+        <a class="enlaces-busqueda" style="color:navy;"href='index.php?seccion=playlist&autor=452' >Aguirre</a>
+    </div>
+</div>
+<div  id="contenedor-busqueda" style="height:35px;">
+    <div class="contenedor-enlaces-busqueda"  >
+        <a class="enlaces-busqueda" style="color:navy;"href='index.php?seccion=playlist&autor=784' >Air Supply</a>
+    </div>
+</div>
+<div  id="contenedor-busqueda" style="height:35px;">
+    <div class="contenedor-enlaces-busqueda"  >
+        <a class="enlaces-busqueda" style="color:navy;"href='index.php?seccion=playlist&autor=745' >Akerman</a>
+    </div>
+</div>
+<div  id="contenedor-busqueda" style="height:35px;">
+    <div class="contenedor-enlaces-busqueda"  >
+        <a class="enlaces-busqueda" style="color:navy;"href='index.php?seccion=playlist&autor=1125' >Akon</a>
+    </div>
+</div>
+<div  id="contenedor-busqueda" style="height:35px;">
+    <div class="contenedor-enlaces-busqueda"  >
+        <a class="enlaces-busqueda" style="color:navy;"href='index.php?seccion=playlist&autor=591' >Akwid</a>
+    </div>
+</div>
+<div  id="contenedor-busqueda" style="height:35px;">
+    <div class="contenedor-enlaces-busqueda"  >
+        <a class="enlaces-busqueda" style="color:navy;"href='index.php?seccion=playlist&autor=1403' >Al fondo hay sitio Opratel</a>
+    </div>
+</div>
+<div  id="contenedor-busqueda" style="height:35px;">
+    <div class="contenedor-enlaces-busqueda"  >
+        <a class="enlaces-busqueda" style="color:navy;"href='index.php?seccion=playlist&autor=1161' >Alberto Plaza</a>
+    </div>
+</div>
+<div  id="contenedor-busqueda" style="height:35px;">
+    <div class="contenedor-enlaces-busqueda"  >
+        <a class="enlaces-busqueda" style="color:navy;"href='index.php?seccion=playlist&autor=345' >Alcides Pena</a>
+    </div>
+</div>
+<div  id="contenedor-busqueda" style="height:35px;">
+    <div class="contenedor-enlaces-busqueda"  >
+        <a class="enlaces-busqueda" style="color:navy;"href='index.php?seccion=playlist&autor=1120' >ALdo Peña</a>
+    </div>
+</div>
+<div  id="contenedor-busqueda" style="height:35px;">
+    <div class="contenedor-enlaces-busqueda"  >
+        <a class="enlaces-busqueda" style="color:navy;"href='index.php?seccion=playlist&autor=545' >Aldo Penha</a>
+    </div>
+</div>
+<div  id="contenedor-busqueda" style="height:35px;">
+    <div class="contenedor-enlaces-busqueda"  >
+        <a class="enlaces-busqueda" style="color:navy;"href='index.php?seccion=playlist&autor=550' >Alejandra Guzman</a>
+    </div>
+</div>
+<div  id="contenedor-busqueda" style="height:35px;">
+    <div class="contenedor-enlaces-busqueda"  >
+        <a class="enlaces-busqueda" style="color:navy;"href='index.php?seccion=playlist&autor=50' >Alejandro Fernandez</a>
+    </div>
+</div>
+<div  id="contenedor-busqueda" style="height:35px;">
+    <div class="contenedor-enlaces-busqueda"  >
+        <a class="enlaces-busqueda" style="color:navy;"href='index.php?seccion=playlist&autor=1379' >Alejandro Fernandez Opratel..</a>
+    </div>
+</div>
+<div  id="contenedor-busqueda" style="height:35px;">
+    <div class="contenedor-enlaces-busqueda"  >
+        <a class="enlaces-busqueda" style="color:navy;"href='index.php?seccion=playlist&autor=308' >Alejandro Gomez</a>
+    </div>
+</div>
+<div  id="contenedor-busqueda" style="height:35px;">
+    <div class="contenedor-enlaces-busqueda"  >
+        <a class="enlaces-busqueda" style="color:navy;"href='index.php?seccion=playlist&autor=228' >Alejandro Sanz</a>
+    </div>
+</div>
+<div  id="contenedor-busqueda" style="height:35px;">
+    <div class="contenedor-enlaces-busqueda"  >
+        <a class="enlaces-busqueda" style="color:navy;"href='index.php?seccion=playlist&autor=757' >Alejandro Sanz feat. Alicia..</a>
+    </div>
+</div>
+<div  id="contenedor-busqueda" style="height:35px;">
+    <div class="contenedor-enlaces-busqueda"  >
+        <a class="enlaces-busqueda" style="color:navy;"href='index.php?seccion=playlist&autor=421' >Alex Campos</a>
+    </div>
+</div>
+<div  id="contenedor-busqueda" style="height:35px;">
+    <div class="contenedor-enlaces-busqueda"  >
+        <a class="enlaces-busqueda" style="color:navy;"href='index.php?seccion=playlist&autor=427' >Alex metic</a>
+    </div>
+</div>
+<div  id="contenedor-busqueda" style="height:35px;">
+    <div class="contenedor-enlaces-busqueda"  >
+        <a class="enlaces-busqueda" style="color:navy;"href='index.php?seccion=playlist&autor=523' >Alexandre Pires</a>
+    </div>
+</div>
+<div  id="contenedor-busqueda" style="height:35px;">
+    <div class="contenedor-enlaces-busqueda"  >
+        <a class="enlaces-busqueda" style="color:navy;"href='index.php?seccion=playlist&autor=1175' >Alexis Fido</a>
+    </div>
+</div>
+<div  id="contenedor-busqueda" style="height:35px;">
+    <div class="contenedor-enlaces-busqueda"  >
+        <a class="enlaces-busqueda" style="color:navy;"href='index.php?seccion=playlist&autor=1278' >Alianza Nueva</a>
+    </div>
+</div>
+<div  id="contenedor-busqueda" style="height:35px;">
+    <div class="contenedor-enlaces-busqueda"  >
+        <a class="enlaces-busqueda" style="color:navy;"href='index.php?seccion=playlist&autor=563' >Alicia Keys</a>
+    </div>
+</div>
+<div  id="contenedor-busqueda" style="height:35px;">
+    <div class="contenedor-enlaces-busqueda"  >
+        <a class="enlaces-busqueda" style="color:navy;"href='index.php?seccion=playlist&autor=333' >Alicia villareal</a>
+    </div>
+</div>
+<div  id="contenedor-busqueda" style="height:35px;">
+    <div class="contenedor-enlaces-busqueda"  >
+        <a class="enlaces-busqueda" style="color:navy;"href='index.php?seccion=playlist&autor=103' >Alien ant Farm</a>
+    </div>
+</div>
+<div  id="contenedor-busqueda" style="height:35px;">
+    <div class="contenedor-enlaces-busqueda"  >
+        <a class="enlaces-busqueda" style="color:navy;"href='index.php?seccion=playlist&autor=354' >Alma Fuerte</a>
+    </div>
+</div>
+</div><!-- CONTENEDOR !-->
+                                </div><!-- ITEMS !-->
+                                <div><!-- ITEMS 37 !-->
+                                <div id='contenedor-albumes'><div  id="contenedor-busqueda" style="height:35px;">
+    <div class="contenedor-enlaces-busqueda"  >
+        <a class="enlaces-busqueda" style="color:navy;"href='index.php?seccion=playlist&autor=138' >Altos cumbieros</a>
+    </div>
+</div>
+<div  id="contenedor-busqueda" style="height:35px;">
+    <div class="contenedor-enlaces-busqueda"  >
+        <a class="enlaces-busqueda" style="color:navy;"href='index.php?seccion=playlist&autor=652' >Amaia Montero</a>
+    </div>
+</div>
+<div  id="contenedor-busqueda" style="height:35px;">
+    <div class="contenedor-enlaces-busqueda"  >
+        <a class="enlaces-busqueda" style="color:navy;"href='index.php?seccion=playlist&autor=363' >Amandititita</a>
+    </div>
+</div>
+<div  id="contenedor-busqueda" style="height:35px;">
+    <div class="contenedor-enlaces-busqueda"  >
+        <a class="enlaces-busqueda" style="color:navy;"href='index.php?seccion=playlist&autor=229' >Amaral</a>
+    </div>
+</div>
+<div  id="contenedor-busqueda" style="height:35px;">
+    <div class="contenedor-enlaces-busqueda"  >
+        <a class="enlaces-busqueda" style="color:navy;"href='index.php?seccion=playlist&autor=428' >AmeDixon</a>
+    </div>
+</div>
+<div  id="contenedor-busqueda" style="height:35px;">
+    <div class="contenedor-enlaces-busqueda"  >
+        <a class="enlaces-busqueda" style="color:navy;"href='index.php?seccion=playlist&autor=1438' >Americo</a>
+    </div>
+</div>
+<div  id="contenedor-busqueda" style="height:35px;">
+    <div class="contenedor-enlaces-busqueda"  >
+        <a class="enlaces-busqueda" style="color:navy;"href='index.php?seccion=playlist&autor=605' >Amistad</a>
+    </div>
+</div>
+<div  id="contenedor-busqueda" style="height:35px;">
+    <div class="contenedor-enlaces-busqueda"  >
+        <a class="enlaces-busqueda" style="color:navy;"href='index.php?seccion=playlist&autor=283' >Amy Winehouse</a>
+    </div>
+</div>
+<div  id="contenedor-busqueda" style="height:35px;">
+    <div class="contenedor-enlaces-busqueda"  >
+        <a class="enlaces-busqueda" style="color:navy;"href='index.php?seccion=playlist&autor=551' >Ana Gabriel</a>
+    </div>
+</div>
+<div  id="contenedor-busqueda" style="height:35px;">
+    <div class="contenedor-enlaces-busqueda"  >
+        <a class="enlaces-busqueda" style="color:navy;"href='index.php?seccion=playlist&autor=1634' >Anahi</a>
+    </div>
+</div>
+<div  id="contenedor-busqueda" style="height:35px;">
+    <div class="contenedor-enlaces-busqueda"  >
+        <a class="enlaces-busqueda" style="color:navy;"href='index.php?seccion=playlist&autor=299' >Anderson Gonzaga</a>
+    </div>
+</div>
+<div  id="contenedor-busqueda" style="height:35px;">
+    <div class="contenedor-enlaces-busqueda"  >
+        <a class="enlaces-busqueda" style="color:navy;"href='index.php?seccion=playlist&autor=766' >Andres Barba</a>
+    </div>
+</div>
+<div  id="contenedor-busqueda" style="height:35px;">
+    <div class="contenedor-enlaces-busqueda"  >
+        <a class="enlaces-busqueda" style="color:navy;"href='index.php?seccion=playlist&autor=1324' >Andres Cepeda Opratel</a>
+    </div>
+</div>
+<div  id="contenedor-busqueda" style="height:35px;">
+    <div class="contenedor-enlaces-busqueda"  >
+        <a class="enlaces-busqueda" style="color:navy;"href='index.php?seccion=playlist&autor=743' >Andy Aguilera</a>
+    </div>
+</div>
+<div  id="contenedor-busqueda" style="height:35px;">
+    <div class="contenedor-enlaces-busqueda"  >
+        <a class="enlaces-busqueda" style="color:navy;"href='index.php?seccion=playlist&autor=56' >Andy boy vitico</a>
+    </div>
+</div>
+<div  id="contenedor-busqueda" style="height:35px;">
+    <div class="contenedor-enlaces-busqueda"  >
+        <a class="enlaces-busqueda" style="color:navy;"href='index.php?seccion=playlist&autor=47' >Angel y Khriz</a>
+    </div>
+</div>
+<div  id="contenedor-busqueda" style="height:35px;">
+    <div class="contenedor-enlaces-busqueda"  >
+        <a class="enlaces-busqueda" style="color:navy;"href='index.php?seccion=playlist&autor=1141' >Angela</a>
+    </div>
+</div>
+<div  id="contenedor-busqueda" style="height:35px;">
+    <div class="contenedor-enlaces-busqueda"  >
+        <a class="enlaces-busqueda" style="color:navy;"href='index.php?seccion=playlist&autor=667' >Animal de Ciudad</a>
+    </div>
+</div>
+<div  id="contenedor-busqueda" style="height:35px;">
+    <div class="contenedor-enlaces-busqueda"  >
+        <a class="enlaces-busqueda" style="color:navy;"href='index.php?seccion=playlist&autor=736' >Anio cero</a>
+    </div>
+</div>
+<div  id="contenedor-busqueda" style="height:35px;">
+    <div class="contenedor-enlaces-busqueda"  >
+        <a class="enlaces-busqueda" style="color:navy;"href='index.php?seccion=playlist&autor=278' >Anonimo</a>
+    </div>
+</div>
+<div  id="contenedor-busqueda" style="height:35px;">
+    <div class="contenedor-enlaces-busqueda"  >
+        <a class="enlaces-busqueda" style="color:navy;"href='index.php?seccion=playlist&autor=256' >Antologia</a>
+    </div>
+</div>
+<div  id="contenedor-busqueda" style="height:35px;">
+    <div class="contenedor-enlaces-busqueda"  >
+        <a class="enlaces-busqueda" style="color:navy;"href='index.php?seccion=playlist&autor=1440' >Antonio Carmona</a>
+    </div>
+</div>
+<div  id="contenedor-busqueda" style="height:35px;">
+    <div class="contenedor-enlaces-busqueda"  >
+        <a class="enlaces-busqueda" style="color:navy;"href='index.php?seccion=playlist&autor=1623' >Antonio Orozco</a>
+    </div>
+</div>
+<div  id="contenedor-busqueda" style="height:35px;">
+    <div class="contenedor-enlaces-busqueda"  >
+        <a class="enlaces-busqueda" style="color:navy;"href='index.php?seccion=playlist&autor=1678' >Antonio Rios</a>
+    </div>
+</div>
+<div  id="contenedor-busqueda" style="height:35px;">
+    <div class="contenedor-enlaces-busqueda"  >
+        <a class="enlaces-busqueda" style="color:navy;"href='index.php?seccion=playlist&autor=274' >Antony</a>
+    </div>
+</div>
+<div  id="contenedor-busqueda" style="height:35px;">
+    <div class="contenedor-enlaces-busqueda"  >
+        <a class="enlaces-busqueda" style="color:navy;"href='index.php?seccion=playlist&autor=583' >arbol</a>
+    </div>
+</div>
+<div  id="contenedor-busqueda" style="height:35px;">
+    <div class="contenedor-enlaces-busqueda"  >
+        <a class="enlaces-busqueda" style="color:navy;"href='index.php?seccion=playlist&autor=80' >Ashlee Simpson</a>
+    </div>
+</div>
+<div  id="contenedor-busqueda" style="height:35px;">
+    <div class="contenedor-enlaces-busqueda"  >
+        <a class="enlaces-busqueda" style="color:navy;"href='index.php?seccion=playlist&autor=538' >Aspirante</a>
+    </div>
+</div>
+<div  id="contenedor-busqueda" style="height:35px;">
+    <div class="contenedor-enlaces-busqueda"  >
+        <a class="enlaces-busqueda" style="color:navy;"href='index.php?seccion=playlist&autor=601' >astroboy</a>
+    </div>
+</div>
+<div  id="contenedor-busqueda" style="height:35px;">
+    <div class="contenedor-enlaces-busqueda"  >
+        <a class="enlaces-busqueda" style="color:navy;"href='index.php?seccion=playlist&autor=343' >Asuncion Blues</a>
+    </div>
+</div>
+<div  id="contenedor-busqueda" style="height:35px;">
+    <div class="contenedor-enlaces-busqueda"  >
+        <a class="enlaces-busqueda" style="color:navy;"href='index.php?seccion=playlist&autor=128' >Ataque77</a>
+    </div>
+</div>
+<div  id="contenedor-busqueda" style="height:35px;">
+    <div class="contenedor-enlaces-busqueda"  >
+        <a class="enlaces-busqueda" style="color:navy;"href='index.php?seccion=playlist&autor=429' >ATFC</a>
+    </div>
+</div>
+<div  id="contenedor-busqueda" style="height:35px;">
+    <div class="contenedor-enlaces-busqueda"  >
+        <a class="enlaces-busqueda" style="color:navy;"href='index.php?seccion=playlist&autor=1' >Audio Bullys</a>
+    </div>
+</div>
+<div  id="contenedor-busqueda" style="height:35px;">
+    <div class="contenedor-enlaces-busqueda"  >
+        <a class="enlaces-busqueda" style="color:navy;"href='index.php?seccion=playlist&autor=320' >Autenticos decadentes</a>
+    </div>
+</div>
+<div  id="contenedor-busqueda" style="height:35px;">
+    <div class="contenedor-enlaces-busqueda"  >
+        <a class="enlaces-busqueda" style="color:navy;"href='index.php?seccion=playlist&autor=184' >Autonomia</a>
+    </div>
+</div>
+<div  id="contenedor-busqueda" style="height:35px;">
+    <div class="contenedor-enlaces-busqueda"  >
+        <a class="enlaces-busqueda" style="color:navy;"href='index.php?seccion=playlist&autor=1488' >AVE</a>
+    </div>
+</div>
+</div><!-- CONTENEDOR !-->
+                                </div><!-- ITEMS !-->
+                                <div><!-- ITEMS 73 !-->
+                                <div id='contenedor-albumes'><div  id="contenedor-busqueda" style="height:35px;">
+    <div class="contenedor-enlaces-busqueda"  >
+        <a class="enlaces-busqueda" style="color:navy;"href='index.php?seccion=playlist&autor=141' >Aventura</a>
+    </div>
+</div>
+<div  id="contenedor-busqueda" style="height:35px;">
+    <div class="contenedor-enlaces-busqueda"  >
+        <a class="enlaces-busqueda" style="color:navy;"href='index.php?seccion=playlist&autor=76' >Avril Lavigne</a>
+    </div>
+</div>
+<div  id="contenedor-busqueda" style="height:35px;">
+    <div class="contenedor-enlaces-busqueda"  >
+        <a class="enlaces-busqueda" style="color:navy;"href='index.php?seccion=playlist&autor=86' >Axel</a>
+    </div>
+</div>
+<div  id="contenedor-busqueda" style="height:35px;">
+    <div class="contenedor-enlaces-busqueda"  >
+        <a class="enlaces-busqueda" style="color:navy;"href='index.php?seccion=playlist&autor=107' >Axwell</a>
+    </div>
+</div>
+<div  id="contenedor-busqueda" style="height:35px;">
+    <div class="contenedor-enlaces-busqueda"  >
+        <a class="enlaces-busqueda" style="color:navy;"href='index.php?seccion=playlist&autor=161' >Azul azul</a>
+    </div>
+</div>
+</div></div>
+Mon Sep 10 15:12:49 BOT 2012: Ajax->Mostrar Nombre Artista:  
+Mon Sep 10 15:17:59 BOT 2012: Ajax->Mostrar Megusta:  
+Mon Sep 10 15:19:09 BOT 2012: Ajax->Mostrar Megusta:  
+Mon Sep 10 15:19:54 BOT 2012: Asignar backtone escuchado > Asi termino:102549,102548,341,340,
+Mon Sep 10 15:20:12 BOT 2012: Ajax->Mostrar Reproducciones:  
+Mon Sep 10 15:20:45 BOT 2012: Ajax-> Mostrar Megusta> tono:134668 
+Mon Sep 10 15:22:12 BOT 2012: Ajax->Mostrar Ranking:  
+Mon Sep 10 15:22:43 BOT 2012: Ajax-> Mostrar  Nombre Artista > tono:103604 
+Mon Sep 10 15:24:04 BOT 2012: STATS > BUSQUEDA DE BACKTONE >Tiempo: -0.419884 seg. | registros: 22
+Mon Sep 10 15:24:16 BOT 2012: Ajax->Mostrar Reproducciones:  
+Mon Sep 10 15:25:10 BOT 2012: Ajax-> Mostrar  Nombre Artista > tono:128416 
+Mon Sep 10 15:27:05 BOT 2012: Ajax-> Mostrar Megusta> tono:153344 
+Mon Sep 10 15:28:32 BOT 2012: Ajax-> Mostrar Ranking > tono:131762 
+Mon Sep 10 15:29:44 BOT 2012: Ajax->Mostrar Nombre Genero:  
+Mon Sep 10 15:29:47 BOT 2012: Ajax->Mostrar Ranking:  
+Mon Sep 10 15:30:39 BOT 2012: ASYNC -> STATS> Tiempo respuesta 0.001774 seg.
+Mon Sep 10 15:30:48 BOT 2012: Ajax-> Mostrar  Nombre Artista > tono:104000 
+Mon Sep 10 15:31:03 BOT 2012: Ajax-> Mostrar  Imagen Portada> tono:150142 
+Mon Sep 10 15:33:09 BOT 2012: Ajax->Mostrar Megusta:  
+Mon Sep 10 15:33:51 BOT 2012: ASYNC -> STATS> Tiempo respuesta 0.270196 seg.
+Mon Sep 10 15:34:16 BOT 2012: Ajax-> Mostrar  Nombre Genero > tono:135950 
+Mon Sep 10 15:34:16 BOT 2012: ASYNC -> STATS> Tiempo respuesta -0.100204 seg.
+Mon Sep 10 15:34:19 BOT 2012: ASYNC -> STATS> Tiempo respuesta -0.003081 seg.
+Mon Sep 10 15:34:34 BOT 2012: Ajax->Mostrar Nombre Artista:  
+Mon Sep 10 15:35:10 BOT 2012: ASYNC -> STATS> Tiempo respuesta 0.002941 seg.
+Mon Sep 10 15:36:01 BOT 2012: Ajax->Mostrar Ranking:  
+Mon Sep 10 15:38:08 BOT 2012: WEB_REPRODUCIR_BUSQUEDA > Se recibieron:4 tonos
+Mon Sep 10 15:40:26 BOT 2012: Ajax-> Mostrar  Nombre Artista > tono:155372 
+Mon Sep 10 15:40:26 BOT 2012: Ajax-> Mostrar Ranking > tono:103086 
+Mon Sep 10 15:40:26 BOT 2012: Ajax->Mostrar Ranking:  
+Mon Sep 10 15:41:08 BOT 2012: Ajax-> Mostrar Megusta> tono:112702 
+Mon Sep 10 15:41:54 BOT 2012: Ajax-> Comprar Backtone: msisdn: 
+Mon Sep 10 15:43:12 BOT 2012: Asignar backtone escuchado > Asi termino:104095,104561,103449,442,129899,135225,144642,145182,104088,136630,110210,113047,127441,103872,103817,103429,136632,136633,104554,103816,
+Mon Sep 10 15:43:21 BOT 2012: Ajax->Mostrar Ranking:  
+Mon Sep 10 15:48:13 BOT 2012: Asignar backtone escuchado > Asi termino:104025,123531,123519,131049,131035,103225,103072,131036,103671,103224,103992,104024,103991,104068,103614,103613,104003,104067,104615,104066,
+Mon Sep 10 15:52:56 BOT 2012: Ajax->Mostrar Reproducciones:  
+Mon Sep 10 15:53:21 BOT 2012: Ajax->Mostrar Ranking:  
+Mon Sep 10 15:54:33 BOT 2012: Ajax->Mostrar Nombre Genero:  
+Mon Sep 10 15:55:51 BOT 2012: Ajax->Mostrar Nombre Genero:  
+Mon Sep 10 15:55:51 BOT 2012: Ajax->Mostrar Nombre Artista:  
+Mon Sep 10 15:57:03 BOT 2012: Ajax-> Mostrar Megusta> tono:107794 
+Mon Sep 10 15:58:01 BOT 2012: Ajax-> Mostrar Ranking > tono:103433 
+Mon Sep 10 15:59:28 BOT 2012: Ajax-> Mostrar Comentarios> tono:118745 
+Mon Sep 10 16:03:08 BOT 2012: Ajax->Mostrar Comentarios:  
+Mon Sep 10 16:03:50 BOT 2012: ASYNC -> STATS> Tiempo respuesta 0.005528 seg.
+Mon Sep 10 16:03:53 BOT 2012: Asignar backtone escuchado > Asi termino:105264,103507,103506,149,116508,116467,116502,103086,
+Mon Sep 10 16:03:56 BOT 2012: Asignar backtone escuchado > Asi termino:121510,121508,109264,130979,137822,123008,152118,155372,104981,137824,137815,128309,109261,137820,105813,137817,137826,137828,128305,105808,
+Mon Sep 10 16:06:49 BOT 2012: Asignar backtone escuchado > Asi termino:118738,118741,118748,139844,147092,139956,147093,118734,139958,147095,118752,118744,118730,147097,139846,118728,118745,118727,118725,132449,
+Mon Sep 10 16:07:22 BOT 2012: ASYNC -> STATS> Tiempo respuesta -0.034377 seg.
+Mon Sep 10 16:07:46 BOT 2012: Ajax->Mostrar Nombre Artista:  
+Mon Sep 10 16:09:35 BOT 2012: Ajax-> Mostrar Ranking > tono:133788 
+Mon Sep 10 16:11:17 BOT 2012: Ajax-> Mostrar Ranking > tono:103190 
+Mon Sep 10 16:11:29 BOT 2012: Session Start>  Chequeo de sesion
+Mon Sep 10 16:12:02 BOT 2012: Ajax->Mostrar Nombre Artista:  
+Mon Sep 10 16:12:08 BOT 2012: Ajax-> Mostrar Ranking > tono:113052 
+Mon Sep 10 16:13:12 BOT 2012: Ajax->Mostrar Megusta:  
+Mon Sep 10 16:15:30 BOT 2012: Ajax->Mostrar Nombre Genero:  
+Mon Sep 10 16:16:03 BOT 2012: Check Session > msisdn: 75360002 > Usuario Valido 
+Mon Sep 10 16:17:58 BOT 2012: Ajax->Mostrar Reproducciones:  
+Mon Sep 10 16:19:19 BOT 2012: Ajax->Mostrar Megusta:  
+Mon Sep 10 16:20:10 BOT 2012: Ajax->Mostrar Imagen Portada:  
+Mon Sep 10 16:20:59 BOT 2012: Ajax->Mostrar Ranking:  
+Mon Sep 10 16:21:05 BOT 2012: Session Start>  session por defecto 
+Mon Sep 10 16:21:26 BOT 2012: Ajax-> Mostrar  Nombre Genero > tono:104998 
+Mon Sep 10 16:22:23 BOT 2012: Ajax-> Mostrar Ranking > tono:103274 
+Mon Sep 10 16:24:36 BOT 2012: Ajax->Mostrar Reproducciones:  
+Mon Sep 10 16:29:52 BOT 2012: Ajax-> Mostrar Megusta> tono:103598 
+Mon Sep 10 16:30:07 BOT 2012: Ajax->Mostrar Reproducciones:  
+Mon Sep 10 16:30:40 BOT 2012: Ajax->Mostrar Nombre Artista:  
+Mon Sep 10 16:32:23 BOT 2012: Ajax-> Mostrar Megusta> tono:105239 
+Mon Sep 10 16:32:41 BOT 2012: Mostrar Megusta> tono: 105807 msisdn:77390178 > 001
+Mon Sep 10 16:33:50 BOT 2012: Ajax->Mostrar Ranking:  
+Mon Sep 10 16:37:33 BOT 2012: Ajax-> Mostrar Ranking > tono:137814 
+Mon Sep 10 16:38:42 BOT 2012: Ajax->Mostrar Comentarios:  
+Mon Sep 10 16:40:49 BOT 2012: Ajax->Mostrar Nombre Artista:  
+Mon Sep 10 16:45:05 BOT 2012: Ajax-> Mostrar Ranking > tono:131760 
+Mon Sep 10 16:45:35 BOT 2012: Ajax->Mostrar Imagen Portada:  
+Mon Sep 10 16:45:35 BOT 2012: ASYNC -> STATS> Tiempo respuesta -0.562873 seg.
+Mon Sep 10 16:46:26 BOT 2012: Ajax->Mostrar Reproducciones:  
+Mon Sep 10 16:47:02 BOT 2012: Asignar backtone escuchado > Asi termino:147095,118752,118744,118730,147097,139846,118728,118745,118727,118725,132449,578,446,107794,103353,104257,189,106005,109915,136214,
+Mon Sep 10 16:52:37 BOT 2012: ASYNC -> STATS> Tiempo respuesta 0.002817 seg.
+Mon Sep 10 16:57:11 BOT 2012: Asignar backtone escuchado > Asi termino:104247,104249,112464,127441,106281,103872,105652,105610,105627,149530,104787,103885,602,113598,131635,104815,131633,105342,103420,104673,
+Mon Sep 10 16:59:33 BOT 2012: Ajax->Mostrar Imagen Portada:  
+Mon Sep 10 16:59:54 BOT 2012: Ajax->Mostrar Ranking:  
+Mon Sep 10 17:00:45 BOT 2012: Ajax-> Mostrar Comentarios> tono:152208 
+Mon Sep 10 17:01:30 BOT 2012: Ajax->Mostrar Nombre Artista:  
+Mon Sep 10 17:06:47 BOT 2012: Ajax-> Login Usuario msisdn: 76250850  pin:2713 > Validar msisdn
+Mon Sep 10 17:07:59 BOT 2012: Ajax-> Cerrar session: msisdn: 
+Mon Sep 10 17:09:35 BOT 2012: Ajax-> Mostrar Megusta> tono:121497 
+Mon Sep 10 17:10:33 BOT 2012: Ajax-> Mostrar  Imagen Portada> tono:105557 
+Mon Sep 10 17:16:01 BOT 2012: Mostrar Comentarios : tono:137828 
+Mon Sep 10 17:17:32 BOT 2012: Ajax->Mostrar Comentarios:  
+Mon Sep 10 17:20:17 BOT 2012: Ajax->Mostrar Ranking:  
+Mon Sep 10 17:21:11 BOT 2012: Mostrar Comentarios : tono:131814 
+Mon Sep 10 17:24:48 BOT 2012: Ajax-> Mostrar Megusta> tono:105546 
+Mon Sep 10 17:25:12 BOT 2012: Asignar backtone escuchado > Asi termino:121503,121501,121500,121499,121512,137812,105804,137811,130371,128300,128275,109260,109259,106372,128307,105807,137818,109264,128304,109262,
+Mon Sep 10 17:25:18 BOT 2012: Consulta de precio de reason:10 - msisdn: tono:310 Async responde:350
+ 
+Mon Sep 10 17:26:46 BOT 2012: Mostrar Ranking: tono:131708 calificacion: 
+Mon Sep 10 17:27:10 BOT 2012: Ajax->Mostrar Reproducciones:  
+Mon Sep 10 17:27:40 BOT 2012: ASYNC -> STATS> Tiempo respuesta 0.003918 seg.
+Mon Sep 10 17:29:07 BOT 2012: Ajax->Mostrar Comentarios:  
+Mon Sep 10 17:31:29 BOT 2012: Ajax->Mostrar Imagen Portada:  
+Mon Sep 10 17:31:57 BOT 2012: Ajax->Mostrar Megusta:  
+Mon Sep 10 17:33:33 BOT 2012: Ajax->Mostrar Comentarios:  
+Mon Sep 10 17:34:57 BOT 2012: Ajax->Mostrar Comentarios:  
+Mon Sep 10 17:40:44 BOT 2012: ASYNC -> STATS> Tiempo respuesta 0.001973 seg.
+Mon Sep 10 17:44:33 BOT 2012: ASYNC -> STATS> Tiempo respuesta 0.002499 seg.
+Mon Sep 10 17:45:00 BOT 2012: Asignar backtone escuchado > Asi termino:103935,104958,102620,119853,119855,119850,119851,119848,119842,155466,104737,103781,103780,103779,103778,103777,147197,155516,131616,131615,
+Mon Sep 10 17:45:03 BOT 2012: Ajax-> Mostrar Ranking > tono:130979 
+Mon Sep 10 17:45:03 BOT 2012: Busqueda Inteligente: 
+Mon Sep 10 17:45:16 BOT 2012: Ajax->Mostrar Reproducciones:  
+Mon Sep 10 17:47:07 BOT 2012: Ajax->Mostrar Imagen Portada:  
+Mon Sep 10 17:51:23 BOT 2012: Asignar backtone escuchado > Asi termino:102870,145160,144692,104350,144688,145158,144686,145154,144690,118724,139838,118732,131003,130999,152222,139971,152208,139969,139968,139967,
+Mon Sep 10 17:55:00 BOT 2012: Ajax->Mostrar Megusta:  
+Mon Sep 10 17:55:12 BOT 2012: Ajax->Mostrar Megusta:  
+Mon Sep 10 17:55:42 BOT 2012: Ajax-> Mostrar Megusta> tono:131760 
+Mon Sep 10 17:56:09 BOT 2012: Busqueda Inteligente: GONZALO SANCHEZ
+Mon Sep 10 17:56:51 BOT 2012: Ajax->Mostrar Imagen Portada:  
+Mon Sep 10 17:57:55 BOT 2012: Mostrar Album: >albumes/GNR greatest_hits.jpg
+Mon Sep 10 17:58:01 BOT 2012: Asignar backtone escuchado > Asi termino:103639,102637,102636,102635,103622,102797,102634,102633,102803,103655,102632,109971,103654,102796,103644,102631,103643,103653,102795,102629,
+Mon Sep 10 17:58:49 BOT 2012: Ajax-> Mostrar Ranking > tono:102754 
+Mon Sep 10 17:59:55 BOT 2012: Ajax->Mostrar Imagen Portada:  
+Mon Sep 10 18:02:05 BOT 2012: Ajax->Mostrar Comentarios:  
+Mon Sep 10 18:04:42 BOT 2012: Asignar backtone escuchado > Asi termino:122645,142119,132455,104905,102537,155258,104307,132466,325,110188,102539,102695,102818,150078,128606,125510,126677,102817,150068,102694,
+Mon Sep 10 18:04:54 BOT 2012: Ajax-> Mostrar Ranking > tono:103960 
+Mon Sep 10 18:05:18 BOT 2012: Ajax-> Mostrar  Genero > G&eacute;nero:  <a href='index.php?seccion=playlist&genero=151'>Nombres</a>
+Mon Sep 10 18:06:18 BOT 2012: Ajax-> Mostrar  Nombre Genero > tono:104174 
+Mon Sep 10 18:07:24 BOT 2012: Ajax-> Mostrar Megusta> tono:104147 
+Mon Sep 10 18:07:51 BOT 2012: Ajax-> Mostrar Comentarios> tono:104090 
+Mon Sep 10 18:07:51 BOT 2012: Ajax-> Mostrar  Imagen Portada> tono:102788 
+Mon Sep 10 18:08:03 BOT 2012: Ajax->Mostrar Imagen Portada:  
+Mon Sep 10 18:08:58 BOT 2012: Ajax->Mostrar Imagen Portada:  
+Mon Sep 10 18:11:46 BOT 2012: Ajax-> Mostrar Ranking > tono:136630 
+Mon Sep 10 18:20:40 BOT 2012: Ajax-> Mostrar Ranking > tono:102622 
+Mon Sep 10 18:21:52 BOT 2012: ASYNC -> STATS> Tiempo respuesta 0.00279 seg.
+Mon Sep 10 18:22:56 BOT 2012: Ajax->Mostrar Ranking:  
+Mon Sep 10 18:25:08 BOT 2012: Ajax->Mostrar Comentarios:  
+Mon Sep 10 18:25:17 BOT 2012: ELIMINAR_BACKTONE > Envio a ASYNC:76005664 tono:103189 Reason 6
+Mon Sep 10 18:27:00 BOT 2012: ASYNC -> STATS> Tiempo respuesta 0.003185 seg.
+Mon Sep 10 18:28:09 BOT 2012: Ajax-> Mostrar Comentarios> tono:104028 
+Mon Sep 10 18:35:32 BOT 2012: Ajax-> Mostrar  Imagen Portada> tono:155680 
+Mon Sep 10 18:35:35 BOT 2012: Ajax->Mostrar Comentarios:  
+Mon Sep 10 18:41:07 BOT 2012: Ajax->Mostrar Ranking:  
+Mon Sep 10 18:41:31 BOT 2012: ASYNC -> STATS> Tiempo respuesta 0.005497 seg.
+Mon Sep 10 18:44:22 BOT 2012: Mostrar Ranking: tono:109318 calificacion: 5
+Mon Sep 10 18:45:05 BOT 2012: Ajax->Mostrar Imagen Portada:  
+Mon Sep 10 18:45:29 BOT 2012: Ajax-> Mostrar  Imagen Portada> tono:109245 
+Mon Sep 10 18:47:11 BOT 2012: ASYNC -> STATS> Tiempo respuesta -0.152612 seg.
+Mon Sep 10 18:47:11 BOT 2012: ASYNC -> STATS> Tiempo respuesta -0.027032 seg.
+Mon Sep 10 18:47:20 BOT 2012: Consulta de precio de reason:10 - msisdn: tono:145932 Async responde:350
+ 
+Mon Sep 10 18:48:14 BOT 2012: Ajax-> Mostrar Megusta> tono:102756 
+Mon Sep 10 18:54:16 BOT 2012: ASYNC -> STATS> Tiempo respuesta 0.002586 seg.
+Mon Sep 10 18:58:05 BOT 2012: Ajax-> Mostrar Comentarios> tono:152118 
+Mon Sep 10 19:00:03 BOT 2012: Ajax-> Mostrar Ranking > tono:109262 
+Mon Sep 10 19:01:54 BOT 2012: Ajax->Mostrar Imagen Portada:  
+Mon Sep 10 19:05:22 BOT 2012: Ajax-> Mostrar  Imagen Portada> tono:121499 
+Mon Sep 10 19:06:35 BOT 2012: Ajax->Mostrar Megusta:  
+Mon Sep 10 19:12:43 BOT 2012: Ajax->Mostrar Nombre Artista:  
+Mon Sep 10 19:13:55 BOT 2012: Busqueda Inteligente: resultados >106237
+Mon Sep 10 19:18:20 BOT 2012: Ajax-> Mostrar Ranking > tono:289 
+Mon Sep 10 19:19:43 BOT 2012: Session Start>  session por defecto 
+Mon Sep 10 19:22:16 BOT 2012: Asignar backtone escuchado > Asi termino:116504,116506,112702,103086,131821,127757,155504,103403,102782,102781,105309,105311,104211,133736,137246,137257,137261,137253,240,112464,
+Mon Sep 10 19:22:19 BOT 2012: ASYNC -> STATS> Tiempo respuesta 0.0062140000000001 seg.
+Mon Sep 10 19:23:07 BOT 2012: Ajax->Mostrar Nombre Genero:  
+Mon Sep 10 19:25:38 BOT 2012: Ajax->Mostrar Ranking:  
+Mon Sep 10 19:29:45 BOT 2012: Busqueda Inteligente: resultados >103115
+Mon Sep 10 19:31:04 BOT 2012: Ajax->Mostrar Nombre Genero:  
+Mon Sep 10 19:31:34 BOT 2012: Mostrar Album: >albumes/BackTonesGoMedia 1.jpg
+Mon Sep 10 19:33:25 BOT 2012: ASYNC -> STATS> Tiempo respuesta 0.0031629999999999 seg.
+Mon Sep 10 19:36:47 BOT 2012: Ajax->Mostrar Reproducciones:  
+Mon Sep 10 19:37:53 BOT 2012: Ajax-> Mostrar Ranking > tono:109493 
+Mon Sep 10 19:38:27 BOT 2012: Ajax->Mostrar Nombre Artista:  
+Mon Sep 10 19:42:37 BOT 2012: ASYNC -> STATS> Tiempo respuesta 0.003139 seg.
+Mon Sep 10 19:44:50 BOT 2012: Ajax-> Mostrar  Genero > G&eacute;nero:  <a href='index.php?seccion=playlist&genero=110'>Cumbia</a>
+Mon Sep 10 19:45:23 BOT 2012: STATS > BUSQUEDA DE BACKTONE >Tiempo: -0.016765 seg. | registros: 15
+Mon Sep 10 19:48:30 BOT 2012: Ajax-> Mostrar Ranking > tono:103547 
+Mon Sep 10 19:50:19 BOT 2012: Ajax-> Mostrar  Genero > G&eacute;nero:  <a href='index.php?seccion=playlist&genero=145'>Rock</a>
+Mon Sep 10 19:53:12 BOT 2012: Ajax-> Mostrar Ranking > tono:142111 
+Mon Sep 10 19:53:15 BOT 2012: Ajax->Mostrar Nombre Genero:  
+Mon Sep 10 19:53:40 BOT 2012: Mostrar Genero: >G&eacute;nero:  <a href='index.php?seccion=playlist&genero=102'>Chistes</a>
+Mon Sep 10 19:57:47 BOT 2012: Ajax-> Mostrar Ranking > tono:155432 
+Mon Sep 10 19:59:17 BOT 2012: Ajax->Mostrar Imagen Portada:  
+Mon Sep 10 20:00:02 BOT 2012: Busqueda Inteligente: resultados >102560
+Mon Sep 10 20:00:08 BOT 2012: Mostrar Megusta> tono: 276 msisdn: > a otros 1  les gusta 
+Mon Sep 10 20:00:41 BOT 2012: ASYNC -> STATS> Tiempo respuesta 0.002268 seg.
+Mon Sep 10 20:01:09 BOT 2012: Ajax->Mostrar Imagen Portada:  
+Mon Sep 10 20:01:30 BOT 2012: Ajax->Mostrar Nombre Artista:  
+Mon Sep 10 20:05:00 BOT 2012: ASYNC -> STATS> Tiempo respuesta 0.001618 seg.
+Mon Sep 10 20:06:19 BOT 2012: Ajax-> Mostrar Ranking > tono:152118 
+Mon Sep 10 20:06:25 BOT 2012: Ajax->Mostrar Megusta:  
+Mon Sep 10 20:09:32 BOT 2012: Ajax->Mostrar Nombre Genero:  
+Mon Sep 10 20:12:07 BOT 2012: Ajax-> Mostrar Ranking > tono:103506 
+Mon Sep 10 20:16:29 BOT 2012: Ajax->Mostrar Megusta:  
+Mon Sep 10 20:17:44 BOT 2012: WEB_REPRODUCIR_BUSQUEDA > Se recibieron:70 tonos
+Mon Sep 10 20:18:32 BOT 2012: ASYNC -> STATS> Tiempo respuesta 0.005687 seg.
+Mon Sep 10 20:20:03 BOT 2012: Ajax-> Mostrar Ranking > tono:105036 
+Mon Sep 10 20:20:09 BOT 2012: Ajax->Mostrar Reproducciones:  
+Mon Sep 10 20:21:45 BOT 2012: Ajax->Mostrar Comentarios:  
+Mon Sep 10 20:21:51 BOT 2012: Ajax->Mostrar Megusta:  
+Mon Sep 10 20:22:48 BOT 2012: Session Start>  Chequeo de sesion
+Mon Sep 10 20:24:07 BOT 2012: Ajax->Mostrar Comentarios:  
+Mon Sep 10 20:24:37 BOT 2012: Ajax->Mostrar Reproducciones:  
+Mon Sep 10 20:25:25 BOT 2012: ASYNC -> STATS> Tiempo respuesta 0.00229 seg.
+Mon Sep 10 20:26:32 BOT 2012: WEB_REPRODUCIR_BUSQUEDA > Se recibieron:3 tonos
+Mon Sep 10 20:32:12 BOT 2012: Ajax->Mostrar Imagen Portada:  
+Mon Sep 10 20:32:39 BOT 2012: Busqueda Inteligente: resultados >104676
+Mon Sep 10 20:32:51 BOT 2012: Busqueda Inteligente: resultados >145156
+Mon Sep 10 20:33:00 BOT 2012: Asignar backtone escuchado > Asi termino:103232,103082,103054,104367,104429,102910,367,364,123010,104532,276,509,144149,105025,129887,105276,130053,123044,103214,109208,
+Mon Sep 10 20:35:04 BOT 2012: Busqueda Inteligente: resultados >276
+Mon Sep 10 20:38:53 BOT 2012: MTD_DB_BUSCAR_ARTISTAS > retornando registros:47
+Mon Sep 10 20:41:26 BOT 2012: Ajax->Mostrar Nombre Artista:  
+Mon Sep 10 20:51:23 BOT 2012: Busqueda Inteligente: resultados >105293
+Mon Sep 10 20:52:05 BOT 2012: Ajax-> Mostrar Megusta> tono:103109 
+Mon Sep 10 20:52:56 BOT 2012: Ajax->Mostrar Ranking:  
+Mon Sep 10 20:56:36 BOT 2012: Session Start>  Chequeo de sesion
+Mon Sep 10 20:57:33 BOT 2012: Ajax->Mostrar Nombre Artista:  
+Mon Sep 10 21:05:33 BOT 2012: STATS > BUSQUEDA DE BACKTONE >Tiempo: -0.332543 seg. | registros: 73
+Mon Sep 10 21:28:40 BOT 2012: Ajax-> Mostrar Ranking > tono:104532 
+Mon Sep 10 21:29:58 BOT 2012: Ajax-> Mostrar  Nombre Genero > tono:135954 
+Mon Sep 10 21:34:11 BOT 2012: Ajax-> Mostrar Megusta> tono:141109 
+Mon Sep 10 21:38:36 BOT 2012: Ajax-> Mostrar Megusta> tono:127256 
+Mon Sep 10 21:39:13 BOT 2012: Ajax->Mostrar Nombre Genero:  
+Mon Sep 10 21:40:22 BOT 2012: Ajax->Actualizar pin usuario
+Mon Sep 10 21:46:02 BOT 2012: ASYNC -> STATS> Tiempo respuesta 0.0041870000000001 seg.
+Mon Sep 10 21:48:33 BOT 2012: Ajax->Mostrar Nombre Genero:  
+Mon Sep 10 21:53:01 BOT 2012: STATS > BUSQUEDA DE BACKTONE >Tiempo: 0.084283 seg. | registros: 93
+Mon Sep 10 21:56:44 BOT 2012: Check Session > msisdn: 76276065 > Usuario Valido 
+Mon Sep 10 21:58:08 BOT 2012: Ajax->Mostrar Comentarios:  

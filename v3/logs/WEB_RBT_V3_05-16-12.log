@@ -1,0 +1,59 @@
+Wed May 16 21:57:11 BOT 2012: Ajax-> Mostrar Ranking > tono:102550 
+Wed May 16 21:59:02 BOT 2012: Ajax->Mostrar Megusta:  
+Wed May 16 22:00:53 BOT 2012: Ajax-> Mostrar Megusta> tono:102630 
+Wed May 16 22:03:23 BOT 2012: Ajax->Mostrar Megusta:  
+Wed May 16 22:05:33 BOT 2012: Ajax->Mostrar Nombre Genero:  
+Wed May 16 22:08:15 BOT 2012: Ajax->Mostrar Imagen Portada:  
+Wed May 16 22:09:54 BOT 2012: Ajax->Mostrar Megusta:  
+Wed May 16 22:14:49 BOT 2012: ASYNC -> STATS> Tiempo respuesta 0.291536 seg.
+Wed May 16 22:14:49 BOT 2012: Asignar backtone escuchado > Asi termino:131730,123530,131042,123531,123519,131049,131036,
+Wed May 16 22:16:49 BOT 2012: ASYNC -> STATS> Tiempo respuesta 0.082808 seg.
+Wed May 16 22:17:07 BOT 2012: Ajax-> Mostrar  Nombre Artista > tono:131640 
+Wed May 16 22:17:32 BOT 2012: ASYNC -> STATS> Tiempo respuesta -0.069377 seg.
+Wed May 16 22:18:14 BOT 2012: Ajax->Mostrar Imagen Portada:  
+Wed May 16 22:22:23 BOT 2012: Ajax->Eliminando backtone:  > msisdn:76575629 >  tono :  
+Wed May 16 22:22:29 BOT 2012: Ajax->Mostrar Ranking:  
+Wed May 16 22:26:06 BOT 2012: Ajax-> Mostrar Comentarios> tono:141116 
+Wed May 16 22:26:48 BOT 2012: Ajax->Mostrar Reproducciones:  
+Wed May 16 22:30:40 BOT 2012: Ajax->Mostrar Ranking:  
+Wed May 16 22:31:07 BOT 2012: Ajax->Mostrar Megusta:  
+Wed May 16 22:31:16 BOT 2012: MTD_DB_BUSCAR_ARTISTAS > retornando registros:46
+Wed May 16 22:32:01 BOT 2012: Ajax->Mostrar Ranking:  
+Wed May 16 22:32:13 BOT 2012: Mostrar Cantidad reproducciones: tono:104788 cantidad: 0
+Wed May 16 22:34:22 BOT 2012: ASYNC -> STATS> Tiempo respuesta 0.036208 seg.
+Wed May 16 22:34:40 BOT 2012: Ajax-> Comprar Backtone: msisdn: 
+Wed May 16 22:36:10 BOT 2012: ASYNC -> STATS> Tiempo respuesta 0.004301 seg.
+Wed May 16 22:36:46 BOT 2012: ASYNC -> STATS> Tiempo respuesta 0.001678 seg.
+Wed May 16 22:36:58 BOT 2012: Error al consultar precio de renovacion - msisdn: tono:146574 - Async responde -3
+Wed May 16 22:36:58 BOT 2012: ASYNC -> STATS> Tiempo respuesta 0.318292 seg.
+Wed May 16 22:36:58 BOT 2012: Consulta de precio de reason:10 - msisdn: tono:102881 Async responde:350
+ 
+Wed May 16 22:37:01 BOT 2012: Ajax->Mostrar Ranking:  
+Wed May 16 22:37:01 BOT 2012: ASYNC -> STATS> Tiempo respuesta 0.238271 seg.
+Wed May 16 22:37:22 BOT 2012: Ajax->Mostrar Megusta:  
+Wed May 16 22:38:47 BOT 2012: Ajax->Mostrar Megusta:  
+Wed May 16 22:40:17 BOT 2012: Ajax->Mostrar Ranking:  
+Wed May 16 22:40:23 BOT 2012: ASYNC -> STATS> Tiempo respuesta 0.010489 seg.
+Wed May 16 22:40:35 BOT 2012: STATS > BUSQUEDA DE BACKTONE >Tiempo: 0.087049 seg. | registros: 114
+Wed May 16 22:40:44 BOT 2012: Ajax->Mostrar Reproducciones:  
+Wed May 16 22:40:47 BOT 2012: ASYNC -> STATS> Tiempo respuesta -0.225166 seg.
+Wed May 16 22:40:50 BOT 2012: ASYNC -> STATS> Tiempo respuesta -0.222505 seg.
+Wed May 16 22:40:50 BOT 2012: Ajax->Mostrar Ranking:  
+Wed May 16 22:40:56 BOT 2012: Ajax->Mostrar Nombre Genero:  
+Wed May 16 22:41:02 BOT 2012: ASYNC -> STATS> Tiempo respuesta 0.024153 seg.
+Wed May 16 22:43:20 BOT 2012: Mostrar Album: >Artista:  <a href='index.php?seccion=playlist&autor=421'>Alex Campos</a>
+Wed May 16 22:45:06 BOT 2012: Ajax->Mostrar Ranking:  
+Wed May 16 22:45:06 BOT 2012: ASYNC -> STATS> Tiempo respuesta -0.504029 seg.
+Wed May 16 22:45:15 BOT 2012: ASYNC -> STATS> Tiempo respuesta -0.883681 seg.
+Wed May 16 22:45:21 BOT 2012: ASYNC -> STATS> Tiempo respuesta -0.234339 seg.
+Wed May 16 22:45:24 BOT 2012: Consulta de precio de reason:10 - msisdn:75082183 tono:123534 Async responde:350
+ 
+Wed May 16 22:46:06 BOT 2012: ASYNC -> STATS> Tiempo respuesta 0.00159 seg.
+Wed May 16 22:46:33 BOT 2012: Mostrar Album: >albumes/album-default.jpg
+Wed May 16 22:47:21 BOT 2012: Ajax-> Mostrar Ranking > tono:102681 
+Wed May 16 22:49:36 BOT 2012: Ajax->Mostrar Ranking:  
+Wed May 16 22:50:18 BOT 2012: Asignar backtone escuchado > Asi termino:110495,105367,102682,102681,102680,102679,102974,102678,102677,102676,102675,104795,104794,104793,104792,104791,104790,104789,104788,104787,
+Wed May 16 22:50:33 BOT 2012: Busqueda Inteligente: Glenn Frey
+Wed May 16 22:50:57 BOT 2012: Ajax-> Mostrar  Imagen Portada> tono:142223 
+Wed May 16 22:52:37 BOT 2012: Ajax->Mostrar Nombre Artista:  
+Wed May 16 22:53:43 BOT 2012: Ajax->Mostrar Reproducciones:  

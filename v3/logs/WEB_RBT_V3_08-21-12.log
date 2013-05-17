@@ -1,0 +1,50 @@
+Tue Aug 21 8:35:55 BOT 2012: Check Session > msisdn: 75538966 > Usuario Valido 
+Tue Aug 21 8:36:25 BOT 2012: WEB_REPRODUCIR_BUSQUEDA > Se recibieron:6 tonos
+Tue Aug 21 8:44:21 BOT 2012: Ajax->Mostrar Megusta:  
+Tue Aug 21 8:49:04 BOT 2012: Session Start>  session por defecto 
+Tue Aug 21 8:58:58 BOT 2012: Busqueda Inteligente: resultados >105270
+Tue Aug 21 9:04:02 BOT 2012: Ajax-> Mostrar Ranking > tono:154574 
+Tue Aug 21 9:18:03 BOT 2012: Ajax->Mostrar Nombre Artista:  
+Tue Aug 21 9:18:09 BOT 2012: Ajax->Mostrar Reproducciones:  
+Tue Aug 21 9:30:04 BOT 2012: Session Start>  session por defecto 
+Tue Aug 21 9:32:55 BOT 2012: Ajax->Mostrar Ranking:  
+Tue Aug 21 9:33:07 BOT 2012: Ajax-> Mostrar  Imagen Portada> tono:113602 
+Tue Aug 21 9:34:08 BOT 2012: ASYNC -> STATS> Tiempo respuesta 0.00254 seg.
+Tue Aug 21 9:36:02 BOT 2012: Ajax->Mostrar Megusta:  
+Tue Aug 21 9:36:14 BOT 2012: Ajax-> Mostrar Ranking > tono:104147 
+Tue Aug 21 9:36:14 BOT 2012: Ajax-> Mostrar Ranking > tono:103479 
+Tue Aug 21 9:39:30 BOT 2012: Ajax-> Mostrar Ranking > tono:104827 
+Tue Aug 21 9:39:57 BOT 2012: Ajax->Mostrar Imagen Portada:  
+Tue Aug 21 9:40:33 BOT 2012: Ajax-> Mostrar Ranking > tono:133791 
+Tue Aug 21 9:45:49 BOT 2012: Ajax->Mostrar Reproducciones:  
+Tue Aug 21 9:45:55 BOT 2012: Ajax-> Mostrar Ranking > tono:105561 
+Tue Aug 21 9:45:58 BOT 2012: Ajax->Mostrar Megusta:  
+Tue Aug 21 9:46:02 BOT 2012: Ajax->Mostrar Reproducciones:  
+Tue Aug 21 9:53:25 BOT 2012: Ajax-> Mostrar Ranking > tono:104848 
+Tue Aug 21 9:56:16 BOT 2012: Consulta de precio de reason:3 - msisdn:76516541 tono:121503 Async responde:350
+ 
+Tue Aug 21 9:56:37 BOT 2012: Ajax-> Mostrar Megusta> tono:135108 
+Tue Aug 21 9:57:23 BOT 2012: Mostrar Ranking: tono:131821 calificacion: 
+Tue Aug 21 9:57:26 BOT 2012: Ajax-> Mostrar Comentarios> tono:131821 
+Tue Aug 21 9:59:50 BOT 2012: Ajax->Mostrar Ranking:  
+Tue Aug 21 9:59:53 BOT 2012: Ajax-> Mostrar Ranking > tono:103115 
+Tue Aug 21 9:59:53 BOT 2012: Ajax-> Mostrar Megusta> tono:129884 
+Tue Aug 21 10:01:18 BOT 2012: Ajax->Mostrar Comentarios:  
+Tue Aug 21 10:07:37 BOT 2012: Consulta de precio de reason:3 - msisdn: tono:127423 Async responde:350
+ 
+Tue Aug 21 10:07:52 BOT 2012: Ajax-> Mostrar Ranking > tono:105036 
+Tue Aug 21 10:07:55 BOT 2012: Mostrar Album: >Artista:  <a href='index.php?seccion=playlist&autor=549'>Banda Juventud Centralistas de La Paz</a>
+Tue Aug 21 10:09:20 BOT 2012: Asignar backtone escuchado > Asi termino:137828,137826,104981,137820,109261,121497,121510,130979,109265,137822,137815,128309,137814,128299,121503,105804,137811,128304,109262,105808,
+Tue Aug 21 10:10:23 BOT 2012: Mostrar Genero: >G&eacute;nero:  <a href='index.php?seccion=playlist&genero=132'>Pop</a>
+Tue Aug 21 10:12:06 BOT 2012: Ajax->Mostrar Nombre Genero:  
+Tue Aug 21 10:12:30 BOT 2012: Mostrar Cantidad reproducciones: tono:106308 cantidad: 0
+Tue Aug 21 10:12:33 BOT 2012: Ajax-> Mostrar  Imagen Portada> tono:145176 
+Tue Aug 21 10:12:36 BOT 2012: Consulta de precio de reason:2 - msisdn: tono:104508 Async responde:350
+ 
+Tue Aug 21 10:12:36 BOT 2012: Ajax->Mostrar Ranking:  
+Tue Aug 21 10:14:27 BOT 2012: Ajax->Mostrar Imagen Portada:  
+Tue Aug 21 10:14:42 BOT 2012: Ajax-> Mostrar Megusta> tono:104249 
+Tue Aug 21 10:15:04 BOT 2012: Ajax-> Mostrar Ranking > tono:104970 
+Tue Aug 21 10:16:46 BOT 2012: Ajax->Mostrar Ranking:  
+Tue Aug 21 10:16:46 BOT 2012: Asignar backtone escuchado > Asi termino:37,104402,129422,131826,105038,103412,103411,103409,590,137296,102621,104465,
+Tue Aug 21 10:43:55 BOT 2012: ASYNC -> STATS> Tiempo respuesta 0.0091 seg.

@@ -1,0 +1,94 @@
+<div id="contenedor_administracion_amigos">
+<div class="section-title main-title">
+  <h2 id="encabezado">Administraci&oacute;n de Amigos</h2>
+</div>
+<!-- Content download -->
+<div id="content-download" style="height:640px;">
+        <div id="picture-download" >
+            <p>
+                &nbsp; <br>
+            </p>
+
+        <p>              
+                <span>Descripci&oacute;n:</span> </br>
+                <font style="font-size: 10px; line-height: 12px;">
+                    <span>
+                         Aqu&iacute; podras asignar un backtone a un usuario en particular, solo tenes que seguir los siguientes pasos<br>
+                        1- Agregar un nuevo amigo<br>
+                        2- Seleccionar a un amigo  haciendo click sobre &eacute;l y luego seleccion&aacute; el backtone de tu elecci&oacute;n.
+
+
+                    </span>
+                </font>
+                <br><br><br>
+        </p>
+         
+        <div>
+            <p>
+                <span> Agregar nuevos amigos </span><br>
+                <div id="contenedor-amigos">
+                    <div style="float:right; padding-right:5px;"><button class="btn_agregar_amigos" id="btn_agregar_amigo" title="Ingresar"></button></div>
+                        <span> Numero de Tel&eacute;fono</span> <br>
+                        <input type="input" name="tb_numero_ani" id="tb_ani">
+                        <br><br>
+                        <span>Nombre </span> <br>
+                        <input  type="input" name="tb_nombre_ani" id="tb_nombre_ani">
+                </div>
+            </p>
+        </div>
+        <br><br>
+        <div>
+            <p>
+                <span> Importar amigos </span><br>
+                 <div id="contenedor-amigos">
+                 <span> Podr&aacute; importar amigos de una lista de las llamadas recibidas </span>
+                 </div>
+            </p>
+        </div>
+        <!--
+		<a href="#"><img src="images/button-download-album.gif" class="space-icons" alt="comprar &aacute;lbum" title="comprar &aacute;lbum" /></a>
+		-->
+	</div>
+                <div id="other-tracks">
+			<dl>
+                            <dt>Lista de amigos</dt>
+                            <dd>
+                                <div  style="position: absolute;background:white; overflow-x:hidden; overflow-y:scroll; width:280px;  height:370px;">
+                                    <div class="contenedor-lista-backtones" style="position: relative;  height:300px;">
+                                        <div id="lista_amigos">
+                                             {tpl-lista-amigos}                                            
+                                        </div>
+                                    </div>
+                                </div>
+                            </dd>
+			</dl>
+
+		</div>
+
+<!-- Jump --><div class="jump">&nbsp;</div><!-- float -->
+<!-- Jump --><div class="jump">&nbsp;</div><!-- float -->
+</div>
+<script type="text/javascript">
+<!--
+$(document).ready(function(){
+        $('#tb_ani').CreateBubblePopup({
+                           themePath: 'estilos/tigo/images/jquerybubblepopup-theme/',
+                           themeName: 'orange',
+                           innerHtml: 'Datos invalidos, favor verificar, <br>Numero (sin espacios ni simbolos),<br>Campo nombre con datos ingresados', mouseOver: 'hide'
+            });
+            $("#btn_agregar_amigo").click(function() {
+            MTD_AGREGAR_AMIGOS();
+        });
+        var playItem = 0;
+        var vg_arreglo_tonos = new Array();
+        //cooling fan
+        var myPlayList =  "";
+	// Local copy of jQuery selectors, for performance.
+	var jpPlayTime = $("#jplayer_play_time");
+	var jpTotalTime = $("#jplayer_total_time");
+
+
+});
+-->
+</script>
+</div>

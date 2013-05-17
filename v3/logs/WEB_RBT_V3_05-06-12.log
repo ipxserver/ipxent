@@ -1,0 +1,18 @@
+Sun May 6 14:37:24 BOT 2012: Ajax->Mostrar Comentarios:  
+Sun May 6 14:38:27 BOT 2012: Ajax->Mostrar Ranking:  
+Sun May 6 14:38:49 BOT 2012: Ajax->Mostrar Comentarios:  
+Sun May 6 14:38:52 BOT 2012: Mostrar Ranking: tono:104295 calificacion: 
+Sun May 6 14:38:52 BOT 2012: Ajax-> Mostrar Ranking > tono:608 
+Sun May 6 14:43:58 BOT 2012: Ajax-> Mostrar Comentarios> tono:149592 
+Sun May 6 14:44:22 BOT 2012: Busqueda Inteligente: resultados >138311
+Sun May 6 14:53:15 BOT 2012: ASYNC -> STATS> Tiempo respuesta 0.003031 seg.
+Sun May 6 14:53:21 BOT 2012: Ajax->Mostrar Imagen Portada:  
+Sun May 6 14:56:00 BOT 2012: ASYNC -> STATS> Tiempo respuesta -0.386618 seg.
+Sun May 6 14:56:09 BOT 2012: Consulta de precio de reason:2 - msisdn: tono:103790 Async responde:350
+ 
+Sun May 6 14:56:21 BOT 2012: Consulta de precio de reason:10 - msisdn: tono:103790 Async responde:350
+ 
+Sun May 6 14:56:21 BOT 2012: Ajax->Mostrar Ranking:  
+Sun May 6 14:56:24 BOT 2012: Asignar backtone escuchado > Asi termino:620,104174,144149,104171,142527,448,103342,240,104477,104476,103521,103430,149592,133440,129884,131616,103790,102630,105391,104929,
+Sun May 6 14:56:33 BOT 2012: ASYNC -> STATS> Tiempo respuesta 0.014661 seg.
+Sun May 6 14:56:39 BOT 2012: ASYNC -> STATS> Tiempo respuesta 0.020388 seg.

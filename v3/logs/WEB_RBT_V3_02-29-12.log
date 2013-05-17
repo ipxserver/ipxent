@@ -1,0 +1,607 @@
+Wed Feb 29 8:41:30 BOT 2012: Busqueda Inteligente: Resultado 
+ 129236;De Tal Manera;Abel Zavala;Cristianas
+104084;Enamorame_;Abel Zavala;Cristianas
+129238;Jesus Mi Fiel Amigo;Abel Zavala;Cristianas
+105388;Lo unico que quiero;Abel Zavala;Cristianas
+105387;No hace falta;Abel Zavala;Cristianas
+104085;Quiero gritarlo;Abel Zavala;Cristianas
+144149;11 Porciento;opratel;Carnavaleando con Tigo
+144150;Adios Perra;opratel;Carnavaleando con Tigo
+145825;Carnavalenado remix;Berthy Takana;Carnaval
+144152;Chovena Beniana;opratel;Carnavaleando con Tigo
+144153;Cuanto Cuestas Cuanto Vales;opratel;Carnavaleando con Tigo
+144794;Cueca Boliviana;Opratel;Carnavaleando con Tigo
+145423;Diablada;Opratel;Carnavaleando con Tigo
+145420;Don Francisco Carnaval;opratel;Carnavaleando con Tigo
+144155;El Brincao;opratel;Carnavaleando con Tigo
+144156;El porro;opratel;Carnavaleando con Tigo
+144148;Fuerza Carnaval;opratel;Carnavaleando con Tigo
+145742;Fuerza Carnavaleros_ Senor del carnaval;Berthy Takana;Carnaval cruceño
+144158;Gato Carnaval;opratel;Carnavaleando con Tigo
+144160;Goni carnaval;opratel;Carnavaleando con Tigo
+144162;Guapuru;opratel;Carnavaleando con Tigo
+144164;Hola Carnaval;opratel;Carnavaleando con Tigo
+144166;Homero Carnaval;opratel;Carnavaleando con Tigo
+144167;Jefe Carnaval;opratel;Carnavaleando con Tigo
+144168;Jumechi;opratel;Carnavaleando con Tigo
+144170;La Agulilla;opratel;Carnavaleando con Tigo
+144171;La Diablada;opratel;Carnavaleando con Tigo
+144173;La Viborita;opratel;Carnavaleando con Tigo
+144174;Lamento Yuqui;opratel;Carnavaleando con Tigo
+144175;Loro en Guayabal;opratel;Carnavaleando con Tigo
+144177;Maraca Mateo;opratel;Carnavaleando con Tigo
+145422;Papi Carnaval;Opratel;Carnavaleando con Tigo
+144179;Pitufos Carnaval;opratel;Carnavaleando con Tigo
+144181;Que bien que Llamas;opratel;Carnavaleando con Tigo
+144182;Rosita Pochi;opratel;Carnavaleando con Tigo
+144183;Shrek Carnaval;opratel;Carnavaleando con Tigo
+144185;Tamarindo Seco;opratel;Carnavaleando con Tigo
+144187;Torito Negro;opratel;Carnavaleando con Tigo
+145417;Usuario Borracho;Opratel;Carnavaleando con Tigo
+144189;Usuario Carnaval;opratel;Carnavaleando con Tigo
+144191;Usuario Precarnavaleras;opratel;Carnavaleando con Tigo
+144192;Viva El Beni;opratel;Carnavaleando con Tigo
+144194;Viva Santa Cruz;opratel;Carnavaleando con Tigo
+145826;Voy a beber carnavaleando;Berthy Takana;Carnaval
+145833;Voy a beber carnavaleando  v2 ;Berthy Takana;Carnaval
+144195;Wachiturro Carnaval;opratel;Carnavaleando con Tigo
+145418;Wachiturros Oruro;Opratel;Carnavaleando con Tigo
+109641;isabel;Homero;Mi Promo ConTigo
+119847;Isabel de Luis Miguel;Luis Miguel;Latinas
+139722;Isabel y La Calavera;Opratel;Chistes
+106334;Isabel-;Nombre Reggaeton;TU NOMBRE
+109642;isabela;Homero;Mi Promo ConTigo
+102538;Mabel;Pibes Chorros;Cumbia
+126173;Me Fascinas feat Ana Isabelle and Otros;A.B. Quintanilla;Cumbia
+104171; A la Bim Bom Bam_;Banda Poopo;Carnaval
+104174; Ananau;Banda Poopo;Carnaval
+104190; Canita Ca 
+Wed Feb 29 10:30:55 BOT 2012: Mostrar Genero: >G&eacute;nero:  <a href='index.php?seccion=playlist&genero=132'>Pop</a>
+Wed Feb 29 10:31:46 BOT 2012: Ajax->Mostrar Megusta:  
+Wed Feb 29 10:32:28 BOT 2012: Ajax->Mostrar Comentarios:  
+Wed Feb 29 10:32:31 BOT 2012: Ajax-> Mostrar Comentarios> tono:104245 
+Wed Feb 29 10:41:48 BOT 2012: Asignar backtone escuchado > Asi termino:104783,472,127440,127769,142154,102726,103433,135228,113052,127771,127459,436,127461,104084,102727,129901,103432,135213,127415,135200,
+Wed Feb 29 10:42:18 BOT 2012: Session Start>  session por defecto 
+Wed Feb 29 10:44:15 BOT 2012: WEB_REPRODUCIR_BUSQUEDA > Se recibieron:1 tonos
+Wed Feb 29 10:45:03 BOT 2012: Ajax-> Mostrar Ranking > tono:134561 
+Wed Feb 29 10:49:04 BOT 2012: STATS > BUSQUEDA DE BACKTONE >Tiempo: 0.0099 seg. | registros: 1
+Wed Feb 29 10:52:19 BOT 2012: ASYNC -> STATS> Tiempo respuesta -0.102337 seg.
+Wed Feb 29 10:58:17 BOT 2012: ASYNC -> STATS> Tiempo respuesta 0.423237 seg.
+Wed Feb 29 11:20:11 BOT 2012: MTD_DB_BUSCAR_ARTISTAS > retornando registros:20
+Wed Feb 29 11:26:27 BOT 2012: Session Start>  Chequeo de sesion
+Wed Feb 29 11:32:34 BOT 2012: Ajax-> Votar Me gusta: msisdn: 
+Wed Feb 29 11:34:43 BOT 2012: Asignar backtone escuchado > Asi termino:104573,104572,104991,553,
+Wed Feb 29 11:36:49 BOT 2012: MTD_DB_BUSCAR_ARTISTAS > retornando registros:73
+Wed Feb 29 11:37:04 BOT 2012: Ajax->Mostrar Reproducciones:  
+Wed Feb 29 11:38:01 BOT 2012: Ajax->Mostrar Ranking:  
+Wed Feb 29 11:39:20 BOT 2012: Ajax-> Mostrar Comentarios> tono:16 
+Wed Feb 29 11:41:56 BOT 2012: Ajax->Mostrar Ranking:  
+Wed Feb 29 11:42:47 BOT 2012: WEB REPROD BUSQ > Facebook link: http%3A%2F%2Fbacktones.tigo.com.bo%2Fv3%2Findex.php%3Fseccion%3Dplaylist%26search%3Dmana%26f%3D1%26t%3D123213
+Wed Feb 29 11:42:50 BOT 2012: Ajax->Mostrar Imagen Portada:  
+Wed Feb 29 11:46:32 BOT 2012: Mostrar Album: >Artista:  <a href='index.php?seccion=playlist&autor=349'>Fanny Lu</a>
+Wed Feb 29 11:47:19 BOT 2012: Ajax->Mostrar Reproducciones:  
+Wed Feb 29 11:48:30 BOT 2012: Ajax-> Mostrar  Imagen Portada> Album:Artista:  <a href='index.php?seccion=playlist&autor=412'>Bajo Fondo</a>
+Wed Feb 29 11:49:00 BOT 2012: Mostrar Cantidad reproducciones: tono:104148 cantidad: 0
+Wed Feb 29 11:53:25 BOT 2012: Ajax->Mostrar Reproducciones:  
+Wed Feb 29 11:55:34 BOT 2012: ASYNC -> STATS> Tiempo respuesta 0.003367 seg.
+Wed Feb 29 11:56:43 BOT 2012: Check Session > msisdn: 78002048 > Usuario Valido 
+Wed Feb 29 11:57:13 BOT 2012: Ajax->Mostrar Reproducciones:  
+Wed Feb 29 11:59:07 BOT 2012: ASYNC -> STATS> Tiempo respuesta 0.308955 seg.
+Wed Feb 29 12:01:35 BOT 2012: Ajax->Mostrar Ranking:  
+Wed Feb 29 12:02:50 BOT 2012: Ajax->Mostrar Reproducciones:  
+Wed Feb 29 12:05:20 BOT 2012: Ajax->Mostrar Imagen Portada:  
+Wed Feb 29 12:06:05 BOT 2012: Ajax->Mostrar Imagen Portada:  
+Wed Feb 29 12:06:33 BOT 2012: Ajax->Mostrar Imagen Portada:  
+Wed Feb 29 12:07:39 BOT 2012: Ajax->Mostrar Reproducciones:  
+Wed Feb 29 12:09:45 BOT 2012: Ajax->Mostrar Ranking:  
+Wed Feb 29 12:09:48 BOT 2012: ASYNC -> STATS> Tiempo respuesta 0.429268 seg.
+Wed Feb 29 12:12:06 BOT 2012: Busqueda Inteligente: Humor
+Wed Feb 29 12:12:21 BOT 2012: Ajax-> Mostrar Ranking > tono:103469 
+Wed Feb 29 12:12:24 BOT 2012: Ajax->Mostrar Nombre Artista:  
+Wed Feb 29 12:16:34 BOT 2012: Ajax->Mostrar Megusta:  
+Wed Feb 29 12:19:53 BOT 2012: Ajax-> Mostrar  Nombre Artista > tono:123538 
+Wed Feb 29 12:23:41 BOT 2012: ASYNC -> STATS> Tiempo respuesta 0.065073 seg.
+Wed Feb 29 12:24:50 BOT 2012: ASYNC -> STATS> Tiempo respuesta 0.185625 seg.
+Wed Feb 29 12:24:50 BOT 2012: ASYNC -> STATS> Tiempo respuesta -0.091162 seg.
+Wed Feb 29 12:24:56 BOT 2012: Ajax-> Mostrar Ranking > tono:107573 
+Wed Feb 29 12:24:56 BOT 2012: Ajax->Mostrar Reproducciones:  
+Wed Feb 29 12:24:56 BOT 2012: Ajax-> Mostrar Comentarios> tono:103562 
+Wed Feb 29 12:27:06 BOT 2012: Ajax->Mostrar Reproducciones:  
+Wed Feb 29 12:31:24 BOT 2012: Consulta de precio de reason:5 - msisdn: tono:123537 Async responde:350
+ 
+Wed Feb 29 12:33:27 BOT 2012: Ajax->Mostrar Ranking:  
+Wed Feb 29 12:34:07 BOT 2012: ASYNC -> STATS> Tiempo respuesta -0.19031 seg.
+Wed Feb 29 12:39:55 BOT 2012: Asignar backtone escuchado > Asi termino:134638,134687,134686,134685,134683,134681,134661,134660,134015,103119,105985,103470,103265,103120,103264,105059,132455,104394,208,
+Wed Feb 29 12:40:58 BOT 2012: Consulta de precio de reason:3 - msisdn: tono:134023 Async responde:350
+ 
+Wed Feb 29 12:41:22 BOT 2012: Asignar backtone escuchado > Asi termino:125516,
+Wed Feb 29 12:41:50 BOT 2012: Ajax->Mostrar Imagen Portada:  
+Wed Feb 29 12:43:56 BOT 2012: Ajax-> Mostrar Megusta> tono:134687 
+Wed Feb 29 12:44:17 BOT 2012: Ajax-> Mostrar Ranking > tono:453 
+Wed Feb 29 12:49:21 BOT 2012: Busqueda Inteligente: resultados >578
+Wed Feb 29 12:49:30 BOT 2012: Ajax->Mostrar Reproducciones:  
+Wed Feb 29 12:50:48 BOT 2012: Busqueda Inteligente: resultados >103991
+Wed Feb 29 12:51:09 BOT 2012: Asignar backtone escuchado > Asi termino:141116,146575,106380,140821,
+Wed Feb 29 12:51:39 BOT 2012: Ajax-> Mostrar Ranking > tono:144149 
+Wed Feb 29 12:53:21 BOT 2012: Ajax->Mostrar Comentarios:  
+Wed Feb 29 12:53:30 BOT 2012: Ajax->Mostrar Megusta:  
+Wed Feb 29 12:58:19 BOT 2012: Ajax-> Mostrar  Imagen Portada> tono:137811 
+Wed Feb 29 13:00:01 BOT 2012: Ajax-> Comprar Backtone: msisdn: 
+Wed Feb 29 13:00:16 BOT 2012: ASYNC -> STATS> Tiempo respuesta 0.00028399999999995 seg.
+Wed Feb 29 13:00:25 BOT 2012: Ajax-> Mostrar  Nombre Artista > tono:109412 
+Wed Feb 29 13:00:49 BOT 2012: Ajax->Mostrar Nombre Genero:  
+Wed Feb 29 13:01:43 BOT 2012: Ajax-> Mostrar Comentarios> tono:121508 
+Wed Feb 29 13:01:58 BOT 2012: Ajax->Mostrar Megusta:  
+Wed Feb 29 13:01:58 BOT 2012: Ajax-> Mostrar Comentarios> tono:121510 
+Wed Feb 29 13:04:32 BOT 2012: Ajax-> Mostrar Ranking > tono:104039 
+Wed Feb 29 13:06:50 BOT 2012: ASYNC -> STATS> Tiempo respuesta 0.002894 seg.
+Wed Feb 29 13:06:59 BOT 2012: ASYNC -> STATS> Tiempo respuesta -0.181426 seg.
+Wed Feb 29 13:07:05 BOT 2012: Ajax->Mostrar Reproducciones:  
+Wed Feb 29 13:07:08 BOT 2012: Session Start>  session por defecto 
+Wed Feb 29 13:07:11 BOT 2012: ASYNC -> STATS> Tiempo respuesta -0.031138 seg.
+Wed Feb 29 13:08:32 BOT 2012: Ajax-> Mostrar  Imagen Portada> tono:104670 
+Wed Feb 29 13:08:36 BOT 2012: Ajax-> Mostrar Ranking > tono:104972 
+Wed Feb 29 13:08:53 BOT 2012: ASYNC -> STATS> Tiempo respuesta 0.001927 seg.
+Wed Feb 29 13:08:56 BOT 2012: Ajax->Mostrar Comentarios:  
+Wed Feb 29 13:10:39 BOT 2012: Busqueda Inteligente: alex campos tu poeta
+Wed Feb 29 13:12:51 BOT 2012: ASYNC -> STATS> Tiempo respuesta 0.001377 seg.
+Wed Feb 29 13:13:33 BOT 2012: Session Start>  session por defecto 
+Wed Feb 29 13:13:33 BOT 2012: Session Start>  session por defecto 
+Wed Feb 29 13:16:39 BOT 2012: Ajax->Mostrar Megusta:  
+Wed Feb 29 13:18:13 BOT 2012: ASYNC -> STATS> Tiempo respuesta -0.456549 seg.
+Wed Feb 29 13:19:31 BOT 2012: Ajax->Mostrar Ranking:  
+Wed Feb 29 13:22:01 BOT 2012: Ajax->Mostrar Nombre Artista:  
+Wed Feb 29 13:23:01 BOT 2012: Ajax-> Mostrar Ranking > tono:131730 
+Wed Feb 29 13:23:55 BOT 2012: FORMATEAR_LISTA_TONOS > Verificacion de tonos por turnos , dia:103960 tarde:103960 noche:102740
+Wed Feb 29 13:26:17 BOT 2012: Ajax-> Mostrar Comentarios> tono:136044 
+Wed Feb 29 13:26:29 BOT 2012: Ajax->Mostrar Comentarios:  
+Wed Feb 29 13:27:53 BOT 2012: Asignar backtone escuchado > Asi termino:109264,128304,109262,105808,128305,137828,137826,137817,105813,104981,137824,137820,109261,128309,137814,130979,109265,128299,121511,121497,
+Wed Feb 29 13:29:08 BOT 2012: Ajax-> Mostrar Ranking > tono:104405 
+Wed Feb 29 13:29:53 BOT 2012: Ajax->Mostrar Comentarios:  
+Wed Feb 29 13:30:08 BOT 2012: Asignar backtone escuchado > Asi termino:103739,103474,104582,104383,105096,102821,103168,103167,105540,119101,102822,104368,103939,102593,102594,104991,133827,104831,141097,141098,
+Wed Feb 29 13:37:00 BOT 2012: Ajax->Mostrar Reproducciones:  
+Wed Feb 29 13:37:42 BOT 2012: Ajax->Mostrar Ranking:  
+Wed Feb 29 13:38:48 BOT 2012: Ajax->Mostrar Comentarios:  
+Wed Feb 29 13:41:04 BOT 2012: ASYNC -> STATS> Tiempo respuesta 0.004985 seg.
+Wed Feb 29 13:41:07 BOT 2012: Consulta de precio de reason:10 - msisdn:77303131 tono:102879 Async responde:350
+ 
+Wed Feb 29 13:41:07 BOT 2012: ASYNC -> STATS> Tiempo respuesta 0.141676 seg.
+Wed Feb 29 13:41:07 BOT 2012: Asignar backtone escuchado > Asi termino:129,103778,104411,518,104380,102614,103055,102827,118187,118183,37,102828,104410,103938,102613,104409,104408,104407,103189,103063,
+Wed Feb 29 13:41:28 BOT 2012: Ajax-> Mostrar  Nombre Artista > tono:103498 
+Wed Feb 29 13:41:43 BOT 2012: Ajax->Mostrar Imagen Portada:  
+Wed Feb 29 13:42:19 BOT 2012: Ajax->Mostrar Reproducciones:  
+Wed Feb 29 13:43:07 BOT 2012: Busqueda Inteligente: STROMAE
+Wed Feb 29 13:44:31 BOT 2012: Check Session > msisdn: 78532006 > Usuario Valido 
+Wed Feb 29 13:44:58 BOT 2012: Ajax-> Mostrar Ranking > tono:127450 
+Wed Feb 29 13:45:49 BOT 2012: Ajax->Mostrar Comentarios:  
+Wed Feb 29 13:47:26 BOT 2012: Mostrar Ranking: tono:144173 calificacion: 
+Wed Feb 29 13:47:50 BOT 2012: Asignar backtone escuchado > Asi termino:206,105361,103640,102978,102626,103275,116504,103507,104027,116506,105078,103671,103997,103224,112702,104024,103086,163,103790,102630,
+Wed Feb 29 13:49:26 BOT 2012: Ajax->Mostrar Ranking:  
+Wed Feb 29 13:49:56 BOT 2012: WEB_REPRODUCIR_BUSQUEDA > Se recibieron:85 tonos
+Wed Feb 29 13:52:29 BOT 2012: WEB_REPRODUCIR_BUSQUEDA > Se recibieron:24 tonos
+Wed Feb 29 13:53:29 BOT 2012: Ajax->Mostrar Imagen Portada:  
+Wed Feb 29 13:54:21 BOT 2012: Ajax-> Mostrar  Nombre Artista > tono:109320 
+Wed Feb 29 13:55:45 BOT 2012: Busqueda Inteligente: resultados >109500
+Wed Feb 29 14:02:01 BOT 2012: Ajax-> Mostrar  Imagen Portada> tono:449 
+Wed Feb 29 14:02:10 BOT 2012: Ajax->Mostrar Comentarios:  
+Wed Feb 29 14:05:16 BOT 2012: Asignar backtone escuchado > Asi termino:109318,109317,246,109246,109238,109245,109243,449,109242,135727,104279,448,109314,102650,102693,103342,109240,104393,240,109322,
+Wed Feb 29 14:05:19 BOT 2012: ASYNC -> STATS> Tiempo respuesta 0.0025620000000001 seg.
+Wed Feb 29 14:07:46 BOT 2012: Ajax->Mostrar Comentarios:  
+Wed Feb 29 14:10:08 BOT 2012: Ajax->Mostrar Nombre Genero:  
+Wed Feb 29 14:13:47 BOT 2012: ASYNC -> STATS> Tiempo respuesta 0.001406 seg.
+Wed Feb 29 14:14:17 BOT 2012: Ajax->Mostrar Reproducciones:  
+Wed Feb 29 14:17:12 BOT 2012: ASYNC -> STATS> Tiempo respuesta 0.002482 seg.
+Wed Feb 29 14:17:30 BOT 2012: Ajax->Mostrar Reproducciones:  
+Wed Feb 29 14:19:21 BOT 2012: Ajax->Mostrar Nombre Artista:  
+Wed Feb 29 14:20:33 BOT 2012: ASYNC -> STATS> Tiempo respuesta -0.029085 seg.
+Wed Feb 29 14:23:37 BOT 2012: Ajax-> Mostrar Ranking > tono:104289 
+Wed Feb 29 14:26:04 BOT 2012: Ajax-> Mostrar Ranking > tono:109243 
+Wed Feb 29 14:26:31 BOT 2012: Mostrar Cantidad reproducciones: tono:109245 cantidad: 0
+Wed Feb 29 14:29:22 BOT 2012: Ajax->Mostrar Reproducciones:  
+Wed Feb 29 14:29:34 BOT 2012: Ajax->Mostrar Reproducciones:  
+Wed Feb 29 14:29:34 BOT 2012: Asignar backtone escuchado > Asi termino:109259,109264,128304,137817,137826,105813,104981,137824,109261,137822,104246,104247,104248,104249,104147,103685,104523,104133,103533,104447,
+Wed Feb 29 14:30:01 BOT 2012: Ajax->Mostrar Imagen Portada:  
+Wed Feb 29 14:30:10 BOT 2012: ASYNC -> STATS> Tiempo respuesta 0.537726 seg.
+Wed Feb 29 14:30:50 BOT 2012: Ajax->Mostrar Comentarios:  
+Wed Feb 29 14:30:59 BOT 2012: Ajax->Mostrar Ranking:  
+Wed Feb 29 14:33:20 BOT 2012: Asignar backtone escuchado > Asi termino:103470,103476,103478,103479,103790,103475,103469,257,126150,126100,126028,122287,240,104393,144168,142927,144153,144148,134032,104055,
+Wed Feb 29 14:33:23 BOT 2012: Ajax->Mostrar Reproducciones:  
+Wed Feb 29 14:34:17 BOT 2012: Ajax-> Mostrar Comentarios> tono:103521 
+Wed Feb 29 14:35:26 BOT 2012: Ajax->Mostrar Imagen Portada:  
+Wed Feb 29 14:37:38 BOT 2012: Ajax->Mostrar Nombre Genero:  
+Wed Feb 29 14:38:21 BOT 2012: ASYNC -> STATS> Tiempo respuesta 0.002063 seg.
+Wed Feb 29 14:41:51 BOT 2012: Ajax->Mostrar Reproducciones:  
+Wed Feb 29 14:42:33 BOT 2012: Consulta de precio de reason:3 - msisdn:78781576 tono:137812 Async responde:350
+ 
+Wed Feb 29 14:42:36 BOT 2012: Ajax->Mostrar Reproducciones:  
+Wed Feb 29 14:42:36 BOT 2012: Asignar backtone escuchado > Asi termino:145676,
+Wed Feb 29 14:42:45 BOT 2012: Consulta de precio de reason:2 - msisdn: tono:105234 Async responde:350
+ 
+Wed Feb 29 14:42:45 BOT 2012: Ajax->Mostrar Imagen Portada:  
+Wed Feb 29 14:42:45 BOT 2012: Asignar backtone escuchado > Asi termino:137812,121499,121512,109259,128275,109260,106372,128307,105807,137818,109264,128304,109261,137822,137815,128309,137814,130979,109265,128299,
+Wed Feb 29 14:43:03 BOT 2012: Ajax->Mostrar Megusta:  
+Wed Feb 29 14:43:27 BOT 2012: Consulta de precio de reason:2 - msisdn: tono:145921 Async responde:350
+ 
+Wed Feb 29 14:43:27 BOT 2012: Consulta de precio de reason:2 - msisdn: tono:117840 Async responde:350
+ 
+Wed Feb 29 14:43:27 BOT 2012: Ajax->Mostrar Ranking:  
+Wed Feb 29 14:43:36 BOT 2012: Consulta de precio de reason:5 - msisdn: tono:509 Async responde:350
+ 
+Wed Feb 29 14:46:55 BOT 2012: ACTUALIZAR_PIN_USUARIO >76237274 el usuario ya se encuentra registrado = 76237274
+Wed Feb 29 14:46:58 BOT 2012: Ajax->Mostrar Imagen Portada:  
+Wed Feb 29 14:47:22 BOT 2012: Ajax-> Mostrar Ranking > tono:145387 
+Wed Feb 29 14:48:28 BOT 2012: Ajax->Mostrar Ranking:  
+Wed Feb 29 14:49:22 BOT 2012: Ajax-> Mostrar Comentarios> tono:139303 
+Wed Feb 29 14:49:22 BOT 2012: Ajax->Mostrar Ranking:  
+Wed Feb 29 14:50:46 BOT 2012: Ajax-> Mostrar Megusta> tono:145137 
+Wed Feb 29 14:52:01 BOT 2012: ASYNC -> STATS> Tiempo respuesta 0.356639 seg.
+Wed Feb 29 14:52:38 BOT 2012: ASYNC -> STATS> Tiempo respuesta 0.002034 seg.
+Wed Feb 29 14:53:59 BOT 2012: Ajax-> Mostrar Megusta> tono:109240 
+Wed Feb 29 14:54:59 BOT 2012: Mostrar Genero: >G&eacute;nero:  <a href='index.php?seccion=playlist&genero=96'>Bachata y Vallenato</a>
+Wed Feb 29 14:55:23 BOT 2012: Ajax->Mostrar Megusta:  
+Wed Feb 29 14:55:26 BOT 2012: Asignar backtone escuchado > Asi termino:103776,104420,102822,103781,104416,118183,37,104403,103232,103939,103567,103565,345,103564,103758,104054,104053,103827,104051,104050,
+Wed Feb 29 14:56:14 BOT 2012: Consulta de precio de reason:3 - msisdn: tono:104941 Async responde:350
+ 
+Wed Feb 29 14:56:23 BOT 2012: Ajax->Mostrar Nombre Artista:  
+Wed Feb 29 14:57:11 BOT 2012: WEB_REPRODUCIR_BUSQUEDA > Se recibieron:84 tonos
+Wed Feb 29 15:00:39 BOT 2012: Ajax-> Mostrar  Imagen Portada> tono:103472 
+Wed Feb 29 15:00:39 BOT 2012: Ajax->Mostrar Reproducciones:  
+Wed Feb 29 15:00:42 BOT 2012: Asignar backtone escuchado > Asi termino:133881,105234,125516,
+Wed Feb 29 15:04:27 BOT 2012: Ajax->Mostrar Reproducciones:  
+Wed Feb 29 15:04:54 BOT 2012: Ajax->Mostrar Imagen Portada:  
+Wed Feb 29 15:07:52 BOT 2012: Ajax->Mostrar Reproducciones:  
+Wed Feb 29 15:08:10 BOT 2012: Ajax->Mostrar Imagen Portada:  
+Wed Feb 29 15:08:19 BOT 2012: ASYNC -> STATS> Tiempo respuesta -0.00095500000000001 seg.
+Wed Feb 29 15:08:25 BOT 2012: Ajax->Mostrar Nombre Artista:  
+Wed Feb 29 15:08:49 BOT 2012: Ajax->Mostrar Comentarios:  
+Wed Feb 29 15:10:07 BOT 2012: Error al consultar precio de renovacion - msisdn: tono:102825 - Async responde -3
+Wed Feb 29 15:12:49 BOT 2012: Ajax-> Mostrar Comentarios> tono:103938 
+Wed Feb 29 15:16:32 BOT 2012: Asignar backtone escuchado > Asi termino:130993,129239,131643,122648,131837,105036,109380,109605,109604,127855,127787,103284,
+Wed Feb 29 15:16:38 BOT 2012: Ajax->Mostrar Nombre Genero:  
+Wed Feb 29 15:18:29 BOT 2012: Ajax->Mostrar Reproducciones:  
+Wed Feb 29 15:18:41 BOT 2012: Asignar backtone escuchado > Asi termino:104900,104352,103565,103563,134032,104991,128309,137814,130979,137815,137822,121511,121497,121510,121501,121500,121499,121512,109259,128304,
+Wed Feb 29 15:19:26 BOT 2012: ASYNC -> STATS> Tiempo respuesta 0.00023600000000001 seg.
+Wed Feb 29 15:19:47 BOT 2012: Ajax->Mostrar Imagen Portada:  
+Wed Feb 29 15:20:08 BOT 2012: Ajax->Mostrar Ranking:  
+Wed Feb 29 15:22:27 BOT 2012: Asignar backtone escuchado > Asi termino:102727,104084,103430,104991,257,136632,136633,104554,
+Wed Feb 29 15:24:48 BOT 2012: Ajax->Mostrar Reproducciones:  
+Wed Feb 29 15:25:01 BOT 2012: Ajax->Mostrar Reproducciones:  
+Wed Feb 29 15:25:01 BOT 2012: Ajax->Mostrar Ranking:  
+Wed Feb 29 15:25:36 BOT 2012: Ajax->Mostrar Nombre Genero:  
+Wed Feb 29 15:25:52 BOT 2012: Ajax-> Mostrar Ranking > tono:109414 
+Wed Feb 29 15:26:23 BOT 2012: Ajax-> Mostrar  Nombre Artista > tono:105534 
+Wed Feb 29 15:27:24 BOT 2012: ASYNC -> STATS> Tiempo respuesta 0.002123 seg.
+Wed Feb 29 15:27:27 BOT 2012: Busqueda Inteligente: Don Omar
+Wed Feb 29 15:28:40 BOT 2012: ASYNC -> STATS> Tiempo respuesta 0.001932 seg.
+Wed Feb 29 15:29:13 BOT 2012: Asignar backtone escuchado > Asi termino:104383,106299,103453,106298,103284,105534,105533,105282,105036,105096,125516,105015,150,126170,105061,136224,136208,136207,103550,137855,
+Wed Feb 29 15:29:28 BOT 2012: Mostrar Genero: >G&eacute;nero:  <a href='index.php?seccion=playlist&genero=108'>Cristianas</a>
+Wed Feb 29 15:30:16 BOT 2012: Ajax-> Mostrar  Imagen Portada> tono:103482 
+Wed Feb 29 15:32:46 BOT 2012: Ajax->Mostrar Imagen Portada:  
+Wed Feb 29 15:34:03 BOT 2012: Ajax-> Mostrar  Imagen Portada> tono:104116 
+Wed Feb 29 15:36:26 BOT 2012: Busqueda Inteligente: hoy lloras por mi
+Wed Feb 29 15:36:29 BOT 2012: Ajax->Mostrar Nombre Genero:  
+Wed Feb 29 15:37:17 BOT 2012: ASYNC -> STATS> Tiempo respuesta -0.108067 seg.
+Wed Feb 29 15:38:59 BOT 2012: Ajax->Mostrar Nombre Artista:  
+Wed Feb 29 15:38:59 BOT 2012: Ajax->Mostrar Reproducciones:  
+Wed Feb 29 15:39:20 BOT 2012: Ajax->Mostrar Imagen Portada:  
+Wed Feb 29 15:40:14 BOT 2012: Asignar backtone escuchado > Asi termino:133736,
+Wed Feb 29 15:40:59 BOT 2012: ASYNC -> STATS> Tiempo respuesta 0.024897 seg.
+Wed Feb 29 15:40:59 BOT 2012: Ajax->Mostrar Ranking:  
+Wed Feb 29 15:41:44 BOT 2012: Ajax->Mostrar Nombre Genero:  
+Wed Feb 29 15:42:24 BOT 2012: MTD_DB_BUSCAR_ARTISTAS > retornando registros:73
+Wed Feb 29 15:42:33 BOT 2012: ASYNC -> STATS> Tiempo respuesta 0.0017 seg.
+Wed Feb 29 15:43:33 BOT 2012: Asignar backtone escuchado > Asi termino:115945,103481,105290,137970,142923,136636,144152,145196,145192,145190,144234,144195,142527,107585,107586,103482,103428,103423,103459,127447,
+Wed Feb 29 15:44:15 BOT 2012: ASYNC -> STATS> Tiempo respuesta 0.002902 seg.
+Wed Feb 29 15:44:18 BOT 2012: Asignar backtone escuchado > Asi termino:103342,109240,104393,240,109322,103343,104278,109249,109320,109247,109318,109317,246,109246,109238,109245,109243,449,109242,135727,
+Wed Feb 29 15:44:27 BOT 2012: Ajax->Mostrar Reproducciones:  
+Wed Feb 29 15:44:30 BOT 2012: Ajax-> Mostrar  Imagen Portada> tono:104815 
+Wed Feb 29 15:44:30 BOT 2012: Ajax-> Mostrar Ranking > tono:103342 
+Wed Feb 29 15:45:12 BOT 2012: STATS > BUSQUEDA DE BACKTONE >Tiempo: 0.083032 seg. | registros: 114
+Wed Feb 29 15:45:42 BOT 2012: Ajax-> Mostrar  Nombre Genero > tono:104798 
+Wed Feb 29 15:50:22 BOT 2012: ASYNC -> STATS> Tiempo respuesta -0.637491 seg.
+Wed Feb 29 15:50:25 BOT 2012: ASYNC -> STATS> Tiempo respuesta 0.001617 seg.
+Wed Feb 29 15:50:31 BOT 2012: Ajax->Mostrar Megusta:  
+Wed Feb 29 15:50:34 BOT 2012: Ajax->Mostrar Imagen Portada:  
+Wed Feb 29 15:50:46 BOT 2012: Ajax->Mostrar Nombre Genero:  
+Wed Feb 29 15:51:01 BOT 2012: Ajax->Mostrar Nombre Artista:  
+Wed Feb 29 15:51:01 BOT 2012: Ajax->Mostrar Megusta:  
+Wed Feb 29 15:51:04 BOT 2012: Session Start>  session por defecto 
+Wed Feb 29 15:52:04 BOT 2012: Ajax-> Mostrar Comentarios> tono:133696 
+Wed Feb 29 15:53:01 BOT 2012: Ajax->Mostrar Ranking:  
+Wed Feb 29 15:53:16 BOT 2012: Ajax-> Mostrar Comentarios> tono:104910 
+Wed Feb 29 15:55:49 BOT 2012: Busqueda Inteligente: resultados >106011
+Wed Feb 29 15:56:07 BOT 2012: Ajax->Mostrar Ranking:  
+Wed Feb 29 15:56:16 BOT 2012: Ajax->Mostrar Imagen Portada:  
+Wed Feb 29 15:56:34 BOT 2012: Busqueda Inteligente: resultados >104249
+Wed Feb 29 15:57:29 BOT 2012: Ajax-> Mostrar Ranking > tono:102818 
+Wed Feb 29 16:01:08 BOT 2012: Mostrar Ranking: tono:109238 calificacion: 
+Wed Feb 29 16:02:05 BOT 2012: Ajax-> Mostrar Ranking > tono:246 
+Wed Feb 29 16:02:26 BOT 2012: Ajax-> Mostrar Comentarios> tono:135713 
+Wed Feb 29 16:02:53 BOT 2012: Ajax-> Mostrar Megusta> tono:103590 
+Wed Feb 29 16:03:08 BOT 2012: Ajax->Mostrar Comentarios:  
+Wed Feb 29 16:03:56 BOT 2012: Ajax-> Mostrar Megusta> tono:129933 
+Wed Feb 29 16:04:14 BOT 2012: Ajax->Mostrar Imagen Portada:  
+Wed Feb 29 16:05:15 BOT 2012: Ajax-> Mostrar Ranking > tono:103686 
+Wed Feb 29 16:05:21 BOT 2012: ASYNC -> STATS> Tiempo respuesta 0.086202 seg.
+Wed Feb 29 16:05:24 BOT 2012: ASYNC -> STATS> Tiempo respuesta -0.316836 seg.
+Wed Feb 29 16:07:06 BOT 2012: Asignar backtone escuchado > Asi termino:103690,104472,104467,104998,104999,103687,103686,104465,141880,141881,142527,104067,103613,104198,103611,104613,103609,126999,104683,104901,
+Wed Feb 29 16:07:39 BOT 2012: Ajax->Mostrar Nombre Genero:  
+Wed Feb 29 16:07:51 BOT 2012: Ajax->Mostrar Megusta:  
+Wed Feb 29 16:09:09 BOT 2012: Ajax->Mostrar Nombre Genero:  
+Wed Feb 29 16:09:21 BOT 2012: ASYNC -> STATS> Tiempo respuesta -0.026769 seg.
+Wed Feb 29 16:10:24 BOT 2012: Checklogin > msisdn: 76413544 , pin:aannIMKFl7PdE
+Wed Feb 29 16:11:33 BOT 2012: Ajax->Mostrar Nombre Artista:  
+Wed Feb 29 16:12:25 BOT 2012: Ajax->Mostrar Nombre Genero:  
+Wed Feb 29 16:13:04 BOT 2012: Session Start>  session por defecto 
+Wed Feb 29 16:13:25 BOT 2012: Ajax->Mostrar Imagen Portada:  
+Wed Feb 29 16:13:28 BOT 2012: Ajax->Mostrar Ranking:  
+Wed Feb 29 16:13:28 BOT 2012: Ajax->Mostrar Nombre Genero:  
+Wed Feb 29 16:13:34 BOT 2012: Ajax->Mostrar Nombre Artista:  
+Wed Feb 29 16:13:40 BOT 2012: Ajax->Mostrar Nombre Genero:  
+Wed Feb 29 16:13:58 BOT 2012: Ajax-> Mostrar Ranking > tono:123008 
+Wed Feb 29 16:14:16 BOT 2012: Ajax->Mostrar Comentarios:  
+Wed Feb 29 16:14:16 BOT 2012: Ajax->Mostrar Nombre Genero:  
+Wed Feb 29 16:15:01 BOT 2012: Ajax->Mostrar Nombre Artista:  
+Wed Feb 29 16:16:13 BOT 2012: Ajax-> Mostrar Ranking > tono:103469 
+Wed Feb 29 16:16:13 BOT 2012: Ajax-> Mostrar Megusta> tono:103239 
+Wed Feb 29 16:16:28 BOT 2012: Ajax->Mostrar Imagen Portada:  
+Wed Feb 29 16:17:22 BOT 2012: Ajax->Mostrar Reproducciones:  
+Wed Feb 29 16:17:52 BOT 2012: Ajax->Mostrar Nombre Artista:  
+Wed Feb 29 16:18:07 BOT 2012: ASYNC -> STATS> Tiempo respuesta 0.862126 seg.
+Wed Feb 29 16:18:07 BOT 2012: ASYNC -> STATS> Tiempo respuesta -0.079048 seg.
+Wed Feb 29 16:18:22 BOT 2012: Asignar backtone escuchado > Asi termino:109462,106326,109460,311,103469,104346,104291,104292,104213,127415,395,137281,102621,133412,102630,106266,124243,
+Wed Feb 29 16:18:35 BOT 2012: Ajax->Mostrar Reproducciones:  
+Wed Feb 29 16:19:07 BOT 2012: Ajax-> Mostrar Ranking > tono:102560 
+Wed Feb 29 16:19:17 BOT 2012: Asignar backtone escuchado > Asi termino:141880,141881,142527,124243,
+Wed Feb 29 16:19:35 BOT 2012: Error al consultar precio de renovacion - msisdn: tono:105073 - Async responde -3
+Wed Feb 29 16:19:41 BOT 2012: Mostrar Album: >Artista:  <a href='index.php?seccion=playlist&autor=1433'>Jimi Hendrix</a>
+Wed Feb 29 16:19:56 BOT 2012: Ajax-> Mostrar Comentarios> tono:109246 
+Wed Feb 29 16:21:26 BOT 2012: Ajax->Mostrar Ranking:  
+Wed Feb 29 16:23:30 BOT 2012: Busqueda Inteligente: resultados >117840
+Wed Feb 29 16:23:38 BOT 2012: Ajax->Mostrar Reproducciones:  
+Wed Feb 29 16:24:48 BOT 2012: Ajax->Mostrar Nombre Genero:  
+Wed Feb 29 16:24:54 BOT 2012: STATS > BUSQUEDA DE BACKTONE >Tiempo: -0.778869 seg. | registros: 114
+Wed Feb 29 16:26:25 BOT 2012: Busqueda Inteligente: 
+Wed Feb 29 16:27:03 BOT 2012: Ajax->Mostrar Comentarios:  
+Wed Feb 29 16:27:07 BOT 2012: Ajax->Mostrar Ranking:  
+Wed Feb 29 16:27:10 BOT 2012: Consulta de precio de reason:2 - msisdn: tono:104460 Async responde:350
+ 
+Wed Feb 29 16:27:16 BOT 2012: Ajax-> Mostrar Ranking > tono:105096 
+Wed Feb 29 16:27:16 BOT 2012: Asignar backtone escuchado > Asi termino:104460,102673,209,103628,102630,560,103644,116500,105420,125660,116501,119842,102627,104030,103995,103073,103134,206,105361,574,
+Wed Feb 29 16:27:28 BOT 2012: WEB REPROD BUSQ > Facebook link: http%3A%2F%2Fbacktones.tigo.com.bo%2Fv3%2Findex.php%3Fseccion%3Dplaylist%26genero%3D116%26f%3D1%26t%3D123123
+Wed Feb 29 16:28:37 BOT 2012: Ajax-> : Administrar Amigos: > msisdn:77390187 > Agregar nuevos amigos 
+Wed Feb 29 16:28:40 BOT 2012: Check Session > msisdn: 77390187 > Usuario Valido 
+Wed Feb 29 16:29:10 BOT 2012: Ajax->Mostrar Ranking:  
+Wed Feb 29 16:30:20 BOT 2012: Mostrar Megusta> tono: 104393 msisdn: > a otros 2  les gusta 
+Wed Feb 29 16:30:34 BOT 2012: Check Session > msisdn: 78428452 > Usuario Valido 
+Wed Feb 29 16:30:46 BOT 2012: Asignar backtone escuchado > Asi termino:138306,104991,106237,130053,115942,131821,127752,127767,135108,127759,144149,102596,124243,108556,105762,102624,103239,116502,103238,103507,
+Wed Feb 29 16:31:47 BOT 2012: Ajax->Mostrar Comentarios:  
+Wed Feb 29 16:32:17 BOT 2012: Ajax->Mostrar Nombre Artista:  
+Wed Feb 29 16:32:29 BOT 2012: Ajax->Mostrar Imagen Portada:  
+Wed Feb 29 16:32:35 BOT 2012: Ajax->Mostrar Imagen Portada:  
+Wed Feb 29 16:32:50 BOT 2012: Ajax->Mostrar Megusta:  
+Wed Feb 29 16:32:56 BOT 2012: Asignar backtone escuchado > Asi termino:105025,129887,105268,105273,105284,105270,105024,105274,105276,102818,133830,
+Wed Feb 29 16:33:48 BOT 2012: Ajax-> Mostrar Megusta> tono:104991 
+Wed Feb 29 16:33:50 BOT 2012: Ajax->Mostrar Nombre Genero:  
+Wed Feb 29 16:35:24 BOT 2012: Error al consultar precio de renovacion - msisdn: tono:103600 - Async responde -3
+Wed Feb 29 16:36:03 BOT 2012: Ajax-> Mostrar Comentarios> tono:109245 
+Wed Feb 29 16:36:03 BOT 2012: Ajax-> Mostrar  Nombre Genero > tono:104203 
+Wed Feb 29 16:36:54 BOT 2012: Ajax-> Mostrar Megusta> tono:105244 
+Wed Feb 29 16:39:24 BOT 2012: Ajax->Mostrar Megusta:  
+Wed Feb 29 16:40:00 BOT 2012: Ajax->Mostrar Nombre Artista:  
+Wed Feb 29 16:40:48 BOT 2012: Asignar backtone escuchado > Asi termino:103880,142132,142128,145210,104909,142119,276,509,
+Wed Feb 29 16:41:12 BOT 2012: Asignar backtone escuchado > Asi termino:109322,103343,104278,109249,109320,109247,109318,109317,246,109246,109238,109245,109243,449,109242,135727,104279,448,109314,102650,
+Wed Feb 29 16:41:15 BOT 2012: ASYNC -> STATS> Tiempo respuesta -0.032237 seg.
+Wed Feb 29 16:43:28 BOT 2012: Asignar backtone escuchado > Asi termino:103274,102672,104024,103086,163,102630,135108,127757,127759,107788,107763,127765,107751,107749,123218,138311,137972,138306,104991,106237,
+Wed Feb 29 16:44:25 BOT 2012: Asignar backtone escuchado > Asi termino:112702,103274,102672,104024,103086,163,102630,135108,127757,127759,107788,107763,127765,107751,107749,123218,138311,137972,138306,104991,
+Wed Feb 29 16:47:19 BOT 2012: Ajax-> Mostrar  Nombre Artista > tono:149 
+Wed Feb 29 16:49:35 BOT 2012: Ajax->Mostrar Megusta:  
+Wed Feb 29 16:54:11 BOT 2012: Ajax->Mostrar Comentarios:  
+Wed Feb 29 16:54:29 BOT 2012: Ajax->Mostrar Comentarios:  
+Wed Feb 29 16:54:47 BOT 2012: STATS > BUSQUEDA DE BACKTONE >Tiempo: 0.081754 seg. | registros: 114
+Wed Feb 29 16:55:47 BOT 2012: Asignar backtone escuchado > Asi termino:103135,105767,103276,103133,105765,105762,105764,103134,103275,105235,105760,103274,122285,102680,110495,105367,102682,102678,102677,102676,
+Wed Feb 29 16:56:30 BOT 2012: Ajax->Mostrar Ranking:  
+Wed Feb 29 17:01:54 BOT 2012: Ajax-> Mostrar  Nombre Artista > tono:125090 
+Wed Feb 29 17:03:06 BOT 2012: Ajax->Mostrar Reproducciones:  
+Wed Feb 29 17:03:18 BOT 2012: ASYNC -> STATS> Tiempo respuesta 0.003409 seg.
+Wed Feb 29 17:03:21 BOT 2012: Ajax-> Mostrar Ranking > tono:128299 
+Wed Feb 29 17:04:34 BOT 2012: Ajax-> Mostrar  Nombre Genero > tono:135690 
+Wed Feb 29 17:05:19 BOT 2012: Ajax->Actualizar pin usuario
+Wed Feb 29 17:05:22 BOT 2012: Ajax->Mostrar Comentarios:  
+Wed Feb 29 17:06:58 BOT 2012: Ajax-> Mostrar  Imagen Portada> tono:104215 
+Wed Feb 29 17:06:58 BOT 2012: Asignar backtone escuchado > Asi termino:103552,104991,104846,105243,105281,105282,105096,128425,134660,103762,125090,106000,125088,102777,104904,102778,103052,125067,126091,126093,
+Wed Feb 29 17:06:58 BOT 2012: ASYNC -> STATS> Tiempo respuesta 0.012695 seg.
+Wed Feb 29 17:08:58 BOT 2012: Ajax-> Mostrar Comentarios> tono:103232 
+Wed Feb 29 17:09:58 BOT 2012: Ajax-> Mostrar Megusta> tono:143750 
+Wed Feb 29 17:10:40 BOT 2012: Ajax->Mostrar Nombre Artista:  
+Wed Feb 29 17:11:14 BOT 2012: Busqueda Inteligente: 
+Wed Feb 29 17:11:59 BOT 2012: Ajax->Mostrar Nombre Genero:  
+Wed Feb 29 17:12:41 BOT 2012: Ajax->Mostrar Megusta:  
+Wed Feb 29 17:13:35 BOT 2012: Mostrar Megusta > tono: 109314 msisdn:75033872 > cantidad de registros: 0
+Wed Feb 29 17:13:56 BOT 2012: Ajax->Mostrar Reproducciones:  
+Wed Feb 29 17:17:32 BOT 2012: Mostrar Album: >Artista:  <a href='index.php?seccion=playlist&autor=311'>Gloria Trevi</a>
+Wed Feb 29 17:18:05 BOT 2012: ASYNC -> STATS> Tiempo respuesta 0.003108 seg.
+Wed Feb 29 17:19:25 BOT 2012: Ajax->Mostrar Ranking:  
+Wed Feb 29 17:20:28 BOT 2012: Busqueda Inteligente: NINO BRAVO
+Wed Feb 29 17:20:31 BOT 2012: Ajax-> Mostrar  Genero > G&eacute;nero:  <a href='index.php?seccion=playlist&genero=155'>Romanticas</a>
+Wed Feb 29 17:23:40 BOT 2012: Session Start>  session por defecto 
+Wed Feb 29 17:24:01 BOT 2012: Ajax->Mostrar Comentarios:  
+Wed Feb 29 17:24:37 BOT 2012: Ajax->Mostrar Reproducciones:  
+Wed Feb 29 17:24:58 BOT 2012: Ajax->Mostrar Nombre Artista:  
+Wed Feb 29 17:25:58 BOT 2012: Ajax-> Mostrar Ranking > tono:134631 
+Wed Feb 29 17:26:16 BOT 2012: Busqueda Inteligente: resultados >103146
+Wed Feb 29 17:26:38 BOT 2012: ASYNC -> STATS> Tiempo respuesta -0.949051 seg.
+Wed Feb 29 17:26:38 BOT 2012: ASYNC -> STATS> Tiempo respuesta -0.082073 seg.
+Wed Feb 29 17:26:38 BOT 2012: ASYNC -> STATS> Tiempo respuesta -0.37144 seg.
+Wed Feb 29 17:27:50 BOT 2012: Mostrar Album: >Artista:  <a href='index.php?seccion=playlist&autor=1107'>Version Solumovil</a>
+Wed Feb 29 17:30:44 BOT 2012: Ajax->Mostrar Megusta:  
+Wed Feb 29 17:31:05 BOT 2012: Ajax-> Mostrar Megusta> tono:120254 
+Wed Feb 29 17:31:29 BOT 2012: Ajax-> Mostrar  Nombre Artista > tono:127295 
+Wed Feb 29 17:33:14 BOT 2012: Ajax-> Mostrar Ranking > tono:131730 
+Wed Feb 29 17:33:32 BOT 2012: Ajax-> Mostrar Comentarios> tono:146590 
+Wed Feb 29 17:33:32 BOT 2012: Asignar backtone escuchado > Asi termino:103376,103380,103379,103378,103377,104400,104429,130830,126142,126173,134658,126141,126167,
+Wed Feb 29 17:35:15 BOT 2012: Ajax-> Mostrar  Imagen Portada> tono:104938 
+Wed Feb 29 17:35:39 BOT 2012: Ajax->Mostrar Nombre Genero:  
+Wed Feb 29 18:14:28 BOT 2012: STATS > BUSQUEDA DE BACKTONE >Tiempo: 0.252882 seg. | registros: 3
+Wed Feb 29 18:16:35 BOT 2012: Ajax-> Mostrar Ranking > tono:103481 
+Wed Feb 29 18:19:44 BOT 2012: Mostrar Cantidad reproducciones: tono:103351 cantidad: 0
+Wed Feb 29 18:23:32 BOT 2012: ASYNC -> STATS> Tiempo respuesta 0.001553 seg.
+Wed Feb 29 18:25:03 BOT 2012: Ajax->Mostrar Nombre Artista:  
+Wed Feb 29 18:26:15 BOT 2012: Ajax-> Mostrar Megusta> tono:117842 
+Wed Feb 29 18:27:24 BOT 2012: Ajax-> Mostrar  Imagen Portada> tono:106390 
+Wed Feb 29 18:29:51 BOT 2012: Ajax->Mostrar Megusta:  
+Wed Feb 29 18:31:43 BOT 2012: Mostrar Album: >Artista:  <a href='index.php?seccion=playlist&autor=31'>Shakira</a>
+Wed Feb 29 18:33:46 BOT 2012: Ajax->Mostrar Ranking:  
+Wed Feb 29 18:35:37 BOT 2012: WEB REPROD BUSQ > Facebook link: http%3A%2F%2Fbacktones.tigo.com.bo%2Fv3%2Findex.php%3Fseccion%3Dplaylist%26genero%3D118%26f%3D1%26t%3D123123
+Wed Feb 29 18:36:13 BOT 2012: STATS > BUSQUEDA DE BACKTONE >Tiempo: 0.042814 seg. | registros: 114
+Wed Feb 29 18:37:37 BOT 2012: Mostrar Genero: >G&eacute;nero:  <a href='index.php?seccion=playlist&genero=118'>Futbol</a>
+Wed Feb 29 18:38:34 BOT 2012: Ajax-> Mostrar  Imagen Portada> tono:420 
+Wed Feb 29 18:38:47 BOT 2012: Ajax->Mostrar Reproducciones:  
+Wed Feb 29 18:44:32 BOT 2012: Ajax->Mostrar Ranking:  
+Wed Feb 29 18:44:38 BOT 2012: Ajax-> Mostrar Ranking > tono:131035 
+Wed Feb 29 18:44:47 BOT 2012: ASYNC -> STATS> Tiempo respuesta 0.019916 seg.
+Wed Feb 29 18:47:48 BOT 2012: Ajax->Mostrar Nombre Genero:  
+Wed Feb 29 18:50:00 BOT 2012: Asignar backtone escuchado > Asi termino:109231,136237,136235,136234,105275,105274,105273,137276,137274,137272,137270,556,113634,113619,103897,103896,103894,103891,103890,103889,
+Wed Feb 29 18:51:03 BOT 2012: Ajax->Mostrar Ranking:  
+Wed Feb 29 18:51:45 BOT 2012: Ajax->Mostrar Comentarios:  
+Wed Feb 29 18:54:49 BOT 2012: Ajax-> Mostrar Ranking > tono:131618 
+Wed Feb 29 18:57:31 BOT 2012: Ajax-> Mostrar Ranking > tono:105294 
+Wed Feb 29 18:59:31 BOT 2012: Session Start>  session por defecto 
+Wed Feb 29 18:59:52 BOT 2012: Ajax-> Mostrar Megusta> tono:131706 
+Wed Feb 29 18:59:52 BOT 2012: Asignar backtone escuchado > Asi termino:103709,104296,103708,126712,103704,116862,126857,104738,104648,104299,104300,104357,124053,131751,124048,132078,537,119101,126710,
+Wed Feb 29 19:02:02 BOT 2012: Ajax->Mostrar Nombre Genero:  
+Wed Feb 29 19:04:05 BOT 2012: Ajax->Mostrar Nombre Artista:  
+Wed Feb 29 19:05:05 BOT 2012: Ajax-> Cerrar session: msisdn: > Cerrada exitosamente 
+Wed Feb 29 19:07:42 BOT 2012: Ajax->Mostrar Megusta:  
+Wed Feb 29 19:13:54 BOT 2012: Ajax-> Mostrar Comentarios> tono:105040 
+Wed Feb 29 19:14:49 BOT 2012: Ajax->Mostrar Reproducciones:  
+Wed Feb 29 19:22:44 BOT 2012: Session Start>  session por defecto 
+Wed Feb 29 19:25:53 BOT 2012: Mostrar Cantidad reproducciones: tono:102730 cantidad: 0
+Wed Feb 29 19:27:23 BOT 2012: ASYNC -> STATS> Tiempo respuesta -0.150072 seg.
+Wed Feb 29 19:27:38 BOT 2012: Busqueda Inteligente: resultados >104815
+Wed Feb 29 19:28:17 BOT 2012: Ajax->Mostrar Megusta:  
+Wed Feb 29 19:29:00 BOT 2012: ASYNC -> STATS> Tiempo respuesta -0.633624 seg.
+Wed Feb 29 19:29:12 BOT 2012: Mostrar Album: >albumes/album-default.jpg
+Wed Feb 29 19:30:54 BOT 2012: Busqueda Inteligente: resultados >137244
+Wed Feb 29 19:34:09 BOT 2012: Ajax-> Mostrar Ranking > tono:146242 
+Wed Feb 29 19:36:55 BOT 2012: Ajax->Mostrar Reproducciones:  
+Wed Feb 29 19:36:58 BOT 2012: Mostrar Ranking: tono:128604 calificacion: 5
+Wed Feb 29 19:39:40 BOT 2012: Ajax->Mostrar Reproducciones:  
+Wed Feb 29 19:46:26 BOT 2012: Ajax-> Mostrar Comentarios> tono:126710 
+Wed Feb 29 19:47:11 BOT 2012: Ajax-> Mostrar  Imagen Portada> tono:141833 
+Wed Feb 29 19:47:11 BOT 2012: Ajax-> Mostrar  Nombre Artista > tono:128424 
+Wed Feb 29 19:50:18 BOT 2012: Ajax->Mostrar Comentarios:  
+Wed Feb 29 19:52:36 BOT 2012: ASYNC -> STATS> Tiempo respuesta 0.337258 seg.
+Wed Feb 29 19:53:39 BOT 2012: ASYNC -> STATS> Tiempo respuesta -0.46542 seg.
+Wed Feb 29 19:53:42 BOT 2012: ASYNC -> STATS> Tiempo respuesta -0.080915 seg.
+Wed Feb 29 19:53:45 BOT 2012: ASYNC -> STATS> Tiempo respuesta 0.006823 seg.
+Wed Feb 29 19:53:48 BOT 2012: ASYNC -> STATS> Tiempo respuesta 0.009578 seg.
+Wed Feb 29 19:53:48 BOT 2012: Ajax->Mostrar Ranking:  
+Wed Feb 29 19:53:51 BOT 2012: ASYNC -> STATS> Tiempo respuesta -0.078823 seg.
+Wed Feb 29 19:53:54 BOT 2012: Ajax-> Mostrar Comentarios> tono:141116 
+Wed Feb 29 19:58:01 BOT 2012: Ajax->Mostrar Reproducciones:  
+Wed Feb 29 19:58:04 BOT 2012: Ajax->Mostrar Comentarios:  
+Wed Feb 29 19:58:49 BOT 2012: Ajax-> Mostrar Ranking > tono:140834 
+Wed Feb 29 19:59:31 BOT 2012: Asignar backtone escuchado > Asi termino:137880,137879,133447,143078,120258,146577,141946,143746,140836,145264,140834,137877,145218,141118,120257,142287,120256,106388,140832,143743,
+Wed Feb 29 20:00:37 BOT 2012: Ajax->Mostrar Megusta:  
+Wed Feb 29 20:00:46 BOT 2012: ASYNC -> STATS> Tiempo respuesta -0.103652 seg.
+Wed Feb 29 20:00:49 BOT 2012: Ajax->Mostrar Ranking:  
+Wed Feb 29 20:00:49 BOT 2012: Asignar backtone escuchado > Asi termino:103303,104846,105096,103580,509,240,106266,124243,131616,103046,103521,131633,104194,104174,104991,
+Wed Feb 29 20:00:55 BOT 2012: ASYNC -> STATS> Tiempo respuesta 0.005162 seg.
+Wed Feb 29 20:01:07 BOT 2012: Ajax->Mostrar Nombre Genero:  
+Wed Feb 29 20:04:25 BOT 2012: ASYNC -> STATS> Tiempo respuesta -0.0083839999999999 seg.
+Wed Feb 29 20:04:37 BOT 2012: Ajax->Mostrar Nombre Genero:  
+Wed Feb 29 20:04:40 BOT 2012: Busqueda Inteligente: resultados >126172
+Wed Feb 29 20:05:13 BOT 2012: Asignar backtone escuchado > Asi termino:135064,103109,104383,109390,109389,104894,110495,137818,144160,145137,140842,142286,140838,145217,143765,131808,143764,143750,140840,139721,
+Wed Feb 29 20:05:38 BOT 2012: Ajax->Mostrar Nombre Artista:  
+Wed Feb 29 20:08:29 BOT 2012: Ajax->Mostrar Megusta:  
+Wed Feb 29 20:08:29 BOT 2012: Ajax->Mostrar Megusta:  
+Wed Feb 29 20:08:29 BOT 2012: Asignar backtone escuchado > Asi termino:132090,521,104115,105546,125509,105262,103320,104658,113600,112462,125514,145227,105073,104598,142919,7,103886,82,120,104107,
+Wed Feb 29 20:10:44 BOT 2012: Ajax->Mostrar Reproducciones:  
+Wed Feb 29 20:10:47 BOT 2012: Consulta de precio de reason:10 - msisdn: tono:285 Async responde:350
+ 
+Wed Feb 29 20:10:47 BOT 2012: Ajax->Mostrar Ranking:  
+Wed Feb 29 20:10:53 BOT 2012: Ajax->Mostrar Reproducciones:  
+Wed Feb 29 20:10:53 BOT 2012: Ajax->Mostrar Comentarios:  
+Wed Feb 29 20:14:37 BOT 2012: Ajax-> Mostrar  Imagen Portada> tono:285 
+Wed Feb 29 20:14:40 BOT 2012: Ajax->Mostrar Ranking:  
+Wed Feb 29 20:15:48 BOT 2012: Ajax-> Mostrar Megusta> tono:114590 
+Wed Feb 29 20:16:09 BOT 2012: Ajax->Mostrar Reproducciones:  
+Wed Feb 29 20:16:18 BOT 2012: Ajax-> Mostrar Ranking > tono:117841 
+Wed Feb 29 20:18:06 BOT 2012: Busqueda Inteligente: resultados >118752
+Wed Feb 29 20:18:33 BOT 2012: Asignar backtone escuchado > Asi termino:104567,133445,133796,104391,133803,133791,104174,124243,106266,127895,103554,103571,104496,104577,104576,105133,102593,102594,102595,102596,
+Wed Feb 29 20:18:45 BOT 2012: Ajax->Mostrar Reproducciones:  
+Wed Feb 29 20:19:00 BOT 2012: Ajax-> Mostrar Comentarios> tono:145676 
+Wed Feb 29 20:19:03 BOT 2012: Ajax-> Mostrar  Nombre Artista > tono:102629 
+Wed Feb 29 20:19:10 BOT 2012: WEB_REPRODUCIR_BUSQUEDA > Se recibieron:2 tonos
+Wed Feb 29 20:20:10 BOT 2012: Ajax->Mostrar Nombre Artista:  
+Wed Feb 29 20:22:10 BOT 2012: Asignar backtone escuchado > Asi termino:132110,105546,105262,62,131721,139956,139844,118748,118725,104383,128954,112706,112468,112470,112469,102646,103474,103328,102622,
+Wed Feb 29 20:22:34 BOT 2012: Ajax->Mostrar Nombre Genero:  
+Wed Feb 29 20:22:58 BOT 2012: Ajax->Mostrar Comentarios:  
+Wed Feb 29 20:23:22 BOT 2012: Mostrar Comentarios : tono:110 
+Wed Feb 29 20:27:32 BOT 2012: Ajax->Mostrar Reproducciones:  
+Wed Feb 29 20:27:32 BOT 2012: Ajax->Mostrar Ranking:  
+Wed Feb 29 20:28:29 BOT 2012: Ajax-> Mostrar  Imagen Portada> tono:131721 
+Wed Feb 29 20:29:47 BOT 2012: Busqueda Inteligente: Resultado 
+ -1 
+Wed Feb 29 20:30:29 BOT 2012: Ajax->Mostrar Reproducciones:  
+Wed Feb 29 20:31:08 BOT 2012: Mostrar Ranking: tono:118752 calificacion: 4
+Wed Feb 29 20:32:05 BOT 2012: ASYNC -> STATS> Tiempo respuesta -0.028702 seg.
+Wed Feb 29 20:32:47 BOT 2012: Ajax->Mostrar Imagen Portada:  
+Wed Feb 29 20:34:15 BOT 2012: Ajax-> Mostrar  Nombre Artista > tono:103507 
+Wed Feb 29 20:35:18 BOT 2012: Ajax-> Mostrar Ranking > tono:139960 
+Wed Feb 29 20:38:48 BOT 2012: Ajax-> Mostrar  Imagen Portada> Album:albumes/RENUEVO ESPIRITUAL.jpg
+Wed Feb 29 20:40:45 BOT 2012: Consulta de precio de reason:2 - msisdn:78186517 tono:145895 Async responde:350
+ 
+Wed Feb 29 20:40:45 BOT 2012: ASYNC -> STATS> Tiempo respuesta 0.022779 seg.
+Wed Feb 29 20:41:31 BOT 2012: Ajax->Mostrar Ranking:  
+Wed Feb 29 20:41:43 BOT 2012: Ajax->Mostrar Imagen Portada:  
+Wed Feb 29 20:43:40 BOT 2012: ASYNC -> STATS> Tiempo respuesta -0.377545 seg.
+Wed Feb 29 20:46:22 BOT 2012: ASYNC -> STATS> Tiempo respuesta 0.002479 seg.
+Wed Feb 29 20:47:01 BOT 2012: Ajax-> Mostrar Megusta> tono:144306 
+Wed Feb 29 20:47:31 BOT 2012: session-default => asignando por default session
+Wed Feb 29 20:55:41 BOT 2012: Mostrar Genero: >G&eacute;nero:  <a href='index.php?seccion=playlist&genero=102'>Chistes</a>
+Wed Feb 29 20:56:24 BOT 2012: Ajax->Mostrar Comentarios:  
+Wed Feb 29 20:57:09 BOT 2012: Ajax->Mostrar Ranking:  
+Wed Feb 29 20:57:18 BOT 2012: Ajax->Mostrar Ranking:  
+Wed Feb 29 20:59:48 BOT 2012: ASYNC -> STATS> Tiempo respuesta -0.013666 seg.
+Wed Feb 29 20:59:51 BOT 2012: ASYNC -> STATS> Tiempo respuesta 0.482245 seg.
+Wed Feb 29 21:01:18 BOT 2012: Ajax->Mostrar Nombre Genero:  
+Wed Feb 29 21:02:00 BOT 2012: Session Start>  session por defecto 
+Wed Feb 29 21:03:00 BOT 2012: Ajax->Mostrar Nombre Artista:  
+Wed Feb 29 21:03:28 BOT 2012: Ajax->Mostrar Nombre Genero:  
+Wed Feb 29 21:05:16 BOT 2012: Ajax-> popup_listar_amigos: msisdn:75781468 
+Wed Feb 29 21:07:43 BOT 2012: Ajax-> Mostrar Ranking > tono:127759 
+Wed Feb 29 21:09:55 BOT 2012: Ajax->Mostrar Imagen Portada:  
+Wed Feb 29 21:10:04 BOT 2012: Busqueda Inteligente: resultados >135070
+Wed Feb 29 21:15:26 BOT 2012: ASYNC -> STATS> Tiempo respuesta -0.022897 seg.
+Wed Feb 29 21:16:11 BOT 2012: Ajax->Mostrar Nombre Artista:  
+Wed Feb 29 21:17:38 BOT 2012: Busqueda Inteligente: resultados >104435
+Wed Feb 29 21:17:56 BOT 2012: ASYNC -> STATS> Tiempo respuesta 0.00283 seg.
+Wed Feb 29 21:18:18 BOT 2012: Session Start>  session por defecto 
+Wed Feb 29 21:18:36 BOT 2012: Ajax->Mostrar Ranking:  
+Wed Feb 29 21:18:45 BOT 2012: Ajax->Mostrar Megusta:  
+Wed Feb 29 21:19:09 BOT 2012: Session Start>  session por defecto 
+Wed Feb 29 21:19:09 BOT 2012: Ajax-> Mostrar Ranking > tono:125516 
+Wed Feb 29 21:19:36 BOT 2012: Session Start>  session por defecto 
+Wed Feb 29 21:22:30 BOT 2012: ASYNC -> STATS> Tiempo respuesta 0.003888 seg.
+Wed Feb 29 21:25:09 BOT 2012: Ajax->Mostrar Reproducciones:  
+Wed Feb 29 21:27:10 BOT 2012: MTD_DB_BUSCAR_ARTISTAS > retornando registros:49
+Wed Feb 29 21:27:28 BOT 2012: ASYNC -> STATS> Tiempo respuesta -0.018389 seg.
+Wed Feb 29 21:31:43 BOT 2012: Mostrar Genero: >G&eacute;nero:  <a href='index.php?seccion=playlist&genero=136'>Reggaeton</a>
+Wed Feb 29 21:44:48 BOT 2012: Ajax->Mostrar Comentarios:  
+Wed Feb 29 21:46:03 BOT 2012: Ajax->Mostrar Nombre Genero:  
+Wed Feb 29 21:46:24 BOT 2012: ASYNC -> STATS> Tiempo respuesta 0.002742 seg.
+Wed Feb 29 21:50:01 BOT 2012: ASYNC -> STATS> Tiempo respuesta 0.170235 seg.
+Wed Feb 29 21:58:02 BOT 2012: Ajax->Mostrar Nombre Artista:  
+Wed Feb 29 21:58:56 BOT 2012: Busqueda Inteligente: vaina loca 
+Wed Feb 29 21:59:02 BOT 2012: Ajax-> Mostrar Ranking > tono:135057 
+Wed Feb 29 21:59:38 BOT 2012: Ajax->Mostrar Megusta:  
+Wed Feb 29 22:00:44 BOT 2012: ASYNC -> STATS> Tiempo respuesta 0.0021610000000001 seg.
+Wed Feb 29 22:00:47 BOT 2012: Ajax->Mostrar Ranking:  
+Wed Feb 29 22:00:53 BOT 2012: Ajax->Mostrar Ranking:  
+Wed Feb 29 22:02:45 BOT 2012: Ajax-> Mostrar Megusta> tono:104496 
+Wed Feb 29 22:03:57 BOT 2012: Ajax->Mostrar Megusta:  
+Wed Feb 29 22:04:39 BOT 2012: Ajax->Mostrar Nombre Artista:  
+Wed Feb 29 22:05:00 BOT 2012: Ajax->Mostrar Ranking:  
+Wed Feb 29 22:05:06 BOT 2012: Asignar backtone escuchado > Asi termino:145319,103521,103476,103478,103475,276,509,

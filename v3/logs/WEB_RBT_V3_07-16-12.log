@@ -1,0 +1,42 @@
+Mon Jul 16 17:12:40 BOT 2012: Ajax-> Mostrar  Nombre Artista > tono:107757 
+Mon Jul 16 17:13:04 BOT 2012: Busqueda Inteligente: resultados >102690
+Mon Jul 16 17:19:11 BOT 2012: STATS > BUSQUEDA DE BACKTONE >Tiempo: 0.409644 seg. | registros: 62
+Mon Jul 16 17:19:53 BOT 2012: ASYNC -> STATS> Tiempo respuesta 0.005341 seg.
+Mon Jul 16 17:20:47 BOT 2012: Ajax->Mostrar Ranking:  
+Mon Jul 16 17:23:36 BOT 2012: Ajax-> Mostrar  Genero > G&eacute;nero:  <a href='index.php?seccion=playlist&genero=108'>Cristianas</a>
+Mon Jul 16 17:23:36 BOT 2012: Ajax->Mostrar Megusta:  
+Mon Jul 16 17:23:57 BOT 2012: DB_LISTAR_TONOS> Se econtraron 88 resultados con estos ID:104561,105746,103477,144690,103823,104920,104921,104926,107755,112464,134028,102756,104929,145160,144692,105273,104053,104821,103830,145207,152118,104522,104533,103940,104165,103474,126476,144104,150020,103991,130984,145261,126462,103691,103190,103595,104567,106304,102741,105068,105024,62,106380,104569,106305,104661,152112,102694,136630,104582,133699,104023,130832,104465,199,104199,103224,104307,103598,103671,106306,104190,105096,105036,104447,107763,106298,106286,106288,106289,106299,106290,106294,106295,103748,103479,103470,103750,103821,103745,105040,103822,140821,104147,104249,104248,104247,104246, 
+Mon Jul 16 17:25:48 BOT 2012: Asignar backtone escuchado > Asi termino:105273,112464,104926,103823,144690,103477,105746,104561,107751,107749,107747,144149,134028,107586,103482,103927,134025,147767,103428,103481,
+Mon Jul 16 17:25:48 BOT 2012: Check Session > msisdn: 75575912 > Usuario Valido 
+Mon Jul 16 17:30:22 BOT 2012: Ajax-> Mostrar Ranking > tono:104911 
+Mon Jul 16 17:30:22 BOT 2012: Ajax-> Mostrar  Imagen Portada> tono:103204 
+Mon Jul 16 17:31:22 BOT 2012: Ajax-> Mostrar Comentarios> tono:145209 
+Mon Jul 16 17:33:05 BOT 2012: Mostrar Megusta> tono: 286 msisdn: > a otros 1  les gusta 
+Mon Jul 16 17:34:59 BOT 2012: Ajax-> Mostrar Comentarios> tono:144150 
+Mon Jul 16 17:35:32 BOT 2012: Ajax->Mostrar Megusta:  
+Mon Jul 16 17:40:33 BOT 2012: Ajax->Mostrar Nombre Artista:  
+Mon Jul 16 17:42:17 BOT 2012: Busqueda Inteligente: resultados >147378
+Mon Jul 16 17:50:02 BOT 2012: Ajax-> Mostrar Ranking > tono:109322 
+Mon Jul 16 17:54:38 BOT 2012: Ajax-> Mostrar  Imagen Portada> Album:Artista:  <a href='index.php?seccion=playlist&autor=1245'>Pablo Fernandez</a>
+Mon Jul 16 17:55:45 BOT 2012: Busqueda Inteligente: Selena Gomez
+Mon Jul 16 17:56:06 BOT 2012: Ajax-> Mostrar  Nombre Genero > tono:132078 
+Mon Jul 16 18:00:22 BOT 2012: Ajax->Mostrar Ranking:  
+Mon Jul 16 18:02:19 BOT 2012: Ajax->Mostrar Nombre Genero:  
+Mon Jul 16 18:11:12 BOT 2012: Ajax->Mostrar Imagen Portada:  
+Mon Jul 16 18:13:51 BOT 2012: Ajax-> Mostrar Ranking > tono:144194 
+Mon Jul 16 18:14:24 BOT 2012: Ajax->Mostrar Reproducciones:  
+Mon Jul 16 18:15:24 BOT 2012: Ajax->Mostrar Reproducciones:  
+Mon Jul 16 18:16:52 BOT 2012: Ajax-> Mostrar Ranking > tono:142927 
+Mon Jul 16 18:19:40 BOT 2012: Ajax-> Mostrar  Nombre Artista > tono:136256 
+Mon Jul 16 18:20:49 BOT 2012: ASYNC -> STATS> Tiempo respuesta 0.801759 seg.
+Mon Jul 16 18:21:29 BOT 2012: Ajax-> Mostrar Comentarios> tono:133414 
+Mon Jul 16 18:21:53 BOT 2012: Ajax-> Mostrar  Nombre Artista > tono:144162 
+Mon Jul 16 18:24:08 BOT 2012: Ajax-> Mostrar Ranking > tono:105600 
+Mon Jul 16 18:24:08 BOT 2012: Ajax->Mostrar Nombre Genero:  
+Mon Jul 16 18:27:39 BOT 2012: Ajax-> Mostrar  Nombre Artista > tono:105833 
+Mon Jul 16 18:31:55 BOT 2012: Ajax->Mostrar Nombre Artista:  
+Mon Jul 16 20:01:52 BOT 2012: Asignar backtone escuchado > Asi termino:105553,104911,129925,306,105600,145209,133881,105234,125516,
+Mon Jul 16 20:05:59 BOT 2012: Busqueda Inteligente: 
+Mon Jul 16 20:13:25 BOT 2012: Asignar backtone escuchado > Asi termino:104354,104253,125735,104401,104400,104399,104429,102943,102944,120225,104861,104818,104819,103556,104329,104328,128608,133856,103941,128602,
+Mon Jul 16 20:19:38 BOT 2012: Ajax->Mostrar Nombre Artista:  
+Mon Jul 16 20:20:17 BOT 2012: Mostrar Album: >Artista:  <a href='index.php?seccion=playlist&autor=161'>Azul azul</a>

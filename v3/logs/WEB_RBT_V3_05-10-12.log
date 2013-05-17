@@ -1,0 +1,32 @@
+Thu May 10 13:12:52 BOT 2012: Ajax->Mostrar Imagen Portada:  
+Thu May 10 20:23:22 BOT 2012: Busqueda Inteligente: resultados >128604
+Thu May 10 20:23:37 BOT 2012: Ajax-> Mostrar Ranking > tono:104215 
+Thu May 10 20:23:40 BOT 2012: ASYNC -> STATS> Tiempo respuesta 0.006826 seg.
+Thu May 10 20:23:40 BOT 2012: Ajax->Mostrar Reproducciones:  
+Thu May 10 20:24:53 BOT 2012: Ajax-> Mostrar  Nombre Genero > tono:104469 
+Thu May 10 20:25:23 BOT 2012: Mostrar Album: >albumes/album-default.jpg
+Thu May 10 20:26:29 BOT 2012: Mostrar Megusta> tono: 104206 msisdn: > a otros 2  les gusta 
+Thu May 10 20:27:53 BOT 2012: Ajax-> Mostrar  Nombre Artista > tono:105006 
+Thu May 10 20:28:47 BOT 2012: Consulta de precio de reason:3 - msisdn: tono:103602 Async responde:350
+ 
+Thu May 10 20:30:36 BOT 2012: Ajax->Mostrar Ranking:  
+Thu May 10 20:32:09 BOT 2012: Mostrar Ranking: tono:129899 calificacion: 
+Thu May 10 20:34:09 BOT 2012: Ajax->Mostrar Reproducciones:  
+Thu May 10 20:38:04 BOT 2012: Asignar backtone escuchado > Asi termino:104999,126029,105498,103687,129445,129230,123218,110221,103686,132096,103713,148115,145328,104465,103712,141880,141881,142527,104470,105501,
+Thu May 10 20:38:43 BOT 2012: Ajax-> Mostrar Ranking > tono:126486 
+Thu May 10 20:39:22 BOT 2012: Ajax->Mostrar Reproducciones:  
+Thu May 10 20:39:22 BOT 2012: Ajax-> Mostrar Ranking > tono:103090 
+Thu May 10 20:40:46 BOT 2012: ASYNC -> STATS> Tiempo respuesta 0.003544 seg.
+Thu May 10 20:43:05 BOT 2012: Ajax->Mostrar Reproducciones:  
+Thu May 10 20:45:08 BOT 2012: Ajax->Mostrar Imagen Portada:  
+Thu May 10 20:53:03 BOT 2012: Ajax->Mostrar Ranking:  
+Thu May 10 20:53:06 BOT 2012: Ajax->Mostrar Nombre Genero:  
+Thu May 10 20:53:51 BOT 2012: Ajax->Mostrar Comentarios:  
+Thu May 10 20:54:12 BOT 2012: Busqueda Inteligente: resultados >-1
+Thu May 10 20:54:12 BOT 2012: Ajax-> Mostrar  Nombre Artista > tono:145198 
+Thu May 10 20:55:18 BOT 2012: ASYNC -> STATS> Tiempo respuesta 0.003677 seg.
+Thu May 10 20:56:33 BOT 2012: ASYNC -> STATS> Tiempo respuesta 0.02263 seg.
+Thu May 10 20:56:39 BOT 2012: ASYNC -> STATS> Tiempo respuesta 0.1379 seg.
+Thu May 10 20:57:01 BOT 2012: Ajax->Mostrar Nombre Genero:  
+Thu May 10 20:57:19 BOT 2012: Ajax->Mostrar Megusta:  
+Thu May 10 20:58:55 BOT 2012: Ajax-> Mostrar Ranking > tono:103284 

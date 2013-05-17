@@ -1,0 +1,79 @@
+Fri Dec 23 0:07:25 BOT 2011: Mostrar Ranking: tono:142527 calificacion: 
+Fri Dec 23 0:10:07 BOT 2011: Ajax->Mostrar Nombre Artista:  
+Fri Dec 23 0:11:43 BOT 2011: ASYNC -> STATS> Tiempo respuesta 0.001262 seg.
+Fri Dec 23 0:12:56 BOT 2011: Ajax->Mostrar Ranking:  
+Fri Dec 23 0:14:17 BOT 2011: ASYNC -> STATS> Tiempo respuesta 0.006171 seg.
+Fri Dec 23 0:14:23 BOT 2011: ASYNC -> STATS> Tiempo respuesta 0.003849 seg.
+Fri Dec 23 0:15:29 BOT 2011: Asignar backtone escuchado > Asi termino:122283,113634,103897,103557,113632,133453,113631,133452,113630,129927,104886,104819,130364,112469,105307,103171,
+Fri Dec 23 0:16:59 BOT 2011: ASYNC -> STATS> Tiempo respuesta 0.002273 seg.
+Fri Dec 23 0:17:26 BOT 2011: Ajax->Mostrar Nombre Genero:  
+Fri Dec 23 0:21:36 BOT 2011: Busqueda Inteligente: resultados >103479
+Fri Dec 23 0:35:17 BOT 2011: Busqueda Inteligente: resultados >104554
+Fri Dec 23 21:29:39 BOT 2011: Ajax->Mostrar Comentarios:  
+Fri Dec 23 21:31:51 BOT 2011: Ajax->Mostrar Imagen Portada:  
+Fri Dec 23 21:33:03 BOT 2011: Ajax-> Mostrar  Imagen Portada> tono:104190 
+Fri Dec 23 21:33:36 BOT 2011: Ajax->Mostrar Reproducciones:  
+Fri Dec 23 21:34:21 BOT 2011: Ajax->Mostrar Reproducciones:  
+Fri Dec 23 21:34:27 BOT 2011: Consulta de precio de reason:2 - msisdn: tono:126146 Async responde:350
+ 
+Fri Dec 23 21:34:30 BOT 2011: ASYNC -> STATS> Tiempo respuesta 0.0027149999999999 seg.
+Fri Dec 23 21:34:33 BOT 2011: Asignar backtone escuchado > Asi termino:126146,177,592,135079,104914,104516,114,103499,135274,103498,135075,135074,123010,104532,
+Fri Dec 23 21:34:36 BOT 2011: ASYNC -> STATS> Tiempo respuesta 0.194973 seg.
+Fri Dec 23 21:34:36 BOT 2011: ASYNC -> STATS> Tiempo respuesta -0.014525 seg.
+Fri Dec 23 21:34:39 BOT 2011: Ajax->Mostrar Ranking:  
+Fri Dec 23 21:37:28 BOT 2011: Ajax->Mostrar Comentarios:  
+Fri Dec 23 21:43:26 BOT 2011: Ajax->Mostrar Reproducciones:  
+Fri Dec 23 21:44:05 BOT 2011: Ajax->Mostrar Reproducciones:  
+Fri Dec 23 21:47:14 BOT 2011: Ajax-> Mostrar Comentarios> tono:137886 
+Fri Dec 23 21:47:20 BOT 2011: Ajax->Mostrar Nombre Genero:  
+Fri Dec 23 21:48:17 BOT 2011: Ajax-> Mostrar Comentarios> tono:105096 
+Fri Dec 23 21:48:54 BOT 2011: Ajax->Mostrar Nombre Artista:  
+Fri Dec 23 21:48:54 BOT 2011: Ajax->Mostrar Imagen Portada:  
+Fri Dec 23 21:53:03 BOT 2011: Ajax->Mostrar Reproducciones:  
+Fri Dec 23 21:55:06 BOT 2011: Session Start>  session por defecto 
+Fri Dec 23 21:56:34 BOT 2011: ASYNC -> STATS> Tiempo respuesta -0.033034 seg.
+Fri Dec 23 21:57:04 BOT 2011: Ajax-> Mostrar Ranking > tono:104991 
+Fri Dec 23 21:57:16 BOT 2011: Mostrar Ranking: tono:128218 calificacion: 
+Fri Dec 23 21:57:16 BOT 2011: Asignar backtone escuchado > Asi termino:105240,104256,105425,104751,133878,35,104280,104211,103141,103140,124973,103139,103281,103138,105418,103280,103137,129243,135688,104749,
+Fri Dec 23 21:57:16 BOT 2011: Ajax-> Mostrar Comentarios> tono:369 
+Fri Dec 23 21:57:58 BOT 2011: Mostrar Genero: >G&eacute;nero:  <a href='index.php?seccion=playlist&genero=143'>Latinas</a>
+Fri Dec 23 21:58:46 BOT 2011: Asignar backtone escuchado > Asi termino:102661,137248,137263,137255,137244,137264,137259,137249,137251,137246,137257,137261,132454,
+Fri Dec 23 22:01:58 BOT 2011: Ajax->Mostrar Reproducciones:  
+Fri Dec 23 22:03:23 BOT 2011: Ajax->Mostrar Nombre Artista:  
+Fri Dec 23 22:03:38 BOT 2011: Busqueda Inteligente: Daddy Yankee
+Fri Dec 23 22:10:54 BOT 2011: Ajax->Mostrar Reproducciones:  
+Fri Dec 23 22:12:15 BOT 2011: Ajax->Mostrar Reproducciones:  
+Fri Dec 23 22:13:51 BOT 2011: Ajax-> Mostrar  Nombre Artista > tono:103090 
+Fri Dec 23 22:23:13 BOT 2011: Asignar backtone escuchado > Asi termino:110379,110377,110376,110374,110373,109889,116849,105535,122291,127754,127756,115942,131821,127765,127767,127757,127759,109322,109318,246,
+Fri Dec 23 22:23:13 BOT 2011: Ajax->Mostrar Nombre Genero:  
+Fri Dec 23 22:29:26 BOT 2011: STATS > BUSQUEDA DE BACKTONE >Tiempo: 0.028038 seg. | registros: 73
+Fri Dec 23 22:32:11 BOT 2011: Ajax->Mostrar Megusta:  
+Fri Dec 23 22:37:06 BOT 2011: Ajax->Mostrar Nombre Artista:  
+Fri Dec 23 22:37:51 BOT 2011: Ajax-> Mostrar Ranking > tono:104016 
+Fri Dec 23 22:40:49 BOT 2011: Asignar backtone escuchado > Asi termino:123542,123533,137268,106390,124958,131040,560,123540,103977,103978,123515,123528,131730,123530,123525,131042,123518,123531,123519,
+Fri Dec 23 22:59:21 BOT 2011: Ajax-> Mostrar  Nombre Genero > tono:128237 
+Fri Dec 23 23:01:34 BOT 2011: Mostrar Cantidad reproducciones: tono:105519 cantidad: 0
+Fri Dec 23 23:09:05 BOT 2011: Ajax->Mostrar Megusta:  
+Fri Dec 23 23:10:08 BOT 2011: Ajax-> Mostrar Ranking > tono:109317 
+Fri Dec 23 23:10:47 BOT 2011: Consulta de precio de reason:2 - msisdn: tono:103993 Async responde:350
+ 
+Fri Dec 23 23:12:08 BOT 2011: Ajax->Mostrar Megusta:  
+Fri Dec 23 23:13:17 BOT 2011: Ajax->Mostrar Nombre Genero:  
+Fri Dec 23 23:22:28 BOT 2011: ASYNC -> STATS> Tiempo respuesta -0.827582 seg.
+Fri Dec 23 23:34:08 BOT 2011: Ajax-> Mostrar  Imagen Portada> tono:118725 
+Fri Dec 23 23:34:26 BOT 2011: Busqueda Inteligente: resultados >132460
+Fri Dec 23 23:34:38 BOT 2011: ASYNC -> STATS> Tiempo respuesta 0.0088109999999999 seg.
+Fri Dec 23 23:36:45 BOT 2011: ASYNC -> STATS> Tiempo respuesta -0.828243 seg.
+Fri Dec 23 23:37:09 BOT 2011: Ajax->Mostrar Reproducciones:  
+Fri Dec 23 23:45:10 BOT 2011: VALIDAR_MSISDN >7212071 numero invalido
+Fri Dec 23 23:45:58 BOT 2011: Asignar backtone escuchado > Asi termino:117840,104991,131721,105092,105262,118724,140969,106288,104815,104279,240,563,106389,562,561,34,124960,125049,106390,124958,
+Fri Dec 23 23:46:01 BOT 2011: Ajax-> Mostrar  Nombre Genero > tono:117840 
+Fri Dec 23 23:47:34 BOT 2011: ASYNC -> STATS> Tiempo respuesta 0.009547 seg.
+Fri Dec 23 23:49:35 BOT 2011: Ajax->Mostrar Imagen Portada:  
+Fri Dec 23 23:53:29 BOT 2011: Ajax->Mostrar Reproducciones:  
+Fri Dec 23 23:54:08 BOT 2011: Consulta de precio de reason:2 - msisdn:77278086 tono:132458 Async responde:350
+ 
+Fri Dec 23 23:54:08 BOT 2011: Ajax->Mostrar Comentarios:  
+Fri Dec 23 23:54:17 BOT 2011: Asignar backtone escuchado > Asi termino:132458,132460,127376,105237,131829,140783,133698,142527,141881,131821,127759,103790,102630,117850,117848,117841,117840,104991,131721,105092,
+Fri Dec 23 23:54:20 BOT 2011: ASYNC -> STATS> Tiempo respuesta 0.0046360000000001 seg.
+Fri Dec 23 23:57:36 BOT 2011: Ajax->Mostrar Nombre Genero:  

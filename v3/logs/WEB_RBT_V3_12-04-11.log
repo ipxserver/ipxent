@@ -1,0 +1,667 @@
+Sun Dec 4 0:00:34 BOT 2011: Asignar backtone escuchado > Asi termino:104931,102746,104876,104877,102704,102745,102702,104875,104874,104873,104872,104509,103209,103415,102984,104112,102986,104332,104331,104111,
+Sun Dec 4 0:03:38 BOT 2011: DB_LISTAR_TONOS> Se econtraron 114 resultados con estos ID:102622,103328,103474,102646,129924,84,131645,104120,104886,105068,113598,602,103885,520,105309,104121,104107,120,82,103886,7,104598,105073,125514,112462,113600,104658,103320,105262,125509,105546,104115,521,132090,105312,130,138307,105645,106232,132110,104122,113602,110373,560,104659,103438,120228,116849,103439,103760,522,103321,105259,103558,103887,103170,115945,124958,103735,113603,106390,105072,125511,103322,104666,103888,113604,104819,125049,105076,128237,128223,105612,105643,105858,125508,124960,103323,104429,128235,102647,34,113605,104260,561,113607,130993,104123,113609,105075,110374,113611,130988,24,104124,104125,104324,112466,103736,110108,103584,136644,105260,103672,105547,109407,562,103324,103325,115946,120231,113612,105535,106389, 
+Sun Dec 4 0:09:57 BOT 2011: ASYNC -> STATS> Tiempo respuesta -0.010477 seg.
+Sun Dec 4 0:10:00 BOT 2011: Ajax-> Mostrar  Nombre Genero > tono:106388 
+Sun Dec 4 0:10:03 BOT 2011: ASYNC -> STATS> Tiempo respuesta 0.004489 seg.
+Sun Dec 4 0:13:06 BOT 2011: Asignar backtone escuchado > Asi termino:104535,104533,104528,104507,104522,104510,104508,103402,102979,103210,104521,104520,104334,104450,104057,104056,104134,104499,105054,133439,
+Sun Dec 4 0:17:04 BOT 2011: Ajax->Mostrar Ranking:  
+Sun Dec 4 0:17:10 BOT 2011: Ajax-> Mostrar  Imagen Portada> Album:Artista:  <a href='index.php?seccion=playlist&autor=503'>Version Opratel</a>
+Sun Dec 4 0:17:10 BOT 2011: Busqueda Inteligente: Resultado 
+ 104749;Asignatura Pendiente;Ricki Martin;Pop
+135688;Basta Ya;Ricki Martin;Latinas
+129243;Frio Feat Wisin Yandel;Ricki Martin;Latinas
+103137;I dont care;Ricki Martin;Latinas
+103280;ItsAlright;Ricki Martin;Latinas
+105418;Jaleo;Ricki Martin;Latinas
+103138;la bomba;Ricki Martin;Latinas
+103281;LaCopaDeLaVida;Ricki Martin;Latinas
+103139;livin la vida loca;Ricki Martin;Latinas
+124973;Lo mejor de mi vida eres tu;Ricki Martin;Latinas
+103140;Maria*;Ricki Martin;Latinas
+125491;Mas;Ricki Martin;Pop
+103282;SheBangs;Ricki Martin;Latinas
+103141;tu recuerdo;Ricki Martin;Latinas
+125737;Tu Y Yo;Ricki Martin;Pop
+103283;VuelveBlack;Ricki Martin;Latinas
+109208;ole ole argentina;Generico;Mundial Sudáfrica
+109210;vamos argentina;Generico;Mundial Sudáfrica
+108518;vamos vamos argentina;Generico;Mundial Sudáfrica
+103279;AMedioVivir;Ricki Martin;Latinas
+104337;BEYBLADE;Martin Kucaj;Pop
+104334;DIGIMON;Martin Kucaj;Sonidos
+103185;GOL DE MARCELO MARTINS BOL 1 URU 0;Marcelo Martins;FANATIGO
+103186;GOL DE MARCELO MARTINS BOL 2 URU 0;Marcelo Martins;FANATIGO
+109542;martin;Homero;Mi Promo ConTigo
+109669;martina;Homero;Mi Promo ConTigo
+109963;caricias y besos;La Noche;Cumbia
+109674;patricia;Homero;Mi Promo ConTigo
+106367;Patricia reg;Nombre Reggaeton;TU NOMBRE
+131839;Desapariciones;Matamba;Latinas
+102529;El Pricionero;LEO MATTIOLI y LOS PIBES CHORROS;Cumbia
+105416;Esa Muchachita;Mauricio Palo de agua;Latinas
+109455;fabricio;Homero;Mi Promo ConTigo
+109546;mauricio;Homero;Mi Promo ConTigo
+109556;patricio;Homero;Mi Promo ConTigo
+105417;Por Si No Te Vuelvo A Ver;Mauricio Palo de agua;Latinas
+134015;A Llorar A Otra Parte;Americo;Cumbia
+104405;Delectrico;Babasonicos;Latinas
+138856;El Embrujo;Americo;Cumbia
+138647;El Embrujo;Americo;Cumbia
+138846;El Embrujo;Americo;Cumbia
+104345;Enamorados mexicano;Generico;Latinas
+104344;Enamorados salasa;Generico;Salsa y Merengue
+104343;EnBusqueda bachata;Generico;Latinas
+134660;Entre El Odio Y El Amor;Americo;Cumbia
+134661;Me Enamore De Ti Y Que;Americo;Cumbia
+134023;Me Olvide De Tu Amor;Americo;Cumbia
+138854;No Me Mientas;Americo;Cumbia
+138645;No Me Mientas;Americo;Cumbia
+138850;No Me Mientas;Americo;Cumbia
+104342;PasajeBiblico;Generico;Sonidos
+134681;Que Levante La Mano;Americo;Cumbia
+134683;Te Vas;Americo;Cumbia
+134687;Ten Pena Por Ti;Americo;Cumbia
+134686;Tendria Que Llorar Por Ti;Americo;Cumbia
+134638;Traicionera;Americo;Cumbia
+134685;Tu Hipocresia;Americo;Cumbia
+102912;Disco Lipstick;Octavia;Latinas
+105490;La Gran Perdida;Junio Boombastick;Latinas
+142;Ticket to ride;Sike N. Sugarstars;Electronicas
+163;A ti;Ricardo Arjona;RICARDO ARJONA
+103274;AcompanhameAEstarSolo;Ricardo Arjona;Romanticas
+102741;africano loco;Mbarete;Sonidos
+104582;america;NINO BRAVO;Latinas
+133699;Americano;Lady Gaga;Pop
+105758;Animal Nocturno;Ricardo Arjona;RICARDO ARJONA
+131717;Creo en America;opratel;Latinas
+131719;Creo en America Copa America;opratel;Latinas
+105760;Cuando;Ricardo Arjona;RICARDO ARJONA
+103132;De vez en mes;Ricardo Arjona;RICARDO ARJONA
+105235;Desnuda;Ricardo Arjona;RICARDO ARJONA
+103275;DimeQueNo;Ricardo Arjona;Romanticas
+103134;El problema;Ricardo Arjona;Romanticas
+113605;electrica;Wisin y Yandel;Reggaeton
+105764;esus Verbo No Sustantivo;Ricardo Arjona;RICARDO ARJONA
+135692;Fiesta En America;Chayanne;Latinas
+109407;game on;Pitbull;Mundial Sudáfrica
+103729;Gol de Ricardo Verduguez Blooming 1 a La Paz Futbol Club 0;Ricardo Verduguez;Blooming
+104483;Goleada Historica;TV argentina;FANATIGO
+106389;Grito Mundial;Daddy Yankee;Mundial Sudáfrica
+105762;Historia de Taxi;Ricardo Arjona;Romanticas
+137231;Made In America;Jay Z;Hip hop
+137243;Made In America Verse;Jay Z;Hip hop
+123542;Marica arreglado;Pablo Fernandez;Pablo Fernandez
+128300;Marica comiendo pollo;Sebastian Moreno Opratel;Promoción Te Matamos de Risa
+130371;Marica en moto;Sebastian Moreno Opratel;Promoción Te Matamos de Risa
+123533;Marica Trinidad;Pablo Fernandez;Pablo Fernandez
+105765;Me Ensenhaste;Ricardo Arjona;RICARDO ARJONA
+103133;Minutos;Ricardo Arjona;Romanticas
+103276;Mujeres;Ricardo Arjona;Romanticas
+105767;Olvidarte;Ricardo Arjona;RICARDO ARJONA
+114733;Pa pa panamericano;DJ;Electronicas
+114064;panamericano;Yonjayo;Electronicas
+103293;PersianaAmericana;Soda Stereo;Latinas
+103135;pinguinos en la cama;Ricardo Arjona;RICARDO ARJONA
+105236;Por que es Tan Cruel El Amor;Ricardo Arjona;Romanticas
+103277;Quien;Ricardo Arjona;RICARDO ARJONA
+105769;Quiero_;Ricardo Arjona;RICARDO ARJONA
+105771;Realmente no estoy tan solo;Ricardo Arjona;RICARDO ARJONA
+126164;Rica Y Apretadita;A.B. Quintanilla;Latinas
+106370;Ricardo-;Nombre Reggaeton;TU NOMBRE
+105773;Se nos muere el amor;Ricardo Arjona;RICARDO ARJONA
+103278;SenhoraDeLasCuatroDecadas;Ricardo Arjona;RICARDO ARJONA
+103136;Si el norte fuera el sur;Ricardo Arjona;RICARDO ARJONA
+105414;Sierra electrica del terror;Blue Caps Tonos;Sonidos
+103699;Sintonia Americana;Diego Torres;Latinas
+128597;Soy Feliz;Ricardo Montaner;Latinas
+104652;Te Conozco;Ricardo Arjona;RICARDO ARJONA
+105775;Tu Reputacion;Ricardo Arjona;RICARDO ARJONA
+105854;Waving Flag (Coca-Cola Celebration Mix);K`naan;Mundial Sudáfrica
+105855;Waving Flag (Coca-Cola Spanish Celebration Mix);K`naan;Mundial Sudáfrica
+106391;Yerbatero - Juanes;Juanes;Mundial Sudáfrica
+105856; Oh Africa;Akon;Mundial Sudáfrica
+104335;Esta noche es para amar EL REY LEON;EJohn TRice;Pop
+127856;Price Tag;Jessie J;Pop
+ 
+Sun Dec 4 0:17:19 BOT 2011: Session Start>  session por defecto 
+Sun Dec 4 0:18:22 BOT 2011: Asignar backtone escuchado > Asi termino:104921,104920,104244,104245,104246,104247,104248,104249,104147,102741,103685,104523,104133,103533,104447,104547,104535,104533,104528,104507,
+Sun Dec 4 0:20:43 BOT 2011: Ajax-> Mostrar Megusta> tono:104925 
+Sun Dec 4 0:23:56 BOT 2011: Ajax->Mostrar Ranking:  
+Sun Dec 4 0:23:56 BOT 2011: ASYNC -> STATS> Tiempo respuesta 0.004231 seg.
+Sun Dec 4 0:23:56 BOT 2011: Ajax-> Mostrar Ranking > tono:102709 
+Sun Dec 4 0:25:20 BOT 2011: Ajax->Mostrar Megusta:  
+Sun Dec 4 0:30:06 BOT 2011: Consulta de precio de reason:2 - msisdn: tono:103203 Async responde:350
+ 
+Sun Dec 4 0:37:19 BOT 2011: Asignar backtone escuchado > Asi termino:104670,205,209,202,163,102661,538,204,103089,572,102672,103469,103790,102630,123218,110221,103686,104465,103712,
+Sun Dec 4 0:37:52 BOT 2011: Ajax->Mostrar Imagen Portada:  
+Sun Dec 4 11:15:45 BOT 2011: Busqueda Inteligente: resultados >102611
+Sun Dec 4 11:15:57 BOT 2011: Ajax-> Mostrar Comentarios> tono:103968 
+Sun Dec 4 11:17:18 BOT 2011: Ajax-> Mostrar Ranking > tono:126147 
+Sun Dec 4 11:19:40 BOT 2011: STATS > BUSQUEDA DE BACKTONE >Tiempo: -0.155723 seg. | registros: 109
+Sun Dec 4 11:20:01 BOT 2011: Ajax-> Mostrar Comentarios> tono:137253 
+Sun Dec 4 11:20:52 BOT 2011: Ajax-> Mostrar  Nombre Artista > tono:137257 
+Sun Dec 4 11:23:19 BOT 2011: Ajax->Mostrar Reproducciones:  
+Sun Dec 4 11:25:41 BOT 2011: Mostrar Genero: >G&eacute;nero:  <a href='index.php?seccion=playlist&genero=143'>Latinas</a>
+Sun Dec 4 11:27:20 BOT 2011: Ajax-> Mostrar Ranking > tono:131760 
+Sun Dec 4 11:27:53 BOT 2011: Ajax-> Mostrar  Imagen Portada> tono:131046 
+Sun Dec 4 11:33:06 BOT 2011: Ajax->Mostrar Megusta:  
+Sun Dec 4 11:33:57 BOT 2011: Consulta de precio de reason:3 - msisdn:78005728 tono:124419 Async responde:350
+ 
+Sun Dec 4 11:34:03 BOT 2011: ASYNC -> STATS> Tiempo respuesta 0.0092169999999999 seg.
+Sun Dec 4 11:38:31 BOT 2011: ASYNC -> STATS> Tiempo respuesta 0.0031040000000001 seg.
+Sun Dec 4 11:43:56 BOT 2011: Asignar backtone escuchado > Asi termino:125516,
+Sun Dec 4 11:51:00 BOT 2011: Ajax->Mostrar Nombre Artista:  
+Sun Dec 4 11:58:55 BOT 2011: Ajax->Mostrar Comentarios:  
+Sun Dec 4 12:02:07 BOT 2011: Ajax->Mostrar Nombre Artista:  
+Sun Dec 4 12:02:55 BOT 2011: Busqueda Inteligente: resultados >110499
+Sun Dec 4 12:04:16 BOT 2011: Ajax->Mostrar Nombre Genero:  
+Sun Dec 4 12:04:26 BOT 2011: Ajax-> Mostrar Ranking > tono:103420 
+Sun Dec 4 12:04:38 BOT 2011: Consulta de precio de reason:2 - msisdn: tono:140787 Async responde:350
+ 
+Sun Dec 4 12:05:29 BOT 2011: Ajax-> Mostrar Ranking > tono:104213 
+Sun Dec 4 12:05:32 BOT 2011: Ajax->Mostrar Megusta:  
+Sun Dec 4 12:07:05 BOT 2011: Ajax-> Mostrar  Nombre Genero > tono:104877 
+Sun Dec 4 12:08:05 BOT 2011: Ajax->Mostrar Reproducciones:  
+Sun Dec 4 12:10:02 BOT 2011: Ajax->Mostrar Ranking:  
+Sun Dec 4 12:13:24 BOT 2011: ASYNC -> STATS> Tiempo respuesta 0.003285 seg.
+Sun Dec 4 12:16:03 BOT 2011: STATS > BUSQUEDA DE BACKTONE >Tiempo: 0.565599 seg. | registros: 17
+Sun Dec 4 12:16:21 BOT 2011: Busqueda Inteligente: PROPIANGOS
+Sun Dec 4 12:18:27 BOT 2011: Ajax->Mostrar Imagen Portada:  
+Sun Dec 4 12:19:58 BOT 2011: Ajax->Mostrar Megusta:  
+Sun Dec 4 12:20:43 BOT 2011: Ajax->Mostrar Reproducciones:  
+Sun Dec 4 12:23:31 BOT 2011: ASYNC -> STATS> Tiempo respuesta 0.004196 seg.
+Sun Dec 4 12:23:34 BOT 2011: Ajax-> Mostrar Comentarios> tono:108557 
+Sun Dec 4 12:23:34 BOT 2011: Asignar backtone escuchado > Asi termino:103563,102944,120225,102946,102945,105082,104294,104938,104214,104215,130830,104036,104024,131646,131627,131708,131615,105545,135681,103090,
+Sun Dec 4 12:23:43 BOT 2011: ASYNC -> STATS> Tiempo respuesta -0.016902 seg.
+Sun Dec 4 12:23:46 BOT 2011: Consulta de precio de reason:10 - msisdn: tono:103563 Async responde:350
+ 
+Sun Dec 4 12:23:46 BOT 2011: ASYNC -> STATS> Tiempo respuesta -0.048455 seg.
+Sun Dec 4 12:23:49 BOT 2011: ASYNC -> STATS> Tiempo respuesta 0.044734 seg.
+Sun Dec 4 12:25:10 BOT 2011: Ajax->Mostrar Ranking:  
+Sun Dec 4 12:25:19 BOT 2011: ASYNC -> STATS> Tiempo respuesta 0.824086 seg.
+Sun Dec 4 12:25:52 BOT 2011: Ajax->Mostrar Reproducciones:  
+Sun Dec 4 12:25:55 BOT 2011: Ajax->Mostrar Ranking:  
+Sun Dec 4 12:25:55 BOT 2011: Ajax-> Mostrar Megusta> tono:110346 
+Sun Dec 4 12:25:56 BOT 2011: Ajax->Mostrar Reproducciones:  
+Sun Dec 4 12:27:26 BOT 2011: Ajax->Mostrar Nombre Genero:  
+Sun Dec 4 12:28:26 BOT 2011: Ajax-> Mostrar Ranking > tono:103777 
+Sun Dec 4 12:28:29 BOT 2011: ASYNC -> STATS> Tiempo respuesta 0.003989 seg.
+Sun Dec 4 12:28:59 BOT 2011: Busqueda Inteligente: resultados >103744
+Sun Dec 4 12:29:44 BOT 2011: Ajax-> Mostrar Comentarios> tono:103940 
+Sun Dec 4 12:29:44 BOT 2011: Ajax-> Mostrar Ranking > tono:104010 
+Sun Dec 4 12:29:44 BOT 2011: Asignar backtone escuchado > Asi termino:105371,105364,105378,105376,105379,105365,105377,105370,105374,105369,105363,105373,105383,105380,105381,105368,105382,105372,105366,
+Sun Dec 4 12:29:56 BOT 2011: Busqueda Inteligente: resultados >103829
+Sun Dec 4 12:32:32 BOT 2011: Ajax-> Mostrar  Imagen Portada> Album:albumes/Panda-La Revancha Del Principe Charro-Frontal.jpg
+Sun Dec 4 12:36:00 BOT 2011: Ajax->Mostrar Reproducciones:  
+Sun Dec 4 12:36:06 BOT 2011: Ajax->Mostrar Reproducciones:  
+Sun Dec 4 12:36:09 BOT 2011: Ajax-> Mostrar  Nombre Artista > tono:110357 
+Sun Dec 4 12:36:36 BOT 2011: Ajax-> Mostrar  Imagen Portada> tono:110369 
+Sun Dec 4 12:37:57 BOT 2011: Ajax-> Mostrar Comentarios> tono:103521 
+Sun Dec 4 12:38:54 BOT 2011: WEB_REPRODUCIR_BUSQUEDA > Se recibieron:114 tonos
+Sun Dec 4 12:39:18 BOT 2011: Ajax-> Mostrar  Nombre Genero > tono:140785 
+Sun Dec 4 12:39:24 BOT 2011: ASYNC -> STATS> Tiempo respuesta 0.002108 seg.
+Sun Dec 4 12:40:22 BOT 2011: Mostrar Comentarios : tono:103621 
+Sun Dec 4 12:46:01 BOT 2011: Ajax->Mostrar Comentarios:  
+Sun Dec 4 12:46:01 BOT 2011: Asignar backtone escuchado > Asi termino:103506,102537,102742,103414,104846,104107,102673,104745,140825,104968,104894,104307,132466,103997,103824,104199,199,110214,104789,102818,
+Sun Dec 4 12:47:53 BOT 2011: STATS > BUSQUEDA DE BACKTONE >Tiempo: 0.05149 seg. | registros: 80
+Sun Dec 4 12:48:08 BOT 2011: Asignar backtone escuchado > Asi termino:104003,103612,104002,104463,104000,103607,124976,103604,103601,104612,103597,103595,131,104680,124971,105420,109415,109414,104231,104226,
+Sun Dec 4 12:48:29 BOT 2011: Asignar backtone escuchado > Asi termino:124243,240,
+Sun Dec 4 12:49:41 BOT 2011: Ajax-> Mostrar Comentarios> tono:133736 
+Sun Dec 4 12:51:32 BOT 2011: Asignar backtone escuchado > Asi termino:133736,128226,127400,122283,104171,240,104465,103712,135057,135055,135056,135054,127256,139846,139844,139838,116849,132454,134681,
+Sun Dec 4 12:51:32 BOT 2011: ASYNC -> STATS> Tiempo respuesta 0.0017469999999999 seg.
+Sun Dec 4 12:51:32 BOT 2011: Ajax-> Mostrar Ranking > tono:200 
+Sun Dec 4 12:51:35 BOT 2011: Asignar backtone escuchado > Asi termino:102873,102537,103340,272,104876,104877,136632,126147,103798,104276,103968,102620,103392,122543,
+Sun Dec 4 12:53:48 BOT 2011: Ajax-> Mostrar Comentarios> tono:135151 
+Sun Dec 4 12:57:30 BOT 2011: Session Start>  session por defecto 
+Sun Dec 4 13:00:04 BOT 2011: Ajax-> Mostrar Ranking > tono:103640 
+Sun Dec 4 13:00:46 BOT 2011: Ajax-> Mostrar  Nombre Artista > tono:110188 
+Sun Dec 4 13:01:04 BOT 2011: ASYNC -> STATS> Tiempo respuesta 0.001901 seg.
+Sun Dec 4 13:01:43 BOT 2011: Ajax->Mostrar Nombre Genero:  
+Sun Dec 4 13:05:40 BOT 2011: Ajax->Mostrar Reproducciones:  
+Sun Dec 4 13:06:56 BOT 2011: Ajax-> Mostrar  Nombre Genero > tono:105096 
+Sun Dec 4 13:07:56 BOT 2011: Ajax->Mostrar Imagen Portada:  
+Sun Dec 4 13:08:11 BOT 2011: Asignar backtone escuchado > Asi termino:140780,140778,140787,132454,140785,140782,
+Sun Dec 4 13:09:14 BOT 2011: ASYNC -> STATS> Tiempo respuesta -0.0129 seg.
+Sun Dec 4 13:09:44 BOT 2011: ASYNC -> STATS> Tiempo respuesta 0.007067 seg.
+Sun Dec 4 13:09:44 BOT 2011: ASYNC -> STATS> Tiempo respuesta -0.32705 seg.
+Sun Dec 4 13:09:47 BOT 2011: ASYNC -> STATS> Tiempo respuesta -0.002764 seg.
+Sun Dec 4 13:10:02 BOT 2011: Mostrar Ranking: tono:122648 calificacion: 
+Sun Dec 4 13:11:32 BOT 2011: Ajax->Mostrar Comentarios:  
+Sun Dec 4 13:13:51 BOT 2011: ASYNC -> STATS> Tiempo respuesta 0.005609 seg.
+Sun Dec 4 13:13:51 BOT 2011: Ajax-> Mostrar Megusta> tono:103712 
+Sun Dec 4 13:13:51 BOT 2011: Ajax->Mostrar Ranking:  
+Sun Dec 4 13:14:00 BOT 2011: ASYNC -> STATS> Tiempo respuesta -0.123888 seg.
+Sun Dec 4 13:14:03 BOT 2011: Ajax->Mostrar Reproducciones:  
+Sun Dec 4 13:15:12 BOT 2011: Ajax->Mostrar Imagen Portada:  
+Sun Dec 4 13:16:33 BOT 2011: Retornando el siguiente resultado 
+ <div><div id='contenedor-albumes'><div  id="contenedor-busqueda" style="height:35px;">
+    <div class="contenedor-enlaces-busqueda"  >
+        <a class="enlaces-busqueda" style="color:navy;"href='index.php?seccion=playlist&autor=1285' >Rabito</a>
+    </div>
+</div>
+<div  id="contenedor-busqueda" style="height:35px;">
+    <div class="contenedor-enlaces-busqueda"  >
+        <a class="enlaces-busqueda" style="color:navy;"href='index.php?seccion=playlist&autor=465' >Radio Noticia la Red</a>
+    </div>
+</div>
+<div  id="contenedor-busqueda" style="height:35px;">
+    <div class="contenedor-enlaces-busqueda"  >
+        <a class="enlaces-busqueda" style="color:navy;"href='index.php?seccion=playlist&autor=411' >rafaga</a>
+    </div>
+</div>
+<div  id="contenedor-busqueda" style="height:35px;">
+    <div class="contenedor-enlaces-busqueda"  >
+        <a class="enlaces-busqueda" style="color:navy;"href='index.php?seccion=playlist&autor=385' >rainbow</a>
+    </div>
+</div>
+<div  id="contenedor-busqueda" style="height:35px;">
+    <div class="contenedor-enlaces-busqueda"  >
+        <a class="enlaces-busqueda" style="color:navy;"href='index.php?seccion=playlist&autor=1486' >Ramiro Serrano</a>
+    </div>
+</div>
+<div  id="contenedor-busqueda" style="height:35px;">
+    <div class="contenedor-enlaces-busqueda"  >
+        <a class="enlaces-busqueda" style="color:navy;"href='index.php?seccion=playlist&autor=580' >Raphael</a>
+    </div>
+</div>
+<div  id="contenedor-busqueda" style="height:35px;">
+    <div class="contenedor-enlaces-busqueda"  >
+        <a class="enlaces-busqueda" style="color:navy;"href='index.php?seccion=playlist&autor=323' >Rata Blanca</a>
+    </div>
+</div>
+<div  id="contenedor-busqueda" style="height:35px;">
+    <div class="contenedor-enlaces-busqueda"  >
+        <a class="enlaces-busqueda" style="color:navy;"href='index.php?seccion=playlist&autor=44' >Ratones Paranoicos</a>
+    </div>
+</div>
+<div  id="contenedor-busqueda" style="height:35px;">
+    <div class="contenedor-enlaces-busqueda"  >
+        <a class="enlaces-busqueda" style="color:navy;"href='index.php?seccion=playlist&autor=575' >Ray Parker Jr</a>
+    </div>
+</div>
+<div  id="contenedor-busqueda" style="height:35px;">
+    <div class="contenedor-enlaces-busqueda"  >
+        <a class="enlaces-busqueda" style="color:navy;"href='index.php?seccion=playlist&autor=95' >RBD</a>
+    </div>
+</div>
+<div  id="contenedor-busqueda" style="height:35px;">
+    <div class="contenedor-enlaces-busqueda"  >
+        <a class="enlaces-busqueda" style="color:navy;"href='index.php?seccion=playlist&autor=267' >Re Piola</a>
+    </div>
+</div>
+<div  id="contenedor-busqueda" style="height:35px;">
+    <div class="contenedor-enlaces-busqueda"  >
+        <a class="enlaces-busqueda" style="color:navy;"href='index.php?seccion=playlist&autor=490' >Real potosi</a>
+    </div>
+</div>
+<div  id="contenedor-busqueda" style="height:35px;">
+    <div class="contenedor-enlaces-busqueda"  >
+        <a class="enlaces-busqueda" style="color:navy;"href='index.php?seccion=playlist&autor=406' >Regis de Souza</a>
+    </div>
+</div>
+<div  id="contenedor-busqueda" style="height:35px;">
+    <div class="contenedor-enlaces-busqueda"  >
+        <a class="enlaces-busqueda" style="color:navy;"href='index.php?seccion=playlist&autor=28' >Reik</a>
+    </div>
+</div>
+<div  id="contenedor-busqueda" style="height:35px;">
+    <div class="contenedor-enlaces-busqueda"  >
+        <a class="enlaces-busqueda" style="color:navy;"href='index.php?seccion=playlist&autor=632' >Remixeros</a>
+    </div>
+</div>
+<div  id="contenedor-busqueda" style="height:35px;">
+    <div class="contenedor-enlaces-busqueda"  >
+        <a class="enlaces-busqueda" style="color:navy;"href='index.php?seccion=playlist&autor=124' >Ricardo Arjona</a>
+    </div>
+</div>
+<div  id="contenedor-busqueda" style="height:35px;">
+    <div class="contenedor-enlaces-busqueda"  >
+        <a class="enlaces-busqueda" style="color:navy;"href='index.php?seccion=playlist&autor=715' >Ricardo Montaner</a>
+    </div>
+</div>
+<div  id="contenedor-busqueda" style="height:35px;">
+    <div class="contenedor-enlaces-busqueda"  >
+        <a class="enlaces-busqueda" style="color:navy;"href='index.php?seccion=playlist&autor=488' >Ricardo Verduguez</a>
+    </div>
+</div>
+<div  id="contenedor-busqueda" style="height:35px;">
+    <div class="contenedor-enlaces-busqueda"  >
+        <a class="enlaces-busqueda" style="color:navy;"href='index.php?seccion=playlist&autor=444' >Richard Murray</a>
+    </div>
+</div>
+<div  id="contenedor-busqueda" style="height:35px;">
+    <div class="contenedor-enlaces-busqueda"  >
+        <a class="enlaces-busqueda" style="color:navy;"href='index.php?seccion=playlist&autor=372' >Ricki Martin</a>
+    </div>
+</div>
+<div  id="contenedor-busqueda" style="height:35px;">
+    <div class="contenedor-enlaces-busqueda"  >
+        <a class="enlaces-busqueda" style="color:navy;"href='index.php?seccion=playlist&autor=249' >Rihanna</a>
+    </div>
+</div>
+<div  id="contenedor-busqueda" style="height:35px;">
+    <div class="contenedor-enlaces-busqueda"  >
+        <a class="enlaces-busqueda" style="color:navy;"href='index.php?seccion=playlist&autor=661' >River</a>
+    </div>
+</div>
+<div  id="contenedor-busqueda" style="height:35px;">
+    <div class="contenedor-enlaces-busqueda"  >
+        <a class="enlaces-busqueda" style="color:navy;"href='index.php?seccion=playlist&autor=458' >RKM</a>
+    </div>
+</div>
+<div  id="contenedor-busqueda" style="height:35px;">
+    <div class="contenedor-enlaces-busqueda"  >
+        <a class="enlaces-busqueda" style="color:navy;"href='index.php?seccion=playlist&autor=726' >RKM & Ken y</a>
+    </div>
+</div>
+<div  id="contenedor-busqueda" style="height:35px;">
+    <div class="contenedor-enlaces-busqueda"  >
+        <a class="enlaces-busqueda" style="color:navy;"href='index.php?seccion=playlist&autor=29' >Robbie Williams</a>
+    </div>
+</div>
+<div  id="contenedor-busqueda" style="height:35px;">
+    <div class="contenedor-enlaces-busqueda"  >
+        <a class="enlaces-busqueda" style="color:navy;"href='index.php?seccion=playlist&autor=470' >Robert Babicz</a>
+    </div>
+</div>
+<div  id="contenedor-busqueda" style="height:35px;">
+    <div class="contenedor-enlaces-busqueda"  >
+        <a class="enlaces-busqueda" style="color:navy;"href='index.php?seccion=playlist&autor=557' >Rocio Durcal</a>
+    </div>
+</div>
+<div  id="contenedor-busqueda" style="height:35px;">
+    <div class="contenedor-enlaces-busqueda"  >
+        <a class="enlaces-busqueda" style="color:navy;"href='index.php?seccion=playlist&autor=144' >Rodrigo</a>
+    </div>
+</div>
+<div  id="contenedor-busqueda" style="height:35px;">
+    <div class="contenedor-enlaces-busqueda"  >
+        <a class="enlaces-busqueda" style="color:navy;"href='index.php?seccion=playlist&autor=764' >Roger -Sucha- Suarez</a>
+    </div>
+</div>
+<div  id="contenedor-busqueda" style="height:35px;">
+    <div class="contenedor-enlaces-busqueda"  >
+        <a class="enlaces-busqueda" style="color:navy;"href='index.php?seccion=playlist&autor=130' >Roger Sanchez</a>
+    </div>
+</div>
+<div  id="contenedor-busqueda" style="height:35px;">
+    <div class="contenedor-enlaces-busqueda"  >
+        <a class="enlaces-busqueda" style="color:navy;"href='index.php?seccion=playlist&autor=425' >Rojo</a>
+    </div>
+</div>
+<div  id="contenedor-busqueda" style="height:35px;">
+    <div class="contenedor-enlaces-busqueda"  >
+        <a class="enlaces-busqueda" style="color:navy;"href='index.php?seccion=playlist&autor=302' >Rolando Rea</a>
+    </div>
+</div>
+<div  id="contenedor-busqueda" style="height:35px;">
+    <div class="contenedor-enlaces-busqueda"  >
+        <a class="enlaces-busqueda" style="color:navy;"href='index.php?seccion=playlist&autor=104' >Roman Flugel</a>
+    </div>
+</div>
+<div  id="contenedor-busqueda" style="height:35px;">
+    <div class="contenedor-enlaces-busqueda"  >
+        <a class="enlaces-busqueda" style="color:navy;"href='index.php?seccion=playlist&autor=215' >Romel Ipamo</a>
+    </div>
+</div>
+<div  id="contenedor-busqueda" style="height:35px;">
+    <div class="contenedor-enlaces-busqueda"  >
+        <a class="enlaces-busqueda" style="color:navy;"href='index.php?seccion=playlist&autor=1326' >Romeo Santos</a>
+    </div>
+</div>
+<div  id="contenedor-busqueda" style="height:35px;">
+    <div class="contenedor-enlaces-busqueda"  >
+        <a class="enlaces-busqueda" style="color:navy;"href='index.php?seccion=playlist&autor=379' >RONALD GARCIA</a>
+    </div>
+</div>
+</div><!-- CONTENEDOR !-->
+                                </div><!-- ITEMS !-->
+                                <div><!-- ITEMS 37 !-->
+                                <div id='contenedor-albumes'><div  id="contenedor-busqueda" style="height:35px;">
+    <div class="contenedor-enlaces-busqueda"  >
+        <a class="enlaces-busqueda" style="color:navy;"href='index.php?seccion=playlist&autor=116' >Rosana</a>
+    </div>
+</div>
+<div  id="contenedor-busqueda" style="height:35px;">
+    <div class="contenedor-enlaces-busqueda"  >
+        <a class="enlaces-busqueda" style="color:navy;"href='index.php?seccion=playlist&autor=392' >Rush</a>
+    </div>
+</div>
+</div></div>
+Sun Dec 4 13:21:40 BOT 2011: Ajax->Mostrar Imagen Portada:  
+Sun Dec 4 13:24:34 BOT 2011: Ajax-> Mostrar Ranking > tono:104876 
+Sun Dec 4 13:24:52 BOT 2011: Ajax->Mostrar Nombre Genero:  
+Sun Dec 4 13:27:20 BOT 2011: Ajax->Mostrar Reproducciones:  
+Sun Dec 4 13:27:56 BOT 2011: Ajax-> Mostrar Comentarios> tono:104968 
+Sun Dec 4 13:29:11 BOT 2011: Ajax->Mostrar Imagen Portada:  
+Sun Dec 4 13:34:42 BOT 2011: Ajax->Mostrar Imagen Portada:  
+Sun Dec 4 13:37:54 BOT 2011: Ajax->Mostrar Imagen Portada:  
+Sun Dec 4 13:41:49 BOT 2011: Ajax->Mostrar Nombre Genero:  
+Sun Dec 4 13:45:19 BOT 2011: Ajax->Mostrar Comentarios:  
+Sun Dec 4 13:50:59 BOT 2011: Mostrar Ranking: tono:126147 calificacion: 5
+Sun Dec 4 14:09:59 BOT 2011: Ajax-> Mostrar  Nombre Artista > tono:129899 
+Sun Dec 4 14:12:20 BOT 2011: ASYNC -> STATS> Tiempo respuesta -0.407125 seg.
+Sun Dec 4 14:14:56 BOT 2011: WEB_REPRODUCIR_BUSQUEDA > Se recibieron:30 tonos
+Sun Dec 4 14:28:40 BOT 2011: Asignar backtone escuchado > Asi termino:104815,105040,124060,137283,137279,102621,240,102922,126173,126175,125661,126167,510,509,127767,135108,127759,134023,
+Sun Dec 4 14:28:46 BOT 2011: Ajax->Mostrar Reproducciones:  
+Sun Dec 4 14:32:53 BOT 2011: Ajax->Mostrar Reproducciones:  
+Sun Dec 4 14:34:47 BOT 2011: Ajax->Mostrar Reproducciones:  
+Sun Dec 4 14:37:26 BOT 2011: ASYNC -> STATS> Tiempo respuesta 0.002448 seg.
+Sun Dec 4 14:37:42 BOT 2011: Ajax-> Mostrar Ranking > tono:138307 
+Sun Dec 4 14:40:45 BOT 2011: Ajax->Mostrar Comentarios:  
+Sun Dec 4 14:41:00 BOT 2011: ASYNC -> STATS> Tiempo respuesta -0.215032 seg.
+Sun Dec 4 14:41:03 BOT 2011: Ajax->Mostrar Reproducciones:  
+Sun Dec 4 14:41:12 BOT 2011: Ajax-> Mostrar Ranking > tono:388 
+Sun Dec 4 14:42:06 BOT 2011: Ajax->Mostrar Ranking:  
+Sun Dec 4 14:44:00 BOT 2011: ASYNC -> STATS> Tiempo respuesta 0.443777 seg.
+Sun Dec 4 14:44:13 BOT 2011: ASYNC -> STATS> Tiempo respuesta -0.12013 seg.
+Sun Dec 4 14:49:58 BOT 2011: Ajax->Mostrar Imagen Portada:  
+Sun Dec 4 14:56:38 BOT 2011: Session Start>  session por defecto 
+Sun Dec 4 14:58:33 BOT 2011: WEB_REPRODUCIR_BUSQUEDA > Se recibieron:16 tonos
+Sun Dec 4 15:03:42 BOT 2011: Ajax->Mostrar Reproducciones:  
+Sun Dec 4 15:04:30 BOT 2011: Ajax->Mostrar Comentarios:  
+Sun Dec 4 15:05:06 BOT 2011: Asignar backtone escuchado > Asi termino:104999,126029,105498,103687,129445,129230,123218,110221,103686,132096,103713,104465,103712,104248,147,126470,124025,134627,135228,105584,
+Sun Dec 4 15:05:15 BOT 2011: Ajax->Mostrar Nombre Artista:  
+Sun Dec 4 15:08:04 BOT 2011: MTD_DB_BUSCAR_ARTISTAS > retornando registros:9
+Sun Dec 4 15:11:10 BOT 2011: Busqueda Inteligente: resultados >113349
+Sun Dec 4 15:12:20 BOT 2011: Ajax-> Mostrar Ranking > tono:105813 
+Sun Dec 4 15:13:23 BOT 2011: Asignar backtone escuchado > Asi termino:128305,137828,137826,137817,105813,104981,137824,137820,109261,137822,131036,123534,123520,123537,131048,131046,123516,131038,131728,123523,
+Sun Dec 4 15:14:29 BOT 2011: Ajax->Mostrar Imagen Portada:  
+Sun Dec 4 15:15:23 BOT 2011: Ajax->Mostrar Imagen Portada:  
+Sun Dec 4 20:10:58 BOT 2011: ASYNC -> STATS> Tiempo respuesta 0.002445 seg.
+Sun Dec 4 20:13:20 BOT 2011: ASYNC -> STATS> Tiempo respuesta 0.002908 seg.
+Sun Dec 4 20:15:35 BOT 2011: ASYNC -> STATS> Tiempo respuesta -0.122639 seg.
+Sun Dec 4 20:19:03 BOT 2011: Asignar backtone escuchado > Asi termino:118730,139846,118728,118745,118725,125088,125067,118734,118744,118752,102872,118727,
+Sun Dec 4 20:22:45 BOT 2011: Consulta de precio de reason:2 - msisdn:76764125 tono:103597 Async responde:350
+ 
+Sun Dec 4 20:27:22 BOT 2011: Busqueda Inteligente: resultados >103671
+Sun Dec 4 20:29:28 BOT 2011: Ajax-> Mostrar  Imagen Portada> tono:103991 
+Sun Dec 4 20:34:23 BOT 2011: Asignar backtone escuchado > Asi termino:105000,104998,104999,126029,105498,103687,129445,129230,123218,110221,103686,132096,103713,104465,124243,106266,104522,104180,105096,104177,
+Sun Dec 4 20:36:26 BOT 2011: Busqueda Inteligente: resultados >104856
+Sun Dec 4 20:36:29 BOT 2011: Ajax->Mostrar Imagen Portada:  
+Sun Dec 4 20:40:02 BOT 2011: Ajax->Mostrar Megusta:  
+Sun Dec 4 20:41:21 BOT 2011: Ajax-> Mostrar  Nombre Artista > tono:16 
+Sun Dec 4 20:43:00 BOT 2011: Ajax->Mostrar Imagen Portada:  
+Sun Dec 4 20:43:12 BOT 2011: Ajax->Mostrar Reproducciones:  
+Sun Dec 4 20:44:39 BOT 2011: Busqueda Inteligente: resultados >134683
+Sun Dec 4 20:44:51 BOT 2011: ASYNC -> STATS> Tiempo respuesta 0.486792 seg.
+Sun Dec 4 20:46:36 BOT 2011: ASYNC -> STATS> Tiempo respuesta 0.01061 seg.
+Sun Dec 4 20:46:36 BOT 2011: Ajax->Mostrar Ranking:  
+Sun Dec 4 20:46:42 BOT 2011: ASYNC -> STATS> Tiempo respuesta 0.640515 seg.
+Sun Dec 4 20:49:01 BOT 2011: STATS > BUSQUEDA DE BACKTONE >Tiempo: -0.25866 seg. | registros: 87
+Sun Dec 4 20:50:04 BOT 2011: Mostrar Comentarios : tono:102773 
+Sun Dec 4 20:51:19 BOT 2011: ASYNC -> STATS> Tiempo respuesta 0.002525 seg.
+Sun Dec 4 20:53:49 BOT 2011: ASYNC -> STATS> Tiempo respuesta 0.741928 seg.
+Sun Dec 4 20:58:59 BOT 2011: Ajax-> Mostrar Comentarios> tono:131036 
+Sun Dec 4 21:00:56 BOT 2011: Consulta de precio de reason:3 - msisdn: tono:135283 Async responde:350
+ 
+Sun Dec 4 21:00:56 BOT 2011: Asignar backtone escuchado > Asi termino:105068,131645,84,129924,102646,103328,102622,
+Sun Dec 4 21:02:57 BOT 2011: ASYNC -> STATS> Tiempo respuesta -0.598922 seg.
+Sun Dec 4 21:02:57 BOT 2011: Ajax->Mostrar Megusta:  
+Sun Dec 4 21:03:06 BOT 2011: Ajax->Mostrar Ranking:  
+Sun Dec 4 21:03:06 BOT 2011: ASYNC -> STATS> Tiempo respuesta -0.014204 seg.
+Sun Dec 4 21:03:12 BOT 2011: Consulta de precio de reason:3 - msisdn: tono:103320 Async responde:350
+ 
+Sun Dec 4 21:03:12 BOT 2011: Ajax->Mostrar Ranking:  
+Sun Dec 4 21:03:12 BOT 2011: Asignar backtone escuchado > Asi termino:134685,134638,134686,134687,134683,134681,134661,134660,122647,103602,103601,104028,109555,121512,131036,123534,123520,123537,131048,131046,
+Sun Dec 4 21:03:15 BOT 2011: ASYNC -> STATS> Tiempo respuesta -0.008861 seg.
+Sun Dec 4 21:03:27 BOT 2011: Ajax->Mostrar Imagen Portada:  
+Sun Dec 4 21:03:27 BOT 2011: Ajax->Mostrar Ranking:  
+Sun Dec 4 21:05:27 BOT 2011: Asignar backtone escuchado > Asi termino:106237,130053,104290,105856,129248,103030,103652,102630,104991,104628,104629,104968,104894,129261,103190,105282,105096,106000,103694,104598,
+Sun Dec 4 21:08:10 BOT 2011: Consulta de precio de reason:3 - msisdn: tono:516 Async responde:350
+ 
+Sun Dec 4 21:08:34 BOT 2011: Check Session > msisdn: 78800342 > Usuario Valido 
+Sun Dec 4 21:08:52 BOT 2011: Ajax->Mostrar Ranking:  
+Sun Dec 4 21:08:52 BOT 2011: Ajax->Mostrar Ranking:  
+Sun Dec 4 21:08:55 BOT 2011: ASYNC -> STATS> Tiempo respuesta -0.004409 seg.
+Sun Dec 4 21:08:55 BOT 2011: ASYNC -> STATS> Tiempo respuesta -0.007029 seg.
+Sun Dec 4 21:09:16 BOT 2011: Mostrar Ranking: tono:64 calificacion: 
+Sun Dec 4 21:11:40 BOT 2011: Ajax-> Mostrar  Imagen Portada> tono:112705 
+Sun Dec 4 21:12:13 BOT 2011: Busqueda Inteligente: resultados >103034
+Sun Dec 4 21:13:43 BOT 2011: ASYNC -> STATS> Tiempo respuesta 0.330432 seg.
+Sun Dec 4 21:15:38 BOT 2011: Ajax-> Mostrar  Nombre Artista > tono:139967 
+Sun Dec 4 21:17:26 BOT 2011: Busqueda Inteligente: ednita nazario
+Sun Dec 4 21:17:56 BOT 2011: Ajax->Mostrar Ranking:  
+Sun Dec 4 21:19:26 BOT 2011: Mostrar Megusta> tono: 127423 msisdn: > a otros 1  les gusta 
+Sun Dec 4 21:21:57 BOT 2011: Ajax->Mostrar Comentarios:  
+Sun Dec 4 21:22:09 BOT 2011: Mostrar Cantidad reproducciones: tono:139967 cantidad: 0
+Sun Dec 4 21:22:21 BOT 2011: STATS > BUSQUEDA DE BACKTONE >Tiempo: -0.453746 seg. | registros: 14
+Sun Dec 4 21:22:57 BOT 2011: Ajax->Mostrar Megusta:  
+Sun Dec 4 21:23:12 BOT 2011: ASYNC -> STATS> Tiempo respuesta 0.151437 seg.
+Sun Dec 4 21:23:15 BOT 2011: ASYNC -> STATS> Tiempo respuesta -0.493201 seg.
+Sun Dec 4 21:23:21 BOT 2011: ASYNC -> STATS> Tiempo respuesta -0.481251 seg.
+Sun Dec 4 21:23:21 BOT 2011: ASYNC -> STATS> Tiempo respuesta 0.006552 seg.
+Sun Dec 4 21:24:15 BOT 2011: Ajax->Mostrar Imagen Portada:  
+Sun Dec 4 21:24:15 BOT 2011: Consulta de precio de reason:2 - msisdn: tono:135108 Async responde:350
+ 
+Sun Dec 4 21:24:15 BOT 2011: Ajax->Mostrar Imagen Portada:  
+Sun Dec 4 21:24:21 BOT 2011: ASYNC -> STATS> Tiempo respuesta -0.012766 seg.
+Sun Dec 4 21:26:21 BOT 2011: Ajax-> Mostrar Megusta> tono:128413 
+Sun Dec 4 21:26:36 BOT 2011: Asignar backtone escuchado > Asi termino:131823,106298,104846,105262,105549,105092,105547,132110,105546,135057,139727,130808,130802,130806,102882,131760,102883,134660,118732,
+Sun Dec 4 21:29:13 BOT 2011: Ajax->Mostrar Reproducciones:  
+Sun Dec 4 21:29:19 BOT 2011: Ajax->Mostrar Ranking:  
+Sun Dec 4 21:29:31 BOT 2011: Ajax-> Mostrar Ranking > tono:104570 
+Sun Dec 4 21:31:01 BOT 2011: Ajax-> Mostrar  Imagen Portada> tono:102757 
+Sun Dec 4 21:31:05 BOT 2011: Ajax-> Mostrar Ranking > tono:104355 
+Sun Dec 4 21:32:43 BOT 2011: Ajax-> Mostrar Ranking > tono:109245 
+Sun Dec 4 21:38:35 BOT 2011: STATS > BUSQUEDA DE BACKTONE >Tiempo: -0.246442 seg. | registros: 14
+Sun Dec 4 21:38:50 BOT 2011: Ajax-> Mostrar Ranking > tono:103565 
+Sun Dec 4 21:39:32 BOT 2011: ASYNC -> STATS> Tiempo respuesta 0.002542 seg.
+Sun Dec 4 21:42:53 BOT 2011: Ajax->Mostrar Nombre Genero:  
+Sun Dec 4 21:45:00 BOT 2011: ASYNC -> STATS> Tiempo respuesta -0.535032 seg.
+Sun Dec 4 21:45:00 BOT 2011: Asignar backtone escuchado > Asi termino:105234,125516,103328,102622,110097,130832,104211,102882,131760,102773,102883,103430,131730,131036,141108,141114,131807,141134,137882,106380,
+Sun Dec 4 21:47:09 BOT 2011: ASYNC -> STATS> Tiempo respuesta 0.002856 seg.
+Sun Dec 4 21:47:42 BOT 2011: Ajax-> popup_listar_amigos: msisdn: 
+Sun Dec 4 21:48:36 BOT 2011: Ajax-> Mostrar  Imagen Portada> tono:103417 
+Sun Dec 4 21:51:04 BOT 2011: ASYNC -> STATS> Tiempo respuesta 0.002155 seg.
+Sun Dec 4 21:54:31 BOT 2011: Ajax-> Mostrar  Nombre Artista > tono:130954 
+Sun Dec 4 21:57:02 BOT 2011: Ajax-> Mostrar Megusta> tono:102594 
+Sun Dec 4 21:57:08 BOT 2011: Error al consultar precio de renovacion - msisdn: tono:102594 - Async responde -3
+Sun Dec 4 21:57:08 BOT 2011: Asignar backtone escuchado > Asi termino:118732,131003,130999,139971,139969,139968,139967,139965,139964,131001,139963,118747,139961,118754,118749,118736,139960,118738,118741,118748,
+Sun Dec 4 21:57:17 BOT 2011: ASYNC -> STATS> Tiempo respuesta -0.856503 seg.
+Sun Dec 4 21:57:26 BOT 2011: ASYNC -> STATS> Tiempo respuesta 0.021096 seg.
+Sun Dec 4 21:57:29 BOT 2011: ASYNC -> STATS> Tiempo respuesta 0.012673 seg.
+Sun Dec 4 21:57:29 BOT 2011: ASYNC -> STATS> Tiempo respuesta -0.029794 seg.
+Sun Dec 4 21:57:32 BOT 2011: Consulta de precio de reason:3 - msisdn: tono:102594 Async responde:350
+ 
+Sun Dec 4 21:57:32 BOT 2011: Ajax->Mostrar Reproducciones:  
+Sun Dec 4 21:57:35 BOT 2011: ASYNC -> STATS> Tiempo respuesta 0.003885 seg.
+Sun Dec 4 21:57:38 BOT 2011: Asignar backtone escuchado > Asi termino:103451,103430,
+Sun Dec 4 21:57:38 BOT 2011: Ajax-> Mostrar Megusta> tono:103653 
+Sun Dec 4 21:57:44 BOT 2011: ASYNC -> STATS> Tiempo respuesta 0.01172 seg.
+Sun Dec 4 21:58:02 BOT 2011: Error al consultar precio de renovacion - msisdn: tono:104088 - Async responde -3
+Sun Dec 4 21:58:32 BOT 2011: Mostrar Comentarios : tono:442 
+Sun Dec 4 21:58:47 BOT 2011: Ajax->Mostrar Nombre Artista:  
+Sun Dec 4 21:59:02 BOT 2011: Asignar backtone escuchado > Asi termino:112466,61,105858,131643,105073,129927,129675,130364,105262,127374,115945,104658,82,102801,108556,102788,103627,103469,247,109227,
+Sun Dec 4 22:01:20 BOT 2011: Ajax->Mostrar Reproducciones:  
+Sun Dec 4 22:03:57 BOT 2011: Ajax->Mostrar Nombre Artista:  
+Sun Dec 4 22:04:45 BOT 2011: Ajax->Mostrar Nombre Genero:  
+Sun Dec 4 22:07:42 BOT 2011: Ajax->Mostrar Megusta:  
+Sun Dec 4 22:07:57 BOT 2011: Ajax->Mostrar Nombre Artista:  
+Sun Dec 4 22:10:36 BOT 2011: ASYNC -> STATS> Tiempo respuesta 0.835139 seg.
+Sun Dec 4 22:10:36 BOT 2011: ASYNC -> STATS> Tiempo respuesta 0.545083 seg.
+Sun Dec 4 22:10:52 BOT 2011: Ajax->Mostrar Ranking:  
+Sun Dec 4 22:11:22 BOT 2011: Session Start>  session por defecto 
+Sun Dec 4 22:13:16 BOT 2011: Ajax-> Mostrar Comentarios> tono:140826 
+Sun Dec 4 22:13:55 BOT 2011: ASYNC -> STATS> Tiempo respuesta 0.00276 seg.
+Sun Dec 4 22:14:01 BOT 2011: ASYNC -> STATS> Tiempo respuesta 0.27114 seg.
+Sun Dec 4 22:14:31 BOT 2011: Ajax->Mostrar Megusta:  
+Sun Dec 4 22:15:31 BOT 2011: Asignar backtone escuchado > Asi termino:117850,117840,141113,137886,140826,139723,131812,140821,
+Sun Dec 4 22:16:34 BOT 2011: Consulta de precio de reason:2 - msisdn: tono:435 Async responde:350
+ 
+Sun Dec 4 22:16:46 BOT 2011: Ajax->Mostrar Imagen Portada:  
+Sun Dec 4 22:16:58 BOT 2011: Ajax->Mostrar Ranking:  
+Sun Dec 4 22:18:11 BOT 2011: Ajax-> Mostrar  Imagen Portada> tono:118738 
+Sun Dec 4 22:18:20 BOT 2011: Ajax->Mostrar Nombre Genero:  
+Sun Dec 4 22:18:41 BOT 2011: Ajax->Mostrar Comentarios:  
+Sun Dec 4 22:20:35 BOT 2011: Ajax-> Mostrar Ranking > tono:103568 
+Sun Dec 4 22:21:35 BOT 2011: Ajax-> Mostrar  Nombre Artista > tono:105521 
+Sun Dec 4 22:23:53 BOT 2011: ASYNC -> STATS> Tiempo respuesta 0.00201 seg.
+Sun Dec 4 22:24:54 BOT 2011: Consulta de precio de reason:3 - msisdn:78441660 tono:104577 Async responde:350
+ 
+Sun Dec 4 22:25:42 BOT 2011: WEB_REPRODUCIR_BUSQUEDA > Se recibieron:14 tonos
+Sun Dec 4 22:26:33 BOT 2011: Ajax-> Mostrar Megusta> tono:256 
+Sun Dec 4 22:27:00 BOT 2011: Ajax-> Mostrar  Nombre Artista > tono:112318 
+Sun Dec 4 22:27:00 BOT 2011: Asignar backtone escuchado > Asi termino:105038,256,253,104578,104577,104576,103501,104821,135064,135061,135060,135107,135059,
+Sun Dec 4 22:27:45 BOT 2011: Ajax-> Mostrar Megusta> tono:103553 
+Sun Dec 4 22:28:45 BOT 2011: ASYNC -> STATS> Tiempo respuesta 0.0045970000000001 seg.
+Sun Dec 4 22:29:48 BOT 2011: Ajax-> Mostrar Megusta> tono:139971 
+Sun Dec 4 22:30:00 BOT 2011: Ajax-> Mostrar Ranking > tono:135081 
+Sun Dec 4 22:33:04 BOT 2011: Ajax-> Mostrar Comentarios> tono:127895 
+Sun Dec 4 22:38:20 BOT 2011: ASYNC -> STATS> Tiempo respuesta 0.628336 seg.
+Sun Dec 4 22:42:26 BOT 2011: ASYNC -> STATS> Tiempo respuesta 0.006653 seg.
+Sun Dec 4 22:47:06 BOT 2011: Ajax->Mostrar Nombre Artista:  
+Sun Dec 4 22:47:33 BOT 2011: Ajax->Mostrar Imagen Portada:  
+Sun Dec 4 22:48:51 BOT 2011: Ajax->Mostrar Comentarios:  
+Sun Dec 4 22:48:54 BOT 2011: Busqueda Inteligente: resultados >604
+Sun Dec 4 22:50:12 BOT 2011: Ajax->Mostrar Nombre Genero:  
+Sun Dec 4 22:51:06 BOT 2011: Ajax->Mostrar Nombre Genero:  
+Sun Dec 4 22:51:27 BOT 2011: Ajax->Mostrar Reproducciones:  
+Sun Dec 4 22:52:19 BOT 2011: Ajax->Mostrar Reproducciones:  
+Sun Dec 4 22:53:19 BOT 2011: Ajax->Mostrar Megusta:  
+Sun Dec 4 22:55:10 BOT 2011: Busqueda Inteligente: Resultado 
+ 102945;te quedo grande la yegua;Alicia villareal;Latinas
+126468;Duerme Negrito;Bahiano;Latinas
+102946;insensible a ti;Alicia villareal;Latinas
+120225;Insensible a ti Alicia Villlarreal;Alicia villareal;Latinas
+321;Noche de paz;Villancico;Sonidos
+102944;Que baje la guardia;Alicia villareal;Latinas
+102943;suegra;Alicia villareal;Latinas
+129439;Villain;Jennifer Lopez;Pop
+120553;villarroela;KARAOKE;KARAOKE
+104820;BOCA QUE GRANDE SOS;Altos cumbieros;FANATIGO
+105564;cantos vallegrandinos;BANDAS;Carnaval
+105567;carnaval de vallegrande;BANDAS;Carnaval
+617;Carnaval grande;Antologia;Latinas
+105569;carnaval vallegrandino;BANDAS;Carnaval
+103661;Cut By The Brakes;Grand National;Electronicas
+103562;Granada;Bocelli;Clasicos
+103357;grand Guignol;Bajo Fondo;Latinas
+104482;Grande Bolivia;Maradona;Futbol
+104783;Grande es mi poderoso Dios;Grupo Renacer;Cristianas
+104563;Homero el mas grande;Version Opratel;Chistes
+104453;Homero y sus grandes frases;Version Opratel;Sonidos
+133822;Inmigrantes;Yalo cuellar;Folklore
+133821;Inmigrantes;Yalo cuellar;Folklore
+105490;La Gran Perdida;Junio Boombastick;Latinas
+104901;La Granja;Los Tigres del Norte;Rancheras
+114593;La ovejerita Vallegrande;Gisela Santa Cruz;Nuevas
+103326;Lo grande que es perdonar;Banda reggaeton;Reggaeton
+269;Los simpson la pelicula;Gran orquesta de Hollywood;Sonidos
+12;Maquinero en gran poder;Sin Autor;Latinas
+141097;Me Voy Para Vallegrande;Mexico Chico;Folklore
+133440;Mi Gran Amor;Los Kjarkas;Folklore
+105577;moparapenita vallegrandina;BANDAS;Carnaval
+126497;Nunca Muere Un Gran Amor;Luciano Pereyra;Latinas
+141114;Orejas Grandes;Version Solumovil;Chistes
+109744;pudo ser un gran amor;Alberto Plaza;Latinas
+103575;Un Amore Cosi Grande;Bocelli;Clasicos
+141051;Vallegrande 400 Anhos;ALdo PeÃ±a;Carnaval
+105588;vallegrandinos;BANDAS;Carnaval
+ 
+Sun Dec 4 22:55:46 BOT 2011: Ajax->Mostrar Ranking:  
+Sun Dec 4 22:57:25 BOT 2011: Ajax->Mostrar Comentarios:  
+Sun Dec 4 23:09:09 BOT 2011: Ajax-> Mostrar Megusta> tono:509 
+Sun Dec 4 23:17:29 BOT 2011: Ajax->Mostrar Imagen Portada:  
+Sun Dec 4 23:19:38 BOT 2011: Ajax-> Mostrar Ranking > tono:125514 
+Sun Dec 4 23:22:08 BOT 2011: Busqueda Inteligente: resultados >106289

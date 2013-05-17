@@ -1,0 +1,94 @@
+<div id="contenedor_administracion_amigos">
+<div class="section-title main-title">
+  <h2 id="encabezado">Sugerencias</h2>
+</div>
+<!-- Content download -->
+
+<script language="JavaScript">
+<!--
+function isValid() {
+ 
+ var sugerencia= $("#tb_sugerencia").val();
+ if (sugerencia != '')
+ {
+    return true;
+ }
+ else
+ {
+    $('#tb_sugerencia').SetBubblePopupOptions({
+                           themePath: 'estilos/tigo/images/jquerybubblepopup-theme/',
+                           themeName: 'orange',
+                           innerHtml: 'Atencion: el campo de sugerencias no debe estar en blanco', mouseOver: 'hide'
+                     });
+    $('#tb_sugerencia').ShowBubblePopup();
+    return false;
+ }
+ 
+}
+
+//-->
+</script>
+<div id="content-download" style="height:640px;">
+        <div id="picture-download"  >
+            <p>
+                &nbsp; <br>
+            </p>
+
+        <p>
+                <span>Descripcion:</span> </br>
+                <font style="font-size: 10px; line-height: 12px;">
+                    <span> Ay&uacute;danos a mejorar Tigo BackTones con tus opiniones.
+Dinos lo que te gusta, lo que cambiar&iacute;as o cualquier aspecto que crees que se puede mejorar de nuestro servicio.
+                    </span>
+                </font>
+                <br><br><br>                
+        </p>
+
+	</div>
+                <div id="other-tracks" >
+			<dl>
+                            <dt>Ingresa tu sugerencia</dt>
+                            <dd>
+                                <div  style="position: absolute;background:white; overflow-x:hidden; overflow-y:scroll; width:280px;  height:370px;">
+                                    <div class="contenedor-lista-backtones" style="position: relative;  height:300px;">
+                                        <div id="lista_amigos">
+                                            <form class="cmxform" id="form_sugerencias" method="post" action="index.php?seccion=sugerencias" onSubmit="return isValid()">
+                                            <ul>
+                                                <li><span id="titulo-perfil-usuario">Sugerencia:</span><br>
+                                                    <textarea class="estilo-input "   name="tb_sugerencia" id="tb_sugerencia" style="margin-left:10px; width:230px; height:150px;"></textarea>
+                                                    <br>
+                                                </li>
+                                                <li>
+                                                    <div style="width:100%; text-align: center;">
+                                                        <input type="hidden" name="action" value="sugerir" />
+                                                        <input type="submit" name="btn_ingresar_sugerencia" id="btn_ingresar_sugerencia" value="Enviar" class="estilo-input submit" >
+                                                        
+                                                    </div>
+                                                </li>
+                                            </ul>
+                                            </form>
+                                        </div>
+                                    </div>
+                                </div>
+                            </dd>
+			</dl>
+
+		</div>
+
+<!-- Jump --><div class="jump">&nbsp;</div><!-- float -->
+<!-- Jump --><div class="jump">&nbsp;</div><!-- float -->
+</div>
+<script type="text/javascript">
+<!--
+$(document).ready(function(){
+            $('#tb_sugerencia').CreateBubblePopup({
+                           themePath: 'estilos/tigo/images/jquerybubblepopup-theme/',
+                           themeName: 'orange',
+                           innerHtml: 'Tu sugerencia ha sido enviada', mouseOver: 'hide'
+            });
+            {tpl-notificacion}
+            
+});
+-->
+</script>
+</div>

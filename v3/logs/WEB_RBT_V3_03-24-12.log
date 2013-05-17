@@ -1,0 +1,99 @@
+Sat Mar 24 16:56:23 BOT 2012: Busqueda Inteligente: resultados >138842
+Sat Mar 24 16:56:29 BOT 2012: Ajax->Mostrar Reproducciones:  
+Sat Mar 24 16:57:32 BOT 2012: session-default => asignando por default session
+Sat Mar 24 17:06:28 BOT 2012: ASYNC -> STATS> Tiempo respuesta -0.980084 seg.
+Sat Mar 24 17:07:16 BOT 2012: Busqueda de Backtones Intel: 
+ SQL:SELECT t.id, t.nombre as tono,aut.nombre as autor, alb.imagen, round(avg(wr.calificacion),0) as calificacion
+                    FROM tonos as t
+                    inner join autores as aut on ( t.autor = aut.id)
+                    inner join billing as bil on (t.billing = bil.caso  and bil.concepto=2)
+                    left join albumes as alb on (t.album = alb.id_album)
+                    left join web_tonos_ranking as wr on (t.id = wr.tonos_id)
+                    WHERE
+                    FIND_IN_SET(t.id, '142119,140778,142128,140780,142113,142124,140782,142122,142130,140785,141915,142115,142126,142111,132454,140787,145418,,')
+                     AND t.autor=1408 
+                    and t.categoria <> 207 and t.interfases &1 
+                    group by t.id, t.nombre ,aut.nombre , alb.imagen
+                    order by FIND_IN_SET(t.id, '142119,140778,142128,140780,142113,142124,140782,142122,142130,140785,141915,142115,142126,142111,132454,140787,145418,,')
+                    limit 114 
+Sat Mar 24 17:08:04 BOT 2012: Session Start>  session por defecto 
+Sat Mar 24 17:09:16 BOT 2012: Ajax->Mostrar Nombre Artista:  
+Sat Mar 24 17:09:22 BOT 2012: WEB_REPRODUCIR_BUSQUEDA > Se recibieron:46 tonos
+Sat Mar 24 17:09:46 BOT 2012: ASYNC -> STATS> Tiempo respuesta 0.013068 seg.
+Sat Mar 24 17:09:58 BOT 2012: Asignar backtone escuchado > Asi termino:141880,103712,104465,141881,142527,105041,104806,104805,104804,104803,104802,124975,104801,104800,104799,104798,104797,104796,104795,
+Sat Mar 24 17:11:55 BOT 2012: Ajax->Mostrar Nombre Genero:  
+Sat Mar 24 18:52:40 BOT 2012: Ajax->Mostrar Nombre Genero:  
+Sat Mar 24 18:54:26 BOT 2012: Ajax-> Mostrar Ranking > tono:104747 
+Sat Mar 24 18:56:53 BOT 2012: ASYNC -> STATS> Tiempo respuesta -0.061987 seg.
+Sat Mar 24 18:56:59 BOT 2012: ASYNC -> STATS> Tiempo respuesta -0.022728 seg.
+Sat Mar 24 18:57:02 BOT 2012: Asignar backtone escuchado > Asi termino:116505,116502,116504,103235,116506,104460,112702,103086,116516,103088,116471,116514,103465,103087,116469,116512,116467,116510,116508,105543,
+Sat Mar 24 18:59:03 BOT 2012: Busqueda Inteligente: Resultado 
+ 105290;Como El Color De La Sangre;Alex Campos;Latinas
+103423;Cuidare De Ti;Alex Campos;Latinas
+103481;dimelo A campos;Alex Campos;Latinas
+103428;Junto A Ti;Alex Campos;Latinas
+134025;Mas que ayer;Alex Campos;Cristianas
+103482;Te Quiero A campos;Alex Campos;Latinas
+107586;tu amor y mi amor;Alex Campos;Cristianas
+134028;Yo no temere;Alex Campos;Cristianas
+107585;busco;Alex Campos;Cristianas
+107747;Alex A donde estas llamando-MTV ISA TKM;MTV;MTV
+107749;Alex Atiende tu celular-MTV ISA TKM;MTV;MTV
+107751;Alex Las palabras de tu corazon-MTV ISA TKM;MTV;MTV
+107752;Alex necesita tu celular-MTV ISA TKM;MTV;MTV
+107755;Alex te da temas de conversacion-MTV ISA TKM;MTV;MTV
+107757;Alex Un Beso de-MTV ISA TKM;MTV;MTV
+112462;bartender;Alexis Fido;Reggaeton
+103483;Deadly On A Mission;Alex metic;Electronicas
+147767;Kong ;Alexandre Pires; Brasileras
+103927;Necesidad;Alexandre Pires; Brasileras
+112464;ojos que no ven;Alexis Fido;Reggaeton
+147900;Open Your Eyes;Alex Metric;Electronicas
+103517;Gol de Jhasmani Campos Oriente 1 a Blooming 0;Campos;FANATIGO
+119661;Oriente 1 The Srongest 0;Campos;FANATIGO
+103011;Oriente2 contra 0Guabira;Campos;FANATIGO
+144149;11 Porciento;opratel;Carnavaleando con Tigo
+144150;Adios Perra;opratel;Carnavaleando con Tigo
+144152;Chovena Beniana;opratel;Carnavaleando con Tigo
+144153;Cuanto Cuestas Cuanto Vales;opratel;Carnavaleando con Tigo
+144794;Cueca Boliviana;Opratel;Carnavaleando con Tigo
+145423;Diablada;Opratel;Carnavaleando con Tigo
+145420;Don Francisco Carnaval;opratel;Carnavaleando con Tigo
+144155;El Brincao;opratel;Carnavaleando con Tigo
+144156;El porro;opratel;Carnavaleando con Tigo
+104445;Flor De Azalea;Pablo Montero;Rancheras
+144148;Fuerza Carnaval;opratel;Carnavaleando con Tigo
+144158;Gato Carnaval;opratel;Carnavaleando con Tigo
+144160;Goni carnaval;opratel;Carnavaleando con Tigo
+144162;Guapuru;opratel;Carnavaleando con Tigo
+144164;Hola Carnaval;opratel;Carnavaleando con Tigo
+144166;Homero Carnaval;opratel;Carnavaleando con Tigo
+144167;Jefe Carnaval;opratel;Carnavaleando con Tigo
+144168;Jumechi;opratel;Carnavaleando con Tigo
+144170;La Agulilla;opratel;Carnavaleando con Tigo
+144171;La Diablada;opratel;Carnavaleando con Tigo
+144173;La Viborita;opratel;Carnavaleando con Tigo
+144174;Lamento Yuqui;opratel;Carnavaleando con Tigo
+144175;Loro en Guayabal;opratel;Carnavaleando con Tigo
+144177;Maraca Mateo;opratel;Carnavaleando con Tigo
+145422;Papi Carnaval;Opratel;Carnavaleando con Tigo
+144179;Pitufos Carnaval;opratel;Carnavaleando con Tigo
+144181;Que bien que Llamas;opratel;Carnavaleando con Tigo
+144182;Rosita Pochi;opratel;Carnavaleando con Tigo
+144183;Shrek Carnaval;opratel;Carnavaleando con Tigo
+144185;Tamarindo Seco;opratel;Carnavaleando con Tigo
+144187;Torito Negro;opratel;Carnavaleando con Tigo
+145417;Usuario Borracho;Opratel;Carnavaleando con Tigo
+144189;Usuario Carnaval;opratel;Carnavaleando con Tigo
+144191;Usuario Precarnavaleras;opratel;Carnavaleando con Tigo
+144192;Viva El Beni;opratel;Carnavaleando con Tigo
+144194;Viva Santa Cruz;opratel;Carnavaleando con Tigo
+145826;Voy a beber carnavaleando;Berthy Takana;Carnaval
+145833;Voy a beber carnavaleando  v2 ;Berthy Takana;Carnaval
+144195;Wachiturro Carnaval;opratel;Carnavaleando con Tigo
+145418;Wachiturros Oruro;Opratel;Carnavaleando con Tigo
+104943;Camaleon;Animal de Ciudad;Latinas
+105418;Jaleo;Ricki Martin;Latinas
+ 
+Sat Mar 24 19:04:49 BOT 2012: Asignar backtone escuchado > Asi termino:136048,105022,102682,102799,103699,105370,102681,103854,135109,102786,102680,109402,102679,102974,102678,105374,102677,102676,102675,135110,
+Sat Mar 24 19:05:34 BOT 2012: Ajax->Mostrar Ranking:  

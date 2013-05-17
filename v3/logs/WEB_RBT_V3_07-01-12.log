@@ -1,0 +1,42 @@
+Sun Jul 1 9:16:50 BOT 2012: session-default => asignando por default session
+Sun Jul 1 9:17:26 BOT 2012: Mostrar Cantidad reproducciones: tono:103273 cantidad: 0
+Sun Jul 1 9:20:36 BOT 2012: Ajax->Mostrar Megusta:  
+Sun Jul 1 9:23:48 BOT 2012: Ajax->Mostrar Comentarios:  
+Sun Jul 1 9:28:10 BOT 2012: Ajax-> Mostrar  Nombre Genero > tono:105283 
+Sun Jul 1 9:31:23 BOT 2012: Ajax-> Mostrar  Nombre Genero > tono:11 
+Sun Jul 1 12:58:14 BOT 2012: Ajax-> Mostrar  Nombre Artista > tono:103474 
+Sun Jul 1 12:58:29 BOT 2012: Asignar backtone escuchado > Asi termino:104212,126489,102881,131760,102884,127470,129234,475,135221,104289,132455,102882,104255,102883,135168,150596,150598,150600,150604,150492,
+Sun Jul 1 12:58:29 BOT 2012: Session Start>  session por defecto 
+Sun Jul 1 13:00:18 BOT 2012: Ajax-> Mostrar  Nombre Artista > tono:110084 
+Sun Jul 1 13:04:24 BOT 2012: ASYNC -> STATS> Tiempo respuesta -0.075082 seg.
+Sun Jul 1 13:04:27 BOT 2012: ASYNC -> STATS> Tiempo respuesta 0.128083 seg.
+Sun Jul 1 13:04:30 BOT 2012: ASYNC -> STATS> Tiempo respuesta 0.709985 seg.
+Sun Jul 1 13:06:31 BOT 2012: Session Start>  session por defecto 
+Sun Jul 1 13:06:34 BOT 2012: Asignar backtone escuchado > Asi termino:135274,103499,114,104516,104914,135079,592,177,104532,126154,126152,126028,
+Sun Jul 1 13:07:13 BOT 2012: Msisdn:77471110 ingreso exitoso de billing tono: 201 
+Sun Jul 1 13:11:59 BOT 2012: Busqueda Inteligente: Nena Daconte
+Sun Jul 1 13:12:44 BOT 2012: Ajax-> Mostrar  Nombre Genero > tono:120231 
+Sun Jul 1 13:13:05 BOT 2012: ASYNC -> STATS> Tiempo respuesta 0.0027630000000001 seg.
+Sun Jul 1 13:14:17 BOT 2012: Ajax->Mostrar Comentarios:  
+Sun Jul 1 13:14:29 BOT 2012: Busqueda Inteligente: resultados >109747
+Sun Jul 1 13:15:02 BOT 2012: Session Start>  session por defecto 
+Sun Jul 1 13:15:20 BOT 2012: Ajax->Mostrar Nombre Artista:  
+Sun Jul 1 17:40:03 BOT 2012: Busqueda Inteligente: resultados >103450
+Sun Jul 1 17:45:40 BOT 2012: Busqueda Inteligente: resultados >109975
+Sun Jul 1 17:51:53 BOT 2012: Busqueda Inteligente: resultados >105915
+Sun Jul 1 17:51:59 BOT 2012: Mostrar Ranking: tono:105526 calificacion: 
+Sun Jul 1 17:52:14 BOT 2012: Ajax->Mostrar Reproducciones:  
+Sun Jul 1 17:53:05 BOT 2012: Ajax->Mostrar Nombre Genero:  
+Sun Jul 1 17:53:14 BOT 2012: Ajax-> Mostrar  Imagen Portada> tono:106289 
+Sun Jul 1 17:54:36 BOT 2012: Ajax-> Mostrar Megusta> tono:103705 
+Sun Jul 1 17:57:42 BOT 2012: Ajax->Mostrar Megusta:  
+Sun Jul 1 17:57:51 BOT 2012: ASYNC -> STATS> Tiempo respuesta 0.65569 seg.
+Sun Jul 1 17:57:51 BOT 2012: ASYNC -> STATS> Tiempo respuesta -0.088314 seg.
+Sun Jul 1 17:57:54 BOT 2012: Consulta de precio de reason:10 - msisdn: tono:103431 Async responde:350
+ 
+Sun Jul 1 17:57:54 BOT 2012: Ajax->Mostrar Ranking:  
+Sun Jul 1 17:57:57 BOT 2012: ASYNC -> STATS> Tiempo respuesta -0.0075299999999999 seg.
+Sun Jul 1 17:58:00 BOT 2012: Ajax->Mostrar Comentarios:  
+Sun Jul 1 17:58:03 BOT 2012: Ajax->Mostrar Nombre Genero:  
+Sun Jul 1 17:58:03 BOT 2012: Ajax-> Mostrar  Nombre Artista > tono:102610 
+Sun Jul 1 17:59:25 BOT 2012: Ajax-> Mostrar Ranking > tono:141881 

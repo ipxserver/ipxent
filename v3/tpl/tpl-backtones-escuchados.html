@@ -1,0 +1,40 @@
+<!-- Right menu -->
+<div id="right-column-backtones-escuchados">
+    <dl style="height:155px;">
+        <dt>Backtones Escuchados</dt>
+        <!-- MARCO EXTERNO !-->
+        <dd style="height:125px;text-align:left; float:left;padding-left:0px; ">
+        <div  id="contenedor-seleccion-escuchados">
+              <!-- FLECHA ARRIBA !-->
+            <div id="arriba_escuchados"></div>
+              <!-- MARCO INTERNO !-->
+              <div id="bloque_escuchados" class="bloque_escuchados">
+                  <ul>
+                    {tpl-tonos}
+                  </ul>
+              </div>
+              <div id="abajo_escuchados"></div>
+              <!-- FLECHA ABAJO !-->
+                
+        </div>
+        </dd>
+    </dl>
+</div>
+<script>
+ var top_escuchados=0;
+$("#arriba_escuchados").click(function(){
+    if (top_escuchados < 0)
+    {
+        top_escuchados= top_escuchados  + 230;
+        $(".bloque_escuchados").animate({"left": top_escuchados}, "medium");
+    }
+});
+
+$("#abajo_escuchados").click(function(){
+    if (top_escuchados > -9990)
+    {
+     top_escuchados= top_escuchados  - 230;
+     $(".bloque_escuchados").animate({"left": top_escuchados }, "medium");
+    }
+});
+</script>

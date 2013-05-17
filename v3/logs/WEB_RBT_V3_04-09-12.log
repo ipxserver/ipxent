@@ -1,0 +1,51 @@
+Mon Apr 9 9:38:24 BOT 2012: Busqueda Inteligente: resultados >125495
+Mon Apr 9 18:37:56 BOT 2012: Ajax-> Mostrar  Nombre Artista > tono:102650 
+Mon Apr 9 18:43:17 BOT 2012: Ajax-> Mostrar Ranking > tono:103655 
+Mon Apr 9 18:43:35 BOT 2012: Ajax-> Mostrar Ranking > tono:103090 
+Mon Apr 9 18:44:15 BOT 2012: Ajax->Mostrar Comentarios:  
+Mon Apr 9 18:46:06 BOT 2012: Ajax-> Mostrar  Nombre Artista > tono:105072 
+Mon Apr 9 19:21:26 BOT 2012: Ajax->Mostrar Imagen Portada:  
+Mon Apr 9 19:21:59 BOT 2012: Ajax->Mostrar Nombre Genero:  
+Mon Apr 9 19:29:30 BOT 2012: WEB_REPRODUCIR_BUSQUEDA > Se recibieron:114 tonos
+Mon Apr 9 19:29:45 BOT 2012: Ajax-> Mostrar Ranking > tono:381 
+Mon Apr 9 19:32:27 BOT 2012: Ajax->Mostrar Nombre Genero:  
+Mon Apr 9 19:33:34 BOT 2012: Consulta de precio de reason:10 - msisdn: tono:125516 Async responde:350
+ 
+Mon Apr 9 19:37:02 BOT 2012: Ajax->Mostrar Nombre Genero:  
+Mon Apr 9 19:37:35 BOT 2012: Consulta de precio de reason:3 - msisdn: tono:110100 Async responde:350
+ 
+Mon Apr 9 19:37:38 BOT 2012: Consulta de precio de reason:5 - msisdn: tono:106237 Async responde:350
+ 
+Mon Apr 9 19:38:20 BOT 2012: Ajax-> Mostrar Ranking > tono:140821 
+Mon Apr 9 19:40:14 BOT 2012: Ajax->Mostrar Comentarios:  
+Mon Apr 9 19:40:17 BOT 2012: Ajax->Mostrar Ranking:  
+Mon Apr 9 19:40:50 BOT 2012: Ajax->Mostrar Megusta:  
+Mon Apr 9 19:41:08 BOT 2012: ASYNC -> STATS> Tiempo respuesta 0.066174 seg.
+Mon Apr 9 19:41:08 BOT 2012: Ajax->Mostrar Ranking:  
+Mon Apr 9 19:42:41 BOT 2012: Ajax-> Mostrar  Nombre Genero > tono:124067 
+Mon Apr 9 19:42:59 BOT 2012: Ajax-> Mostrar Ranking > tono:104268 
+Mon Apr 9 19:43:02 BOT 2012: Ajax-> Mostrar Ranking > tono:106237 
+Mon Apr 9 19:44:36 BOT 2012: Mostrar Album: >Artista:  <a href='index.php?seccion=playlist&autor=247'>Maroon5</a>
+Mon Apr 9 19:45:27 BOT 2012: Ajax-> Mostrar Ranking > tono:285 
+Mon Apr 9 19:45:45 BOT 2012: Session Start>  Chequeo de sesion
+Mon Apr 9 19:46:54 BOT 2012: Ajax-> Mostrar  Imagen Portada> Album:albumes/images[6].jpg
+Mon Apr 9 19:53:52 BOT 2012: Ajax-> Mostrar  Nombre Genero > tono:141918 
+Mon Apr 9 19:54:13 BOT 2012: Ajax-> Mostrar Ranking > tono:106237 
+Mon Apr 9 19:54:19 BOT 2012: Ajax->Mostrar Comentarios:  
+Mon Apr 9 20:00:11 BOT 2012: Ajax-> Mostrar Megusta> tono:104478 
+Mon Apr 9 20:00:47 BOT 2012: Ajax->Mostrar Comentarios:  
+Mon Apr 9 20:01:08 BOT 2012: Ajax->Mostrar Nombre Genero:  
+Mon Apr 9 20:02:20 BOT 2012: Ajax->Mostrar Comentarios:  
+Mon Apr 9 20:02:57 BOT 2012: ASYNC -> STATS> Tiempo respuesta 0.002435 seg.
+Mon Apr 9 20:03:54 BOT 2012: Mostrar Album: >Artista:  <a href='index.php?seccion=playlist&autor=303'>Jesus A Romero</a>
+Mon Apr 9 20:04:06 BOT 2012: Ajax->Mostrar Nombre Genero:  
+Mon Apr 9 20:04:36 BOT 2012: Ajax->Mostrar Comentarios:  
+Mon Apr 9 20:06:51 BOT 2012: WEB REPROD BUSQ > Facebook link: http%3A%2F%2Fbacktones.tigo.com.bo%2Fv3%2Findex.php%3Fseccion%3Dplaylist%26genero%3D145%26f%3D1%26t%3D123123
+Mon Apr 9 20:08:03 BOT 2012: ASYNC -> STATS> Tiempo respuesta 0.237164 seg.
+Mon Apr 9 20:08:09 BOT 2012: Busqueda Inteligente: resultados >103876
+Mon Apr 9 20:09:52 BOT 2012: Mostrar Comentarios : tono:133447 
+Mon Apr 9 20:09:58 BOT 2012: Ajax->Mostrar Nombre Genero:  
+Mon Apr 9 20:10:07 BOT 2012: ASYNC -> STATS> Tiempo respuesta -0.001824 seg.
+Mon Apr 9 20:10:19 BOT 2012: Ajax-> Mostrar  Nombre Genero > tono:104220 
+Mon Apr 9 20:10:25 BOT 2012: Ajax->Mostrar Imagen Portada:  
+Mon Apr 9 20:10:31 BOT 2012: WEB_REPRODUCIR_BUSQUEDA > Se recibieron:91 tonos

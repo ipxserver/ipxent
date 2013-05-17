@@ -1,0 +1,462 @@
+Mon May 28 10:43:19 BOT 2012: ASYNC -> STATS> Tiempo respuesta 0.002584 seg.
+Mon May 28 10:47:29 BOT 2012: Ajax->Mostrar Megusta:  
+Mon May 28 10:47:44 BOT 2012: ASYNC -> STATS> Tiempo respuesta 0.003147 seg.
+Mon May 28 10:54:11 BOT 2012: Ajax-> Mostrar Ranking > tono:109246 
+Mon May 28 10:58:12 BOT 2012: Ajax-> Mostrar  Nombre Artista > tono:144149 
+Mon May 28 10:58:42 BOT 2012: Consulta de precio de reason:2 - msisdn: tono:151052 Async responde:200
+ 
+Mon May 28 10:58:42 BOT 2012: ASYNC -> STATS> Tiempo respuesta 0.312739 seg.
+Mon May 28 11:00:30 BOT 2012: Ajax->Mostrar Megusta:  
+Mon May 28 11:01:43 BOT 2012: Asignar backtone escuchado > Asi termino:109320,109247,109318,109317,109246,109238,109245,109243,109242,109314,109240,109322,109249,
+Mon May 28 11:03:10 BOT 2012: WEB_REPRODUCIR_BUSQUEDA > Se recibieron:59 tonos
+Mon May 28 11:03:52 BOT 2012: Ajax->Mostrar Ranking:  
+Mon May 28 11:08:37 BOT 2012: Ajax-> Mostrar Comentarios> tono:109414 
+Mon May 28 11:08:43 BOT 2012: Ajax-> Mostrar Ranking > tono:104089 
+Mon May 28 11:14:47 BOT 2012: Ajax->Mostrar Imagen Portada:  
+Mon May 28 11:21:57 BOT 2012: ASYNC -> STATS> Tiempo respuesta 0.094634 seg.
+Mon May 28 11:22:19 BOT 2012: ASYNC -> STATS> Tiempo respuesta -0.633618 seg.
+Mon May 28 11:23:19 BOT 2012: STATS > BUSQUEDA DE BACKTONE >Tiempo: 0.002359 seg. | registros: 48
+Mon May 28 11:26:31 BOT 2012: Ajax->Mostrar Nombre Genero:  
+Mon May 28 11:27:31 BOT 2012: Ajax->Mostrar Imagen Portada:  
+Mon May 28 11:29:11 BOT 2012: Busqueda de Backtones Intel: 
+ SQL:SELECT t.id, t.nombre as tono,aut.nombre as autor, alb.imagen, round(avg(wr.calificacion),0) as calificacion
+                    FROM tonos as t
+                    inner join autores as aut on ( t.autor = aut.id)
+                    inner join billing as bil on (t.billing = bil.caso  and bil.concepto=2)
+                    left join albumes as alb on (t.album = alb.id_album)
+                    left join web_tonos_ranking as wr on (t.id = wr.tonos_id)
+                    WHERE
+                    FIND_IN_SET(t.id, ',')
+                    
+                    and t.categoria <> 207 and t.interfases &1 
+                    group by t.id, t.nombre ,aut.nombre , alb.imagen
+                    order by FIND_IN_SET(t.id, ',')
+                    limit 114 
+Mon May 28 11:32:29 BOT 2012: Ajax-> Mostrar Ranking > tono:103103 
+Mon May 28 11:34:20 BOT 2012: Ajax-> Mostrar Ranking > tono:103225 
+Mon May 28 11:34:50 BOT 2012: Ajax->Mostrar Comentarios:  
+Mon May 28 11:35:47 BOT 2012: Ajax-> Mostrar  Imagen Portada> tono:105231 
+Mon May 28 11:38:09 BOT 2012: Ajax-> popup_listar_amigos: msisdn: 
+Mon May 28 11:39:54 BOT 2012: Ajax-> Mostrar Ranking > tono:147085 
+Mon May 28 11:48:58 BOT 2012: Ajax->Mostrar Comentarios:  
+Mon May 28 11:49:01 BOT 2012: Consulta de precio de reason:2 - msisdn: tono:103430 Async responde:350
+ 
+Mon May 28 11:49:01 BOT 2012: ASYNC -> STATS> Tiempo respuesta 0.069681 seg.
+Mon May 28 11:54:47 BOT 2012: LISTAR_MODO_ROTACION_BACTONES > usuario: 76061941  modo:2 
+Mon May 28 11:55:41 BOT 2012: Mostrar Genero: >G&eacute;nero:  <a href='index.php?seccion=playlist&genero=108'>Cristianas</a>
+Mon May 28 11:56:23 BOT 2012: Ajax-> Mostrar  Nombre Artista > tono:149 
+Mon May 28 11:59:45 BOT 2012: Ajax->Mostrar Nombre Genero:  
+Mon May 28 12:03:06 BOT 2012: APLICAR TEMPLATE REGALO: tono:102672 Metodo ingresado: regalar
+Mon May 28 12:06:04 BOT 2012: Mostrar Cantidad reproducciones: tono:118732 cantidad: 0
+Mon May 28 12:07:10 BOT 2012: Ajax->Mostrar Reproducciones:  
+Mon May 28 12:08:10 BOT 2012: Ajax->Mostrar Megusta:  
+Mon May 28 12:10:31 BOT 2012: ASYNC -> STATS> Tiempo respuesta 0.003427 seg.
+Mon May 28 12:12:26 BOT 2012: Ajax->Mostrar Ranking:  
+Mon May 28 12:16:35 BOT 2012: Ajax->Mostrar Nombre Genero:  
+Mon May 28 12:17:05 BOT 2012: Ajax->Mostrar Ranking:  
+Mon May 28 12:17:20 BOT 2012: Mostrar Comentarios : tono:104200 
+Mon May 28 12:17:29 BOT 2012: Ajax->Mostrar Comentarios:  
+Mon May 28 12:17:35 BOT 2012: ASYNC -> STATS> Tiempo respuesta 0.003475 seg.
+Mon May 28 12:17:41 BOT 2012: Consulta de precio de reason:10 - msisdn: tono:106277 Async responde:350
+ 
+Mon May 28 12:20:51 BOT 2012: Ajax->Mostrar Megusta:  
+Mon May 28 12:21:06 BOT 2012: Ajax->Mostrar Comentarios:  
+Mon May 28 12:22:15 BOT 2012: Busqueda Inteligente: resultados >104207
+Mon May 28 12:23:36 BOT 2012: Asignar backtone escuchado > Asi termino:127424,133882,125516,135705,129203,145390,103960,104692,103208,103205,106370,106357,104569,106304,145176,145186,149,105627,145195,145193,
+Mon May 28 12:27:13 BOT 2012: Ajax-> Mostrar Ranking > tono:103762 
+Mon May 28 12:30:04 BOT 2012: Ajax->Mostrar Comentarios:  
+Mon May 28 12:30:10 BOT 2012: ASYNC -> STATS> Tiempo respuesta 0.004043 seg.
+Mon May 28 12:34:14 BOT 2012: Asignar backtone escuchado > Asi termino:142140,142138,147195,147197,131721,137855,144117,129211,104950,103176,127424,133882,125516,135705,129203,145390,103960,104692,103208,103205,
+Mon May 28 12:36:38 BOT 2012: Ajax->Mostrar Comentarios:  
+Mon May 28 12:42:45 BOT 2012: Ajax->Mostrar Reproducciones:  
+Mon May 28 12:48:06 BOT 2012: ASYNC -> STATS> Tiempo respuesta 0.006233 seg.
+Mon May 28 12:49:04 BOT 2012: Retornando el siguiente resultado 
+ <div><div id='contenedor-albumes'><div  id="contenedor-busqueda" style="height:35px;">
+    <div class="contenedor-enlaces-busqueda"  >
+        <a class="enlaces-busqueda" style="color:navy;"href='index.php?seccion=playlist&autor=223' >A Banda Sombra</a>
+    </div>
+</div>
+<div  id="contenedor-busqueda" style="height:35px;">
+    <div class="contenedor-enlaces-busqueda"  >
+        <a class="enlaces-busqueda" style="color:navy;"href='index.php?seccion=playlist&autor=1273' >A.B. Quintanilla</a>
+    </div>
+</div>
+<div  id="contenedor-busqueda" style="height:35px;">
+    <div class="contenedor-enlaces-busqueda"  >
+        <a class="enlaces-busqueda" style="color:navy;"href='index.php?seccion=playlist&autor=1349' >Abba Opratel</a>
+    </div>
+</div>
+<div  id="contenedor-busqueda" style="height:35px;">
+    <div class="contenedor-enlaces-busqueda"  >
+        <a class="enlaces-busqueda" style="color:navy;"href='index.php?seccion=playlist&autor=532' >Abel Zavala</a>
+    </div>
+</div>
+<div  id="contenedor-busqueda" style="height:35px;">
+    <div class="contenedor-enlaces-busqueda"  >
+        <a class="enlaces-busqueda" style="color:navy;"href='index.php?seccion=playlist&autor=362' >ACDC</a>
+    </div>
+</div>
+<div  id="contenedor-busqueda" style="height:35px;">
+    <div class="contenedor-enlaces-busqueda"  >
+        <a class="enlaces-busqueda" style="color:navy;"href='index.php?seccion=playlist&autor=1610' >Adele</a>
+    </div>
+</div>
+<div  id="contenedor-busqueda" style="height:35px;">
+    <div class="contenedor-enlaces-busqueda"  >
+        <a class="enlaces-busqueda" style="color:navy;"href='index.php?seccion=playlist&autor=1306' >Aerosmith</a>
+    </div>
+</div>
+<div  id="contenedor-busqueda" style="height:35px;">
+    <div class="contenedor-enlaces-busqueda"  >
+        <a class="enlaces-busqueda" style="color:navy;"href='index.php?seccion=playlist&autor=1392' >Agente 86</a>
+    </div>
+</div>
+<div  id="contenedor-busqueda" style="height:35px;">
+    <div class="contenedor-enlaces-busqueda"  >
+        <a class="enlaces-busqueda" style="color:navy;"href='index.php?seccion=playlist&autor=137' >Agrupacion marilyn</a>
+    </div>
+</div>
+<div  id="contenedor-busqueda" style="height:35px;">
+    <div class="contenedor-enlaces-busqueda"  >
+        <a class="enlaces-busqueda" style="color:navy;"href='index.php?seccion=playlist&autor=171' >Agrupacion marylin</a>
+    </div>
+</div>
+<div  id="contenedor-busqueda" style="height:35px;">
+    <div class="contenedor-enlaces-busqueda"  >
+        <a class="enlaces-busqueda" style="color:navy;"href='index.php?seccion=playlist&autor=1628' >Agua Marina</a>
+    </div>
+</div>
+<div  id="contenedor-busqueda" style="height:35px;">
+    <div class="contenedor-enlaces-busqueda"  >
+        <a class="enlaces-busqueda" style="color:navy;"href='index.php?seccion=playlist&autor=452' >Aguirre</a>
+    </div>
+</div>
+<div  id="contenedor-busqueda" style="height:35px;">
+    <div class="contenedor-enlaces-busqueda"  >
+        <a class="enlaces-busqueda" style="color:navy;"href='index.php?seccion=playlist&autor=784' >Air Supply</a>
+    </div>
+</div>
+<div  id="contenedor-busqueda" style="height:35px;">
+    <div class="contenedor-enlaces-busqueda"  >
+        <a class="enlaces-busqueda" style="color:navy;"href='index.php?seccion=playlist&autor=745' >Akerman</a>
+    </div>
+</div>
+<div  id="contenedor-busqueda" style="height:35px;">
+    <div class="contenedor-enlaces-busqueda"  >
+        <a class="enlaces-busqueda" style="color:navy;"href='index.php?seccion=playlist&autor=1125' >Akon</a>
+    </div>
+</div>
+<div  id="contenedor-busqueda" style="height:35px;">
+    <div class="contenedor-enlaces-busqueda"  >
+        <a class="enlaces-busqueda" style="color:navy;"href='index.php?seccion=playlist&autor=591' >Akwid</a>
+    </div>
+</div>
+<div  id="contenedor-busqueda" style="height:35px;">
+    <div class="contenedor-enlaces-busqueda"  >
+        <a class="enlaces-busqueda" style="color:navy;"href='index.php?seccion=playlist&autor=1403' >Al fondo hay sitio Opratel</a>
+    </div>
+</div>
+<div  id="contenedor-busqueda" style="height:35px;">
+    <div class="contenedor-enlaces-busqueda"  >
+        <a class="enlaces-busqueda" style="color:navy;"href='index.php?seccion=playlist&autor=1161' >Alberto Plaza</a>
+    </div>
+</div>
+<div  id="contenedor-busqueda" style="height:35px;">
+    <div class="contenedor-enlaces-busqueda"  >
+        <a class="enlaces-busqueda" style="color:navy;"href='index.php?seccion=playlist&autor=345' >Alcides Pena</a>
+    </div>
+</div>
+<div  id="contenedor-busqueda" style="height:35px;">
+    <div class="contenedor-enlaces-busqueda"  >
+        <a class="enlaces-busqueda" style="color:navy;"href='index.php?seccion=playlist&autor=1120' >ALdo Peña</a>
+    </div>
+</div>
+<div  id="contenedor-busqueda" style="height:35px;">
+    <div class="contenedor-enlaces-busqueda"  >
+        <a class="enlaces-busqueda" style="color:navy;"href='index.php?seccion=playlist&autor=545' >Aldo Penha</a>
+    </div>
+</div>
+<div  id="contenedor-busqueda" style="height:35px;">
+    <div class="contenedor-enlaces-busqueda"  >
+        <a class="enlaces-busqueda" style="color:navy;"href='index.php?seccion=playlist&autor=550' >Alejandra Guzman</a>
+    </div>
+</div>
+<div  id="contenedor-busqueda" style="height:35px;">
+    <div class="contenedor-enlaces-busqueda"  >
+        <a class="enlaces-busqueda" style="color:navy;"href='index.php?seccion=playlist&autor=50' >Alejandro Fernandez</a>
+    </div>
+</div>
+<div  id="contenedor-busqueda" style="height:35px;">
+    <div class="contenedor-enlaces-busqueda"  >
+        <a class="enlaces-busqueda" style="color:navy;"href='index.php?seccion=playlist&autor=1379' >Alejandro Fernandez Opratel..</a>
+    </div>
+</div>
+<div  id="contenedor-busqueda" style="height:35px;">
+    <div class="contenedor-enlaces-busqueda"  >
+        <a class="enlaces-busqueda" style="color:navy;"href='index.php?seccion=playlist&autor=308' >Alejandro Gomez</a>
+    </div>
+</div>
+<div  id="contenedor-busqueda" style="height:35px;">
+    <div class="contenedor-enlaces-busqueda"  >
+        <a class="enlaces-busqueda" style="color:navy;"href='index.php?seccion=playlist&autor=757' >Alejandro Sanz feat. Alicia..</a>
+    </div>
+</div>
+<div  id="contenedor-busqueda" style="height:35px;">
+    <div class="contenedor-enlaces-busqueda"  >
+        <a class="enlaces-busqueda" style="color:navy;"href='index.php?seccion=playlist&autor=421' >Alex Campos</a>
+    </div>
+</div>
+<div  id="contenedor-busqueda" style="height:35px;">
+    <div class="contenedor-enlaces-busqueda"  >
+        <a class="enlaces-busqueda" style="color:navy;"href='index.php?seccion=playlist&autor=427' >Alex metic</a>
+    </div>
+</div>
+<div  id="contenedor-busqueda" style="height:35px;">
+    <div class="contenedor-enlaces-busqueda"  >
+        <a class="enlaces-busqueda" style="color:navy;"href='index.php?seccion=playlist&autor=523' >Alexandre Pires</a>
+    </div>
+</div>
+<div  id="contenedor-busqueda" style="height:35px;">
+    <div class="contenedor-enlaces-busqueda"  >
+        <a class="enlaces-busqueda" style="color:navy;"href='index.php?seccion=playlist&autor=1175' >Alexis Fido</a>
+    </div>
+</div>
+<div  id="contenedor-busqueda" style="height:35px;">
+    <div class="contenedor-enlaces-busqueda"  >
+        <a class="enlaces-busqueda" style="color:navy;"href='index.php?seccion=playlist&autor=1278' >Alianza Nueva</a>
+    </div>
+</div>
+<div  id="contenedor-busqueda" style="height:35px;">
+    <div class="contenedor-enlaces-busqueda"  >
+        <a class="enlaces-busqueda" style="color:navy;"href='index.php?seccion=playlist&autor=563' >Alicia Keys</a>
+    </div>
+</div>
+<div  id="contenedor-busqueda" style="height:35px;">
+    <div class="contenedor-enlaces-busqueda"  >
+        <a class="enlaces-busqueda" style="color:navy;"href='index.php?seccion=playlist&autor=333' >Alicia villareal</a>
+    </div>
+</div>
+<div  id="contenedor-busqueda" style="height:35px;">
+    <div class="contenedor-enlaces-busqueda"  >
+        <a class="enlaces-busqueda" style="color:navy;"href='index.php?seccion=playlist&autor=103' >Alien ant Farm</a>
+    </div>
+</div>
+<div  id="contenedor-busqueda" style="height:35px;">
+    <div class="contenedor-enlaces-busqueda"  >
+        <a class="enlaces-busqueda" style="color:navy;"href='index.php?seccion=playlist&autor=354' >Alma Fuerte</a>
+    </div>
+</div>
+<div  id="contenedor-busqueda" style="height:35px;">
+    <div class="contenedor-enlaces-busqueda"  >
+        <a class="enlaces-busqueda" style="color:navy;"href='index.php?seccion=playlist&autor=138' >Altos cumbieros</a>
+    </div>
+</div>
+</div><!-- CONTENEDOR !-->
+                                </div><!-- ITEMS !-->
+                                <div><!-- ITEMS 37 !-->
+                                <div id='contenedor-albumes'><div  id="contenedor-busqueda" style="height:35px;">
+    <div class="contenedor-enlaces-busqueda"  >
+        <a class="enlaces-busqueda" style="color:navy;"href='index.php?seccion=playlist&autor=652' >Amaia Montero</a>
+    </div>
+</div>
+<div  id="contenedor-busqueda" style="height:35px;">
+    <div class="contenedor-enlaces-busqueda"  >
+        <a class="enlaces-busqueda" style="color:navy;"href='index.php?seccion=playlist&autor=363' >Amandititita</a>
+    </div>
+</div>
+<div  id="contenedor-busqueda" style="height:35px;">
+    <div class="contenedor-enlaces-busqueda"  >
+        <a class="enlaces-busqueda" style="color:navy;"href='index.php?seccion=playlist&autor=229' >Amaral</a>
+    </div>
+</div>
+<div  id="contenedor-busqueda" style="height:35px;">
+    <div class="contenedor-enlaces-busqueda"  >
+        <a class="enlaces-busqueda" style="color:navy;"href='index.php?seccion=playlist&autor=428' >AmeDixon</a>
+    </div>
+</div>
+<div  id="contenedor-busqueda" style="height:35px;">
+    <div class="contenedor-enlaces-busqueda"  >
+        <a class="enlaces-busqueda" style="color:navy;"href='index.php?seccion=playlist&autor=1438' >Americo</a>
+    </div>
+</div>
+<div  id="contenedor-busqueda" style="height:35px;">
+    <div class="contenedor-enlaces-busqueda"  >
+        <a class="enlaces-busqueda" style="color:navy;"href='index.php?seccion=playlist&autor=605' >Amistad</a>
+    </div>
+</div>
+<div  id="contenedor-busqueda" style="height:35px;">
+    <div class="contenedor-enlaces-busqueda"  >
+        <a class="enlaces-busqueda" style="color:navy;"href='index.php?seccion=playlist&autor=283' >Amy Winehouse</a>
+    </div>
+</div>
+<div  id="contenedor-busqueda" style="height:35px;">
+    <div class="contenedor-enlaces-busqueda"  >
+        <a class="enlaces-busqueda" style="color:navy;"href='index.php?seccion=playlist&autor=551' >Ana Gabriel</a>
+    </div>
+</div>
+<div  id="contenedor-busqueda" style="height:35px;">
+    <div class="contenedor-enlaces-busqueda"  >
+        <a class="enlaces-busqueda" style="color:navy;"href='index.php?seccion=playlist&autor=1634' >Anahi</a>
+    </div>
+</div>
+<div  id="contenedor-busqueda" style="height:35px;">
+    <div class="contenedor-enlaces-busqueda"  >
+        <a class="enlaces-busqueda" style="color:navy;"href='index.php?seccion=playlist&autor=299' >Anderson Gonzaga</a>
+    </div>
+</div>
+<div  id="contenedor-busqueda" style="height:35px;">
+    <div class="contenedor-enlaces-busqueda"  >
+        <a class="enlaces-busqueda" style="color:navy;"href='index.php?seccion=playlist&autor=766' >Andres Barba</a>
+    </div>
+</div>
+<div  id="contenedor-busqueda" style="height:35px;">
+    <div class="contenedor-enlaces-busqueda"  >
+        <a class="enlaces-busqueda" style="color:navy;"href='index.php?seccion=playlist&autor=1324' >Andres Cepeda Opratel</a>
+    </div>
+</div>
+<div  id="contenedor-busqueda" style="height:35px;">
+    <div class="contenedor-enlaces-busqueda"  >
+        <a class="enlaces-busqueda" style="color:navy;"href='index.php?seccion=playlist&autor=743' >Andy Aguilera</a>
+    </div>
+</div>
+<div  id="contenedor-busqueda" style="height:35px;">
+    <div class="contenedor-enlaces-busqueda"  >
+        <a class="enlaces-busqueda" style="color:navy;"href='index.php?seccion=playlist&autor=56' >Andy boy vitico</a>
+    </div>
+</div>
+<div  id="contenedor-busqueda" style="height:35px;">
+    <div class="contenedor-enlaces-busqueda"  >
+        <a class="enlaces-busqueda" style="color:navy;"href='index.php?seccion=playlist&autor=47' >Angel y Khriz</a>
+    </div>
+</div>
+<div  id="contenedor-busqueda" style="height:35px;">
+    <div class="contenedor-enlaces-busqueda"  >
+        <a class="enlaces-busqueda" style="color:navy;"href='index.php?seccion=playlist&autor=1141' >Angela</a>
+    </div>
+</div>
+<div  id="contenedor-busqueda" style="height:35px;">
+    <div class="contenedor-enlaces-busqueda"  >
+        <a class="enlaces-busqueda" style="color:navy;"href='index.php?seccion=playlist&autor=667' >Animal de Ciudad</a>
+    </div>
+</div>
+<div  id="contenedor-busqueda" style="height:35px;">
+    <div class="contenedor-enlaces-busqueda"  >
+        <a class="enlaces-busqueda" style="color:navy;"href='index.php?seccion=playlist&autor=736' >Anio cero</a>
+    </div>
+</div>
+<div  id="contenedor-busqueda" style="height:35px;">
+    <div class="contenedor-enlaces-busqueda"  >
+        <a class="enlaces-busqueda" style="color:navy;"href='index.php?seccion=playlist&autor=278' >Anonimo</a>
+    </div>
+</div>
+<div  id="contenedor-busqueda" style="height:35px;">
+    <div class="contenedor-enlaces-busqueda"  >
+        <a class="enlaces-busqueda" style="color:navy;"href='index.php?seccion=playlist&autor=256' >Antologia</a>
+    </div>
+</div>
+<div  id="contenedor-busqueda" style="height:35px;">
+    <div class="contenedor-enlaces-busqueda"  >
+        <a class="enlaces-busqueda" style="color:navy;"href='index.php?seccion=playlist&autor=1440' >Antonio Carmona</a>
+    </div>
+</div>
+<div  id="contenedor-busqueda" style="height:35px;">
+    <div class="contenedor-enlaces-busqueda"  >
+        <a class="enlaces-busqueda" style="color:navy;"href='index.php?seccion=playlist&autor=1623' >Antonio Orozco</a>
+    </div>
+</div>
+<div  id="contenedor-busqueda" style="height:35px;">
+    <div class="contenedor-enlaces-busqueda"  >
+        <a class="enlaces-busqueda" style="color:navy;"href='index.php?seccion=playlist&autor=274' >Antony</a>
+    </div>
+</div>
+<div  id="contenedor-busqueda" style="height:35px;">
+    <div class="contenedor-enlaces-busqueda"  >
+        <a class="enlaces-busqueda" style="color:navy;"href='index.php?seccion=playlist&autor=583' >arbol</a>
+    </div>
+</div>
+<div  id="contenedor-busqueda" style="height:35px;">
+    <div class="contenedor-enlaces-busqueda"  >
+        <a class="enlaces-busqueda" style="color:navy;"href='index.php?seccion=playlist&autor=80' >Ashlee Simpson</a>
+    </div>
+</div>
+<div  id="contenedor-busqueda" style="height:35px;">
+    <div class="contenedor-enlaces-busqueda"  >
+        <a class="enlaces-busqueda" style="color:navy;"href='index.php?seccion=playlist&autor=538' >Aspirante</a>
+    </div>
+</div>
+<div  id="contenedor-busqueda" style="height:35px;">
+    <div class="contenedor-enlaces-busqueda"  >
+        <a class="enlaces-busqueda" style="color:navy;"href='index.php?seccion=playlist&autor=601' >astroboy</a>
+    </div>
+</div>
+<div  id="contenedor-busqueda" style="height:35px;">
+    <div class="contenedor-enlaces-busqueda"  >
+        <a class="enlaces-busqueda" style="color:navy;"href='index.php?seccion=playlist&autor=343' >Asuncion Blues</a>
+    </div>
+</div>
+<div  id="contenedor-busqueda" style="height:35px;">
+    <div class="contenedor-enlaces-busqueda"  >
+        <a class="enlaces-busqueda" style="color:navy;"href='index.php?seccion=playlist&autor=128' >Ataque77</a>
+    </div>
+</div>
+<div  id="contenedor-busqueda" style="height:35px;">
+    <div class="contenedor-enlaces-busqueda"  >
+        <a class="enlaces-busqueda" style="color:navy;"href='index.php?seccion=playlist&autor=429' >ATFC</a>
+    </div>
+</div>
+<div  id="contenedor-busqueda" style="height:35px;">
+    <div class="contenedor-enlaces-busqueda"  >
+        <a class="enlaces-busqueda" style="color:navy;"href='index.php?seccion=playlist&autor=1' >Audio Bullys</a>
+    </div>
+</div>
+<div  id="contenedor-busqueda" style="height:35px;">
+    <div class="contenedor-enlaces-busqueda"  >
+        <a class="enlaces-busqueda" style="color:navy;"href='index.php?seccion=playlist&autor=320' >Autenticos decadentes</a>
+    </div>
+</div>
+<div  id="contenedor-busqueda" style="height:35px;">
+    <div class="contenedor-enlaces-busqueda"  >
+        <a class="enlaces-busqueda" style="color:navy;"href='index.php?seccion=playlist&autor=184' >Autonomia</a>
+    </div>
+</div>
+<div  id="contenedor-busqueda" style="height:35px;">
+    <div class="contenedor-enlaces-busqueda"  >
+        <a class="enlaces-busqueda" style="color:navy;"href='index.php?seccion=playlist&autor=1488' >AVE</a>
+    </div>
+</div>
+<div  id="contenedor-busqueda" style="height:35px;">
+    <div class="contenedor-enlaces-busqueda"  >
+        <a class="enlaces-busqueda" style="color:navy;"href='index.php?seccion=playlist&autor=141' >Aventura</a>
+    </div>
+</div>
+<div  id="contenedor-busqueda" style="height:35px;">
+    <div class="contenedor-enlaces-busqueda"  >
+        <a class="enlaces-busqueda" style="color:navy;"href='index.php?seccion=playlist&autor=76' >Avril Lavigne</a>
+    </div>
+</div>
+</div><!-- CONTENEDOR !-->
+                                </div><!-- ITEMS !-->
+                                <div><!-- ITEMS 73 !-->
+                                <div id='contenedor-albumes'><div  id="contenedor-busqueda" style="height:35px;">
+    <div class="contenedor-enlaces-busqueda"  >
+        <a class="enlaces-busqueda" style="color:navy;"href='index.php?seccion=playlist&autor=86' >Axel</a>
+    </div>
+</div>
+<div  id="contenedor-busqueda" style="height:35px;">
+    <div class="contenedor-enlaces-busqueda"  >
+        <a class="enlaces-busqueda" style="color:navy;"href='index.php?seccion=playlist&autor=107' >Axwell</a>
+    </div>
+</div>
+<div  id="contenedor-busqueda" style="height:35px;">
+    <div class="contenedor-enlaces-busqueda"  >
+        <a class="enlaces-busqueda" style="color:navy;"href='index.php?seccion=playlist&autor=161' >Azul azul</a>
+    </div>
+</div>
+</div></div>
+Mon May 28 12:57:14 BOT 2012: Ajax->Actualizar pin usuario
+Mon May 28 13:05:42 BOT 2012: Ajax-> Mostrar Comentarios> tono:150304 
+Mon May 28 13:08:09 BOT 2012: Ajax->Mostrar Reproducciones:  
+Mon May 28 13:11:13 BOT 2012: ASYNC -> STATS> Tiempo respuesta -0.300142 seg.
+Mon May 28 13:12:16 BOT 2012: Mostrar Cantidad reproducciones: tono:102787 cantidad: 0
+Mon May 28 13:14:31 BOT 2012: STATS > BUSQUEDA DE BACKTONE >Tiempo: -0.307473 seg. | registros: 3
+Mon May 28 13:16:04 BOT 2012: ASYNC -> STATS> Tiempo respuesta 0.002896 seg.

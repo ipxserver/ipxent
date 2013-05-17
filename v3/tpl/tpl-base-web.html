@@ -1,0 +1,95 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="shortcut icon" type="image/x-icon" href="estilos/tigo/images/favicon.ico"/>
+<title>{tpl-titulo-header}</title>
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/jquery-ui.min.js"></script>
+{tpl-header}
+<link href="estilos/tigo/styles/reset.css" rel="stylesheet" type="text/css" />
+<link rel="stylesheet" href="estilos/tigo/styles/slider.css" type="text/css" media="screen" />
+<link href="estilos/tigo/styles/scrollable.css" rel="stylesheet" type="text/css" />
+<link href="estilos/tigo/styles/usuario.css" rel="stylesheet" type="text/css" />
+<link href="estilos/tigo/styles/general.css" rel="stylesheet" type="text/css" />
+<link href="estilos/tigo/styles/home.css" rel="stylesheet" type="text/css" />
+<link href="estilos/tigo/styles/album.css" rel="stylesheet" type="text/css" />
+<link href="estilos/tigo/styles/search-result.css" rel="stylesheet" type="text/css" />
+<link href="estilos/tigo/styles/jquery.bubblepopup.v2.3.1.css" rel="stylesheet" type="text/css" />
+
+
+<!--[if gte IE 6]>
+
+<![endif]-->
+	<!--[if gte IE 7]>
+
+<![endif]-->
+<!--script que permite utilizar png correctamente en ie6-->
+<!--[if lt IE 7]>
+<script src="http://ie7-js.googlecode.com/svn/version/2.0(beta3)/IE7.js" type="text/javascript"></script>
+<![endif]-->
+<!--[if IE]><style>
+.layoutc span, .layoutc div {
+	zoom: 1;
+}
+</style><![endif]-->
+<!--[if lt IE 5.5000]><style>
+.layoutc span, .layoutc div {
+	height: 0;
+	vertical-align: bottom;
+}
+</style><![endif]-->
+
+
+
+<script type="text/javascript" src="js/scrollable.js"></script>
+<script type="text/javascript" src="js/slider.js"></script>
+<script type="text/javascript" src="js/webrbt.js"></script>
+<script type="text/javascript" src="js/accordion.js"></script>
+ <script type="text/javascript" src="js/jquery.bubblepopup.v2.3.1.min.js"></script>
+{tpl-header-secundario}
+</head>
+
+<body>
+<div id="loader" class="loading"></div>
+<div id="header">
+<!-- Logo and login header -->
+<div id="header-logo" >
+    <a href="index.php"><div id="logo" ></div></a>
+        {tpl-panel-busqueda}
+    </div>
+<!-- Main menu bar -->
+</div>
+
+<!-- Content Box -->
+<div id="content-box">
+<!-- Left menu -->
+    <div id="contenedor-izquierda" style="width:200px; display:inline; float:left;">
+        {tpl-seleccion-genero}
+        {tpl-lista-tonos-losmas}
+    </div><!-- CONTENEDOR IZQ !-->
+
+<!-- contendor central -->
+<div id="content">
+
+    {tpl-contenedor-principal}
+    <!-- Jump -->
+    <div class="jump">&nbsp;</div><!-- float -->
+</div><!-- CONTENEDOR CENTRAL !-->
+    <div id="contenedor-derecha" style="width:230px; display:inline; float:right;vertical-align: top;">
+    {tpl-recomendados}
+
+<!-- ===== MI CUENTA  =====-->
+    {tpl-login-usuarios}
+<!-- ===== FAQ  =====-->
+    {tpl-faq}
+
+<!-- ===== BACKTONES ESCUCHADOS  =====-->
+    {tpl-backtones-escuchados}
+    </div><!-- CONTENEDOR DERECHA -->
+<!-- Jump --><div class="jump">&nbsp;</div><!-- float -->
+</div>
+
+
+</body>
+</html>

@@ -1,0 +1,51 @@
+Wed Apr 25 4:02:03 BOT 2012: Busqueda Inteligente: resultados >104870
+Wed Apr 25 11:40:39 BOT 2012: Ajax->Mostrar Nombre Genero:  
+Wed Apr 25 11:42:42 BOT 2012: Checklogin > msisdn: 77058909 , pin:aa0CROJ38WtxE
+Wed Apr 25 11:42:48 BOT 2012: Check Session > msisdn: 77137457 > Usuario Valido 
+Wed Apr 25 11:46:04 BOT 2012: Ajax->Mostrar Reproducciones:  
+Wed Apr 25 11:46:07 BOT 2012: Ajax->Mostrar Nombre Artista:  
+Wed Apr 25 11:46:58 BOT 2012: Ajax->Mostrar Ranking:  
+Wed Apr 25 11:47:43 BOT 2012: Ajax-> Mostrar Megusta> tono:143744 
+Wed Apr 25 11:48:43 BOT 2012: Ajax->Mostrar Comentarios:  
+Wed Apr 25 11:48:55 BOT 2012: Ajax->  Editar tonos Amigos: > msisdn:77058909  
+Wed Apr 25 11:50:08 BOT 2012: Busqueda Inteligente: resultados >107777
+Wed Apr 25 11:51:17 BOT 2012: Busqueda Inteligente: resultados >129927
+Wed Apr 25 11:52:29 BOT 2012: ACTUALIZAR_PIN_USUARIO >77230736 verificar si existe el usuario
+Wed Apr 25 11:55:26 BOT 2012: Ajax->Mostrar Reproducciones:  
+Wed Apr 25 11:55:44 BOT 2012: Ajax->Mostrar Reproducciones:  
+Wed Apr 25 12:00:06 BOT 2012: Ajax-> Mostrar Comentarios> tono:113616 
+Wed Apr 25 12:04:31 BOT 2012: Ajax->Mostrar Reproducciones:  
+Wed Apr 25 12:19:38 BOT 2012: ASYNC -> STATS> Tiempo respuesta 0.0025069999999999 seg.
+Wed Apr 25 12:23:54 BOT 2012: Asignar backtone escuchado > Asi termino:104465,103712,142527,
+Wed Apr 25 12:23:57 BOT 2012: Ajax-> Mostrar  Nombre Genero > tono:104465 
+Wed Apr 25 12:24:57 BOT 2012: Ajax->Mostrar Nombre Genero:  
+Wed Apr 25 12:26:09 BOT 2012: Error al consultar precio de renovacion - msisdn: tono:103595 - Async responde -3
+Wed Apr 25 12:26:15 BOT 2012: ASYNC -> STATS> Tiempo respuesta 0.0032340000000001 seg.
+Wed Apr 25 12:28:57 BOT 2012: Session Start>  Chequeo de sesion
+Wed Apr 25 12:29:49 BOT 2012: Ajax-> Mostrar Ranking > tono:104205 
+Wed Apr 25 12:30:31 BOT 2012: Asignar backtone escuchado > Asi termino:104422,104190,102658,
+Wed Apr 25 12:31:46 BOT 2012: Ajax->Mostrar Ranking:  
+Wed Apr 25 12:31:46 BOT 2012: Ajax->Mostrar Ranking:  
+Wed Apr 25 12:32:34 BOT 2012: Ajax-> Mostrar  Imagen Portada> tono:125516 
+Wed Apr 25 12:33:49 BOT 2012: Ajax-> Cerrar session: msisdn:78452361 > Cerrada exitosamente 
+Wed Apr 25 12:35:37 BOT 2012: Ajax->Mostrar Nombre Artista:  
+Wed Apr 25 12:35:46 BOT 2012: Mostrar Megusta> tono: 130814 msisdn: > a otros 10  les gusta 
+Wed Apr 25 12:36:59 BOT 2012: ASYNC -> STATS> Tiempo respuesta -0.423046 seg.
+Wed Apr 25 12:36:59 BOT 2012: ASYNC -> STATS> Tiempo respuesta -0.530851 seg.
+Wed Apr 25 12:40:08 BOT 2012: STATS > BUSQUEDA DE BACKTONE >Tiempo: 0.08778 seg. | registros: 114
+Wed Apr 25 12:43:42 BOT 2012: Ajax->Mostrar Nombre Genero:  
+Wed Apr 25 12:46:39 BOT 2012: Busqueda Inteligente: resultados >122651
+Wed Apr 25 12:49:51 BOT 2012: Ajax->Mostrar Ranking:  
+Wed Apr 25 12:52:25 BOT 2012: Ajax-> Mostrar Ranking > tono:130806 
+Wed Apr 25 12:56:31 BOT 2012: Ajax->Mostrar Nombre Genero:  
+Wed Apr 25 12:57:13 BOT 2012: Asignar backtone escuchado > Asi termino:106286,106288,106289,106290,107788,107794,106294,107737,103466,108557,386,131819,131645,148,112705,105302,104120,145895,104612,104069,
+Wed Apr 25 12:57:19 BOT 2012: ASYNC -> STATS> Tiempo respuesta 0.001875 seg.
+Wed Apr 25 12:57:22 BOT 2012: Mostrar Album: >Artista:  <a href='index.php?seccion=playlist&autor=548'>La Banda de Perucho</a>
+Wed Apr 25 12:57:25 BOT 2012: Ajax-> Mostrar Comentarios> tono:104344 
+Wed Apr 25 13:01:20 BOT 2012: Ajax->Mostrar Ranking:  
+Wed Apr 25 13:02:02 BOT 2012: Ajax->Mostrar Ranking:  
+Wed Apr 25 13:04:05 BOT 2012: Session Start>  session por defecto 
+Wed Apr 25 13:04:23 BOT 2012: Ajax->Mostrar Megusta:  
+Wed Apr 25 13:09:33 BOT 2012: ASYNC -> STATS> Tiempo respuesta 0.36908 seg.
+Wed Apr 25 13:13:31 BOT 2012: ASYNC -> STATS> Tiempo respuesta 0.249658 seg.
+Wed Apr 25 13:14:58 BOT 2012: Session Start>  session por defecto 

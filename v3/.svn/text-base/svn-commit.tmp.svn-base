@@ -1,0 +1,8 @@
+cambio por consola
+--Esta línea y las que están debajo serán ignoradas--
+
+M    estilos/tigo/styles/general.css
+A    logs/WEB_RBT_V3_12-12-10.log
+M    class/CLASS_WEB_BUSQUEDA.php
+M    class/CLASS_WEB_INDICE.php
+A    class/CLASS_WEB_BUSQUEDA2.php

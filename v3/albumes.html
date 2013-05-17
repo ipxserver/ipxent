@@ -1,0 +1,677 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="shortcut icon" type="image/x-icon" href="estilos/tigo/images/favicon.ico"/>
+<title>TIGO</title>
+<link href="estilos/tigo/styles/reset.css" rel="stylesheet" type="text/css" />
+<link rel="stylesheet" href="estilos/tigo/styles/slider.css" type="text/css" media="screen" />
+<link href="estilos/tigo/styles/scrollable.css" rel="stylesheet" type="text/css" />
+<link href="estilos/tigo/styles/usuario.css" rel="stylesheet" type="text/css" />
+<link href="estilos/tigo/styles/general.css" rel="stylesheet" type="text/css" />
+<link href="estilos/tigo/styles/home.css" rel="stylesheet" type="text/css" />
+<link href="estilos/tigo/styles/album.css" rel="stylesheet" type="text/css" />
+<link href="estilos/tigo/styles/search-result.css" rel="stylesheet" type="text/css" />
+
+
+
+
+<!--[if gte IE 6]>
+<link href="styles/ie6.css" rel="stylesheet" type="text/css" />
+<![endif]-->
+	<!--[if gte IE 7]>
+<link href="styles/ie7.css" rel="stylesheet" type="text/css" />
+<![endif]-->
+<!--script que permite utilizar png correctamente en ie6-->
+<!--[if lt IE 7]>
+<script src="http://ie7-js.googlecode.com/svn/version/2.0(beta3)/IE7.js" type="text/javascript"></script>
+<![endif]-->
+<!--[if IE]><style>
+.layoutc span, .layoutc div {
+	zoom: 1;
+}
+</style><![endif]-->
+<!--[if lt IE 5.5000]><style>
+.layoutc span, .layoutc div {
+	height: 0;
+	vertical-align: bottom;
+}
+</style><![endif]-->
+
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/jquery-ui.min.js"></script>
+<script type="text/javascript" src="js/scrollable.js"></script>
+<script type="text/javascript" src="js/slider.js"></script>
+<script type="text/javascript" src="js/accordion.js"></script>
+
+</head>
+
+<body>
+
+<div id="header">
+<!-- Logo and login header -->
+    <div id="header-logo">
+    <div id="logo"></div>
+        <div id="panel-busqueda">
+<!-- Breadcrumb -->
+        <div id="menu-bar">
+                <ul><li class='first'><a href="index.php">Inicio</a></li></ul>
+        </div>
+<!-- Alphabet bar -->
+        <div id="abc">
+                <div id="abc-title">Busca tu artista por orden alfab&eacute;tico</div>
+                <div id="abc-words"> <span class="letters">
+                <a href='index.php?seccion=busqueda&artista=a'>A</a>
+                <a href='index.php?seccion=busqueda&artista=b'>B</a>
+                <a href='index.php?seccion=busqueda&artista=c'>C</a>
+                <a href='index.php?seccion=busqueda&artista=d'>D</a>
+                <a href='index.php?seccion=busqueda&artista=e'>E</a>
+                <a href='index.php?seccion=busqueda&artista=f'>F</a>
+                <a href='index.php?seccion=busqueda&artista=g'>G</a>
+                <a href='index.php?seccion=busqueda&artista=h'>H</a>
+                <a href='index.php?seccion=busqueda&artista=i'>I</a>
+                <a href='index.php?seccion=busqueda&artista=j'>J</a>
+                <a href='index.php?seccion=busqueda&artista=k'>K</a>
+                <a href='index.php?seccion=busqueda&artista=l'>L</a>
+                <a href='index.php?seccion=busqueda&artista=m'>M</a>
+                <a href='index.php?seccion=busqueda&artista=n'>N</a>
+                <a href='index.php?seccion=busqueda&artista=o'>O</a>
+                <a href='index.php?seccion=busqueda&artista=p'>P</a>
+                <a href='index.php?seccion=busqueda&artista=q'>Q</a>
+                <a href='index.php?seccion=busqueda&artista=r'>R</a>
+                <a href='index.php?seccion=busqueda&artista=s'>S</a>
+                <a href='index.php?seccion=busqueda&artista=t'>T</a>
+                <a href='index.php?seccion=busqueda&artista=u'>U</a>
+                <a href='index.php?seccion=busqueda&artista=v'>V</a>
+                <a href='index.php?seccion=busqueda&artista=w'>W</a>
+                <a href='index.php?seccion=busqueda&artista=x'>X</a>
+                <a href='index.php?seccion=busqueda&artista=y'>Y</a>
+                <a href='index.php?seccion=busqueda&artista=z'>Z</a>
+                <a href='index.php?seccion=busqueda&artista=0-9'>#</a>
+                </span>
+                </div>
+        </div>
+
+<!-- Finder bar -->
+        <div id="finder">
+                <div id="search">
+                    <form action="index.php?seccion=busqueda" method="POST" name="form_search" id="form_search">
+                      <div class="panel-busqueda">
+                        <div class="contenedor_texto_busqueda">
+Buscar M&uacute;sica	<input type="text" id="label" name="tb_texto_busqueda" value="" size="20" />
+                        </div>
+                        <div class="contenedor_tipo_busqueda">
+                            <div style="width:145px; height:20px; float:left; display:inline;">
+                            <span style="font-size:10px;"> en: </span>
+                            <input name="accion" type="hidden" id="accion" value="busqueda" />
+                            <select  id="tb_filtro_tipo"  name="tb_filtro_tipo"   style="height:18px; font-size:10px; width:70px;" onchange="selectSearch(this)">
+                                    <option value="todo"  >--</option>
+                                    <option value="temas"  >Temas</option>
+                                    <option value="albumes"  >Albumes</option>
+                                    <option value="artistas"  >Artistas</option>
+                            </select>
+                            </div>
+                            <div style="width:145px;  height:20px; float:left; display:inline;">
+                            <input name="accion" type="hidden" id="accion" value="busqueda" />
+                            <span style="font-size:10px;"> precio: </span>
+                            <select  id="filtro" name="tb_filtro_precio"style="height:18px; width:70px;font-size:10px;" onchange="selectSearch(this)">
+                                <option value="todo"  selected>--</option>
+                                    <option value="1 -1,5 Bs."  >1 -1,5 Bs.</option>
+                                    <option value="2 -2,5 Bs."  >2 -2,5 Bs.</option>
+                                    <option value="3 -3,5 Bs."  >3 -3,5 Bs.</option>
+                            </select>
+                            </div>
+                        </div>
+                        <div class="contenedor_boton">
+                        <input type="submit" class="button-blue" value="Buscar" />
+                        </div>
+                   </div>
+                </form>
+                </div>
+        </div>
+</div>
+    </div>
+<!-- Main menu bar -->
+</div>
+
+<!-- Content Box -->
+<div id="content-box">
+<!-- Left menu -->
+    <div id="contenedor-izquierda" style="width:200px; display:inline; float:left;">
+        <div id="left-column">
+<dl>
+    <dt>Selecciona el G&eacute;nero</dt>
+    <dd><a href='#link-genero-id41'>Foreverling</a></dd><dd><a href='#link-genero-id205' class='light-blue'>Carnaval de oruro</a></dd><dd><a href='#link-genero-id211'>Salsa y merengue</a></dd><dd><a href='#link-genero-id234' class='light-blue'>Mundial sud�frica</a></dd><dd><a href='#link-genero-id4'>Pop</a></dd><dd><a href='#link-genero-id37' class='light-blue'>Isa</a></dd><dd><a href='#link-genero-id215'>Cumbia</a></dd><dd><a href='#link-genero-id31' class='light-blue'>Tu nombre</a></dd>
+</dl>
+</div>
+        <div id="accordion-column">
+    <dl>
+        <dt>Los M&aacute;s! </dt>
+        <dd >
+        <ul id="accordion">
+            <li>
+                <a href="#recent" class="heading bg-1">Descargados</a>
+                     <ul>
+                         <li class='listatonos-losmas'>
+                <div class='votados'></div>
+                <div class='tonos-losmas' >
+                <a href='#link-tono-102507' title='Vivir sin verte' class='tonos'>Vivir sin verte</a>
+                <a href='#link-tono-102507' class='artist' title='A banda sombra'>A banda sombra</a>
+                 </div>
+
+                </li><li class='listatonos-losmas'>
+                <div class='votados'></div>
+                <div class='tonos-losmas' >
+                <a href='#link-tono-104650' title='Cada manhana' class='tonos'>Cada manhana</a>
+                <a href='#link-tono-104650' class='artist' title='Reik'>Reik</a>
+                 </div>
+
+                </li><li class='listatonos-losmas'>
+                <div class='votados'></div>
+                <div class='tonos-losmas' >
+                <a href='#link-tono-104953' title='Martyr' class='tonos'>Martyr</a>
+                <a href='#link-tono-104953' class='artist' title='Toing'>Toing</a>
+                 </div>
+
+                </li><li class='listatonos-losmas'>
+                <div class='votados'></div>
+                <div class='tonos-losmas' >
+                <a href='#link-tono-102786' title='Para que tu no llores' class='tonos'>Para que tu no llores</a>
+                <a href='#link-tono-102786' class='artist' title='Belanova'>Belanova</a>
+                 </div>
+
+                </li><li class='listatonos-losmas'>
+                <div class='votados'></div>
+                <div class='tonos-losmas' >
+                <a href='#link-tono-104551' title='Rompeme matame' class='tonos'>Rompeme matame</a>
+                <a href='#link-tono-104551' class='artist' title='La 755'>La 755</a>
+                 </div>
+
+                </li><li class='listatonos-losmas'>
+                <div class='votados'></div>
+                <div class='tonos-losmas' >
+                <a href='#link-tono-102525' title='No debiste volver' class='tonos'>No debiste volver</a>
+                <a href='#link-tono-102525' class='artist' title='Banda reggaeton'>Banda reggaeton</a>
+                 </div>
+
+                </li><li class='listatonos-losmas'>
+                <div class='votados'></div>
+                <div class='tonos-losmas' >
+                <a href='#link-tono-104135' title='Voy a entrar en sus cuerpos' class='tonos'>Voy a entrar en sus cuerpo..</a>
+                <a href='#link-tono-104135' class='artist' title='Dalebe'>Dalebe</a>
+                 </div>
+
+                </li><li class='listatonos-losmas'>
+                <div class='votados'></div>
+                <div class='tonos-losmas' >
+                <a href='#link-tono-105710' title='Se canso de esperar' class='tonos'>Se canso de esperar</a>
+                <a href='#link-tono-105710' class='artist' title='Damas gratis'>Damas gratis</a>
+                 </div>
+
+                </li><li class='listatonos-losmas'>
+                <div class='votados'></div>
+                <div class='tonos-losmas' >
+                <a href='#link-tono-103532' title='Maldito corazon' class='tonos'>Maldito corazon</a>
+                <a href='#link-tono-103532' class='artist' title='Rafaga'>Rafaga</a>
+                 </div>
+
+                </li><li class='listatonos-losmas'>
+                <div class='votados'></div>
+                <div class='tonos-losmas' >
+                <a href='#link-tono-374' title='Tu' class='tonos'>Tu</a>
+                <a href='#link-tono-374' class='artist' title='Planb'>Planb</a>
+                 </div>
+
+                </li>
+                    </ul>
+            </li>
+            <li>
+                    <a href="#popular" class="heading bg-2">Comprados</a>
+                     <ul>
+                         <li class='listatonos-losmas'>
+                <div class='comprados'></div>
+                <div class='tonos-losmas' >
+                <a href='#link-tono-108557' title='7 things' class='tonos'>7 things</a>
+                <a href='#link-tono-108557' class='artist' title='Miley cyrus'>Miley cyrus</a>
+                 </div>
+
+                </li><li class='listatonos-losmas'>
+                <div class='comprados'></div>
+                <div class='tonos-losmas' >
+                <a href='#link-tono-105233' title='Muriendo lento' class='tonos'>Muriendo lento</a>
+                <a href='#link-tono-105233' class='artist' title='Moderatto'>Moderatto</a>
+                 </div>
+
+                </li><li class='listatonos-losmas'>
+                <div class='comprados'></div>
+                <div class='tonos-losmas' >
+                <a href='#link-tono-103476' title='2mi enamorada' class='tonos'>2mi enamorada</a>
+                <a href='#link-tono-103476' class='artist' title='Nectar'>Nectar</a>
+                 </div>
+
+                </li><li class='listatonos-losmas'>
+                <div class='comprados'></div>
+                <div class='tonos-losmas' >
+                <a href='#link-tono-103762' title='E acordaras de mi' class='tonos'>E acordaras de mi</a>
+                <a href='#link-tono-103762' class='artist' title='Los angeles de charlie'>Los angeles de charlie</a>
+                 </div>
+
+                </li><li class='listatonos-losmas'>
+                <div class='comprados'></div>
+                <div class='tonos-losmas' >
+                <a href='#link-tono-102914' title='Octavo sueno' class='tonos'>Octavo sueno</a>
+                <a href='#link-tono-102914' class='artist' title='Octavia'>Octavia</a>
+                 </div>
+
+                </li><li class='listatonos-losmas'>
+                <div class='comprados'></div>
+                <div class='tonos-losmas' >
+                <a href='#link-tono-102507' title='Vivir sin verte' class='tonos'>Vivir sin verte</a>
+                <a href='#link-tono-102507' class='artist' title='A banda sombra'>A banda sombra</a>
+                 </div>
+
+                </li><li class='listatonos-losmas'>
+                <div class='comprados'></div>
+                <div class='tonos-losmas' >
+                <a href='#link-tono-103607' title='Estoscelos' class='tonos'>Estoscelos</a>
+                <a href='#link-tono-103607' class='artist' title='Vicente fernandez'>Vicente fernandez</a>
+                 </div>
+
+                </li><li class='listatonos-losmas'>
+                <div class='comprados'></div>
+                <div class='tonos-losmas' >
+                <a href='#link-tono-103698' title='Secretos del mar' class='tonos'>Secretos del mar</a>
+                <a href='#link-tono-103698' class='artist' title='Diego torres'>Diego torres</a>
+                 </div>
+
+                </li><li class='listatonos-losmas'>
+                <div class='comprados'></div>
+                <div class='tonos-losmas' >
+                <a href='#link-tono-103610' title='Mujeresdivinas' class='tonos'>Mujeresdivinas</a>
+                <a href='#link-tono-103610' class='artist' title='Vicente fernandez'>Vicente fernandez</a>
+                 </div>
+
+                </li><li class='listatonos-losmas'>
+                <div class='comprados'></div>
+                <div class='tonos-losmas' >
+                <a href='#link-tono-547' title='Te quiero comer la boca' class='tonos'>Te quiero comer la boca</a>
+                <a href='#link-tono-547' class='artist' title='La mosca'>La mosca</a>
+                 </div>
+
+                </li>
+
+                    </ul>
+            </li>
+            <li>
+                    <a href="#categories" class="heading bg-3">Rankeados</a>
+                    <ul>
+                        <li class='listatonos-losmas'>
+                <div class='rankeados'></div>
+                <div class='tonos-losmas' >
+                <a href='#link-tono-102805' title='Corazon bandido' class='tonos'>Corazon bandido</a>
+                <a href='#link-tono-102805' class='artist' title='Los brons'>Los brons</a>
+                 </div>
+
+                </li><li class='listatonos-losmas'>
+                <div class='rankeados'></div>
+                <div class='tonos-losmas' >
+                <a href='#link-tono-102834' title='De la paz y de la guerra' class='tonos'>De la paz y de la guerra</a>
+                <a href='#link-tono-102834' class='artist' title='Daddy yankee'>Daddy yankee</a>
+                 </div>
+
+                </li><li class='listatonos-losmas'>
+                <div class='rankeados'></div>
+                <div class='tonos-losmas' >
+                <a href='#link-tono-104499' title='Del chancho su huevo' class='tonos'>Del chancho su huevo</a>
+                <a href='#link-tono-104499' class='artist' title='Mbarete'>Mbarete</a>
+                 </div>
+
+                </li><li class='listatonos-losmas'>
+                <div class='rankeados'></div>
+                <div class='tonos-losmas' >
+                <a href='#link-tono-109657' title='Luciana' class='tonos'>Luciana</a>
+                <a href='#link-tono-109657' class='artist' title='Homero'>Homero</a>
+                 </div>
+
+                </li><li class='listatonos-losmas'>
+                <div class='rankeados'></div>
+                <div class='tonos-losmas' >
+                <a href='#link-tono-103383' title='Cada dia te quiero mas' class='tonos'>Cada dia te quiero mas</a>
+                <a href='#link-tono-103383' class='artist' title='Toing'>Toing</a>
+                 </div>
+
+                </li><li class='listatonos-losmas'>
+                <div class='rankeados'></div>
+                <div class='tonos-losmas' >
+                <a href='#link-tono-105515' title='Felicidades' class='tonos'>Felicidades</a>
+                <a href='#link-tono-105515' class='artist' title='Tola claudio'>Tola claudio</a>
+                 </div>
+
+                </li><li class='listatonos-losmas'>
+                <div class='rankeados'></div>
+                <div class='tonos-losmas' >
+                <a href='#link-tono-104622' title='La vida es un carnaval' class='tonos'>La vida es un carnaval</a>
+                <a href='#link-tono-104622' class='artist' title='Celia cruz'>Celia cruz</a>
+                 </div>
+
+                </li><li class='listatonos-losmas'>
+                <div class='rankeados'></div>
+                <div class='tonos-losmas' >
+                <a href='#link-tono-103819' title='La cruz de jesus' class='tonos'>La cruz de jesus</a>
+                <a href='#link-tono-103819' class='artist' title='Grupo renacer'>Grupo renacer</a>
+                 </div>
+
+                </li><li class='listatonos-losmas'>
+                <div class='rankeados'></div>
+                <div class='tonos-losmas' >
+                <a href='#link-tono-104355' title='Ya no' class='tonos'>Ya no</a>
+                <a href='#link-tono-104355' class='artist' title='Ha ash'>Ha ash</a>
+                 </div>
+
+                </li><li class='listatonos-losmas'>
+                <div class='rankeados'></div>
+                <div class='tonos-losmas' >
+                <a href='#link-tono-107733' title='Right here  right now-high school musical' class='tonos'>Right here  right now-high..</a>
+                <a href='#link-tono-107733' class='artist' title='Disney'>Disney</a>
+                 </div>
+
+                </li>
+                    </ul>
+
+            </li>
+        </ul>
+        </dd>
+    </dl>
+    </div>
+    </div><!-- CONTENEDOR IZQ !-->
+<!-- Content -->
+<div id="content">
+<!-- Display disc pictures -->
+<div class="section-title main-title">
+  <h2>Reckless</h2>
+</div>
+<!-- Content download -->
+<div id="content-download">
+	<div id="picture-download">
+    	<img src="http://www.wazzupmusic.com/sitio/getcover.php?width=237&height=237&id=47" class="border-picture" alt="Artista" title="Artista" />
+        <p>
+			<span>Artistas: <a href="albums.php?accion=artista&idartista=14170">The Steeldrivers</a></span><br />
+			<span>G&eacute;nero: <a href="albums.php?accion=genero&idgenero=62">Bluegrass</a></span><br />
+			<span>A&ntilde;o de lanzamiento: 06-09-2010</span>
+        </p>
+        <!--
+		<a href="#"><img src="images/button-download-album.gif" class="space-icons" alt="comprar &aacute;lbum" title="comprar &aacute;lbum" /></a>
+		-->
+	</div>
+			<div id="other-tracks">
+			<dl>
+				<dt>Otros &aacute;lbumes de este artista</dt>
+								<dd><a href="ver-album.php?idalbum=12265" > Reckless</a></dd>
+							</dl>
+		</div>
+
+<!-- Jump --><div class="jump">&nbsp;</div><!-- float -->
+
+<!-- Jump --><div class="jump">&nbsp;</div><!-- float -->
+</div>
+<!-- Tracks list -->
+  <!--  <div class="section-title">
+      <h2>Temas de este disco</h2>
+    </div>-->
+    <!-- Player flash -->
+<!--  <div id="player"></div>-->
+	<div class="section-title">
+					<h2>Temas de este &Aacute;lbum</h2>
+
+	</div>
+
+
+	<div id="disc1" class="show-disc">
+						<!-- Track -->
+			<div class="track">
+				<div class="track-name"><span>1. The Reckless Side Of Me&nbsp;&middot;</span><span class="time">03:12</span></div>
+				<div class="track-buttons">
+					<a href="javascript:;" onClick="includePlayer(this,125504,'estilos/tigomusic_bo')"><img src="estilos/tigomusic_bo/images/speaker.gif" class="space-icons" alt="Escuchar" title="Escuchar" /></a>
+					<a href="javascript:;" onClick="
+					buildForm(125504,12143,'The%20Reckless%20Side%20Of%20Me','The%20Steeldrivers','Bluegrass','Reckless','1')"><img src="estilos/tigomusic_bo/images/buy_button.gif" class="space-icons" alt="descargar" title="descargar" /></a>
+				</div>
+				<!-- Jump --><div class="jump">&nbsp;</div><!-- float -->
+			</div>
+			<!-- Track -->
+				<!-- Track -->
+			<div class="track track-color">
+				<div class="track-name"><span>2. Good Corn Liquor&nbsp;&middot;</span><span class="time">03:39</span></div>
+				<div class="track-buttons">
+					<a href="javascript:;" onClick="includePlayer(this,125505,'estilos/tigomusic_bo')"><img src="estilos/tigomusic_bo/images/speaker.gif" class="space-icons" alt="Escuchar" title="Escuchar" /></a>
+					<a href="javascript:;" onClick="
+					buildForm(125505,12143,'Good%20Corn%20Liquor','The%20Steeldrivers','Bluegrass','Reckless','1')"><img src="estilos/tigomusic_bo/images/buy_button.gif" class="space-icons" alt="descargar" title="descargar" /></a>
+				</div>
+				<!-- Jump --><div class="jump">&nbsp;</div><!-- float -->
+			</div>
+			<!-- Track -->
+				<!-- Track -->
+			<div class="track">
+				<div class="track-name"><span>3. Where Rainbows Never Die&nbsp;&middot;</span><span class="time">03:49</span></div>
+				<div class="track-buttons">
+					<a href="javascript:;" onClick="includePlayer(this,125506,'estilos/tigomusic_bo')"><img src="estilos/tigomusic_bo/images/speaker.gif" class="space-icons" alt="Escuchar" title="Escuchar" /></a>
+					<a href="javascript:;" onClick="
+					buildForm(125506,12143,'Where%20Rainbows%20Never%20Die','The%20Steeldrivers','Bluegrass','Reckless','1')"><img src="estilos/tigomusic_bo/images/buy_button.gif" class="space-icons" alt="descargar" title="descargar" /></a>
+				</div>
+				<!-- Jump --><div class="jump">&nbsp;</div><!-- float -->
+			</div>
+			<!-- Track -->
+				<!-- Track -->
+			<div class="track track-color">
+				<div class="track-name"><span>4. The Price&nbsp;&middot;</span><span class="time">04:08</span></div>
+				<div class="track-buttons">
+					<a href="javascript:;" onClick="includePlayer(this,125507,'estilos/tigomusic_bo')"><img src="estilos/tigomusic_bo/images/speaker.gif" class="space-icons" alt="Escuchar" title="Escuchar" /></a>
+					<a href="javascript:;" onClick="
+					buildForm(125507,12143,'The%20Price','The%20Steeldrivers','Bluegrass','Reckless','1')"><img src="estilos/tigomusic_bo/images/buy_button.gif" class="space-icons" alt="descargar" title="descargar" /></a>
+				</div>
+				<!-- Jump --><div class="jump">&nbsp;</div><!-- float -->
+			</div>
+			<!-- Track -->
+				<!-- Track -->
+			<div class="track">
+				<div class="track-name"><span>5. Can You Run&nbsp;&middot;</span><span class="time">04:57</span></div>
+				<div class="track-buttons">
+					<a href="javascript:;" onClick="includePlayer(this,125508,'estilos/tigomusic_bo')"><img src="estilos/tigomusic_bo/images/speaker.gif" class="space-icons" alt="Escuchar" title="Escuchar" /></a>
+					<a href="javascript:;" onClick="
+					buildForm(125508,12143,'Can%20You%20Run','The%20Steeldrivers','Bluegrass','Reckless','1')"><img src="estilos/tigomusic_bo/images/buy_button.gif" class="space-icons" alt="descargar" title="descargar" /></a>
+				</div>
+				<!-- Jump --><div class="jump">&nbsp;</div><!-- float -->
+			</div>
+			<!-- Track -->
+				<!-- Track -->
+			<div class="track track-color">
+				<div class="track-name"><span>6. Peacemaker&nbsp;&middot;</span><span class="time">04:01</span></div>
+				<div class="track-buttons">
+					<a href="javascript:;" onClick="includePlayer(this,125509,'estilos/tigomusic_bo')"><img src="estilos/tigomusic_bo/images/speaker.gif" class="space-icons" alt="Escuchar" title="Escuchar" /></a>
+					<a href="javascript:;" onClick="
+					buildForm(125509,12143,'Peacemaker','The%20Steeldrivers','Bluegrass','Reckless','1')"><img src="estilos/tigomusic_bo/images/buy_button.gif" class="space-icons" alt="descargar" title="descargar" /></a>
+				</div>
+				<!-- Jump --><div class="jump">&nbsp;</div><!-- float -->
+			</div>
+			<!-- Track -->
+				<!-- Track -->
+			<div class="track">
+				<div class="track-name"><span>7. You Put The Hurt On Me&nbsp;&middot;</span><span class="time">03:44</span></div>
+				<div class="track-buttons">
+					<a href="javascript:;" onClick="includePlayer(this,125510,'estilos/tigomusic_bo')"><img src="estilos/tigomusic_bo/images/speaker.gif" class="space-icons" alt="Escuchar" title="Escuchar" /></a>
+					<a href="javascript:;" onClick="
+					buildForm(125510,12143,'You%20Put%20The%20Hurt%20On%20Me','The%20Steeldrivers','Bluegrass','Reckless','1')"><img src="estilos/tigomusic_bo/images/buy_button.gif" class="space-icons" alt="descargar" title="descargar" /></a>
+				</div>
+				<!-- Jump --><div class="jump">&nbsp;</div><!-- float -->
+			</div>
+			<!-- Track -->
+				<!-- Track -->
+			<div class="track track-color">
+				<div class="track-name"><span>8. Midnight On The Mountain&nbsp;&middot;</span><span class="time">02:40</span></div>
+				<div class="track-buttons">
+					<a href="javascript:;" onClick="includePlayer(this,125511,'estilos/tigomusic_bo')"><img src="estilos/tigomusic_bo/images/speaker.gif" class="space-icons" alt="Escuchar" title="Escuchar" /></a>
+					<a href="javascript:;" onClick="
+					buildForm(125511,12143,'Midnight%20On%20The%20Mountain','The%20Steeldrivers','Bluegrass','Reckless','1')"><img src="estilos/tigomusic_bo/images/buy_button.gif" class="space-icons" alt="descargar" title="descargar" /></a>
+				</div>
+				<!-- Jump --><div class="jump">&nbsp;</div><!-- float -->
+			</div>
+			<!-- Track -->
+				<!-- Track -->
+			<div class="track">
+				<div class="track-name"><span>9. Guitars, Whiskey, Guns and Knives&nbsp;&middot;</span><span class="time">02:34</span></div>
+				<div class="track-buttons">
+					<a href="javascript:;" onClick="includePlayer(this,125512,'estilos/tigomusic_bo')"><img src="estilos/tigomusic_bo/images/speaker.gif" class="space-icons" alt="Escuchar" title="Escuchar" /></a>
+					<a href="javascript:;" onClick="
+					buildForm(125512,12143,'Guitars%2C%20Whiskey%2C%20Guns%20and%20Knives','The%20Steeldrivers','Bluegrass','Reckless','1')"><img src="estilos/tigomusic_bo/images/buy_button.gif" class="space-icons" alt="descargar" title="descargar" /></a>
+				</div>
+				<!-- Jump --><div class="jump">&nbsp;</div><!-- float -->
+			</div>
+			<!-- Track -->
+				<!-- Track -->
+			<div class="track track-color">
+				<div class="track-name"><span>10. Angel Of The Night&nbsp;&middot;</span><span class="time">03:59</span></div>
+				<div class="track-buttons">
+					<a href="javascript:;" onClick="includePlayer(this,125513,'estilos/tigomusic_bo')"><img src="estilos/tigomusic_bo/images/speaker.gif" class="space-icons" alt="Escuchar" title="Escuchar" /></a>
+					<a href="javascript:;" onClick="
+					buildForm(125513,12143,'Angel%20Of%20The%20Night','The%20Steeldrivers','Bluegrass','Reckless','1')"><img src="estilos/tigomusic_bo/images/buy_button.gif" class="space-icons" alt="descargar" title="descargar" /></a>
+				</div>
+				<!-- Jump --><div class="jump">&nbsp;</div><!-- float -->
+			</div>
+			<!-- Track -->
+				<!-- Track -->
+			<div class="track">
+				<div class="track-name"><span>11. Higher Than The Wall&nbsp;&middot;</span><span class="time">03:47</span></div>
+				<div class="track-buttons">
+					<a href="javascript:;" onClick="includePlayer(this,125514,'estilos/tigomusic_bo')"><img src="estilos/tigomusic_bo/images/speaker.gif" class="space-icons" alt="Escuchar" title="Escuchar" /></a>
+					<a href="javascript:;" onClick="
+					buildForm(125514,12143,'Higher%20Than%20The%20Wall','The%20Steeldrivers','Bluegrass','Reckless','1')"><img src="estilos/tigomusic_bo/images/buy_button.gif" class="space-icons" alt="descargar" title="descargar" /></a>
+				</div>
+				<!-- Jump --><div class="jump">&nbsp;</div><!-- float -->
+			</div>
+			<!-- Track -->
+				<!-- Track -->
+			<div class="track track-color">
+				<div class="track-name"><span>12. Ghosts Of Mississippi&nbsp;&middot;</span><span class="time">06:14</span></div>
+				<div class="track-buttons">
+					<a href="javascript:;" onClick="includePlayer(this,125515,'estilos/tigomusic_bo')"><img src="estilos/tigomusic_bo/images/speaker.gif" class="space-icons" alt="Escuchar" title="Escuchar" /></a>
+					<a href="javascript:;" onClick="
+					buildForm(125515,12143,'Ghosts%20Of%20Mississippi','The%20Steeldrivers','Bluegrass','Reckless','1')"><img src="estilos/tigomusic_bo/images/buy_button.gif" class="space-icons" alt="descargar" title="descargar" /></a>
+				</div>
+				<!-- Jump --><div class="jump">&nbsp;</div><!-- float -->
+			</div>
+			<!-- Track -->
+				</div>
+		
+<!-- CONTENEDOR !--> 
+</div><!-- CONTENEDOR CENTRAL !-->
+    <div id="contenedor-derecha" style="width:230px; display:inline; float:right;vertical-align: top;">
+    <!-- Right menu -->
+<div id="right-column">
+    <dl>
+        <dt>Recomendados</dt>
+
+             <dd class='light-blue'>
+                <ul>
+                        <li><a href='#ver-tono-109407' title='game on'>game on</a></li>
+                        <li><span><a href='#link' class='artist' title='Pitbull'>Pitbull</a></span></li>
+                </ul>
+            </dd>
+             <dd >
+                <ul>
+                        <li><a href='#ver-tono-109404' title='your love is my drug'>your love is my drug</a></li>
+                        <li><span><a href='#link' class='artist' title='Kesha'>Kesha</a></span></li>
+                </ul>
+            </dd>
+             <dd class='light-blue'>
+                <ul>
+                        <li><a href='#ver-tono-109402' title='not my self tonight'>not my self tonight</a></li>
+                        <li><span><a href='#link' class='artist' title='Christina Aguilera'>Christina Aguilera</a></span></li>
+                </ul>
+            </dd>
+             <dd >
+                <ul>
+                        <li><a href='#ver-tono-109249' title='si yo fuera ladron'>si yo fuera ladron</a></li>
+                        <li><span><a href='#link' class='artist' title='Pipe Bueno'>Pipe Bueno</a></span></li>
+                </ul>
+            </dd>
+             <dd class='light-blue'>
+                <ul>
+                        <li><a href='#ver-tono-108579' title='love me'>love me</a></li>
+                        <li><span><a href='#link' class='artist' title='Justin Bieber'>Justin Bieber</a></span></li>
+                </ul>
+            </dd>
+    </dl>
+<!--<img src="images/banner_mobile.gif" alt="Enviar contenido a tu móvil" title="Enviar contenido a tu móvil" />-->
+<!-- <a href="albums.php?cat=8"><img src="images/banner_rock.gif" alt="Rock and Roll" title="Rock and Roll" /></a> -->
+<!-- <a href="albums.php?cat=9"><img src="images/banner_regional.gif" alt="Regional Mexicana" title="Regional Mexicana" /></a> -->
+</div>
+
+<!-- ===== MI CUENTA  =====-->
+    <!-- Right menu -->
+<div id="right-column-micuenta">
+    <dl>
+        <dt>Mi Cuenta!</dt>
+        <dd >
+                <ul>
+                        <li>
+                            <div style="float:right; padding-right:5px;"><button class="btnlogin" title="Ingresar"></button></div>
+                               <span> usuario</span> <input type="input" name="tb_login_username">
+                                   <div style="width=100%; height:10px; ">&nbsp;</div>
+                               <span>contraseña</span> <input  type="password" name="tb_login_passwd">
+                        </li>
+                    <li class="listaenlace">
+                        <a href="#">Solicitar Pin</a></span>
+                    </li>
+
+                </ul>
+        </dd>
+</dl>
+</div>
+<!-- ===== FAQ  =====-->
+    <div id="right-column-faq">
+    <dl>
+        <dt>F.A.Q.</dt>
+        <dd >
+                <ul>
+                    <li class="listaenlace">
+                        <a href="#">¿Como comprar un backtone?</a></span>
+                    </li>
+                    <li class="listaenlace">
+                        <a href="#">¿Cuanto vale un backtone?</a></span>
+                    </li>
+                    <li class="listaenlace">
+                        <a href="#">¿Como puedo regalar un backtone?</a></span>
+                    </li>
+                </ul>
+        </dd>
+</dl>
+</div>
+
+<!-- ===== BACKTONES ESCUCHADOS  =====-->
+    <div id="right-column-backtones-escuchados">
+    <dl>
+        <dt>Backtones Escuchados!</dt>
+        <dd >
+                <ul>
+                    <li>
+                                    <div id="content-box-album" class="albumes">
+            <a href="#link-tono-102584"><img class="border-picture" src="albumes/th-album-default.jpg" alt="Santillan"/></a>
+            <a href='' class="link-titulo">Santillan</a>
+            <a class='link-artista' href='#link-tono-102584'>Historia de un ..</a>
+        </div>        <div id="content-box-album" class="albumes">
+            <a href="#link-tono-103402"><img class="border-picture" src="albumes/th-album-default.jpg" alt="Chichicuilote"/></a>
+            <a href='' class="link-titulo">Chichicuilote</a>
+            <a class='link-artista' href='#link-tono-103402'>El burro manane..</a>
+        </div></div>
+                    </li>
+                </ul>
+        </dd>
+</dl>
+</div>
+    </div><!-- CONTENEDOR DERECHA -->
+<!-- Jump --><div class="jump">&nbsp;</div><!-- float -->
+</div>
+
+    {tpl-pie-pagina}
+</body>
+</html>

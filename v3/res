@@ -1,0 +1,229 @@
+albumes.html:                <div id="abc-title">Busca tu artista por orden alfab&eacute;tico</div>
+albumes.html:                <a href='index.php?seccion=busqueda&artista=a'>A</a>
+albumes.html:                <a href='index.php?seccion=busqueda&artista=b'>B</a>
+albumes.html:                <a href='index.php?seccion=busqueda&artista=c'>C</a>
+albumes.html:                <a href='index.php?seccion=busqueda&artista=d'>D</a>
+albumes.html:                <a href='index.php?seccion=busqueda&artista=e'>E</a>
+albumes.html:                <a href='index.php?seccion=busqueda&artista=f'>F</a>
+albumes.html:                <a href='index.php?seccion=busqueda&artista=g'>G</a>
+albumes.html:                <a href='index.php?seccion=busqueda&artista=h'>H</a>
+albumes.html:                <a href='index.php?seccion=busqueda&artista=i'>I</a>
+albumes.html:                <a href='index.php?seccion=busqueda&artista=j'>J</a>
+albumes.html:                <a href='index.php?seccion=busqueda&artista=k'>K</a>
+albumes.html:                <a href='index.php?seccion=busqueda&artista=l'>L</a>
+albumes.html:                <a href='index.php?seccion=busqueda&artista=m'>M</a>
+albumes.html:                <a href='index.php?seccion=busqueda&artista=n'>N</a>
+albumes.html:                <a href='index.php?seccion=busqueda&artista=o'>O</a>
+albumes.html:                <a href='index.php?seccion=busqueda&artista=p'>P</a>
+albumes.html:                <a href='index.php?seccion=busqueda&artista=q'>Q</a>
+albumes.html:                <a href='index.php?seccion=busqueda&artista=r'>R</a>
+albumes.html:                <a href='index.php?seccion=busqueda&artista=s'>S</a>
+albumes.html:                <a href='index.php?seccion=busqueda&artista=t'>T</a>
+albumes.html:                <a href='index.php?seccion=busqueda&artista=u'>U</a>
+albumes.html:                <a href='index.php?seccion=busqueda&artista=v'>V</a>
+albumes.html:                <a href='index.php?seccion=busqueda&artista=w'>W</a>
+albumes.html:                <a href='index.php?seccion=busqueda&artista=x'>X</a>
+albumes.html:                <a href='index.php?seccion=busqueda&artista=y'>Y</a>
+albumes.html:                <a href='index.php?seccion=busqueda&artista=z'>Z</a>
+albumes.html:                <a href='index.php?seccion=busqueda&artista=0-9'>#</a>
+albumes.html:                                    <option value="artistas"  >Artistas</option>
+albumes.html:			<span>Artistas: <a href="albums.php?accion=artista&idartista=14170">The Steeldrivers</a></span><br />
+albumes.html:				<dt>Otros &aacute;lbumes de este artista</dt>
+albumes.html:            <a class='link-artista' href='#link-tono-102584'>Historia de un ..</a>
+albumes.html:            <a class='link-artista' href='#link-tono-103402'>El burro manane..</a>
+class/CLASS_WEB_BACKTONES_ESCUCHADOS.php:            $vl_template_tonos= FN_REEMPLAZAR('{tpl-tono-artista}'      , $autor, $vl_template_tonos);
+class/CLASS_WEB_BACKTONES_ESCUCHADOS.php:            $vl_template_tonos= FN_REEMPLAZAR('{tpl-tono-link-artista}' , $link_tono, $vl_template_tonos);
+class/CLASS_WEB_ULTIMOS_INGRESOS.php:            $link_artista="index.php?seccion=busqueda&autor=$id_autor";
+class/CLASS_WEB_ULTIMOS_INGRESOS.php:                {tpl-tono-artista}
+class/CLASS_WEB_ULTIMOS_INGRESOS.php:                {tpl-tono-link-artista}
+class/CLASS_WEB_ULTIMOS_INGRESOS.php:            $vl_template_tonos= FN_REEMPLAZAR('{tpl-tono-artista}'      , $autor, $vl_template_tonos);
+class/CLASS_WEB_ULTIMOS_INGRESOS.php:            $vl_template_tonos= FN_REEMPLAZAR('{tpl-tono-link-artista}' , $link_artista, $vl_template_tonos);
+class/.svn/text-base/CLASS_WEB_BUSQUEDA.php.svn-base:    private $vlc_letra_artista;
+class/.svn/text-base/CLASS_WEB_BUSQUEDA.php.svn-base:    private $vlc_id_artista;
+class/.svn/text-base/CLASS_WEB_BUSQUEDA.php.svn-base:        $this->vlc_letra_artista    ="";
+class/.svn/text-base/CLASS_WEB_BUSQUEDA.php.svn-base:        $this->vlc_id_artista       ="";
+class/.svn/text-base/CLASS_WEB_BUSQUEDA.php.svn-base:        elseif ($this->vlc_filtro_tipo == "artistas")
+class/.svn/text-base/CLASS_WEB_BUSQUEDA.php.svn-base:        if ($this->vlc_id_artista !="")
+class/.svn/text-base/CLASS_WEB_BUSQUEDA.php.svn-base:            $vlf_sql="select nombre from autores where id=$this->vlc_id_artista";
+class/.svn/text-base/CLASS_WEB_BUSQUEDA.php.svn-base:            $vl_artista=$vl_arreglo[0][0];
+class/.svn/text-base/CLASS_WEB_BUSQUEDA.php.svn-base:            $filtro.=$vl_artista;
+class/.svn/text-base/CLASS_WEB_BUSQUEDA.php.svn-base:            //$filtro.=" AND t.autor=$this->vlc_id_artista ";
+class/.svn/text-base/CLASS_WEB_BUSQUEDA.php.svn-base:        if ($this->vlc_letra_artista != "")
+class/.svn/text-base/CLASS_WEB_BUSQUEDA.php.svn-base:            if ($this->vlc_letra_artista == '0-9')
+class/.svn/text-base/CLASS_WEB_BUSQUEDA.php.svn-base:                $filtro2.=" AND aut.nombre  like '".$this->vlc_letra_artista."%'";
+class/.svn/text-base/CLASS_WEB_BUSQUEDA.php.svn-base:        elseif ($this->vlc_filtro_tipo == "artistas")
+class/.svn/text-base/CLASS_WEB_BUSQUEDA.php.svn-base:        if ($this->vlc_id_artista !="")
+class/.svn/text-base/CLASS_WEB_BUSQUEDA.php.svn-base:            $filtro.=" AND t.autor=$this->vlc_id_artista ";
+class/.svn/text-base/CLASS_WEB_BUSQUEDA.php.svn-base:        if ($this->vlc_letra_artista != "")
+class/.svn/text-base/CLASS_WEB_BUSQUEDA.php.svn-base:		if ($this->vlc_letra_artista == '0-9')
+class/.svn/text-base/CLASS_WEB_BUSQUEDA.php.svn-base:	            $filtro.=" AND aut.nombre  like '".$this->vlc_letra_artista."%'";
+class/.svn/text-base/CLASS_WEB_BUSQUEDA.php.svn-base:                $link_artista="index.php?seccion=backtones&backtone=$id_tono";
+class/.svn/text-base/CLASS_WEB_BUSQUEDA.php.svn-base:                $vl_template_tonos= FN_REEMPLAZAR('{tpl-tono-artista}'      , $autor, $vl_template_tonos);
+class/.svn/text-base/CLASS_WEB_BUSQUEDA.php.svn-base:                $vl_template_tonos= FN_REEMPLAZAR('{tpl-tono-link-artista}' , $link_artista, $vl_template_tonos);
+class/.svn/text-base/CLASS_WEB_BUSQUEDA.php.svn-base:        $this->vlc_letra_artista    = FN_RECIBIR_VARIABLES('artista');
+class/.svn/text-base/CLASS_WEB_BUSQUEDA.php.svn-base:        $this->vlc_id_artista       = FN_RECIBIR_VARIABLES('autor');
+class/.svn/text-base/CLASS_WEB_BUSQUEDA.php.svn-base:         * artistas
+class/.svn/text-base/CLASS_WEB_BUSQUEDA.php.svn-base:        $vl_seleccion_artistas="";//{tbl-selected-artistas};
+class/.svn/text-base/CLASS_WEB_BUSQUEDA.php.svn-base:        elseif ($this->vlc_filtro_tipo == "artistas")
+class/.svn/text-base/CLASS_WEB_BUSQUEDA.php.svn-base:            $vl_seleccion_artistas="selected";
+class/.svn/text-base/CLASS_WEB_BUSQUEDA.php.svn-base:        $vl_seleccion_precio_300_350="";//{tbl-selected-artistas};
+class/.svn/text-base/CLASS_WEB_ULTIMOS_INGRESOS.php.svn-base:            $link_artista="index.php?seccion=busqueda&autor=$id_autor";
+class/.svn/text-base/CLASS_WEB_ULTIMOS_INGRESOS.php.svn-base:                {tpl-tono-artista}
+class/.svn/text-base/CLASS_WEB_ULTIMOS_INGRESOS.php.svn-base:                {tpl-tono-link-artista}
+class/.svn/text-base/CLASS_WEB_ULTIMOS_INGRESOS.php.svn-base:            $vl_template_tonos= FN_REEMPLAZAR('{tpl-tono-artista}'      , $autor, $vl_template_tonos);
+class/.svn/text-base/CLASS_WEB_ULTIMOS_INGRESOS.php.svn-base:            $vl_template_tonos= FN_REEMPLAZAR('{tpl-tono-link-artista}' , $link_artista, $vl_template_tonos);
+class/.svn/text-base/CLASS_WEB_BACKTONES_ESCUCHADOS.php.svn-base:            $vl_template_tonos= FN_REEMPLAZAR('{tpl-tono-artista}'      , $autor, $vl_template_tonos);
+class/.svn/text-base/CLASS_WEB_BACKTONES_ESCUCHADOS.php.svn-base:            $vl_template_tonos= FN_REEMPLAZAR('{tpl-tono-link-artista}' , $link_tono, $vl_template_tonos);
+class/.svn/text-base/CLASS_WEB_REPRODUCIR_BACKTONES.php.svn-base:    private $vlc_id_artista;
+class/.svn/text-base/CLASS_WEB_REPRODUCIR_BACKTONES.php.svn-base:    private $vlc_nombre_artista;
+class/.svn/text-base/CLASS_WEB_REPRODUCIR_BACKTONES.php.svn-base:        $this->vlc_id_artista   = "";
+class/.svn/text-base/CLASS_WEB_REPRODUCIR_BACKTONES.php.svn-base:        $this->vlc_nombre_artista  = "";
+class/.svn/text-base/CLASS_WEB_REPRODUCIR_BACKTONES.php.svn-base:        $this->vlc_titulo_head="Backtones TIGO | $this->vlc_nombre_artista - $this->vlc_nombre_album ";
+class/.svn/text-base/CLASS_WEB_REPRODUCIR_BACKTONES.php.svn-base:        $this->vlc_codigo_html  = FN_REEMPLAZAR('{tpl-id-artista}',$this->vlc_id_artista, $this->vlc_codigo_html);
+class/.svn/text-base/CLASS_WEB_REPRODUCIR_BACKTONES.php.svn-base:        $this->vlc_codigo_html  = FN_REEMPLAZAR('{tpl-nombre-artista}',$this->vlc_nombre_artista, $this->vlc_codigo_html);
+class/.svn/text-base/CLASS_WEB_REPRODUCIR_BACKTONES.php.svn-base:        $this->vlc_id_artista       = $vlf_arreglo_datos [0][3];
+class/.svn/text-base/CLASS_WEB_REPRODUCIR_BACKTONES.php.svn-base:        $this->vlc_nombre_artista   = $vlf_arreglo_datos [0][4];
+class/CLASS_WEB_REPRODUCIR_BACKTONES.php:    private $vlc_id_artista;
+class/CLASS_WEB_REPRODUCIR_BACKTONES.php:    private $vlc_nombre_artista;
+class/CLASS_WEB_REPRODUCIR_BACKTONES.php:        $this->vlc_id_artista   = "";
+class/CLASS_WEB_REPRODUCIR_BACKTONES.php:        $this->vlc_nombre_artista  = "";
+class/CLASS_WEB_REPRODUCIR_BACKTONES.php:        $this->vlc_titulo_head="Backtones TIGO | $this->vlc_nombre_artista - $this->vlc_nombre_album ";
+class/CLASS_WEB_REPRODUCIR_BACKTONES.php:        $this->vlc_codigo_html  = FN_REEMPLAZAR('{tpl-id-artista}',$this->vlc_id_artista, $this->vlc_codigo_html);
+class/CLASS_WEB_REPRODUCIR_BACKTONES.php:        $this->vlc_codigo_html  = FN_REEMPLAZAR('{tpl-nombre-artista}',$this->vlc_nombre_artista, $this->vlc_codigo_html);
+class/CLASS_WEB_REPRODUCIR_BACKTONES.php:        $this->vlc_id_artista       = $vlf_arreglo_datos [0][3];
+class/CLASS_WEB_REPRODUCIR_BACKTONES.php:        $this->vlc_nombre_artista   = $vlf_arreglo_datos [0][4];
+class/CLASS_WEB_BUSQUEDA.php:    private $vlc_letra_artista;
+class/CLASS_WEB_BUSQUEDA.php:    private $vlc_id_artista;
+class/CLASS_WEB_BUSQUEDA.php:        $this->vlc_letra_artista    ="";
+class/CLASS_WEB_BUSQUEDA.php:        $this->vlc_id_artista       ="";
+class/CLASS_WEB_BUSQUEDA.php:        elseif ($this->vlc_filtro_tipo == "artistas")
+class/CLASS_WEB_BUSQUEDA.php:        if ($this->vlc_id_artista !="")
+class/CLASS_WEB_BUSQUEDA.php:            $vlf_sql="select nombre from autores where id=$this->vlc_id_artista";
+class/CLASS_WEB_BUSQUEDA.php:            $vl_artista=$vl_arreglo[0][0];
+class/CLASS_WEB_BUSQUEDA.php:            $filtro.=$vl_artista;
+class/CLASS_WEB_BUSQUEDA.php:            //$filtro.=" AND t.autor=$this->vlc_id_artista ";
+class/CLASS_WEB_BUSQUEDA.php:        if ($this->vlc_letra_artista != "")
+class/CLASS_WEB_BUSQUEDA.php:            if ($this->vlc_letra_artista == '0-9')
+class/CLASS_WEB_BUSQUEDA.php:                $filtro2.=" AND aut.nombre  like '".$this->vlc_letra_artista."%'";
+class/CLASS_WEB_BUSQUEDA.php:        elseif ($this->vlc_filtro_tipo == "artistas")
+class/CLASS_WEB_BUSQUEDA.php:        if ($this->vlc_id_artista !="")
+class/CLASS_WEB_BUSQUEDA.php:            $filtro.=" AND t.autor=$this->vlc_id_artista ";
+class/CLASS_WEB_BUSQUEDA.php:        if ($this->vlc_letra_artista != "")
+class/CLASS_WEB_BUSQUEDA.php:		if ($this->vlc_letra_artista == '0-9')
+class/CLASS_WEB_BUSQUEDA.php:	            $filtro.=" AND aut.nombre  like '".$this->vlc_letra_artista."%'";
+class/CLASS_WEB_BUSQUEDA.php:                $link_artista="index.php?seccion=backtones&backtone=$id_tono";
+class/CLASS_WEB_BUSQUEDA.php:                $vl_template_tonos= FN_REEMPLAZAR('{tpl-tono-artista}'      , $autor, $vl_template_tonos);
+class/CLASS_WEB_BUSQUEDA.php:                $vl_template_tonos= FN_REEMPLAZAR('{tpl-tono-link-artista}' , $link_artista, $vl_template_tonos);
+class/CLASS_WEB_BUSQUEDA.php:        $this->vlc_letra_artista    = FN_RECIBIR_VARIABLES('artista');
+class/CLASS_WEB_BUSQUEDA.php:        $this->vlc_id_artista       = FN_RECIBIR_VARIABLES('autor');
+class/CLASS_WEB_BUSQUEDA.php:         * artistas
+class/CLASS_WEB_BUSQUEDA.php:        $vl_seleccion_artistas="";//{tbl-selected-artistas};
+class/CLASS_WEB_BUSQUEDA.php:        elseif ($this->vlc_filtro_tipo == "artistas")
+class/CLASS_WEB_BUSQUEDA.php:            $vl_seleccion_artistas="selected";
+class/CLASS_WEB_BUSQUEDA.php:        $vl_seleccion_precio_300_350="";//{tbl-selected-artistas};
+estilos/tigo/styles/.svn/text-base/general.css.svn-base:#content-box-album a.link-artista{
+estilos/tigo/styles/.svn/text-base/general.css.svn-base:#content-box-album a:hover.link-artista{
+estilos/tigo/styles/general.css:#content-box-album a.link-artista{
+estilos/tigo/styles/general.css:#content-box-album a:hover.link-artista{
+js/utilities.js:	function buildForm(idtema,idalbum,nombre_tema,nombre_artista,nombre_genero,nombre_album,valor_tema){
+js/utilities.js:		document.getElementById("nombre_artista_compra").innerHTML = unescape(nombre_artista);
+js/.svn/text-base/utilities.js.svn-base:	function buildForm(idtema,idalbum,nombre_tema,nombre_artista,nombre_genero,nombre_album,valor_tema){
+js/.svn/text-base/utilities.js.svn-base:		document.getElementById("nombre_artista_compra").innerHTML = unescape(nombre_artista);
+logs/WEB_RBT_V3_12-03-10.log:            <a class='link-artista' href='index.php?seccion=backtones&backtone=105076' style="font-size:10px;">El amor</a>
+logs/WEB_RBT_V3_12-03-10.log:            <a class='link-artista' href='index.php?seccion=backtones&backtone=115937' style="font-size:10px;">Hooka</a>
+logs/WEB_RBT_V3_12-03-10.log:            <a class='link-artista' href='index.php?seccion=backtones&backtone=105076' style="font-size:10px;">El amor</a>
+logs/WEB_RBT_V3_12-03-10.log:            <a class='link-artista' href='index.php?seccion=backtones&backtone=115937' style="font-size:10px;">Hooka</a>
+logs/WEB_RBT_V3_12-03-10.log:            <a class='link-artista' href='index.php?seccion=backtones&backtone=105076' style="font-size:10px;">El amor</a>
+logs/WEB_RBT_V3_12-03-10.log:            <a class='link-artista' href='index.php?seccion=backtones&backtone=115937' style="font-size:10px;">Hooka</a>
+logs/WEB_RBT_V3_12-03-10.log:            <a class='link-artista' href='index.php?seccion=backtones&backtone=105076' style="font-size:10px;">El amor</a>
+logs/WEB_RBT_V3_12-03-10.log:            <a class='link-artista' href='index.php?seccion=backtones&backtone=115937' style="font-size:10px;">Hooka</a>
+logs/WEB_RBT_V3_12-03-10.log:            <a class='link-artista' href='index.php?seccion=backtones&backtone=105076' style="font-size:10px;">El amor</a>
+logs/WEB_RBT_V3_12-03-10.log:            <a class='link-artista' href='index.php?seccion=backtones&backtone=115937' style="font-size:10px;">Hooka</a>
+logs/.svn/text-base/WEB_RBT_V3_12-03-10.log.svn-base:            <a class='link-artista' href='index.php?seccion=backtones&backtone=105076' style="font-size:10px;">El amor</a>
+logs/.svn/text-base/WEB_RBT_V3_12-03-10.log.svn-base:            <a class='link-artista' href='index.php?seccion=backtones&backtone=115937' style="font-size:10px;">Hooka</a>
+logs/.svn/text-base/WEB_RBT_V3_12-03-10.log.svn-base:            <a class='link-artista' href='index.php?seccion=backtones&backtone=105076' style="font-size:10px;">El amor</a>
+logs/.svn/text-base/WEB_RBT_V3_12-03-10.log.svn-base:            <a class='link-artista' href='index.php?seccion=backtones&backtone=115937' style="font-size:10px;">Hooka</a>
+logs/.svn/text-base/WEB_RBT_V3_12-03-10.log.svn-base:            <a class='link-artista' href='index.php?seccion=backtones&backtone=105076' style="font-size:10px;">El amor</a>
+logs/.svn/text-base/WEB_RBT_V3_12-03-10.log.svn-base:            <a class='link-artista' href='index.php?seccion=backtones&backtone=115937' style="font-size:10px;">Hooka</a>
+logs/.svn/text-base/WEB_RBT_V3_12-03-10.log.svn-base:            <a class='link-artista' href='index.php?seccion=backtones&backtone=105076' style="font-size:10px;">El amor</a>
+logs/.svn/text-base/WEB_RBT_V3_12-03-10.log.svn-base:            <a class='link-artista' href='index.php?seccion=backtones&backtone=115937' style="font-size:10px;">Hooka</a>
+logs/.svn/text-base/WEB_RBT_V3_12-03-10.log.svn-base:            <a class='link-artista' href='index.php?seccion=backtones&backtone=105076' style="font-size:10px;">El amor</a>
+logs/.svn/text-base/WEB_RBT_V3_12-03-10.log.svn-base:            <a class='link-artista' href='index.php?seccion=backtones&backtone=115937' style="font-size:10px;">Hooka</a>
+tpl/tpl-panel-busqueda.html:                <div id="abc-title">Busca tu artista por orden alfab&eacute;tico</div>
+tpl/tpl-panel-busqueda.html:                <a href='index.php?seccion=busqueda&artista=a'>A</a>
+tpl/tpl-panel-busqueda.html:                <a href='index.php?seccion=busqueda&artista=b'>B</a>
+tpl/tpl-panel-busqueda.html:                <a href='index.php?seccion=busqueda&artista=c'>C</a>
+tpl/tpl-panel-busqueda.html:                <a href='index.php?seccion=busqueda&artista=d'>D</a>
+tpl/tpl-panel-busqueda.html:                <a href='index.php?seccion=busqueda&artista=e'>E</a>
+tpl/tpl-panel-busqueda.html:                <a href='index.php?seccion=busqueda&artista=f'>F</a>
+tpl/tpl-panel-busqueda.html:                <a href='index.php?seccion=busqueda&artista=g'>G</a>
+tpl/tpl-panel-busqueda.html:                <a href='index.php?seccion=busqueda&artista=h'>H</a>
+tpl/tpl-panel-busqueda.html:                <a href='index.php?seccion=busqueda&artista=i'>I</a>
+tpl/tpl-panel-busqueda.html:                <a href='index.php?seccion=busqueda&artista=j'>J</a>
+tpl/tpl-panel-busqueda.html:                <a href='index.php?seccion=busqueda&artista=k'>K</a>
+tpl/tpl-panel-busqueda.html:                <a href='index.php?seccion=busqueda&artista=l'>L</a>
+tpl/tpl-panel-busqueda.html:                <a href='index.php?seccion=busqueda&artista=m'>M</a>
+tpl/tpl-panel-busqueda.html:                <a href='index.php?seccion=busqueda&artista=n'>N</a>
+tpl/tpl-panel-busqueda.html:                <a href='index.php?seccion=busqueda&artista=o'>O</a>
+tpl/tpl-panel-busqueda.html:                <a href='index.php?seccion=busqueda&artista=p'>P</a>
+tpl/tpl-panel-busqueda.html:                <a href='index.php?seccion=busqueda&artista=q'>Q</a>
+tpl/tpl-panel-busqueda.html:                <a href='index.php?seccion=busqueda&artista=r'>R</a>
+tpl/tpl-panel-busqueda.html:                <a href='index.php?seccion=busqueda&artista=s'>S</a>
+tpl/tpl-panel-busqueda.html:                <a href='index.php?seccion=busqueda&artista=t'>T</a>
+tpl/tpl-panel-busqueda.html:                <a href='index.php?seccion=busqueda&artista=u'>U</a>
+tpl/tpl-panel-busqueda.html:                <a href='index.php?seccion=busqueda&artista=v'>V</a>
+tpl/tpl-panel-busqueda.html:                <a href='index.php?seccion=busqueda&artista=w'>W</a>
+tpl/tpl-panel-busqueda.html:                <a href='index.php?seccion=busqueda&artista=x'>X</a>
+tpl/tpl-panel-busqueda.html:                <a href='index.php?seccion=busqueda&artista=y'>Y</a>
+tpl/tpl-panel-busqueda.html:                <a href='index.php?seccion=busqueda&artista=z'>Z</a>
+tpl/tpl-panel-busqueda.html:                <a href='index.php?seccion=busqueda&artista=0-9'>#</a>
+tpl/tpl-panel-busqueda.html:                                    <option value="artistas"  {tbl-selected-artistas}>Artistas</option>
+tpl/tpl-backtones-escuchados-tonos.html:            <a href="{tpl-tono-link-ingresar}"><img class="border-picture" src="albumes/{tpl-tono-imagen-album}" alt="{tpl-tono-artista}"/></a>
+tpl/tpl-backtones-escuchados-tonos.html:            <a href='{tpl-tono-link-artista}' class="link-titulo" style="font-size:10px;">{tpl-tono-artista}</a>
+tpl/tpl-backtones-escuchados-tonos.html:            <a class='link-artista' href='{tpl-tono-link-ingresar}' style="font-size:10px;">{tpl-tono-nombre}</a>            
+tpl/.svn/text-base/tpl-resultado-busqueda-tonos.html.svn-base:                <a href="{tpl-tono-link-ingresar}"><img class="border-picture" src="albumes/{tpl-tono-imagen-album}" alt="{tpl-tono-artista}"/></a>
+tpl/.svn/text-base/tpl-resultado-busqueda-tonos.html.svn-base:                <a class="enlaces-busqueda" href='{tpl-tono-link-artista}' >{tpl-tono-artista}</a>
+tpl/.svn/text-base/tpl-backtones-escuchados-tonos.html.svn-base:            <a href="{tpl-tono-link-ingresar}"><img class="border-picture" src="albumes/{tpl-tono-imagen-album}" alt="{tpl-tono-artista}"/></a>
+tpl/.svn/text-base/tpl-backtones-escuchados-tonos.html.svn-base:            <a href='{tpl-tono-link-artista}' class="link-titulo" style="font-size:10px;">{tpl-tono-artista}</a>
+tpl/.svn/text-base/tpl-backtones-escuchados-tonos.html.svn-base:            <a class='link-artista' href='{tpl-tono-link-ingresar}' style="font-size:10px;">{tpl-tono-nombre}</a>            
+tpl/.svn/text-base/tpl-reproducir-backtones.html.svn-base:  <h2>{tpl-nombre-artista}</h2>
+tpl/.svn/text-base/tpl-reproducir-backtones.html.svn-base:                    <span>Artista: <a href="index.php?seccion=busqueda&autor={tpl-id-artista}">{tpl-nombre-artista}</a></span><br />
+tpl/.svn/text-base/tpl-ultimos-ingresados-tonos.html.svn-base:            <a href="{tpl-tono-link-ingresar}"><img class="border-picture" src="albumes/{tpl-tono-imagen-album}" alt="{tpl-tono-artista}"/></a>
+tpl/.svn/text-base/tpl-ultimos-ingresados-tonos.html.svn-base:            <a href='{tpl-tono-link-artista}' class="link-titulo">{tpl-tono-artista}</a>
+tpl/.svn/text-base/tpl-ultimos-ingresados-tonos.html.svn-base:            <a class='link-artista' href='{tpl-tono-link-ingresar}'>{tpl-tono-nombre}</a>
+tpl/.svn/text-base/tpl-panel-busqueda.html.svn-base:                <div id="abc-title">Busca tu artista por orden alfab&eacute;tico</div>
+tpl/.svn/text-base/tpl-panel-busqueda.html.svn-base:                <a href='index.php?seccion=busqueda&artista=a'>A</a>
+tpl/.svn/text-base/tpl-panel-busqueda.html.svn-base:                <a href='index.php?seccion=busqueda&artista=b'>B</a>
+tpl/.svn/text-base/tpl-panel-busqueda.html.svn-base:                <a href='index.php?seccion=busqueda&artista=c'>C</a>
+tpl/.svn/text-base/tpl-panel-busqueda.html.svn-base:                <a href='index.php?seccion=busqueda&artista=d'>D</a>
+tpl/.svn/text-base/tpl-panel-busqueda.html.svn-base:                <a href='index.php?seccion=busqueda&artista=e'>E</a>
+tpl/.svn/text-base/tpl-panel-busqueda.html.svn-base:                <a href='index.php?seccion=busqueda&artista=f'>F</a>
+tpl/.svn/text-base/tpl-panel-busqueda.html.svn-base:                <a href='index.php?seccion=busqueda&artista=g'>G</a>
+tpl/.svn/text-base/tpl-panel-busqueda.html.svn-base:                <a href='index.php?seccion=busqueda&artista=h'>H</a>
+tpl/.svn/text-base/tpl-panel-busqueda.html.svn-base:                <a href='index.php?seccion=busqueda&artista=i'>I</a>
+tpl/.svn/text-base/tpl-panel-busqueda.html.svn-base:                <a href='index.php?seccion=busqueda&artista=j'>J</a>
+tpl/.svn/text-base/tpl-panel-busqueda.html.svn-base:                <a href='index.php?seccion=busqueda&artista=k'>K</a>
+tpl/.svn/text-base/tpl-panel-busqueda.html.svn-base:                <a href='index.php?seccion=busqueda&artista=l'>L</a>
+tpl/.svn/text-base/tpl-panel-busqueda.html.svn-base:                <a href='index.php?seccion=busqueda&artista=m'>M</a>
+tpl/.svn/text-base/tpl-panel-busqueda.html.svn-base:                <a href='index.php?seccion=busqueda&artista=n'>N</a>
+tpl/.svn/text-base/tpl-panel-busqueda.html.svn-base:                <a href='index.php?seccion=busqueda&artista=o'>O</a>
+tpl/.svn/text-base/tpl-panel-busqueda.html.svn-base:                <a href='index.php?seccion=busqueda&artista=p'>P</a>
+tpl/.svn/text-base/tpl-panel-busqueda.html.svn-base:                <a href='index.php?seccion=busqueda&artista=q'>Q</a>
+tpl/.svn/text-base/tpl-panel-busqueda.html.svn-base:                <a href='index.php?seccion=busqueda&artista=r'>R</a>
+tpl/.svn/text-base/tpl-panel-busqueda.html.svn-base:                <a href='index.php?seccion=busqueda&artista=s'>S</a>
+tpl/.svn/text-base/tpl-panel-busqueda.html.svn-base:                <a href='index.php?seccion=busqueda&artista=t'>T</a>
+tpl/.svn/text-base/tpl-panel-busqueda.html.svn-base:                <a href='index.php?seccion=busqueda&artista=u'>U</a>
+tpl/.svn/text-base/tpl-panel-busqueda.html.svn-base:                <a href='index.php?seccion=busqueda&artista=v'>V</a>
+tpl/.svn/text-base/tpl-panel-busqueda.html.svn-base:                <a href='index.php?seccion=busqueda&artista=w'>W</a>
+tpl/.svn/text-base/tpl-panel-busqueda.html.svn-base:                <a href='index.php?seccion=busqueda&artista=x'>X</a>
+tpl/.svn/text-base/tpl-panel-busqueda.html.svn-base:                <a href='index.php?seccion=busqueda&artista=y'>Y</a>
+tpl/.svn/text-base/tpl-panel-busqueda.html.svn-base:                <a href='index.php?seccion=busqueda&artista=z'>Z</a>
+tpl/.svn/text-base/tpl-panel-busqueda.html.svn-base:                <a href='index.php?seccion=busqueda&artista=0-9'>#</a>
+tpl/.svn/text-base/tpl-panel-busqueda.html.svn-base:                                    <option value="artistas"  {tbl-selected-artistas}>Artistas</option>
+tpl/tpl-ultimos-ingresados-tonos.html:            <a href="{tpl-tono-link-ingresar}"><img class="border-picture" src="albumes/{tpl-tono-imagen-album}" alt="{tpl-tono-artista}"/></a>
+tpl/tpl-ultimos-ingresados-tonos.html:            <a href='{tpl-tono-link-artista}' class="link-titulo">{tpl-tono-artista}</a>
+tpl/tpl-ultimos-ingresados-tonos.html:            <a class='link-artista' href='{tpl-tono-link-ingresar}'>{tpl-tono-nombre}</a>
+tpl/tpl-reproducir-backtones.html:  <h2>{tpl-nombre-artista}</h2>
+tpl/tpl-reproducir-backtones.html:                    <span>Artista: <a href="index.php?seccion=busqueda&autor={tpl-id-artista}">{tpl-nombre-artista}</a></span><br />
+tpl/tpl-resultado-busqueda-tonos.html:                <a href="{tpl-tono-link-ingresar}"><img class="border-picture" src="albumes/{tpl-tono-imagen-album}" alt="{tpl-tono-artista}"/></a>
+tpl/tpl-resultado-busqueda-tonos.html:                <a class="enlaces-busqueda" href='{tpl-tono-link-artista}' >{tpl-tono-artista}</a>

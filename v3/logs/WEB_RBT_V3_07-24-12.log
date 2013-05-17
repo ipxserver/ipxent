@@ -1,0 +1,62 @@
+Tue Jul 24 9:16:40 BOT 2012: Ajax->Mostrar Ranking:  
+Tue Jul 24 9:17:41 BOT 2012: Ajax->Mostrar Reproducciones:  
+Tue Jul 24 9:25:18 BOT 2012: Check Session > msisdn: 78469087 > Usuario Valido 
+Tue Jul 24 9:34:44 BOT 2012: Ajax-> Mostrar Ranking > tono:134683 
+Tue Jul 24 9:38:14 BOT 2012: Ajax-> Mostrar  Nombre Artista > tono:128233 
+Tue Jul 24 9:39:51 BOT 2012: Ajax-> Mostrar Ranking > tono:103142 
+Tue Jul 24 9:43:12 BOT 2012: WEB_REPRODUCIR_BUSQUEDA > Se recibieron:25 tonos
+Tue Jul 24 9:47:10 BOT 2012: Ajax->Mostrar Comentarios:  
+Tue Jul 24 9:47:28 BOT 2012: ASYNC -> STATS> Tiempo respuesta 0.494644 seg.
+Tue Jul 24 9:47:34 BOT 2012: Mostrar Cantidad reproducciones: tono:152114 cantidad: 0
+Tue Jul 24 9:48:31 BOT 2012: Ajax-> Mostrar  Imagen Portada> tono:120225 
+Tue Jul 24 9:48:31 BOT 2012: ASYNC -> STATS> Tiempo respuesta 0.003677 seg.
+Tue Jul 24 9:48:31 BOT 2012: ASYNC -> STATS> Tiempo respuesta 0.324758 seg.
+Tue Jul 24 9:48:37 BOT 2012: Ajax-> Mostrar Ranking > tono:150244 
+Tue Jul 24 9:48:37 BOT 2012: Ajax-> Mostrar Megusta> tono:104215 
+Tue Jul 24 9:48:55 BOT 2012: Ajax->Mostrar Imagen Portada:  
+Tue Jul 24 9:57:45 BOT 2012: Ajax-> Mostrar  Imagen Portada> tono:126489 
+Tue Jul 24 9:58:30 BOT 2012: Session Start>  Chequeo de sesion
+Tue Jul 24 9:59:39 BOT 2012: Ajax->Mostrar Nombre Genero:  
+Tue Jul 24 10:00:24 BOT 2012: Ajax->Mostrar Imagen Portada:  
+Tue Jul 24 10:03:16 BOT 2012: Ajax->Mostrar Reproducciones:  
+Tue Jul 24 10:04:04 BOT 2012: Busqueda Inteligente: resultados >104870
+Tue Jul 24 10:18:23 BOT 2012: Ajax-> Mostrar  Nombre Artista > tono:404 
+Tue Jul 24 10:19:50 BOT 2012: Busqueda Inteligente: resultados >102767
+Tue Jul 24 10:25:00 BOT 2012: Busqueda Inteligente: Alex Campos
+Tue Jul 24 10:31:20 BOT 2012: Ajax-> Mostrar  Nombre Artista > tono:515 
+Tue Jul 24 10:31:29 BOT 2012: Ajax-> Mostrar  Imagen Portada> tono:126857 
+Tue Jul 24 10:35:11 BOT 2012: Ajax->Mostrar Ranking:  
+Tue Jul 24 10:35:41 BOT 2012: Ajax-> Mostrar Comentarios> tono:126859 
+Tue Jul 24 10:35:56 BOT 2012: Ajax->Mostrar Reproducciones:  
+Tue Jul 24 10:36:11 BOT 2012: Asignar backtone escuchado > Asi termino:104175,104171,509,139343,105503,103521,
+Tue Jul 24 10:38:18 BOT 2012: session-default => asignando por default session
+Tue Jul 24 10:40:57 BOT 2012: Busqueda Inteligente: resultados >102704
+Tue Jul 24 10:43:55 BOT 2012: Busqueda Inteligente: Resultado 
+ -1 
+Tue Jul 24 10:47:02 BOT 2012: WEB_REPRODUCIR_BUSQUEDA > Se recibieron:19 tonos
+Tue Jul 24 10:47:29 BOT 2012: WEB_REPRODUCIR_BUSQUEDA > Se recibieron:11 tonos
+Tue Jul 24 10:48:11 BOT 2012: Mostrar Album: >Artista:  <a href='index.php?seccion=playlist&autor=1386'>Los Kjarkas</a>
+Tue Jul 24 10:48:53 BOT 2012: Mostrar Megusta> tono: 105546 msisdn: > a otros 1  les gusta 
+Tue Jul 24 10:51:14 BOT 2012: Ajax->Mostrar Nombre Genero:  
+Tue Jul 24 10:52:57 BOT 2012: ASYNC -> STATS> Tiempo respuesta -0.16023 seg.
+Tue Jul 24 10:53:00 BOT 2012: ASYNC -> STATS> Tiempo respuesta -0.840918 seg.
+Tue Jul 24 10:53:12 BOT 2012: Busqueda Inteligente: resultados >103479
+Tue Jul 24 10:56:06 BOT 2012: Mostrar Ranking: tono:133850 calificacion: 
+Tue Jul 24 10:57:39 BOT 2012: Ajax->Mostrar Imagen Portada:  
+Tue Jul 24 10:57:48 BOT 2012: Asignar backtone escuchado > Asi termino:509,104991,123242,105546,105262,151286,134638,134687,134686,134685,147195,
+Tue Jul 24 10:59:10 BOT 2012: Ajax->Mostrar Ranking:  
+Tue Jul 24 10:59:34 BOT 2012: ASYNC -> STATS> Tiempo respuesta 0.00413 seg.
+Tue Jul 24 10:59:40 BOT 2012: Ajax->Mostrar Ranking:  
+Tue Jul 24 11:00:04 BOT 2012: Ajax-> Mostrar Ranking > tono:123008 
+Tue Jul 24 11:02:10 BOT 2012: Ajax->Mostrar Nombre Artista:  
+Tue Jul 24 11:03:41 BOT 2012: Ajax->Mostrar Reproducciones:  
+Tue Jul 24 11:03:59 BOT 2012: ASYNC -> STATS> Tiempo respuesta -0.509402 seg.
+Tue Jul 24 11:04:02 BOT 2012: ASYNC -> STATS> Tiempo respuesta -0.757737 seg.
+Tue Jul 24 11:04:05 BOT 2012: ASYNC -> STATS> Tiempo respuesta 0.003243 seg.
+Tue Jul 24 11:04:08 BOT 2012: Asignar backtone escuchado > Asi termino:113598,103328,102622,
+Tue Jul 24 11:04:26 BOT 2012: Ajax->Mostrar Imagen Portada:  
+Tue Jul 24 11:05:29 BOT 2012: Ajax-> Mostrar Ranking > tono:104968 
+Tue Jul 24 11:05:47 BOT 2012: Busqueda Inteligente: resultados >125734
+Tue Jul 24 11:06:02 BOT 2012: Mostrar Album: >Artista:  <a href='index.php?seccion=playlist&autor=58'>Julieta Venegas</a>
+Tue Jul 24 11:06:14 BOT 2012: Asignar backtone escuchado > Asi termino:104747,105758,104942,104441,103115,103692,121,364,103506,144688,145158,103303,104846,104745,104968,104894,103824,110214,323,104789,
+Tue Jul 24 11:06:44 BOT 2012: Ajax->Mostrar Imagen Portada:  

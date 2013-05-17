@@ -1,0 +1,313 @@
+<div id="contenedor_administracion_backtones">
+    <div class="section-title main-title">
+  <h2 id="encabezado">Mis Backtones</h2>
+</div>
+<!-- Content download -->
+<div id="content-download" style="height:640px;">
+        <div id="picture-download" >
+        <p><br>
+                <span>Descripci&oacute;n:</span> <br/>
+                <font style="font-size: 10px; line-height: 12px;">
+                    <span> Aqui podr&aacute;s administrar tus backtones <br>
+                        - Para cambiar la rotaci&oacute;n de sus backtones selecciona un tipo de rotaci&oacute;n<br>
+                        - Para activar o desactivar un backtone presiona el icono On/Off<br><br>
+                    </span>
+                </font>
+
+                <br/>
+        </p>
+        <div>
+            <p>
+                <span> Rotaci&oacute;n de Tonos</span><br>
+                <div id="contenedor-amigos" style="background:white; color:navy;border: 1px dotted gray; width:245px; left:0px;height:200px; *height:184px; text-align:left;">
+                    <button id="btn-rotacion1{tpl-asignado-1}" onclick="javascript:MTD_ASIGNAR_MODALIDAD_BACKTONE(1)"></button>&nbsp;<a href="#asignar1" class="estilo-enlace" name="asignar1" onclick="javascript:MTD_ASIGNAR_MODALIDAD_BACKTONE(1)" {tpl-modalidad-1}>Aleatorio</a>&nbsp;<button id="btn-help-1"></button><br><br>
+                    <button id="btn-rotacion2{tpl-asignado-2}" onclick="javascript:MTD_ASIGNAR_MODALIDAD_BACKTONE(2)"></button>&nbsp;<a href="#asignar2" class="estilo-enlace" name="asignar2" onclick="javascript:MTD_ASIGNAR_MODALIDAD_BACKTONE(2)" {tpl-modalidad-2}>Por Llamada</a>&nbsp;<button id="btn-help-2"></button><br><br>
+                    <button id="btn-rotacion3{tpl-asignado-3}" onclick="javascript:MTD_ASIGNAR_MODALIDAD_BACKTONE(3)"></button>&nbsp;<a href="#asignar3" class="estilo-enlace" name="asignar3" onclick="javascript:MTD_ASIGNAR_MODALIDAD_BACKTONE(3)" {tpl-modalidad-3}>Por Hora</a> &nbsp;<button id="btn-help-3"></button> <br><br>
+                    <button id="btn-rotacion4{tpl-asignado-4}" onclick="javascript:MTD_ASIGNAR_MODALIDAD_BACKTONE(4)"></button>&nbsp;<a href="#asignar4" class="estilo-enlace" name="asignar4" onclick="javascript:MTD_ASIGNAR_MODALIDAD_BACKTONE(4)" {tpl-modalidad-4}>Por Turno</a>&nbsp;<button id="btn-help-4"></button> <br><br>
+                    <button id="btn-rotacion5{tpl-asignado-5}" onclick="javascript:MTD_ASIGNAR_MODALIDAD_BACKTONE(5)"></button>&nbsp;<a href="#asignar5" class="estilo-enlace" name="asignar5" onclick="javascript:MTD_ASIGNAR_MODALIDAD_BACKTONE(5)" {tpl-modalidad-5}>Tono Fijo</a>&nbsp;<button id="btn-help-5"></button>
+
+                    <br><br><span> Intervalo en horas de rotacion:</span> &nbsp;
+                    <select id="intervalo_horas" style="border:1px solid gray;">
+                            <option value="1" {tpl-intervalo-1}> cada 1 hora </option>
+                            <option value="2" {tpl-intervalo-2}> cada 2 horas </option>
+                            <option value="3" {tpl-intervalo-3}> cada 3 horas </option>
+                            <option value="4" {tpl-intervalo-4}> cada 4 horas </option>
+                            <option value="5" {tpl-intervalo-5}> cada 5 horas </option>
+                            <option value="6" {tpl-intervalo-6}> cada 6 horas </option>
+                            <option value="7" {tpl-intervalo-7}> cada 7 horas </option>
+                            <option value="8" {tpl-intervalo-8}> cada 8 horas </option>
+                            <option value="9" {tpl-intervalo-9}> cada 9 horas </option>
+                            <option value="10" {tpl-intervalo-10}> cada 10 horas </option>
+                            <option value="11" {tpl-intervalo-11}> cada 11 horas </option>
+                            <option value="12" {tpl-intervalo-12}> cada 12 horas </option>
+                            <option value="13" {tpl-intervalo-13}> cada 13 horas </option>
+                            <option value="14" {tpl-intervalo-14}> cada 14 horas </option>
+                            <option value="15" {tpl-intervalo-15}> cada 15 horas </option>
+                            <option value="16" {tpl-intervalo-16}> cada 16 horas </option>
+                            <option value="17" {tpl-intervalo-17}> cada 17 horas </option>
+                            <option value="18" {tpl-intervalo-18}> cada 18 horas </option>
+                            <option value="19" {tpl-intervalo-19}> cada 19 horas </option>
+                            <option value="20" {tpl-intervalo-20}> cada 20 horas </option>
+                            <option value="21" {tpl-intervalo-21}> cada 21 horas </option>
+                            <option value="22" {tpl-intervalo-22}> cada 22 horas </option>
+                            <option value="23" {tpl-intervalo-23}> cada 23 horas </option>
+                            <option value="24" {tpl-intervalo-24}> cada 24 horas </option>
+
+                    </select> <input style="background:#CCEECC; border:1px solid #EEEEEE;width:50px; height:25px; cursor:pointer;"type="submit" value="Asignar" id="btn_asignar_intervalo" title="Asignar intervalo de horas"><br>
+                    <br><input type="hidden" size="20" name="tb_id_tono" id ="tb_id_tono"/> <br>
+                    <input type="hidden" size="20" name="tb_nombre_tono" id="tb_nombre_tono"/>
+                </div>
+            </p>
+        </div>
+        <!--
+		<a href="#"><img src="images/button-download-album.gif" class="space-icons" alt="comprar &aacute;lbum" title="comprar &aacute;lbum" /></a>
+         -->
+	</div>
+                <div id="other-tracks" >
+			<dl>
+                            <dt>Lista de backtones </dt>
+                            <dd >
+                                <div  style="position: absolute;background:white; overflow-x:hidden; overflow-y:scroll; width:280px; height:313px; *height:300px;">
+                                    <div class="contenedor-lista-backtones" style="position: relative; ">
+                                          <div class="jp-playlist-player">
+                                            <div id="jplayer_playlist" class="jp-playlist" >
+                                                <ul>
+                                                    <!-- The function displayPlayList() uses this unordered list -->
+                                                    <li></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </dd>
+			</dl>
+
+		</div>
+        <!-- MP3 PLAYER !-->
+                 <div style="padding-top:0px; padding-left:5px; padding-bottom:5px; float:left; ">
+                        <div id="jquery_jplayer" ></div>
+                        <div class="jp-playlist-player">
+                                <div class="jp-interface"  >
+                                    <div class="jp-trackname">
+                                          <p id="reproduccion-nombre">Tema: <span style="font-weight:bold;" id="trackname">nothing</span> <span class="play-info" id="play-info"></span></p>
+                                    </div>
+                                        <ul class="jp-controls">
+                                                <li><a href="#" id="jplayer_play" class="jp-play" tabindex="1">play</a></li>
+                                                <li><a href="#" id="jplayer_pause" class="jp-pause" tabindex="1">pause</a></li>
+                                                <li><a href="#" id="jplayer_stop" class="jp-stop" tabindex="1">stop</a></li>
+                                                <li><a href="#" id="jplayer_volume_min" class="jp-volume-min" tabindex="1">min volume</a></li>
+                                                <li><a href="#" id="jplayer_volume_max" class="jp-volume-max" tabindex="1">max volume</a></li>
+                                                <li><a href="#" id="jplayer_previous" class="jp-previous" tabindex="1">previous</a></li>
+                                                <li><a href="#" id="jplayer_next" class="jp-next" tabindex="1">next</a></li>
+                                        </ul>
+                                        <div class="jp-progress">
+                                                <div id="jplayer_load_bar" class="jp-load-bar">
+                                                        <div id="jplayer_play_bar" class="jp-play-bar"></div>
+                                                </div>
+                                        </div>
+                                        <div id="jplayer_volume_bar" class="jp-volume-bar">
+                                        <div id="jplayer_volume_bar_value" class="jp-volume-bar-value"></div>
+                                        </div>
+                                        <div class="jp-acciones-backtones">
+                                            <div id="bt-eliminar" class="jp-bt-eliminar"></div>
+                                        </div>
+                                        <div id="jplayer_play_time" class="jp-play-time"></div>
+                                        <div id="jplayer_total_time" class="jp-total-time"></div>
+                                </div>
+                        </div>
+                </div>
+<!-- Jump --><div class="jump">&nbsp;</div><!-- float -->
+<!-- Jump --><div class="jump">&nbsp;</div><!-- float -->
+</div>
+
+<script type="text/javascript">
+<!--
+
+$(document).ready(function(){
+            $('#btn-help-1').CreateBubblePopup({
+                           themePath: 'estilos/tigo/images/jquerybubblepopup-theme/',
+                           themeName: 'blue',
+                           innerHtml: '<b>Modalidad aleatorio:</b>  los backtones rotaran <br>en orden aleatorio para cada llamada'
+                           ,closingDelay: "10"
+            });
+
+            $('#btn-help-2').CreateBubblePopup({
+                           themePath: 'estilos/tigo/images/jquerybubblepopup-theme/',
+                           themeName: 'blue',
+                           innerHtml: '<b>Modalidad por llamada:</b> los backtones rotaran <br>por cada llamada al siguiente backtone'
+                           ,closingDelay: "10"
+            });
+
+            $('#btn-help-3').CreateBubblePopup({
+                           themePath: 'estilos/tigo/images/jquerybubblepopup-theme/',
+                           themeName: 'blue',
+                           innerHtml: '<b>Modalidad por hora:</b>  los backtones rotaran <br>conforme a la cantidad de horas ingresadas'
+                           ,closingDelay: "10"
+            });
+
+            $('#btn-help-4').CreateBubblePopup({
+                           themePath: 'estilos/tigo/images/jquerybubblepopup-theme/',
+                           themeName: 'blue',
+                           innerHtml: '<b>Modalidad por turno:</b> los backtones rotaran <br>conforme al turno seleccionado'
+                           ,closingDelay: "10"
+            });
+
+            $('#btn-help-5').CreateBubblePopup({
+                           themePath: 'estilos/tigo/images/jquerybubblepopup-theme/',
+                           themeName: 'blue',
+                           innerHtml: '<b>Modalidad tono fijo:</b>  se seleccionara un solo <br>backtone a ser utilizado'
+                           ,closingDelay: "10"
+            });
+            $("#bt-eliminar").click(function() {
+            MTD_PREGUNTAR_ELIMINAR_BACKTONE();
+            });
+            $("#btn_asignar_intervalo").click(function() {
+            MTD_ASIGNAR_INTERVALO_HORAS_ROTACION();
+            });
+
+
+
+	var playItem = 0;
+        var vg_arreglo_tonos = new Array();        
+        var myPlayList =  [{tpl-lista-backtones}];	
+	var jpPlayTime = $("#jplayer_play_time");
+	var jpTotalTime = $("#jplayer_total_time");
+
+
+
+	$("#jquery_jplayer").jPlayer({
+		ready: function() {
+			displayPlayList();
+			playListInit(false); 
+                        $("#tb_id_tono").val(myPlayList[0].id);
+                        $("#tb_nombre_tono").val(myPlayList[0].name);
+		},
+		oggSupport: false
+	})
+
+	.jPlayer("onProgressChange", function(loadPercent, playedPercentRelative, playedPercentAbsolute, playedTime, totalTime,lp,ppr,ppa,pt,tt){
+		jpPlayTime.text($.jPlayer.convertTime(playedTime));
+		jpTotalTime.text($.jPlayer.convertTime(totalTime));               
+	})
+
+	.jPlayer("onSoundComplete", function() {		
+	});
+
+	$("#jplayer_previous").click( function() {
+		playListPrev();
+		$(this).blur();
+		return false;
+	});
+
+	$("#jplayer_next").click( function() {
+		playListNext();
+		$(this).blur();
+		return false;
+	});
+
+        function displayPlayList3() {
+		$("#jplayer_playlist ul").empty();
+		for (i=0; i < myPlayList.length; i++) {
+			var listItem = (i == myPlayList.length-1) ? "<li class='jplayer_playlist_item_last'>" : "<li>";
+			listItem += "<a href='#' id='jplayer_playlist_item_"+i+"' tabindex='1'>"+ myPlayList[i].name +"</a></li>";
+			$("#jplayer_playlist ul").append(listItem);
+			$("#jplayer_playlist_item_"+i).data( "index", i ).click( function() {
+				var index = $(this).data("index");
+				if (playItem != index) {
+					playListChange( index );
+				} else {
+                                    $("#jquery_jplayer").jPlayer("play");
+				}
+
+				$(this).blur();
+				return false;
+			});
+		}
+	}
+
+	function displayPlayList() {
+
+		$("#jplayer_playlist ul").empty();
+		for (i=0; i < myPlayList.length; i++) {
+			var listItem = (i == myPlayList.length-1) ? "<li class='jplayer_playlist_item_last' >" : "<li style='border:none;'>";
+                        if(myPlayList[i].vigente == 1)
+                        {
+                            if (myPlayList[i].activo == 1)
+                            {
+                                listItem += "<div style='float:left; margin-left:10px;line-height:18px;width:70%;'><a href='#' id='jplayer_playlist_item_"+i+"' tabindex='1' style='width:150px;'>"+ myPlayList[i].name +"</a></div><span id='btn-desasignar-backtone'  onClick='javascript:MTD_DESACTIVAR_BACKTONE("+myPlayList[i].id + ")' title='Desactivar backtone'/></span>  </li>";
+                            }
+                            else
+                            {
+                                listItem += "<div style='float:left; margin-left:10px;line-height:18px; width:70%;'><a href='#' id='jplayer_playlist_item_"+i+"' tabindex='1' style='width:150px;'>"+ myPlayList[i].name +"</a></div><span id='btn-asignar-backtone'  onClick='javascript:MTD_ACTIVAR_BACKTONE("+myPlayList[i].id + ")' title='Activar  backtone'  /></span></li>";
+                            }
+                        }
+                        else if(myPlayList[i].vigente == 0)
+                        {
+                            listItem += "<div style='float:left; margin-left:10px;line-height:18px; width:70%;'><a href='#' id='jplayer_playlist_item_"+i+"' tabindex='1' style='width:150px;'>"+ myPlayList[i].name +"</a></div><span id='btn-backtone-mora'   title='Backtone en Mora'  /></span></li>";
+                        }
+			$("#jplayer_playlist ul").append(listItem);
+			$("#jplayer_playlist_item_"+i).data( "index", i ).click( function() {
+				var index = $(this).data("index");
+				if (playItem != index) {
+					playListChange( index );
+				} else {
+                                    $("#jquery_jplayer").jPlayer("play");
+				}
+				$(this).blur();
+				return false;
+			});
+
+		}
+
+	}
+
+	function playListInit(autoplay) {
+		if(autoplay) {
+			playListChange( playItem );
+
+		} else {
+			playListConfig( playItem );
+		}
+	}
+
+	function playListConfig( index ) {
+		$("#jplayer_playlist_item_"+playItem).removeClass("jplayer_playlist_current2").parent().removeClass("jplayer_playlist_current2");
+		$("#jplayer_playlist_item_"+index).addClass("jplayer_playlist_current2").parent().addClass("jplayer_playlist_current2");
+		playItem = index;
+                $("#trackname").html(myPlayList[playItem].name);
+		$("#jquery_jplayer").jPlayer("setFile", myPlayList[playItem].mp3, myPlayList[playItem].ogg);
+
+	}
+
+	function playListChange( index ) {
+                var tope= 0;
+                if (index  <= 8 )
+                {
+                tope = index * 8 * -1;
+                }
+                else if (index > 8)
+                {
+                tope = index * 20 * -1;
+                }
+                $("#tb_id_tono").val(myPlayList[index].id);
+                $("#tb_nombre_tono").val(myPlayList[index].name);
+		playListConfig( index );
+		$("#jquery_jplayer").jPlayer("play");
+                $(".contenedor-lista-backtones").animate({"top": ""+tope+"px"}, "medium");
+
+	}
+
+	function playListNext() {
+		var index = (playItem+1 < myPlayList.length) ? playItem+1 : 0;
+		playListChange( index );
+	}
+
+	function playListPrev() {
+		var index = (playItem-1 >= 0) ? playItem-1 : myPlayList.length-1;
+		playListChange( index );
+	}
+
+});
+-->
+</script>
+</div>

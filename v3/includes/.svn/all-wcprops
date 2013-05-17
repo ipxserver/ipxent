@@ -1,0 +1,149 @@
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/usvn/svn/BO_TIGO_WEBRBT_V3/!svn/ver/152/trunk/webrbt/includes
+END
+FN_LEER_TPL.php
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/usvn/svn/BO_TIGO_WEBRBT_V3/!svn/ver/4/trunk/webrbt/includes/FN_LEER_TPL.php
+END
+FN_RECIBIR_VARIABLES.php
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/usvn/svn/BO_TIGO_WEBRBT_V3/!svn/ver/60/trunk/webrbt/includes/FN_RECIBIR_VARIABLES.php
+END
+FN_NET_SMS.php
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/usvn/svn/BO_TIGO_WEBRBT_V3/!svn/ver/149/trunk/webrbt/includes/FN_NET_SMS.php
+END
+FN_CLEAN_STRING.php
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/usvn/svn/BO_TIGO_WEBRBT_V3/!svn/ver/4/trunk/webrbt/includes/FN_CLEAN_STRING.php
+END
+FN_STRING_LIMITE.php
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/usvn/svn/BO_TIGO_WEBRBT_V3/!svn/ver/6/trunk/webrbt/includes/FN_STRING_LIMITE.php
+END
+FN_DB_QUERY.php
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/usvn/svn/BO_TIGO_WEBRBT_V3/!svn/ver/60/trunk/webrbt/includes/FN_DB_QUERY.php
+END
+FN_HTML_EDITORCONTENIDO.php
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/usvn/svn/BO_TIGO_WEBRBT_V3/!svn/ver/4/trunk/webrbt/includes/FN_HTML_EDITORCONTENIDO.php
+END
+FN_ARCHIVOS.php
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/usvn/svn/BO_TIGO_WEBRBT_V3/!svn/ver/4/trunk/webrbt/includes/FN_ARCHIVOS.php
+END
+FN_HTML_ARMAR_GRILLA.php
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/usvn/svn/BO_TIGO_WEBRBT_V3/!svn/ver/4/trunk/webrbt/includes/FN_HTML_ARMAR_GRILLA.php
+END
+FN_HTML_ARMAR_LISTA.php
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/usvn/svn/BO_TIGO_WEBRBT_V3/!svn/ver/4/trunk/webrbt/includes/FN_HTML_ARMAR_LISTA.php
+END
+FN_NET_ASYNC.php
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/usvn/svn/BO_TIGO_WEBRBT_V3/!svn/ver/149/trunk/webrbt/includes/FN_NET_ASYNC.php
+END
+FN_COMPRIMIR_HTML.php
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/usvn/svn/BO_TIGO_WEBRBT_V3/!svn/ver/95/trunk/webrbt/includes/FN_COMPRIMIR_HTML.php
+END
+FN_NET_LOGGER.php
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/usvn/svn/BO_TIGO_WEBRBT_V3/!svn/ver/21/trunk/webrbt/includes/FN_NET_LOGGER.php
+END
+FN_DB_CONEXION.php
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/usvn/svn/BO_TIGO_WEBRBT_V3/!svn/ver/30/trunk/webrbt/includes/FN_DB_CONEXION.php
+END
+FN_WEB_ESTRELLAS.php
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/usvn/svn/BO_TIGO_WEBRBT_V3/!svn/ver/54/trunk/webrbt/includes/FN_WEB_ESTRELLAS.php
+END
+FN_BILLING_CALCULO_FECHAS.php
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/usvn/svn/BO_TIGO_WEBRBT_V3/!svn/ver/82/trunk/webrbt/includes/FN_BILLING_CALCULO_FECHAS.php
+END
+FN_NET_ENVIAR_MAIL.php
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/usvn/svn/BO_TIGO_WEBRBT_V3/!svn/ver/114/trunk/webrbt/includes/FN_NET_ENVIAR_MAIL.php
+END
+FN_ARR_FORMAT_PRECIO.php
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/usvn/svn/BO_TIGO_WEBRBT_V3/!svn/ver/4/trunk/webrbt/includes/FN_ARR_FORMAT_PRECIO.php
+END
+FN_NET_SOCKET.php
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/usvn/svn/BO_TIGO_WEBRBT_V3/!svn/ver/152/trunk/webrbt/includes/FN_NET_SOCKET.php
+END
+FN_SUBIR_ARCHIVO.php
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/usvn/svn/BO_TIGO_WEBRBT_V3/!svn/ver/4/trunk/webrbt/includes/FN_SUBIR_ARCHIVO.php
+END
+WEB_CONF.php
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/usvn/svn/BO_TIGO_WEBRBT_V3/!svn/ver/152/trunk/webrbt/includes/WEB_CONF.php
+END
+FN_CARACTERES_HTML.php
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/usvn/svn/BO_TIGO_WEBRBT_V3/!svn/ver/4/trunk/webrbt/includes/FN_CARACTERES_HTML.php
+END
+FN_REEMPLAZAR.php
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/usvn/svn/BO_TIGO_WEBRBT_V3/!svn/ver/4/trunk/webrbt/includes/FN_REEMPLAZAR.php
+END
+FN_DB_SEPARAR_PAGINAS.php
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/usvn/svn/BO_TIGO_WEBRBT_V3/!svn/ver/4/trunk/webrbt/includes/FN_DB_SEPARAR_PAGINAS.php
+END

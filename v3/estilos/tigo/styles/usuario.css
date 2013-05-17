@@ -1,0 +1,12 @@
+/* Registro */
+
+#content fieldset { border: none; margin: 0; margin-left: 350px; }
+#content fieldset input { margin-top: 5px; margin-bottom: 10px; }
+#content .form_registro { background: #605e5f url(../images/back-register.jpg) no-repeat bottom; width: 550px; font-size: 0.7em; margin: 0 auto; padding: 20px 0; }
+#content .button-orange { background: url(../images/back_send_button.gif) repeat-x; border: 1px solid #312f2f; height: 24px; color: white; } 
+.form_error { font-size: 0.8em; text-align: center; border: solid 10px #001948; background: white; color: red; width: 500px; margin: 10px auto; padding: 10px; background: #c2d1ed; }
+.form_error a { color: #ffc466; text-decoration: none; }
+.form_error a:hover { color: white; text-decoration: undeline; }
+.form_ok { font-size: 0.8em; text-align: center; border: solid 10px #001948; background: white; color: green; width: 500px; margin: 10px auto; padding: 10px; background: #c2d1ed; }
+.form_ok a { color: #ffc466; text-decoration: none; }
+.form_ok a:hover { color: white; text-decoration: undeline; }

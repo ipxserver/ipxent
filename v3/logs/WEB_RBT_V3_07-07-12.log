@@ -1,0 +1,67 @@
+Sat Jul 7 14:37:40 BOT 2012: Busqueda Inteligente: resultados >104923
+Sat Jul 7 14:42:14 BOT 2012: Asignar backtone escuchado > Asi termino:108556,109975,102802,102793,103642,102794,109973,103639,102801,136048,103469,130999,
+Sat Jul 7 14:48:36 BOT 2012: Ajax-> Mostrar Comentarios> tono:105775 
+Sat Jul 7 14:52:31 BOT 2012: Mostrar Ranking: tono:105235 calificacion: 4
+Sat Jul 7 14:57:35 BOT 2012: Ajax->Mostrar Megusta:  
+Sat Jul 7 14:57:35 BOT 2012: ASYNC -> STATS> Tiempo respuesta 0.212424 seg.
+Sat Jul 7 15:02:18 BOT 2012: Ajax->Mostrar Imagen Portada:  
+Sat Jul 7 15:03:21 BOT 2012: Ajax-> popup_listar_amigos: msisdn:78055718 
+Sat Jul 7 15:03:30 BOT 2012: Session Start>  session por defecto 
+Sat Jul 7 15:08:43 BOT 2012: Ajax-> Mostrar  Nombre Genero > tono:129924 
+Sat Jul 7 15:08:43 BOT 2012: Asignar backtone escuchado > Asi termino:151284,105767,103276,103133,105765,105762,105764,103134,103275,105235,103132,105760,105758,103274,163,105775,104652,103136,103278,
+Sat Jul 7 15:09:58 BOT 2012: Ajax-> Mostrar Ranking > tono:130806 
+Sat Jul 7 15:15:17 BOT 2012: Consulta de precio de reason:2 - msisdn: tono:151284 Async responde:350
+ 
+Sat Jul 7 15:18:06 BOT 2012: Ajax-> Mostrar  Nombre Genero > tono:112466 
+Sat Jul 7 15:18:39 BOT 2012: ASYNC -> STATS> Tiempo respuesta -0.103817 seg.
+Sat Jul 7 15:18:39 BOT 2012: Asignar backtone escuchado > Asi termino:104658,113600,112462,125514,145227,105073,104598,142919,7,103886,82,120,104107,150146,104121,105309,150148,145305,520,103885,
+Sat Jul 7 15:22:39 BOT 2012: Mostrar Ranking: tono:134686 calificacion: 5
+Sat Jul 7 15:22:57 BOT 2012: Ajax->Mostrar Ranking:  
+Sat Jul 7 15:24:28 BOT 2012: Ajax-> Mostrar Ranking > tono:130814 
+Sat Jul 7 15:27:25 BOT 2012: ASYNC -> STATS> Tiempo respuesta 0.0039670000000001 seg.
+Sat Jul 7 15:27:31 BOT 2012: Consulta de precio de reason:5 - msisdn: tono:123718 Async responde:350
+ 
+Sat Jul 7 15:27:31 BOT 2012: Ajax->Mostrar Ranking:  
+Sat Jul 7 15:30:29 BOT 2012: Busqueda Inteligente: resultados >137292
+Sat Jul 7 15:33:59 BOT 2012: ASYNC -> STATS> Tiempo respuesta 0.446128 seg.
+Sat Jul 7 15:36:00 BOT 2012: Ajax->Mostrar Imagen Portada:  
+Sat Jul 7 15:37:48 BOT 2012: ASYNC -> STATS> Tiempo respuesta 0.0030290000000001 seg.
+Sat Jul 7 15:41:58 BOT 2012: Ajax-> Mostrar Comentarios> tono:104666 
+Sat Jul 7 15:43:37 BOT 2012: Ajax->Mostrar Reproducciones:  
+Sat Jul 7 15:49:05 BOT 2012: Session Start>  session por defecto 
+Sat Jul 7 15:49:26 BOT 2012: Ajax->Mostrar Megusta:  
+Sat Jul 7 15:51:12 BOT 2012: Busqueda Inteligente: resultados >138518
+Sat Jul 7 15:55:28 BOT 2012: ASYNC -> STATS> Tiempo respuesta 0.004271 seg.
+Sat Jul 7 15:56:19 BOT 2012: Busqueda Inteligente: 
+Sat Jul 7 15:57:25 BOT 2012: Ajax->Mostrar Nombre Genero:  
+Sat Jul 7 15:57:28 BOT 2012: Ajax->Mostrar Imagen Portada:  
+Sat Jul 7 20:15:16 BOT 2012: Mostrar Ranking: tono:109249 calificacion: 5
+Sat Jul 7 20:23:39 BOT 2012: Ajax->Mostrar Imagen Portada:  
+Sat Jul 7 20:26:39 BOT 2012: Ajax-> Mostrar Ranking > tono:105365 
+Sat Jul 7 20:27:12 BOT 2012: Ajax-> Mostrar  Nombre Genero > tono:123530 
+Sat Jul 7 20:28:01 BOT 2012: Ajax-> Mostrar  Nombre Genero > tono:131721 
+Sat Jul 7 20:28:46 BOT 2012: STATS > BUSQUEDA DE BACKTONE >Tiempo: 0.326314 seg. | registros: 14
+Sat Jul 7 20:29:28 BOT 2012: Mostrar Ranking: tono:131036 calificacion: 
+Sat Jul 7 20:29:31 BOT 2012: Ajax-> Mostrar Ranking > tono:123540 
+Sat Jul 7 20:36:14 BOT 2012: Ajax-> Mostrar Ranking > tono:105645 
+Sat Jul 7 20:37:09 BOT 2012: MTD_DB_BUSCAR_ARTISTAS > retornando registros:19
+Sat Jul 7 20:37:27 BOT 2012: Ajax-> Mostrar  Nombre Artista > tono:103329 
+Sat Jul 7 20:38:21 BOT 2012: Ajax->Mostrar Nombre Genero:  
+Sat Jul 7 20:39:15 BOT 2012: ASYNC -> STATS> Tiempo respuesta 0.003179 seg.
+Sat Jul 7 20:41:06 BOT 2012: Ajax->Mostrar Nombre Artista:  
+Sat Jul 7 20:44:22 BOT 2012: Busqueda Inteligente: sak noel
+Sat Jul 7 20:49:17 BOT 2012: Busqueda Inteligente: resultados >104282
+Sat Jul 7 20:51:32 BOT 2012: Ajax->Mostrar Comentarios:  
+Sat Jul 7 20:52:11 BOT 2012: Ajax->Mostrar Nombre Genero:  
+Sat Jul 7 20:53:06 BOT 2012: Ajax-> Mostrar Ranking > tono:102614 
+Sat Jul 7 20:53:57 BOT 2012: Ajax->Mostrar Ranking:  
+Sat Jul 7 20:54:33 BOT 2012: Ajax->Mostrar Nombre Genero:  
+Sat Jul 7 20:58:04 BOT 2012: Asignar backtone escuchado > Asi termino:103503,142622,130806,134,135046,135064,103659,135057,135075,104532,140792,126462,105524,255,103572,104577,103553,105521,127898,103563,
+Sat Jul 7 20:58:13 BOT 2012: Busqueda Inteligente: resultados >105559
+Sat Jul 7 21:01:43 BOT 2012: Ajax-> Mostrar Megusta> tono:104540 
+Sat Jul 7 21:01:43 BOT 2012: STATS > BUSQUEDA DE BACKTONE >Tiempo: -0.00051299999999999 seg. | registros: 26
+Sat Jul 7 21:02:31 BOT 2012: Ajax->Mostrar Imagen Portada:  
+Sat Jul 7 21:02:34 BOT 2012: ASYNC -> STATS> Tiempo respuesta 0.442671 seg.
+Sat Jul 7 21:02:46 BOT 2012: ASYNC -> STATS> Tiempo respuesta 0.10755 seg.
+Sat Jul 7 21:02:46 BOT 2012: ASYNC -> STATS> Tiempo respuesta 0.550266 seg.
+Sat Jul 7 21:04:32 BOT 2012: Ajax->Mostrar Megusta:  
