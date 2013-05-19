@@ -1,0 +1,16 @@
+<div id="contenedor-comentario-individual"  >
+    <div id="contenedor-comentarios-imagen" >
+        <img src="imagenes/usuarios/{tpl-imagen-usuario}" height="22" alt="{tpl-nickname}">
+    </div>
+    <div id="contenedor-comentarios-texto-autor" >
+        <span>{tpl-nickname}</span>
+    </div>
+    <div id="contenedor-comentarios-texto">
+        <span>{tpl-comentario}</span>
+    </div>
+    <div id="contenedor-comentarios-denunciar">
+        <a href="#denuncia" name="denunciar" title="denunciar comentario" onclick="javascript:MTD_DENUNCIAR_COMENTARIO({tpl-id-comentario})">
+            <img src="estilos/tigo/images/icon-denunciar-comentario.jpg" title="denunciar comentario" border="0"/>
+        </a>
+    </div>
+</div>

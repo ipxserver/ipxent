@@ -1,0 +1,116 @@
+<div id="contenedor_administracion_amigos">
+<div class="section-title main-title">
+  <h2 id="encabezado">Editar mi perfil</h2>
+</div>
+<!-- Content download -->
+<div id="content-download" style="height:640px;">
+        <div id="picture-download" >
+            <p>
+                &nbsp; <br>
+            </p>
+
+        <p>
+                <span>Descripcion:</span> </br>
+                <font style="font-size: 10px; line-height: 12px;">
+                    <span> La secci&oacute;n de edici&oacute;n de perfil, le otorgar&aacute; la opci&oacute;n de
+                        registrar sus datos personales, y de contacto, adem&aacute; usted podr&aacute; publicar
+                        una imagen de su preferencia a ser asociada con su perfil.
+                    </span>
+                </font>
+                <br><br><br>
+                <div>
+                    <p>
+
+                     <form action="index.php?seccion=perfil_usuario" method="post" enctype="multipart/form-data" id="frm_imagen_usuario">                     
+                        <span> Mi imagen </span><br>
+                        <div id="contenedor-amigos" style="width:240px;">
+                            <div style="float:right; padding-right:5px;">
+                                 <button class="btn_agregar_amigos" id="btn_ingresar_imagen" title="Ingresar"></button></div>
+                                &nbsp;&nbsp;<img src="{tpl-imagen-usuario}"/><br>
+
+                                <span>Seleccione un archivo</span> <br>
+                                <input name="tb_imagen_usuario" type="file" style="height:20px;width:200px;" size="35" />
+                                <input name="action" type="hidden" value="upload" />                                
+                                <br><br>
+                        </div>
+                    </form>
+
+                    </p>
+                </div>
+
+
+
+
+        
+        </p>
+       
+	</div>
+                <div id="other-tracks" >
+			<dl>
+                            <dt>Datos Personales</dt>
+                            <dd>
+                                <div  style="position: absolute;background:white; overflow-x:hidden; overflow-y:scroll; width:280px;  height:370px;">
+                                    <div class="contenedor-lista-backtones" style="position: relative;  height:300px;">
+                                        <div id="lista_amigos">
+                                            <form class="cmxform" id="form_datos_perfil">
+                                            <ul>
+                                                <li><span id="titulo-perfil-usuario">Nickname:</span><br> <input type="input" class="estilo-input estilo-input-perfil"  minlength="5" id="tb_nickname" MAXLENGTH="10" value="{tpl-nickname}"> <br></li>
+                                                <li><span id="titulo-perfil-usuario">Nombre  : </span><br><input type="input" class="estilo-input estilo-input-perfil" id="tb_nombre_usuario" MAXLENGHT="100" value="{tpl-nombre}"><br></li>
+                                                <li><span id="titulo-perfil-usuario">Apellido: </span><br><input type="input"  class="estilo-input estilo-input-perfil"id="tb_apellido_usuario" MAXLENGHT="100" value="{tpl-apellido}"><br></li>
+                                                <li><span id="titulo-perfil-usuario">Email: </span><br><input type="input" class="estilo-input estilo-input-perfil" id="tb_email_usuario" MAXLENGHT="150" value="{tpl-email}"><br><br></li>
+                                                
+                                                <li><span id="titulo-perfil-usuario">Sexo:</span>
+                                                        <img src="estilos/tigo/images/icon-masculino.png"/><input type="radio" name="sexo" id="sexo" value="M"  {tpl-masculino}>
+                                                        <img src="estilos/tigo/images/icon-femenino.png"/><input type="radio" name="sexo" id="sexo" value="F" {tpl-femenino}>
+                                                </li>
+                                                <li>
+                                                    <div style="width:100%; text-align: center;">
+                                                        <input type="button" name="tb_actualizar_datos" id="tb_actualizar_datos" value="Actualizar Datos" class="estilo-input submit" >
+                                                    </div>
+                                                </li>
+                                            </ul>
+                                            </form>
+                                        </div>
+                                    </div>
+                                </div>
+                            </dd>
+			</dl>
+
+		</div>
+
+<!-- Jump --><div class="jump">&nbsp;</div><!-- float -->
+<!-- Jump --><div class="jump">&nbsp;</div><!-- float -->
+</div>
+<script type="text/javascript">
+<!--
+$(document).ready(function(){
+            $("#btn_ingresar_imagen").click(function() {
+                       $('#frm_imagen_usuario').submit();
+            });            
+    
+            $('#tb_actualizar_datos').CreateBubblePopup({
+                           themePath: 'estilos/tigo/images/jquerybubblepopup-theme/',
+                           themeName: 'orange',
+                           innerHtml: 'Los datos se han actualizado correctamente', mouseOver: 'hide'
+            });
+            $('#tb_nickname').CreateBubblePopup({
+                           themePath: 'estilos/tigo/images/jquerybubblepopup-theme/',
+                           themeName: 'orange',
+                           innerHtml: 'El nickname ingresado ya se encuentra ocupado, favor ingrese otro', mouseOver: 'hide'
+            });
+             $('#tb_email_usuario').CreateBubblePopup({
+                           themePath: 'estilos/tigo/images/jquerybubblepopup-theme/',
+                           themeName: 'orange',
+                           innerHtml: 'El email ingresado no es valido, favor verifique los datos', mouseOver: 'hide'
+            });
+
+            $("#tb_actualizar_datos").click(function() {
+            MTD_ACTUALIZAR_DATOS_PERFIL();
+          });
+                
+
+
+});
+-->
+</script>
+</div>

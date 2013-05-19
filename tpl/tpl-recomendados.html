@@ -1,0 +1,46 @@
+<!-- Right menu -->
+<div id="right-column">
+    <dl>
+        <dt>Recomendados</dt>
+        <!-- MARCO EXTERNO !-->
+        <dd style="height:215px;">
+        <div  id="contenedor-seleccion-recomendados">
+              <!-- FLECHA ARRIBA !-->
+              <div id="arriba_recomendados" ></div>
+              <!-- MARCO INTERNO !-->
+              <div id="bloque_recomendados" class="bloque_recomendados">
+                  <div id="contenedor_bloque_recomendados">
+                  <ul>{tpl-tonos-recomendados}</ul>
+                  </div>
+              </div>
+              <!-- FLECHA ABAJO !-->
+                <div id="abajo_recomendados"></div>
+        </div>
+        </dd>
+    </dl>
+</div>
+<script>
+ var top_recomendados=-5;
+ var tope_recomendados = ($("#contenedor_bloque_recomendados").height() - 200) * -1;
+$("#arriba_recomendados").click(function(){
+    if (top_recomendados < -5)
+    {
+        top_recomendados= top_recomendados  + 200;
+        $(".bloque_recomendados").animate({"top": top_recomendados}, "medium");
+    }
+});
+
+$("#info_recomendados").click(function(){
+  top_recomendados= -560;
+  $(".bloque_recomendados").animate({"top": top_recomendados}, "medium");
+});
+
+$("#abajo_recomendados").click(function(){
+
+    if (top_recomendados > tope_recomendados)
+    {
+     top_recomendados= top_recomendados  - 200;
+     $(".bloque_recomendados").animate({"top": top_recomendados }, "medium");
+    }
+});
+</script>

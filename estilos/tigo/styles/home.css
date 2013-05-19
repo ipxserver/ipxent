@@ -1,0 +1,60 @@
+/* Flash */
+
+#content-box #content #flash{ 
+   /* margin: 0 auto; font-size: 1.1em; text-align: center; width: 550px; height: 250px; background: white; line-height: 250px; vertical-align: middle; margin-bottom: 10px;*/
+ display:inline-block;
+ padding-left:10px;
+ padding-right:10px;
+ padding-bottom:5px;
+ *display:inline;
+ zoom:1;
+}
+#content-box #content #flash p { padding: 10px; color: #181818; }
+#content-box #content #flash p a { color: #181818; }
+#content-box #content #flash p a:hover { color: #c2c2c2; }
+
+/* Music galery */
+
+#player { margin: 0 auto; width: 550px; }
+
+/* ---------------------- Easy Slider 1.5 ------------------------ */
+
+#slider ul, #slider li { margin:0; padding:0; list-style:none; }
+#slider li {  width:472px; overflow:hidden; }	
+#prevBtn, #nextBtn, #prevBtn2, #nextBtn2 { display:block; width:24px; height:23px; position:absolute; left:8px; top:262px; text-indent:-8000px; }
+#nextBtn, #nextBtn2  { left:520px; }														
+#prevBtn a, #nextBtn a, #prevBtn2 a, #nextBtn2 a { display:block; width:24px; height:23px; background:url(../images/btn_prev.gif) no-repeat 0 0;	}	
+#prevBtn2, #nextBtn2 { top:149px; }	
+#nextBtn a, #nextBtn2 a { background:url(../images/btn_next.gif) no-repeat 0 0; }
+
+#slider2 ul, #slider2 li { margin:0; padding:0; list-style:none; }
+#slider2 li {  width:472px; overflow:hidden; }
+
+/* --------------------------------------------------------------- */
+
+#content-box #content .content-galery { width: 550px; margin: 0 auto; font-size: 0.7em; position:relative;}
+#content-box #content .content-galery .left-band { width: 20px; margin-right: 10px; background: #e5e4e4; float: left; height:390px; }
+
+#content-box #content .content-galery .center-galery { width: 390px; float: left; background: white; }
+#content-box #content .content-galery .center-galery .content-box { width: 395px; float: left; }
+#content-box #content .content-galery .center-galery .box { width: 118px; text-align:center; margin-top: 15px; margin-bottom:5px; font-weight:700; float: left; line-height: 1.5em; color: #080808;}
+#content-box #content .content-galery .center-galery .box span { color: #386abf; font-style:italic; font-variant:normal; }
+.block-music { height: 390px; border-bottom: #E5E4E4 solid 3px;}
+.block-wallpapers { height: 299px; }
+.box-music { height: 150px; }
+.box-wallpapers { height: 125px; }
+.margin-title-music { margin-top: 3px; }
+.margin-title-wallpapers { margin-bottom: 3px; }
+
+
+
+#content-box #content .content-galery .right-band { width: 20px;float: right; background: #e5e4e4!important; height:390px; vertical-align: middle; }
+#content-box #content .content-galery .arrow { 
+    width: 20px;
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+    *position: absolute;
+    *top:45%;
+    *bottom:50%;    
+}
