@@ -99,17 +99,10 @@ body { background: #f0f0f0 url(../images/general-back.gif) center center repeat-
 #content-box #content { width: 570px; float:left; }
 
 
-<<<<<<< HEAD
-#content-box #right-column { width: 200px; height:249px; float: right; background: #feb727;  margin-bottom: 5px; }
-#content-box #right-column dl{ width:200px;  margin:0 auto; background: url(../images/back-dt-bottom-2.gif) bottom center no-repeat; padding-bottom: 5px; }
-#content-box #right-column dt { width: 200px; height: 30px; color: white; line-height: 30px; vertical-align: middle;  font-weight:bold; background: url(../images/back-dt-2.gif) no-repeat; text-align: left; padding-left:15px; font-size: 0.9em;} /* cambia */
-#content-box #right-column dd { width: 190px; background: white url(../images/bullet_blue.gif) no-repeat 5px 10px; height: 43px; font-size: 0.8em; margin: 0 5px; } /* Cambia */
-=======
 #content-box #right-column { width: 230px; height:249px; float: right; background: #feb727;  margin-bottom: 5px; }
 #content-box #right-column dl{ width:230px;  margin:0 auto; background: url(../images/back-dt-bottom-2.gif) bottom center no-repeat; padding-bottom: 5px; }
 #content-box #right-column dt { width: 230px; height: 30px; color: white; line-height: 30px; vertical-align: middle;  font-weight:bold; background: url(../images/back-dt-2.gif) no-repeat; text-align: left; padding-left:15px; font-size: 0.9em;} /* cambia */
 #content-box #right-column dd { width: 220px; background: white url(../images/bullet_blue.gif) no-repeat 5px 10px; height: 43px; font-size: 0.8em; margin: 0 5px; } /* Cambia */
->>>>>>> reset
 #content-box #right-column dd ul { vertical-align:middle;margin-top:5px; }
 #content-box #right-column dd ul li { line-height: 1.3em; vertical-align: middle; }
 #content-box #right-column dd .artist { font-size: 0.9em; color: #3062a9; } /* cambia */
@@ -124,17 +117,10 @@ body { background: #f0f0f0 url(../images/general-back.gif) center center repeat-
 RIGHT COLUMN MI CUENTA
 */
 
-<<<<<<< HEAD
-#content-box #right-column-micuenta { width: 200px;  float: right; background: #427abf;  margin-bottom: 5px; vertical-align: top; }
-#content-box #right-column-micuenta dl{ width:200px; margin:0 auto; background: url(../images/back-dt-bottom-2.gif) bottom center no-repeat; padding-bottom: 5px; }
-#content-box #right-column-micuenta dt { width: 200px; height: 30px; color: white; line-height: 30px; vertical-align: middle;  font-weight:bold; background: url(../images/back-dt-2.gif) no-repeat; text-align: center; font-size: 0.9em;text-align: left; padding-left:10px;} /* cambia */
-#content-box #right-column-micuenta dd { width: 190px; min-height:80px; background: white; _height: 80px; font-size: 0.8em; margin: 0 5px; } /* Cambia */
-=======
 #content-box #right-column-micuenta { width: 230px;  float: right; background: #427abf;  margin-bottom: 5px; vertical-align: top; }
 #content-box #right-column-micuenta dl{ width:230px; margin:0 auto; background: url(../images/back-dt-bottom-2.gif) bottom center no-repeat; padding-bottom: 5px; }
 #content-box #right-column-micuenta dt { width: 230px; height: 30px; color: white; line-height: 30px; vertical-align: middle;  font-weight:bold; background: url(../images/back-dt-2.gif) no-repeat; text-align: center; font-size: 0.9em;text-align: left; padding-left:10px;} /* cambia */
 #content-box #right-column-micuenta dd { width: 220px; min-height:80px; background: white; _height: 80px; font-size: 0.8em; margin: 0 5px; } /* Cambia */
->>>>>>> reset
 #content-box #right-column-micuenta dd ul { padding-top: 10px; }
 
 #content-box #right-column-micuenta dd span {display:block; vertical-align:middle; float:left;   width:70px; height:15px; padding-left:5px; font-size: 11px; color: #3062a9; } /* cambia */
@@ -160,17 +146,10 @@ RIGHT COLUMN MI CUENTA
 /*
 RIGHT COLUMN FAQ
 */
-<<<<<<< HEAD
-#content-box #right-column-faq { width: 200px; float: right; background: #61bc47;  margin-bottom: 5px; vertical-align: top; }
-#content-box #right-column-faq dl{ width:200px;  margin:0 auto; background: url(../images/back-dt-bottom-2.gif) bottom center no-repeat; padding-bottom: 5px; }
-#content-box #right-column-faq dt { width: 200px; height: 30px; color: white; line-height: 30px; vertical-align: middle;  font-weight:bold; background: url(../images/back-dt-2.gif) no-repeat; text-align: center; font-size: 0.9em;text-align: left; padding-left:10px;} /* cambia */
-#content-box #right-column-faq dd { width: 190px;  height: 80px; background: white; _height: 90px; font-size: 0.8em; margin: 0 5px; } /* Cambia */
-=======
 #content-box #right-column-faq { width: 230px; float: right; background: #61bc47;  margin-bottom: 5px; vertical-align: top; }
 #content-box #right-column-faq dl{ width:230px;  margin:0 auto; background: url(../images/back-dt-bottom-2.gif) bottom center no-repeat; padding-bottom: 5px; }
 #content-box #right-column-faq dt { width: 230px; height: 30px; color: white; line-height: 30px; vertical-align: middle;  font-weight:bold; background: url(../images/back-dt-2.gif) no-repeat; text-align: center; font-size: 0.9em;text-align: left; padding-left:10px;} /* cambia */
 #content-box #right-column-faq dd { width: 220px;  height: 80px; background: white; _height: 90px; font-size: 0.8em; margin: 0 5px; } /* Cambia */
->>>>>>> reset
 #content-box #right-column-faq dd span {display:block; vertical-align:middle; float:left;   width:70px; height:15px; padding-left:1px; font-size: 0.9em; color: #3062a9; } /* cambia */
 #content-box #right-column-faq dd input { background:#CCFFFF; padding-left:10px; border:1px solid #CCCCCC; width:70px; height:15px; font-size:0.9em; color:#555555; }
 #content-box #right-column-faq dd input:focus { background:#FFFFCC; padding-left:10px; border:1px solid green; width:70px; height:15px;color:#333333; font-size:0.9em;}
@@ -187,17 +166,10 @@ RIGHT COLUMN FAQ
 RIGHT COLUMN BACKTONES ESCUCHADOS
 
 */
-<<<<<<< HEAD
-#content-box #right-column-backtones-escuchados { width: 200px;  float: right; background: #ed174b;   vertical-align: top; }
-#content-box #right-column-backtones-escuchados dl{ width:200px; margin:0 auto; background: url(../images/back-dt-bottom-2.gif) bottom center no-repeat; padding-bottom: 5px; }
-#content-box #right-column-backtones-escuchados dt { width: 200px; height: 30px; color: white; line-height: 30px; vertical-align: top;  font-weight:bold; background: url(../images/back-dt-2.gif) no-repeat; text-align: center; font-size: 0.9em;text-align: left; padding-left:10px;} /* cambia */
-#content-box #right-column-backtones-escuchados dd { width: 190px; height: 135px;  background: white; font-size: 0.8em; margin: 0 5px; } /* Cambia */
-=======
 #content-box #right-column-backtones-escuchados { width: 230px;  float: right; background: #ed174b;   vertical-align: top; }
 #content-box #right-column-backtones-escuchados dl{ width:230px; margin:0 auto; background: url(../images/back-dt-bottom-2.gif) bottom center no-repeat; padding-bottom: 5px; }
 #content-box #right-column-backtones-escuchados dt { width: 230px; height: 30px; color: white; line-height: 30px; vertical-align: top;  font-weight:bold; background: url(../images/back-dt-2.gif) no-repeat; text-align: center; font-size: 0.9em;text-align: left; padding-left:10px;} /* cambia */
 #content-box #right-column-backtones-escuchados dd { width: 220px; height: 135px;  background: white; font-size: 0.8em; margin: 0 5px; } /* Cambia */
->>>>>>> reset
 #content-box #right-column-backtones-escuchados dd ul li { line-height: 1.3em; vertical-align: top; }
 #content-box #right-column-backtones-escuchados .listaenlace{ margin-left:30px; width:100%;  list-style-image: url("../images/tag_blue.png");text-align:left;  }
 #content-box #right-column-backtones-escuchados dd a {  line-height:8px; font-size: 11px; color: #3062a9;  text-decoration: none; } /* cambia */
@@ -414,19 +386,11 @@ ul#accordion li.ui-accordion-selected a.heading { background: #025185; color: #f
 }
 #panel-busqueda
 {
-<<<<<<< HEAD
-    width:800px; display:inline; vertical-align: top;  text-align:left;
-}
-#panel-busqueda .contenedor_texto_busqueda
-{
-    width:420px;  display:inline; text-align:left; float:left;
-=======
     width:1000px; display:inline; vertical-align: top;  text-align:left;
 }
 #panel-busqueda .contenedor_texto_busqueda
 {
     width:620px;  display:inline; text-align:left; float:left;
->>>>>>> reset
 }
 #panel-busqueda .contenedor_tipo_busqueda
 {
