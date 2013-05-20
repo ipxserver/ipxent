@@ -33,11 +33,12 @@
 	background-image: url(../images/bg_flecha_first.gif);
 }
 #slidder div.paging a span.title {
-	color: #6583c0;
+	color: #092845;
 	font-size: 11px;
+	font:bold;
 }
 #slidder div.paging a span.subTitle {
-	color: #58595d;
+	color: #092845;
 	font-size: 10px;
 }
 
