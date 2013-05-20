@@ -34,7 +34,7 @@ body { background: #f0f0f0 url(../images/general-back.gif) center center repeat-
 
 /* Header */
 #header { width: 100%; margin:0 auto; }
-#header-logo {display:inline-block; width: 100%; background: #427abf;min-width: 1150px; _width:1150px; *display: inline; zoom:1; /* IE */}
+#header-logo {display:inline-block; width: 100%; background: #48c8f5;min-width: 1150px; _width:1150px; *display: inline; zoom:1; /* IE */}
 #logo { width: 10%; text-align: left; padding-top: 0px; display:inline-block; margin: 0; height: 110px; background: url(../images/logo.gif) 20px 20px no-repeat; *display: inline; zoom:1;/* IE */ }
 #logo h1 { text-indent: -9000px; display: block; width: 120px; height: 105px; margin: 0; padding: 0; float: left; } /* Cambia */
 #logo h1 a { display: block; width: 120px; height: 105px; float:left;} /* Cambia */
@@ -55,24 +55,24 @@ body { background: #f0f0f0 url(../images/general-back.gif) center center repeat-
 #texto-login a { color: #434343; text-decoration: none; } /* Cambia */
 #texto-login a:hover { color: #ccc; text-decoration: none; } /* Cambia */
 #login input { margin: 0 5px; }
-#menu-bar { width: 1000px; height: 30px; margin: 0 auto; background: #3e71b2 url(../images/back-menu.gif) top center no-repeat; margin-top: 10px; } /* Cambia */
+#menu-bar { width: 1000px; height: 30px; margin: 0 auto; background: #258bcb url(../images/back-menu.gif) top center no-repeat; margin-top: 10px; } /* Cambia */
 #menu-bar li { display: block; float: left; padding: 0 10px; vertical-align: middle; border-left: 1px solid #ccd9f0; font-size:12px; border-right: 1px solid #3365c2; color: #fff; font-weight: bold; margin-top: 3px; } /* Cambia */
 #menu-bar li a { color: #CCC;  text-decoration: none; font-weight: normal;  } /* Cambia */
 #menu-bar li a:hover { color: #fff; text-decoration: none; } /* Cambia */
 #menu-bar .first { border-left: none; }
 #menu-bar .last { border-right: none; }
-#abc { width: 1000px; height: 27px; margin: 0 auto; background:#2f588b; color: #fec431; font-size: 0.8em; width: 1000px; }
+#abc { width: 1000px; height: 27px; margin: 0 auto; background:#1b6d9d; color: #ffed00; font-size: 0.8em; width: 1000px; }
 #abc #abc-title { float: left; height: 27px; padding-left: 10px; }
 #abc #abc-words { float: right; width: 733px; height: 27px; line-height: 27px; text-align: right; }
 /*#abc-words .letters { letter-spacing: 3px; }*/
 #abc-words span { display: block;}
 #abc-words a { display: block; float: left; color: white; text-decoration: none; padding: 0px 5px; } /* Cambia */
 #abc-words a:hover { color: #2F588B; background: white; } /* Cambia */
-#finder { width: 1000px; height: 46px; margin: 0 auto; background:#3e71b2 url(../images/back-finder.gif) bottom center no-repeat; font-size: 0.8em; color: white; text-align: center; }
+#finder { width: 1000px; height: 46px; margin: 0 auto; background:#258bcb url(../images/back-finder.gif) bottom center no-repeat; font-size: 0.8em; color: white; text-align: center; }
 #finder #news { float: left; width: 600px; height: 46px; }
 #finder #search { width: 900px; height: 46px; margin: 0 auto; }
 #finder #search input, #finder #news input { margin: 10px 3px 0 3px; color: #999999; }
-#finder #search .button-blue { background: url(../images/back_send_button.gif) repeat-x; border: 1px solid #4FB602; height: 24px; color: white; }
+#finder #search .button-blue { background: url(../images/back_send_button.gif) repeat-x; border: 1px solid #c3cbd2; height: 24px; color: 072944; }
 #finder #search #label { width: 500px; }
 
 /* Content */
@@ -88,10 +88,17 @@ body { background: #f0f0f0 url(../images/general-back.gif) center center repeat-
 
 }
 #content-box { width: 1000px; padding:5px 21px 0 0; margin: 0 auto ;  }
+<<<<<<< HEAD
 #content-box #left-column { width: 230px; height: 249px; background: #67bc29; margin-bottom: 5px;}
 #content-box #left-column dl{ width:230px; margin:0 auto; background: url(../images/back-dt-bottom-1.gif) bottom center no-repeat; padding-bottom: 5px; }
 #content-box #left-column dt { width: 230px; height: 28px; color: white; line-height: 27px; vertical-align: middle;padding-left:10px;  font-weight:bold; background: url(../images/back-dt-1.gif) no-repeat; text-align: left; font-size: 0.9em;} /* Cambia */
 #content-box #left-column dd { width: 220px; height: 27px; line-height: 27px; margin-left:5px; vertical-align: middle; font-size: 10px; background-color:#FFF; margin: 0 5px; }
+=======
+#content-box #left-column { width: 200px; height: 249px; background: #67bc29; margin-bottom: 5px;}
+#content-box #left-column dl{ width:200px; margin:0 auto; padding-bottom: 5px; }
+#content-box #left-column dt { width: 200px; height: 28px; color: white; line-height: 27px; vertical-align: middle;padding-left:10px;  font-weight:bold; text-align: left; font-size: 0.9em;} /* Cambia */
+#content-box #left-column dd { width: 190px; height: 27px; line-height: 27px; margin-left:5px; vertical-align: middle; font-size: 10px; background-color:#FFF; margin: 0 5px; }
+>>>>>>> prueba
 #content-box #left-column dd a {display:inline-block; width:200px;line-height:30px; background: url(../images/bullet_categories.gif) no-repeat  0 center;background-position-x:10px;  color: #181818;  height: 27px; text-decoration: none; padding-left: 25px; } /* Cambia */
 #content-box #left-column dd a:hover { color: #787878; } /* Cambia */
 #content-box #left-column dd .light-blue { background-color: #f0f0f0; } /* Cambia */
@@ -118,15 +125,15 @@ RIGHT COLUMN MI CUENTA
 */
 
 #content-box #right-column-micuenta { width: 230px;  float: right; background: #427abf;  margin-bottom: 5px; vertical-align: top; }
-#content-box #right-column-micuenta dl{ width:230px; margin:0 auto; background: url(../images/back-dt-bottom-2.gif) bottom center no-repeat; padding-bottom: 5px; }
-#content-box #right-column-micuenta dt { width: 230px; height: 30px; color: white; line-height: 30px; vertical-align: middle;  font-weight:bold; background: url(../images/back-dt-2.gif) no-repeat; text-align: center; font-size: 0.9em;text-align: left; padding-left:10px;} /* cambia */
+#content-box #right-column-micuenta dl{ width:230px; margin:0 auto; padding-bottom: 5px; }
+#content-box #right-column-micuenta dt { width: 230px; height: 30px; color: white; line-height: 30px; vertical-align: middle;  font-weight:bold; text-align: center; font-size: 0.9em;text-align: left; padding-left:10px;} /* cambia */
 #content-box #right-column-micuenta dd { width: 220px; min-height:80px; background: white; _height: 80px; font-size: 0.8em; margin: 0 5px; } /* Cambia */
 
 #content-box #right-column-micuenta dd ul { padding-top: 10px; }
 
 #content-box #right-column-micuenta dd span {display:block; vertical-align:middle; float:left;   width:70px; height:15px; padding-left:5px; font-size: 11px; color: #3062a9; } /* cambia */
 
-#content-box #right-column-micuenta dd input { background:#CCFFFF; padding-left:10px; border:1px solid #CCCCCC; width:70px; height:15px; font-size:0.9em; color:#555555; }
+#content-box #right-column-micuenta dd input { background:#FFFFFF; padding-left:10px; border:1px solid #CCCCCC; width:70px; height:15px; font-size:0.9em; color:#555555; }
 #content-box #right-column-micuenta dd input:focus { background:#FFFFCC; padding-left:10px; border:1px solid green; width:70px; height:15px;color:#333333; font-size:0.9em;}
 #content-box #right-column-micuenta dd .btnlogin {
 	width: 50px;
@@ -169,8 +176,8 @@ RIGHT COLUMN BACKTONES ESCUCHADOS
 
 */
 #content-box #right-column-backtones-escuchados { width: 230px;  float: right; background: #ed174b;   vertical-align: top; }
-#content-box #right-column-backtones-escuchados dl{ width:230px; margin:0 auto; background: url(../images/back-dt-bottom-2.gif) bottom center no-repeat; padding-bottom: 5px; }
-#content-box #right-column-backtones-escuchados dt { width: 230px; height: 30px; color: white; line-height: 30px; vertical-align: top;  font-weight:bold; background: url(../images/back-dt-2.gif) no-repeat; text-align: center; font-size: 0.9em;text-align: left; padding-left:10px;} /* cambia */
+#content-box #right-column-backtones-escuchados dl{ width:230px; margin:0 auto;  padding-bottom: 5px; }
+#content-box #right-column-backtones-escuchados dt { width: 230px; height: 30px; color: white; line-height: 30px; vertical-align: top;  font-weight:bold; text-align: center; font-size: 0.9em;text-align: left; padding-left:10px;} /* cambia */
 #content-box #right-column-backtones-escuchados dd { width: 220px; height: 135px;  background: white; font-size: 0.8em; margin: 0 5px; } /* Cambia */
 
 #content-box #right-column-backtones-escuchados dd ul li { line-height: 1.3em; vertical-align: top; }
@@ -186,8 +193,8 @@ RIGHT COLUMN BACKTONES ESCUCHADOS
 CONTEXT ACCORDION
 */
 #content-box #accordion-column { width: 200px; float: left; background: #6ab9e4; }
-#content-box #accordion-column dl{ width:200px; height:418px; margin:0 auto; background: url(../images/back-dt-bottom-1.gif) bottom center no-repeat; padding-bottom: 5px; }
-#content-box #accordion-column dt { width: 200px; height: 30px; color: white; line-height: 30px; vertical-align: middle;  font-weight:bold; background: url(../images/back-dt-1.gif) no-repeat; text-align: left; padding-left:10px; font-size: 0.9em;} /* cambia */
+#content-box #accordion-column dl{ width:200px; height:418px; margin:0 auto; padding-bottom: 5px; }
+#content-box #accordion-column dt { width: 200px; height: 30px; color: white; line-height: 30px; vertical-align: middle;  font-weight:bold; text-align: left; padding-left:10px; font-size: 0.9em;} /* cambia */
 #content-box #accordion-column dd { width: 200px;  font-size: 0.8em; margin: 0 0px; } /* Cambia */
 #content-box #accordion-column dd ul { background:#6ab9e4; overflow:hidden; }
 #content-box #accordion-column dd ul li {  vertical-align: middle;  }
@@ -417,7 +424,7 @@ ul#accordion li.ui-accordion-selected a.heading { background: #025185; color: #f
 SS7 Style
 ------------------------------------------------
 */
-#panel-busqueda{ display:inline-block;text-align:center;  width:79%;  vertical-align: top;  background: #427abf;*display:inline; zoom:1;}
+#panel-busqueda{ display:inline-block;text-align:center;  width:79%;  vertical-align: top;  background: #48c8f5;*display:inline; zoom:1;}
 #panel-login {width:230px; height:170px; background: url(../images/panel_login_bg.jpg) no-repeat top left; margin-top:10px;float: right;}
 #panel-login-caja{border:1px solid #F00000;width:220px; height:110px; margin-top:40px; margin-left:5px; }
 
@@ -1092,7 +1099,7 @@ fieldset.search {
 .estilo-enlace-home
 {
     font-size:11px;
-    color: #CCC;
+    color: #ffffff;
     text-decoration: none;
     padding-top:5px;
     line-height:30px;
