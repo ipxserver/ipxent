@@ -71,7 +71,7 @@ body { background: #f0f0f0 url(../images/general-back.gif) center center repeat-
 #finder { width: 1000px; height: 46px; margin: 0 auto; background:#258bcb url(../images/back-finder.gif) bottom center no-repeat; font-size: 0.8em; color: white; text-align: center; }
 #finder #news { float: left; width: 600px; height: 46px; }
 #finder #search { width: 900px; height: 46px; margin: 0 auto; }
-#finder #search input, #finder #news input { margin: 10px 3px 0 3px; color: #999999; }
+#finder #search input, #finder #news input { margin: 10px 3px 0 3px; color: #092845; }
 #finder #search .button-blue { background: url(../images/back_send_button.gif) repeat-x; border: 1px solid #c3cbd2; height: 24px; color: 072944; }
 #finder #search #label { width: 500px; }
 
