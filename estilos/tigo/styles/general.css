@@ -147,8 +147,8 @@ RIGHT COLUMN MI CUENTA
 RIGHT COLUMN FAQ
 */
 #content-box #right-column-faq { width: 230px; float: right; background: #61bc47;  margin-bottom: 5px; vertical-align: top; }
-#content-box #right-column-faq dl{ width:230px;  margin:0 auto; background: url(../images/back-dt-bottom-2.gif) bottom center no-repeat; padding-bottom: 5px; }
-#content-box #right-column-faq dt { width: 230px; height: 30px; color: white; line-height: 30px; vertical-align: middle;  font-weight:bold; background: url(../images/back-dt-2.gif) no-repeat; text-align: center; font-size: 0.9em;text-align: left; padding-left:10px;} /* cambia */
+#content-box #right-column-faq dl{ width:230px;  margin:0 auto; padding-bottom: 5px; }
+#content-box #right-column-faq dt { width: 230px; height: 30px; color: white; line-height: 30px; vertical-align: middle;  font-weight:bold; text-align: center; font-size: 0.9em;text-align: left; padding-left:10px;} /* cambia */
 #content-box #right-column-faq dd { width: 220px;  height: 80px; background: white; _height: 90px; font-size: 0.8em; margin: 0 5px; } /* Cambia */
 #content-box #right-column-faq dd span {display:block; vertical-align:middle; float:left;   width:70px; height:15px; padding-left:1px; font-size: 0.9em; color: #3062a9; } /* cambia */
 #content-box #right-column-faq dd input { background:#CCFFFF; padding-left:10px; border:1px solid #CCCCCC; width:70px; height:15px; font-size:0.9em; color:#555555; }
