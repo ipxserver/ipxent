@@ -1,7 +1,7 @@
 losbody, html { height: 100%; }
 body { background: #f0f0f0 url(../images/general-back.gif) center center repeat-y; font: 1em/1.5em Verdana, Arial, Helvetica, sans-serif; color: white; } /* Cambia */
 .jump { clear: both; height: 0; overflow: hidden; }
-.section-title { width: 548px; height: 30px; margin: 10px auto 0 auto; background:#ee1c25; border: 1px solid #ee1c25; line-height: 36px; vertical-align: middle; color: #00266b; } /* cambia */
+.section-title { width: 548px; height: 30px; margin: 10px auto 0 auto; background:#ff0000; border: 1px solid #ee1c25; line-height: 36px; vertical-align: middle; color: #00266b; } /* cambia */
 .section-title h2 { padding-left: 10px; font-weight: bold; font-size: 0.9em;}
 .border-picture { border: 2px solid #cdc9c6; }
 .space-icons { margin: 8px 3px 0 3px; }
@@ -131,7 +131,7 @@ RIGHT COLUMN MI CUENTA
 	width: 50px;
 	height: 50px;
 	cursor: pointer;
-	background: #FF99FF url(../images/bg-bt-ingresar.png) no-repeat top right;
+	background: #FFFFFF url(../images/bg-bt-ingresar.png) no-repeat top right;
 }
 #content-box #right-column-micuenta dd ul li { line-height: 15px; vertical-align: middle; }
 #content-box #right-column-micuenta .listaenlace{margin-top:5px;margin-left:30px; width:100%;  list-style-image: url("../images/tag_blue.png");text-align:left;  }
@@ -146,7 +146,7 @@ RIGHT COLUMN MI CUENTA
 /*
 RIGHT COLUMN FAQ
 */
-#content-box #right-column-faq { width: 230px; float: right; background: #61bc47;  margin-bottom: 5px; vertical-align: top; }
+#content-box #right-column-faq { width: 230px; float: right; background: #ffa506;  margin-bottom: 5px; vertical-align: top; }
 #content-box #right-column-faq dl{ width:230px;  margin:0 auto; padding-bottom: 5px; }
 #content-box #right-column-faq dt { width: 230px; height: 30px; color: white; line-height: 30px; vertical-align: middle;  font-weight:bold; text-align: center; font-size: 0.9em;text-align: left; padding-left:10px;} /* cambia */
 #content-box #right-column-faq dd { width: 220px;  height: 80px; background: white; _height: 90px; font-size: 0.8em; margin: 0 5px; } /* Cambia */
@@ -166,7 +166,7 @@ RIGHT COLUMN FAQ
 RIGHT COLUMN BACKTONES ESCUCHADOS
 
 */
-#content-box #right-column-backtones-escuchados { width: 230px;  float: right; background: #ed174b;   vertical-align: top;margin-bottom: 5px; }
+#content-box #right-column-backtones-escuchados { width: 230px;  float: right; background: #ff0000;   vertical-align: top;margin-bottom: 5px; }
 #content-box #right-column-backtones-escuchados dl{ width:230px; margin:0 auto;  padding-bottom: 5px; }
 #content-box #right-column-backtones-escuchados dt { width: 230px; height: 30px; color: white; line-height: 30px; vertical-align: top;  font-weight:bold; text-align: center; font-size: 0.9em;text-align: left; padding-left:10px;} /* cambia */
 #content-box #right-column-backtones-escuchados dd { width: 220px; height: 135px;  background: white; font-size: 0.8em; margin: 0 5px; } /* Cambia */
