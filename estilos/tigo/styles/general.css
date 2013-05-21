@@ -173,7 +173,7 @@ RIGHT COLUMN BACKTONES ESCUCHADOS
 #content-box #right-column-backtones-escuchados dd ul li { line-height: 1.3em; vertical-align: top; }
 #content-box #right-column-backtones-escuchados .listaenlace{ margin-left:30px; width:100%;  list-style-image: url("../images/tag_blue.png");text-align:left;  }
 #content-box #right-column-backtones-escuchados dd a {  line-height:8px; font-size: 11px; color: #3062a9;  text-decoration: none; } /* cambia */
-#content-box #right-column-backtones-escuchados dd a:hover { font-size: 11px;  color: green; text-decoration: underline; } /* Cambia */
+#content-box #right-column-backtones-escuchados dd a:hover { font-size: 11px;  color: #55166f; text-decoration: underline; } /* Cambia */
 #content-box #right-column-backtones-escuchados .light-blue { background-color: #f0f0f0; } /* Cambia */
 #content-box #right-column-backtones-escuchados .top { height: auto; background-image: none; }
 #content-box #right-column-backtones-escuchados .top ul { padding: 0px; }
@@ -576,7 +576,7 @@ fieldset.search {
  	display:block;
  	padding-top:3px;
 	font: 10px Verdana, Arial, Helvetica, sans-serif;
-	color: green;
+	color: #55166f;
         text-decoration: none;
 	text-align: center;
 }
@@ -587,21 +587,20 @@ fieldset.search {
  	padding-top:3px;
 	font: 10px Verdana, Arial, Helvetica, sans-serif;
         font-weight:bold;
-	color: gray;
+	color: #000;
 	text-align: center;
         text-decoration: none;
         padding-bottom:10px;
 }
 #content-box-album a:hover.link-artista{
-
- 	display:block;
- 	padding-top:3px;
+	display: block;
+	padding-top: 3px;
 	font: 10px Verdana, Arial, Helvetica, sans-serif;
-        font-weight:bold;
-	color: green;
+	font-weight: bold;
+	color: #55166f;
 	text-align: center;
-        text-decoration: none;
-        padding-bottom:10px;
+	text-decoration: underline;
+	padding-bottom: 10px;
 }
 
 
