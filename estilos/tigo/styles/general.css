@@ -63,10 +63,10 @@ body { background: #f0f0f0 url(../images/general-back.gif) center center repeat-
 #menu-bar .last { border-right: none; }
 #abc { width: 720px; height: 27px; margin: 0 auto; background:#1b6d9d; color: #ffed00; font-size: 0.8em; width: 720px; }
 #abc #abc-title { float: left; height: 27px; padding-left: 10px; }
-#abc #abc-words { float: right; width: 470px; height: 27px; line-height: 27px; text-align: right; }
+#abc #abc-words { float: right; width: 450px; height: 27px; line-height: 27px; text-align: right; }
 /*#abc-words .letters { letter-spacing: 3px; }*/
 #abc-words span { display: block;}
-#abc-words a { display: block; float: left; color: white; text-decoration: none; padding: 0px 4px; } /* Cambia */
+#abc-words a { display: block; float: left; color: white; text-decoration: none; padding: 0px 3px; } /* Cambia */
 #abc-words a:hover { color: #2F588B; background: white; } /* Cambia */
 #finder { width: 720px; height: 46px; margin: 0 auto; background:#258bcb url(../images/back-finder.gif) bottom center no-repeat; font-size: 0.8em; color: white; text-align: center; }
 #finder #news { float: left; width: 600px; height: 46px; }
