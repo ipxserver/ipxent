@@ -35,7 +35,7 @@ body { background: #f0f0f0 url(../images/general-back.gif) center center repeat-
 /* Header */
 #header { width: 1024px; margin:0 auto; }
 #header-logo {display:inline-block; width: 100%; background: #48c8f5; *display: inline; zoom:1; /* IE */}
-#logo { width: 10%; text-align: left; padding-top: 0px; display:inline-block; margin: 0; height: 110px; background: url(../images/logo.gif) 20px 20px no-repeat; *display: inline; zoom:1;/* IE */ }
+#logo { width: 15%; text-align: left; padding-top: 0px; display:inline-block; margin: 0; height: 110px; background: url(../images/logo.gif) 20px 20px no-repeat; *display: inline; zoom:1;/* IE */ }
 #logo h1 { text-indent: -9000px; display: block; width: 120px; height: 105px; margin: 0; padding: 0; float: left; } /* Cambia */
 #logo h1 a { display: block; width: 120px; height: 105px; float:left;} /* Cambia */
 #total-tracks { float: right; width: 190px; color: white; height: 90px; margin-top: 15px; position:relative; overflow:hidden }
@@ -63,7 +63,7 @@ body { background: #f0f0f0 url(../images/general-back.gif) center center repeat-
 #menu-bar .last { border-right: none; }
 #abc { width: 720px; height: 27px; margin: 0 auto; background:#1b6d9d; color: #ffed00; font-size: 0.8em; width: 720px; }
 #abc #abc-title { float: left; height: 27px; padding-left: 10px; }
-#abc #abc-words { float: left; width: 733px; height: 27px; line-height: 27px; text-align: right; }
+#abc #abc-words { float: left; width: 470px; height: 27px; line-height: 27px; text-align: right; }
 /*#abc-words .letters { letter-spacing: 3px; }*/
 #abc-words span { display: block;}
 #abc-words a { display: block; float: left; color: white; text-decoration: none; padding: 0px 5px; } /* Cambia */
@@ -73,7 +73,7 @@ body { background: #f0f0f0 url(../images/general-back.gif) center center repeat-
 #finder #search { width: 900px; height: 46px; margin: 0 auto; }
 #finder #search input, #finder #news input { margin: 10px 3px 0 3px; color: #092845; }
 #finder #search .button-blue { background: url(../images/back_send_button.gif) repeat-x; border: 1px solid #c3cbd2; height: 24px; color: 072944; }
-#finder #search #label { width: 500px; }
+#finder #search #label { width: 300px; }
 
 /* Content */
 
@@ -390,7 +390,7 @@ ul#accordion li.ui-accordion-selected a.heading { background: #025185; color: #f
 }
 #panel-busqueda .contenedor_texto_busqueda
 {
-    width:520px;  display:inline; text-align:left; float:left; padding-left: 10px;
+    width:4500px;  display:inline; text-align:left; float:left; padding-left: 10px;
 }
 #panel-busqueda .contenedor_tipo_busqueda
 {
@@ -406,7 +406,7 @@ ul#accordion li.ui-accordion-selected a.heading { background: #025185; color: #f
 SS7 Style
 ------------------------------------------------
 */
-#panel-busqueda{ display:inline-block;text-align:center;  width:79%;  vertical-align: top;  background: #48c8f5;*display:inline; zoom:1;}
+#panel-busqueda{ display:inline-block;text-align:center;  width:75%;  vertical-align: top;  background: #48c8f5;*display:inline; zoom:1;}
 #panel-login {width:230px; height:170px; background: url(../images/panel_login_bg.jpg) no-repeat top left; margin-top:10px;float: right;}
 #panel-login-caja{border:1px solid #F00000;width:220px; height:110px; margin-top:40px; margin-left:5px; }
 
