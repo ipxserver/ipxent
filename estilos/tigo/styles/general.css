@@ -386,11 +386,11 @@ ul#accordion li.ui-accordion-selected a.heading { background: #025185; color: #f
 }
 #panel-busqueda
 {
-    width:1000px; display:inline; vertical-align: top;  text-align:left;
+    width:720px; display:inline; vertical-align: top;  text-align:left;
 }
 #panel-busqueda .contenedor_texto_busqueda
 {
-    width:620px;  display:inline; text-align:left; float:left; padding-left: 10px;
+    width:520px;  display:inline; text-align:left; float:left; padding-left: 10px;
 }
 #panel-busqueda .contenedor_tipo_busqueda
 {
