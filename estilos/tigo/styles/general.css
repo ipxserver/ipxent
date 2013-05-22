@@ -390,7 +390,7 @@ ul#accordion li.ui-accordion-selected a.heading { background: #025185; color: #f
 }
 #panel-busqueda .contenedor_texto_busqueda
 {
-    width:4500px;  display:inline; text-align:left; float:left; padding-left: 10px;
+    width:450px;  display:inline; text-align:left; float:left; padding-left: 10px;
 }
 #panel-busqueda .contenedor_tipo_busqueda
 {
