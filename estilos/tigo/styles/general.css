@@ -735,9 +735,9 @@ fieldset.search {
     height: 90px; width:250px; background: #e9eae8; text-align: left; padding-left:10px;padding-top:10px;font-size: 10px; color:gray; line-height: 12px;
 }
 #contenedor-amigos input{
-  background:#FFFFFF; padding-left:10px; border:1px solid #CCCCCC; width:90px; height:15px; font-size:0.9em; color:#062945;
+  background:#FFFFFF; padding-left:10px; border:1px solid #CCCCCC; width:90px; height:15px; font-size:1.1em; color:#062945;
 }
-#contenedor-amigos input:focus { background:#FFFFCC; padding-left:10px; border:1px solid green; width:90px; height:15px;color:#333333; font-size:0.9em;}
+#contenedor-amigos input:focus { background:#FFFFCC; padding-left:10px; border:1px solid #062945; width:90px; height:15px;color:#333333; font-size:1.1em;}
 #contenedor-amigos .btn_agregar_amigos{
 	width: 81px;
 	height: 31px;
