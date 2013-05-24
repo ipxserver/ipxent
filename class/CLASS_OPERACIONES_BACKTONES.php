@@ -848,7 +848,7 @@ class CLASS_OPERACIONES_BACKTONES
         $link_tono="index.php?seccion=backtones&backtone=$id_tono";
 
         $url=urlencode("$vg_conf_dominio/v3/index.php?seccion=backtones&backtone=$id_tono");
-        $vl_titulo_facebook="Ha comprado el backtone Tigo  $autor - $tono  ";        
+        $vl_titulo_facebook="Ha comprado el backtone  $autor - $tono  ";        
 
         //$texto="BackTones Tigo: El backtone se renovara automaticamente el 18/19/2010 ";
         $texto=$this->vlc_mensaje;
@@ -1703,7 +1703,7 @@ class CLASS_OPERACIONES_BACKTONES
         $url_facebook="$vg_conf_dominio/v3/index.php?seccion=backtones&backtone=$this->vlc_id_tono&f=1&t=$vlf_estampa_tiempo";
         FN_NET_LOGGER("ACTUALIZAR LINK FACEBOOK > TONO ".$this->vlc_id_tono."\n".$url_facebook);
         $url_facebook=urlencode($url_facebook);
-        $vlf_titulo_head="Backtones TIGO | $vlf_nombre_artista - $vlf_nombre_tono ";
+        $vlf_titulo_head="Ringback Tone Entel | $vlf_nombre_artista - $vlf_nombre_tono ";
 
         $titulo_url="";
         return $url_facebook;
