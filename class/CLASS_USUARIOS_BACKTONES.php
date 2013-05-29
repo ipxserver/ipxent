@@ -467,7 +467,7 @@ class CLASS_USUARIOS_BACKTONES
 			$precio = number_format($vf_precio, 2, '.', '');
 
             $fecha = fecha_alerta($daysRenovacion);
-            $this->vlc_mensaje= "BackTones Tigo: El backtone tiene vigencia hasta ". fecha($prox).". ".
+            $this->vlc_mensaje= "Ringback Tone Entel: El backtone tiene vigencia hasta ". fecha($prox).". ".
                     "En esa fecha, le enviaremos un SMS para confirmar si desea mantener el backtone activo. ".
 					"Para eliminar el backtone ingresa al menu Mis Backtones. Costo de mantenimiento del Backtone Bs $precio";
             $this->vlc_mensaje = str_replace("'","\'",$this->vlc_mensaje);
@@ -736,7 +736,7 @@ class CLASS_USUARIOS_BACKTONES
            global $vg_db_conexion;
            $p       = rand(1000,9999);
            $pin     = crypt($p,'aa');
-           $vl_mensaje_sms  = "Tu PIN para Back tones Tigo es $p";
+           $vl_mensaje_sms  = "Tu PIN para Ringback tone Entel es $p";
            
            if ($this->MTD_VALIDAR_MSISDN($this->vlc_msisdn))
            {
@@ -786,7 +786,7 @@ class CLASS_USUARIOS_BACKTONES
                        $vl_sql ="UPDATE usuarios SET pin='$pin' where msisdn='".$this->vlc_msisdn."'";
                        $vl_resultado=false;
                        $vl_resultado = FN_RUN_NONQUERY($vl_sql,$vg_db_conexion);
-                       $vl_mensaje= "Tu PIN para Back tones Tigo es $p";
+                       $vl_mensaje= "Tu PIN para Ringback Tone Entel es $p";
                        //FN_NET_SMS($vl_mensaje_sms,$this->vlc_msisdn);
                        return "1";
                    }
@@ -844,7 +844,7 @@ class CLASS_USUARIOS_BACKTONES
                 return "-5";
             }
 
-           $vl_mensaje_sms  = "Tu PIN para Back tones Tigo es $p";
+           $vl_mensaje_sms  = "Tu PIN para Rongback Tone Entel es $p";
 
            FN_NET_LOGGER("ACTUALIZAR_PIN_USUARIO >".$vp_msisdn." nuevo pin:$p");
            if ($this->MTD_VALIDAR_MSISDN($vp_msisdn))
@@ -862,7 +862,7 @@ class CLASS_USUARIOS_BACKTONES
                    $vl_sql ="UPDATE usuarios SET pin='$pin' where msisdn='".$vp_msisdn."'";
                    $vl_resultado=false;
                    $vl_resultado = FN_RUN_NONQUERY($vl_sql,$vg_db_conexion);
-                   $vl_mensaje= "Tu PIN para Back tones Tigo es $p";
+                   $vl_mensaje= "Tu PIN para Ringback tone Entel es $p";
                    FN_NET_SMS($vl_mensaje_sms,$vp_msisdn);
                    return "1";
                }
@@ -901,7 +901,7 @@ class CLASS_USUARIOS_BACKTONES
                        $vl_sql ="UPDATE usuarios SET pin='$pin' where msisdn='".$vp_msisdn."'";
                        $vl_resultado=false;
                        $vl_resultado = FN_RUN_NONQUERY($vl_sql,$vg_db_conexion);
-                       $vl_mensaje= "Tu PIN para Back tones Tigo es $p";
+                       $vl_mensaje= "Tu PIN para Ringback Tone Entel es $p";
                        FN_NET_SMS($vl_mensaje_sms,$vp_msisdn);
                        return "1";
                    }

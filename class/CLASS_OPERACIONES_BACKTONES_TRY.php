@@ -444,7 +444,7 @@ class CLASS_OPERACIONES_BACKTONES
                 $this->vlc_msisdn = preg_replace('/^7/','5917',$this->vlc_msisdn);
             }
 
-        $url = "http://backtones.tigo.com.bo/bajar.php?msisdn=".$this->vlc_msisdn."&amp;id=".$codigo;
+        $url = "http://backtones.com.bo/bajar.php?msisdn=".$this->vlc_msisdn."&amp;id=".$codigo;
 
             $content = "\r\n\r\n";
             $content.= "--asdlfkjiurwghasf\r\n";
@@ -455,7 +455,7 @@ class CLASS_OPERACIONES_BACKTONES
                <pap>
               <push-message push-id=\"9fjeo39jf084@pi.com\"
               progress-notes-requested=\"false\">
-                <address address-value=\"WAPPUSH=+".$this->vlc_msisdn."/TYPE=PLMN@tigo.com.bo\">
+                <address address-value=\"WAPPUSH=+".$this->vlc_msisdn."/TYPE=PLMN@entel.bo\">
                 </address>
                 <quality-of-service
                 priority=\"low\"
@@ -563,7 +563,7 @@ class CLASS_OPERACIONES_BACKTONES
                 $this->vlc_msisdn = preg_replace('/^7/','5917',$this->vlc_msisdn);
             }
 
-	    $url = "http://backtones.tigo.com.bo/bajar.php?msisdn=".$this->vlc_msisdn."&amp;id=".$codigo;
+	    $url = "http://backtones.com.bo/bajar.php?msisdn=".$this->vlc_msisdn."&amp;id=".$codigo;
 
             $content = "\r\n\r\n";
             $content.= "--asdlfkjiurwghasf\r\n";
@@ -574,7 +574,7 @@ class CLASS_OPERACIONES_BACKTONES
                <pap>
               <push-message push-id=\"9fjeo39jf084@pi.com\"
               progress-notes-requested=\"false\">
-                <address address-value=\"WAPPUSH=+".$this->vlc_msisdn."/TYPE=PLMN@tigo.com.py\">
+                <address address-value=\"WAPPUSH=+".$this->vlc_msisdn."/TYPE=PLMN@entel.com.py\">
                 </address>
                 <quality-of-service
                 priority=\"low\"
@@ -843,7 +843,7 @@ class CLASS_OPERACIONES_BACKTONES
         $link_tono="index.php?seccion=backtones&backtone=$id_tono";
 
         $url=urlencode("$vg_conf_dominio/v3/index.php?seccion=backtones&backtone=$id_tono");
-        $vl_titulo_facebook="Ha comprado el backtone Tigo  $autor - $tono  ";        
+        $vl_titulo_facebook="Ha comprado el Ringback Tone Entel  $autor - $tono  ";        
 
         //$texto="BackTones Tigo: El backtone se renovara automaticamente el 18/19/2010 ";
         $texto=$this->vlc_mensaje;
@@ -1698,7 +1698,7 @@ class CLASS_OPERACIONES_BACKTONES
         $url_facebook="$vg_conf_dominio/v3/index.php?seccion=backtones&backtone=$this->vlc_id_tono&f=1&t=$vlf_estampa_tiempo";
         FN_NET_LOGGER("ACTUALIZAR LINK FACEBOOK > TONO ".$this->vlc_id_tono."\n".$url_facebook);
         $url_facebook=urlencode($url_facebook);
-        $vlf_titulo_head="Backtones TIGO | $vlf_nombre_artista - $vlf_nombre_tono ";
+        $vlf_titulo_head="Ringback Tones Entel | $vlf_nombre_artista - $vlf_nombre_tono ";
 
         $titulo_url="";
         return $url_facebook;

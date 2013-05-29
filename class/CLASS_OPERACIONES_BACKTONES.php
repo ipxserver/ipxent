@@ -449,7 +449,7 @@ class CLASS_OPERACIONES_BACKTONES
                 $this->vlc_msisdn = preg_replace('/^7/','5917',$this->vlc_msisdn);
             }
 
-        $url = "http://backtones.tigo.com.bo/bajar.php?msisdn=".$this->vlc_msisdn."&amp;id=".$codigo;
+        $url = "http://backtones.com.bo/bajar.php?msisdn=".$this->vlc_msisdn."&amp;id=".$codigo;
 
             $content = "\r\n\r\n";
             $content.= "--asdlfkjiurwghasf\r\n";
@@ -460,7 +460,7 @@ class CLASS_OPERACIONES_BACKTONES
                <pap>
               <push-message push-id=\"9fjeo39jf084@pi.com\"
               progress-notes-requested=\"false\">
-                <address address-value=\"WAPPUSH=+".$this->vlc_msisdn."/TYPE=PLMN@tigo.com.bo\">
+                <address address-value=\"WAPPUSH=+".$this->vlc_msisdn."/TYPE=PLMN@entel.bo\">
                 </address>
                 <quality-of-service
                 priority=\"low\"
@@ -568,7 +568,7 @@ class CLASS_OPERACIONES_BACKTONES
                 $this->vlc_msisdn = preg_replace('/^7/','5917',$this->vlc_msisdn);
             }
 
-	    $url = "http://backtones.tigo.com.bo/bajar.php?msisdn=".$this->vlc_msisdn."&amp;id=".$codigo;
+	    $url = "http://backtones.com.bo/bajar.php?msisdn=".$this->vlc_msisdn."&amp;id=".$codigo;
 
             $content = "\r\n\r\n";
             $content.= "--asdlfkjiurwghasf\r\n";
@@ -579,7 +579,7 @@ class CLASS_OPERACIONES_BACKTONES
                <pap>
               <push-message push-id=\"9fjeo39jf084@pi.com\"
               progress-notes-requested=\"false\">
-                <address address-value=\"WAPPUSH=+".$this->vlc_msisdn."/TYPE=PLMN@tigo.com.py\">
+                <address address-value=\"WAPPUSH=+".$this->vlc_msisdn."/TYPE=PLMN@entel.bo\">
                 </address>
                 <quality-of-service
                 priority=\"low\"
