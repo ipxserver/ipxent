@@ -67,7 +67,7 @@ class CLASS_WEB_REPRODUCIR_BACKTONES
 
         $this->vlc_imagen_facebook="$vg_conf_dominio"."/v3/".$template_imagen_facebook;
         $url=urlencode("$vg_conf_dominio/v3/index.php?seccion=backtones&backtone=$this->vlc_id_tono&f=1");
-        $this->vlc_titulo_head="Ringback Tone Entel | $this->vlc_nombre_artista - $this->vlc_nombre_tono ";
+        $this->vlc_titulo_head="Backtones Entel | $this->vlc_nombre_artista - $this->vlc_nombre_tono ";
         $titulo_url="";
 
         $this->vlc_codigo_html  = FN_REEMPLAZAR('{tpl-listado-backtones}', $this->vlc_lista_tonos, $this->vlc_codigo_html);

@@ -37,7 +37,7 @@ class CLASS_WEB_INDICE
         $vl_seccion ="";
         $vl_header="";
         $vl_header_secundario="";
-        $vl_titulo_header="Ringback Tone Entel";
+        $vl_titulo_header="Backtones Entel";
         
         //**************************************************
         // OBJETOS COMUNES PARA EL SITIO WEB

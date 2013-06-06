@@ -89,7 +89,7 @@ class CLASS_WEB_REPRODUCIR_BUSQUEDA
 
         $this->vlc_imagen_facebook="$vg_conf_dominio"."/v3/".$template_imagen_facebook;
         
-        $this->vlc_titulo_head="Ringback Tone Entel | $this->vlc_nombre_artista - $this->vlc_nombre_album ";
+        $this->vlc_titulo_head="Backtones Entel | $this->vlc_nombre_artista - $this->vlc_nombre_album ";
         $titulo_url="";
 
         //TITULO BUSQUEDA
@@ -121,7 +121,7 @@ class CLASS_WEB_REPRODUCIR_BUSQUEDA
 
         }
         $vlc_titulo_head        = $this->vlc_titulo_busqueda;
-        $this->vlc_titulo_head  = "Ringback Tone Entel | ".$this->vlc_titulo_busqueda;
+        $this->vlc_titulo_head  = "Backtones Entel | ".$this->vlc_titulo_busqueda;
         //link facebook
 
         $this->vlc_codigo_html  = FN_REEMPLAZAR('{tpl-listado-backtones}', $this->vlc_lista_tonos, $this->vlc_codigo_html);
