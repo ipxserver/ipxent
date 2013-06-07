@@ -33,7 +33,7 @@ body { background: #f0f0f0 url(../images/general-back.gif) center center repeat-
 
 
 /* Header */
-#header { width: 1024px; margin:0 auto; }
+#header { background-image: url("../images/header_bg.png"); width: 1024px; margin:0 auto; }
 #header-logo {display:inline-block; width: 100%; background: #ffffff; *display: inline; zoom:1; /* IE */}
 #logo { width: 18%; text-align: left; padding-top: 0px; display:inline-block; margin: 0; height: 150px; background: url(../images/logo.png) 20px 20px no-repeat; *display: inline; zoom:1;/* IE */ }
 #logo h1 { text-indent: -9000px; display: block; width: 120px; height: 105px; margin: 0; padding: 0; float: left; } /* Cambia */
