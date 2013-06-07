@@ -406,7 +406,7 @@ ul#accordion li.ui-accordion-selected a.heading { background: #025185; color: #f
 SS7 Style
 ------------------------------------------------
 */
-#panel-busqueda{ display:inline-block;text-align:center;  width:75%;  vertical-align: bottom; margin-bottom: 15px; background: #ffffff;*display:inline; zoom:1;}
+#panel-busqueda{ display:inline-block;text-align:center;  width:75%;  vertical-align: bottom; margin-bottom: 12px; *display:inline; zoom:1;}
 #panel-login {width:230px; height:170px; background: url(../images/panel_login_bg.jpg) no-repeat top left; margin-top:10px;float: right;}
 #panel-login-caja{border:1px solid #F00000;width:220px; height:110px; margin-top:40px; margin-left:5px; }
 
