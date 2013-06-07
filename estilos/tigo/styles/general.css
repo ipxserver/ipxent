@@ -34,7 +34,7 @@ body { background: #f0f0f0 url(../images/general-back.gif) center center repeat-
 
 /* Header */
 #header { width: 1024px; margin:0 auto; }
-#header-logo {display:inline-block; width: 100%; background: #48c8f5; *display: inline; zoom:1; /* IE */}
+#header-logo {display:inline-block; width: 100%; background: #ffffff; *display: inline; zoom:1; /* IE */}
 #logo { width: 15%; text-align: left; padding-top: 0px; display:inline-block; margin: 0; height: 110px; background: url(../images/logo.gif) 20px 20px no-repeat; *display: inline; zoom:1;/* IE */ }
 #logo h1 { text-indent: -9000px; display: block; width: 120px; height: 105px; margin: 0; padding: 0; float: left; } /* Cambia */
 #logo h1 a { display: block; width: 120px; height: 105px; float:left;} /* Cambia */
@@ -55,7 +55,7 @@ body { background: #f0f0f0 url(../images/general-back.gif) center center repeat-
 #texto-login a { color: #434343; text-decoration: none; } /* Cambia */
 #texto-login a:hover { color: #ccc; text-decoration: none; } /* Cambia */
 #login input { margin: 0 5px; }
-#menu-bar { width: 720px; height: 30px; margin: 0 auto; background: #258bcb url(../images/back-menu.gif) top center no-repeat; margin-top: 10px; } /* Cambia */
+#menu-bar { width: 720px; height: 30px; margin: 0 auto; background: #004282 url(../images/back-menu.gif) top center no-repeat; margin-top: 10px; } /* Cambia */
 #menu-bar li { display: block; float: left; padding: 0 10px; vertical-align: middle; border-left: 1px solid #ccd9f0; font-size:12px; border-right: 1px solid #3365c2; color: #fff; font-weight: bold; margin-top: 3px; } /* Cambia */
 #menu-bar li a { color: #CCC;  text-decoration: none; font-weight: normal;  } /* Cambia */
 #menu-bar li a:hover { color: #fff; text-decoration: none; } /* Cambia */
@@ -71,8 +71,8 @@ body { background: #f0f0f0 url(../images/general-back.gif) center center repeat-
 #finder { width: 720px; height: 46px; margin: 0 auto; background:#258bcb url(../images/back-finder.gif) bottom center no-repeat; font-size: 0.8em; color: white; text-align: center; }
 #finder #news { float: left; width: 600px; height: 46px; }
 #finder #search { width: 900px; height: 46px; margin: 0 auto; }
-#finder #search input, #finder #news input { margin: 10px 3px 0 3px; color: #092845; }
-#finder #search .button-blue { background: url(../images/back_send_button.gif) repeat-x; border: 1px solid #c3cbd2; height: 24px; color: 072944; }
+#finder #search input, #finder #news input { margin: 10px 3px 0 3px; color: #003f7d; }
+#finder #search .button-blue { background: url(../images/back_send_button.gif) repeat-x; border: 1px solid #5ec5ed; height: 24px; color: #072944; }
 #finder #search #label { width: 300px; }
 
 /* Content */
