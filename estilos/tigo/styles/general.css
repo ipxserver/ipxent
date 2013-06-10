@@ -35,7 +35,7 @@ body { background: #f0f0f0 url(../images/general-back.gif) center center repeat-
 /* Header */
 <<<<<<< HEAD
 #header { width: 1024px; margin:0; auto; position: absolute;}
-#header-logo {background-image: url(../images/header_bg.png); display:inline-block; width: 78%; *display: inline; zoom:1; /* IE */}
+#header-logo {background-image: url(../images/header_bg.png) 0 0 no-repea; display:inline-block; width: 78%; *display: inline; zoom:1; /* IE */}
 #logo { width: 22%; text-align: left; padding-top: 0px; display:inline-block; margin-left: 10px; height: 140px; background: url(../images/logo.png) 20px 20px no-repeat; *display: inline; zoom:1;/* IE */ }
 =======
 #header { width: 1024px; margin:0 auto; }
@@ -188,11 +188,11 @@ RIGHT COLUMN BACKTONES ESCUCHADOS
 /*
 CONTEXT ACCORDION
 */
-#content-box #accordion-column { width: 200px; float: left; background: #6ab9e4; }
+#content-box #accordion-column { width: 200px; float: left; background: #5ec5ed; }
 #content-box #accordion-column dl{ width:200px; height:418px; margin:0 auto; padding-bottom: 5px; }
 #content-box #accordion-column dt { width: 200px; height: 30px; color: white; line-height: 30px; vertical-align: middle;  font-weight:bold; text-align: left; padding-left:10px; font-size: 0.9em;} /* cambia */
 #content-box #accordion-column dd { width: 200px;  font-size: 0.8em; margin: 0 0px; } /* Cambia */
-#content-box #accordion-column dd ul { background:#6ab9e4; overflow:hidden; }
+#content-box #accordion-column dd ul { background:#5ec5ed; overflow:hidden; }
 #content-box #accordion-column dd ul li {  vertical-align: middle;  }
 #content-box #accordion-column li .rankeados{
         background: url(../images/star_green.png) no-repeat;
