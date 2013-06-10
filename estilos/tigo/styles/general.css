@@ -34,7 +34,7 @@ body { background: #f0f0f0 url(../images/general-back.gif) center center repeat-
 
 /* Header */
 #header { width: 1024px; margin:0;position: absolute}
-#header-logo { background: url(../images/header_bg.png) center center no-repeat; display:inline-block; width: 78%; height: 150px *display: inline; zoom:1; /* IE */}
+#header-logo { background: url(../images/header_bg.png) center center no-repeat; display:inline-block; width: 78%; height: 150px; *display: inline; zoom:1; /* IE */}
 #logo { width: 22%; text-align: left; padding-top: 0px; display:inline-block; margin-left: 10px; height: 140px; background: url(../images/logo.png) 20px 25px no-repeat; *display: inline; zoom:1;/* IE */ }
 #logo h1 { text-indent: -9000px; display: block; width: 120px; height: 105px; margin: 0; padding: 0; float: left; } /* Cambia */
 #logo h1 a { display: block; width: 120px; height: 105px; float:left;} /* Cambia */
