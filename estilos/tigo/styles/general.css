@@ -40,7 +40,7 @@ body { background: #f0f0f0 url(../images/general-back.gif) center center repeat-
 =======
 #header { width: 1024px; margin:0 auto; }
 #header-logo {display:inline-block; width: 100%; background: #ffffff; *display: inline; zoom:1; /* IE */}
-#logo { width: 17%; text-align: left; padding-top: 0px; display:inline-block; margin: 0; height: 150px; background: url(../images/logo.png) 25px 15px no-repeat; *display: inline; zoom:1;/* IE */ }
+#logo { width: 19%; text-align: left; padding-top: 0px; display:inline-block; margin: 0; height: 150px; background: url(../images/logo.png) 25px 25px no-repeat; *display: inline; zoom:1;/* IE */ }
 >>>>>>> parent of fbddb29... logo.png
 #logo h1 { text-indent: -9000px; display: block; width: 120px; height: 105px; margin: 0; padding: 0; float: left; } /* Cambia */
 #logo h1 a { display: block; width: 120px; height: 105px; float:left;} /* Cambia */
@@ -412,7 +412,7 @@ ul#accordion li.ui-accordion-selected a.heading { background: #025185; color: #f
 SS7 Style
 ------------------------------------------------
 */
-#panel-busqueda{ display:inline-block;text-align:center;  width:75%;  vertical-align: bottom; margin-bottom: 12px; *display:inline; zoom:1;}
+#panel-busqueda{ display:inline-block;text-align:center;  width:75%;  vertical-align: bottom; margin-bottom: 20px; *display:inline; zoom:1;}
 #panel-login {width:230px; height:170px; background: url(../images/panel_login_bg.jpg) no-repeat top left; margin-top:10px;float: right;}
 #panel-login-caja{border:1px solid #F00000;width:220px; height:110px; margin-top:40px; margin-left:5px; }
 
