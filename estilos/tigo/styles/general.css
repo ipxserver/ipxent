@@ -94,7 +94,7 @@ body { background: #f0f0f0 url(../images/general-back.gif) center center repeat-
 
 }
 #content-box { width: 1000px; padding:5px 21px 0 0; margin: 0 auto ;  }
-#content-box #left-column { width: 200px; height: 249px; background: #5a8fc1; margin-bottom: 5px;}
+#content-box #left-column { width: 200px; height: 249px; background: #0086cb; margin-bottom: 5px;}
 #content-box #left-column dl{ width:200px; margin:0 auto; padding-bottom: 5px; }
 #content-box #left-column dt { width: 200px; height: 28px; color: white; line-height: 27px; vertical-align: middle;padding-left:10px;  font-weight:bold; text-align: left; font-size: 0.9em;} /* Cambia */
 #content-box #left-column dd { width: 190px; height: 27px; line-height: 27px; margin-left:5px; vertical-align: middle; font-size: 10px; background-color:#FFF; margin: 0 5px; }
@@ -123,7 +123,7 @@ body { background: #f0f0f0 url(../images/general-back.gif) center center repeat-
 RIGHT COLUMN MI CUENTA
 */
 
-#content-box #right-column-micuenta { width: 230px;  float: right; background: #427abf;  margin-bottom: 5px; vertical-align: top; }
+#content-box #right-column-micuenta { width: 230px;  float: right; background: #0086cb;  margin-bottom: 5px; vertical-align: top; }
 #content-box #right-column-micuenta dl{ width:230px; margin:0 auto; padding-bottom: 5px; }
 #content-box #right-column-micuenta dt { width: 230px; height: 30px; color: white; line-height: 30px; vertical-align: middle;  font-weight:bold; text-align: center; font-size: 0.9em;text-align: left; padding-left:10px;} /* cambia */
 #content-box #right-column-micuenta dd { width: 220px; min-height:80px; background: white; _height: 80px; font-size: 0.8em; margin: 0 5px; } /* Cambia */
