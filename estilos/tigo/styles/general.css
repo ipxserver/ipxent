@@ -35,7 +35,7 @@ body { background: #f0f0f0 url(../images/general-back.gif) center center repeat-
 /* Header */
 <<<<<<< HEAD
 #header { width: 1024px; margin:0; auto; position: absolute;}
-#header-logo {background-image: url(../images/header_bg.png) 0 0 no-repea; display:inline-block; width: 78%; *display: inline; zoom:1; /* IE */}
+#header-logo {background-image: url(../images/header_bg.png) 0 0 no-repeat; display:inline-block; width: 78%; *display: inline; zoom:1; /* IE */}
 #logo { width: 22%; display:inline-block; height: 140px; background: url(../images/logo.png) 20px 25px no-repeat; *display: inline-block; zoom:1;/* IE */ }
 =======
 >>>>>>> parent of fbddb29... logo.png
