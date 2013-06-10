@@ -234,20 +234,20 @@ padding-left:3px;
 #content-box #accordion-column li .listatonos-losmas-votados{
     width:200px;
     height:31px;
-    background: #0094d2;
+    background: #0086cb;
     text-align:left;
 
 }
 #content-box #accordion-column li .listatonos-losmas-comprados{
     width:200px;
     height:31px;
-    background: #0169b2;
+    background: #006fb2;
     text-align:left;
 }
 #content-box #accordion-column li .listatonos-losmas-rankeados{
     width:200px;
     height:31px;
-    background: #014e9c;
+    background: #003f7d;
     text-align:left;
 }
 #content-box #accordion-column li .tonos-losmas{
