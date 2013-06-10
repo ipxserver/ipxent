@@ -33,15 +33,9 @@ body { background: #f0f0f0 url(../images/general-back.gif) center center repeat-
 
 
 /* Header */
-<<<<<<< HEAD
 #header { width: 1024px; margin:0; auto; position: absolute;}
-#header-logo {background-image: url(../images/header_bg.png) 0 0 no-repea; display:inline-block; width: 78%; *display: inline; zoom:1; /* IE */}
+#header-logo {background-image: url(../images/header_bg.png); display:inline-block; width: 78%; *display: inline; zoom:1; /* IE */}
 #logo { width: 22%; text-align: left; padding-top: 0px; display:inline-block; margin-left: 10px; height: 140px; background: url(../images/logo.png) 20px 20px no-repeat; *display: inline; zoom:1;/* IE */ }
-=======
-#header { width: 1024px; margin:0 auto; }
-#header-logo {display:inline-block; width: 100%; background: url(../images/header_bg.png); *display: inline; zoom:1; /* IE */}
-#logo { width: 19%; text-align: left; padding-top: 0px; display:inline-block; margin: 0; height: 150px; background: url(../images/logo.png) 25px 25px no-repeat; *display: inline; zoom:1;/* IE */ }
->>>>>>> parent of fbddb29... logo.png
 #logo h1 { text-indent: -9000px; display: block; width: 120px; height: 105px; margin: 0; padding: 0; float: left; } /* Cambia */
 #logo h1 a { display: block; width: 120px; height: 105px; float:left;} /* Cambia */
 #total-tracks { float: right; width: 190px; color: white; height: 90px; margin-top: 15px; position:relative; overflow:hidden }
@@ -94,7 +88,7 @@ body { background: #f0f0f0 url(../images/general-back.gif) center center repeat-
 
 }
 #content-box { width: 1000px; padding:5px 21px 0 0; margin: 0 auto ;  }
-#content-box #left-column { width: 200px; height: 249px; background: #0086cb; margin-bottom: 5px;}
+#content-box #left-column { width: 200px; height: 249px; background: #5a8fc1; margin-bottom: 5px;}
 #content-box #left-column dl{ width:200px; margin:0 auto; padding-bottom: 5px; }
 #content-box #left-column dt { width: 200px; height: 28px; color: white; line-height: 27px; vertical-align: middle;padding-left:10px;  font-weight:bold; text-align: left; font-size: 0.9em;} /* Cambia */
 #content-box #left-column dd { width: 190px; height: 27px; line-height: 27px; margin-left:5px; vertical-align: middle; font-size: 10px; background-color:#FFF; margin: 0 5px; }
@@ -123,7 +117,7 @@ body { background: #f0f0f0 url(../images/general-back.gif) center center repeat-
 RIGHT COLUMN MI CUENTA
 */
 
-#content-box #right-column-micuenta { width: 230px;  float: right; background: #0086cb;  margin-bottom: 5px; vertical-align: top; }
+#content-box #right-column-micuenta { width: 230px;  float: right; background: #427abf;  margin-bottom: 5px; vertical-align: top; }
 #content-box #right-column-micuenta dl{ width:230px; margin:0 auto; padding-bottom: 5px; }
 #content-box #right-column-micuenta dt { width: 230px; height: 30px; color: white; line-height: 30px; vertical-align: middle;  font-weight:bold; text-align: center; font-size: 0.9em;text-align: left; padding-left:10px;} /* cambia */
 #content-box #right-column-micuenta dd { width: 220px; min-height:80px; background: white; _height: 80px; font-size: 0.8em; margin: 0 5px; } /* Cambia */
@@ -188,11 +182,11 @@ RIGHT COLUMN BACKTONES ESCUCHADOS
 /*
 CONTEXT ACCORDION
 */
-#content-box #accordion-column { width: 200px; float: left; background: #5ec5ed; }
+#content-box #accordion-column { width: 200px; float: left; background: #6ab9e4; }
 #content-box #accordion-column dl{ width:200px; height:418px; margin:0 auto; padding-bottom: 5px; }
 #content-box #accordion-column dt { width: 200px; height: 30px; color: white; line-height: 30px; vertical-align: middle;  font-weight:bold; text-align: left; padding-left:10px; font-size: 0.9em;} /* cambia */
 #content-box #accordion-column dd { width: 200px;  font-size: 0.8em; margin: 0 0px; } /* Cambia */
-#content-box #accordion-column dd ul { background:#5ec5ed; overflow:hidden; }
+#content-box #accordion-column dd ul { background:#6ab9e4; overflow:hidden; }
 #content-box #accordion-column dd ul li {  vertical-align: middle;  }
 #content-box #accordion-column li .rankeados{
         background: url(../images/star_green.png) no-repeat;
@@ -234,20 +228,20 @@ padding-left:3px;
 #content-box #accordion-column li .listatonos-losmas-votados{
     width:200px;
     height:31px;
-    background: #0086cb;
+    background: #0094d2;
     text-align:left;
 
 }
 #content-box #accordion-column li .listatonos-losmas-comprados{
     width:200px;
     height:31px;
-    background: #006fb2;
+    background: #0169b2;
     text-align:left;
 }
 #content-box #accordion-column li .listatonos-losmas-rankeados{
     width:200px;
     height:31px;
-    background: #003f7d;
+    background: #014e9c;
     text-align:left;
 }
 #content-box #accordion-column li .tonos-losmas{
@@ -412,7 +406,7 @@ ul#accordion li.ui-accordion-selected a.heading { background: #025185; color: #f
 SS7 Style
 ------------------------------------------------
 */
-#panel-busqueda{ display:inline-block;text-align:center;  width:75%;  vertical-align: bottom; margin-bottom: 20px; *display:inline; zoom:1;}
+#panel-busqueda{ display:inline-block;text-align:center;  width:75%;  vertical-align: bottom; margin-bottom: 12px; *display:inline; zoom:1;}
 #panel-login {width:230px; height:170px; background: url(../images/panel_login_bg.jpg) no-repeat top left; margin-top:10px;float: right;}
 #panel-login-caja{border:1px solid #F00000;width:220px; height:110px; margin-top:40px; margin-left:5px; }
 
