@@ -39,7 +39,7 @@ body { background: #f0f0f0 url(../images/general-back.gif) center center repeat-
 #logo { width: 22%; text-align: left; padding-top: 0px; display:inline-block; margin-left: 10px; height: 140px; background: url(../images/logo.png) 20px 20px no-repeat; *display: inline; zoom:1;/* IE */ }
 =======
 #header { width: 1024px; margin:0 auto; }
-#header-logo {display:inline-block; width: 100%; background: #ffffff; *display: inline; zoom:1; /* IE */}
+#header-logo {display:inline-block; width: 100%; background: url(../images/header_bg.jpg) 0 0 no-repeat; *display: inline; zoom:1; /* IE */}
 #logo { width: 19%; text-align: left; padding-top: 0px; display:inline-block; margin: 0; height: 150px; background: url(../images/logo.png) 25px 25px no-repeat; *display: inline; zoom:1;/* IE */ }
 >>>>>>> parent of fbddb29... logo.png
 #logo h1 { text-indent: -9000px; display: block; width: 120px; height: 105px; margin: 0; padding: 0; float: left; } /* Cambia */
