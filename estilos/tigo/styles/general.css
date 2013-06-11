@@ -131,8 +131,7 @@ RIGHT COLUMN MI CUENTA
 	width: 50px;
 	height: 50px;
 	cursor: pointer;
-	background: #FFFFFF url(../images/bg-bt-ingresar.png) no-repeat top right;
-}
+	background: #FFFFFF url(../images/bg-bt-ingresar.png) no-repeat top right transparent;}
 #content-box #right-column-micuenta dd ul li { line-height: 15px; vertical-align: middle; }
 #content-box #right-column-micuenta .listaenlace{margin-top:5px;margin-left:30px; width:100%;  list-style-image: url("../images/tag_blue.png");text-align:left;  }
 #content-box #right-column-micuenta .listaenlace2{font-size: 0.8em; margin-top:2px; margin-left:10px; width:50%;  list-style:none; text-align:left;  }
