@@ -183,7 +183,7 @@ RIGHT COLUMN BACKTONES ESCUCHADOS
 CONTEXT ACCORDION
 */
 #content-box #accordion-column { width: 200px; float: left; background: #5ec5ed; }
-#content-box #accordion-column dl{ width:200px; height:418px; margin:0 auto; padding-bottom: 5px; }
+#content-box #accordion-column dl{ width:200px; height:407px; margin:0 auto; padding-bottom: 5px; }
 #content-box #accordion-column dt { width: 200px; height: 30px; color: white; line-height: 30px; vertical-align: middle;  font-weight:bold; text-align: left; padding-left:10px; font-size: 0.9em;} /* cambia */
 #content-box #accordion-column dd { width: 200px;  font-size: 0.8em; margin: 0 0px; } /* Cambia */
 #content-box #accordion-column dd ul { background:#5ec5ed; overflow:hidden; }
@@ -660,7 +660,7 @@ fieldset.search {
     position:relative; width:170px;top:0px;height:175px;float:left;margin:0px; padding:0px; float:left; z-index:200;
 }
 #abajo_genero{
-    position:relative;top:180px;float:right;right:2px;height:15px; width:15px; background:url(../images/icon-arrow-down.png) 0 0 no-repeat;  z-index:300;   cursor: pointer;
+    position:absolute;top:200px;float:right;right:2px;height:15px; width:15px; background:url(../images/icon-arrow-down.png) 0 0 no-repeat;  z-index:300;   cursor: pointer;
 
 }
 
