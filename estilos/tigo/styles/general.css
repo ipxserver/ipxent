@@ -394,7 +394,7 @@ ul#accordion li.ui-accordion-selected a.heading { background: #025185; color: #f
 }
 #panel-busqueda .contenedor_tipo_busqueda
 {
-    width:150px;text-align:center; display:inline; float:left; vertical-align: top; margin: 5px;
+    width:150px;text-align:center; display:inline; float:left; vertical-align: bottom; margin: 5px;
 }
 #panel-busqueda .contenedor_boton
 {
