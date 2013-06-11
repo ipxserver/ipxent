@@ -119,7 +119,7 @@ RIGHT COLUMN MI CUENTA
 
 #content-box #right-column-micuenta { width: 230px;  float: right; background: #0086cb;  margin-bottom: 5px; vertical-align: top; }
 #content-box #right-column-micuenta dl{ width:230px; margin:0 auto; padding-bottom: 5px; }
-#content-box #right-column-micuenta dt { background: url(../images/back-dt-3.gif) repeat scroll 0 0 transparent; width: 230px; height: 30px; color: white; line-height: 30px; vertical-align: middle;  font-weight:bold; text-align: center; font-size: 0.9em;text-align: left; padding-left:10px;} /* cambia */
+#content-box #right-column-micuenta dt { background: url(../images/back-dt-3.gif) no-repeat scroll 0 0 transparent; width: 230px; height: 30px; color: white; line-height: 30px; vertical-align: middle;  font-weight:bold; text-align: center; font-size: 0.9em;text-align: left; padding-left:10px;} /* cambia */
 #content-box #right-column-micuenta dd { width: 220px; min-height:80px; background: white; _height: 80px; font-size: 0.8em; margin: 0 5px; } /* Cambia */
 #content-box #right-column-micuenta dd ul { padding-top: 10px; background:#0086cb }
 
