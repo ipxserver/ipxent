@@ -1,6 +1,5 @@
 losbody, html { height: 100%; }
-body { background: #f0f0f0 url(../images/general-back.gif) center center repeat-y; text-align:center ; font: 1em/1.5em Verdana, Arial, Helvetica, sans-serif; color: white; } /* Cambia */
-body * {text-align: left;}
+body { background: #f0f0f0 url(../images/general-back.gif) center center repeat-y; font: 1em/1.5em Verdana, Arial, Helvetica, sans-serif; color: white; } /* Cambia */
 .jump { clear: both; height: 0; overflow: hidden; }
 .section-title { width: 548px; height: 30px; margin: 10px auto 0 auto; background:#ff0000; border: 1px solid #ee1c25; line-height: 36px; vertical-align: middle; color: #00266b; } /* cambia */
 .section-title h2 { padding-left: 10px; font-weight: bold; font-size: 0.9em;}
