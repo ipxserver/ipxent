@@ -3,7 +3,7 @@ body { background: #f0f0f0 url(../images/general-back.gif) center center repeat-
 .jump { clear: both; height: 0; overflow: hidden; }
 .section-title { width: 548px; height: 30px; margin: 10px auto 0 auto; background:#ff0000; border: 1px solid #ee1c25; line-height: 36px; vertical-align: middle; color: #00266b; } /* cambia */
 .section-title h2 { padding-left: 10px; font-weight: bold; font-size: 0.9em;}
-.border-picture { border: 2px solid #cdc9c6; }
+.border-picture { border: 2px solid #cdc9c6; border-radius:5px }
 .space-icons { margin: 8px 3px 0 3px; }
 
 /* Light Box Styles */
