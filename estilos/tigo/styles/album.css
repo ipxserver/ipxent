@@ -2,7 +2,7 @@
 
 .section-title { margin-top: 0; width: 550px; background: #003F7D url(../images/back-dt-2.gif) no-repeat; border: none; color: white; }
 
-#content #content-download { margin: 0 auto; font-size: 0.8em; width: 550px; background: #0086cb; }
+#content #content-download { margin: 0 auto; font-size: 0.8em; width: 550px; background: #0086cb; border-radius: 0 0 7px 7px;}
 #content #picture-download { width: 257px; float: left; text-align: center; line-height: 1.3em; margin-bottom: 10px; }
 #content #picture-download .border-picture { margin: 10px; }
 #content #picture-download p { margin: 0 10px; text-align: left; color: #fff; }
