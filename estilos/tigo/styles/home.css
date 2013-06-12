@@ -39,7 +39,7 @@
 #content-box #content .content-galery .center-galery .content-box { width: 395px; float: left; }
 #content-box #content .content-galery .center-galery .box { width: 118px; text-align:center; margin-top: 15px; margin-bottom:5px; font-weight:700; float: left; line-height: 1.5em; color: #080808;}
 #content-box #content .content-galery .center-galery .box span { color: #386abf; font-style:italic; font-variant:normal; }
-.block-music { height: 390px; border-bottom: #E5E4E4 solid 3px;}
+.block-music { height: 390px; border-bottom: #E5E4E4 solid 3px; border-radius:0 0 7px 7px}
 .block-wallpapers { height: 299px; }
 .box-music { height: 150px; }
 .box-wallpapers { height: 125px; }
