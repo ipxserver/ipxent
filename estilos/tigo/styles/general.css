@@ -137,7 +137,7 @@ RIGHT COLUMN MI CUENTA
 #content-box #right-column-micuenta .listaenlace2{font-size: 0.8em; margin-top:2px; margin-left:10px; width:50%;  list-style:none; text-align:left;  }
 #content-box #right-column-micuenta .listaenlace3{font-size: 0.8em; margin-top:2px;  list-style:none; text-align:left;  }
 #content-box #right-column-micuenta dd a {  font-size: 1.0em; color: #bfe3f4;  text-decoration: none; } /* cambia */
-#content-box #right-column-micuenta dd a:hover { font-size: 0.9em;  color: #ffffff; text-decoration: underline; } /* Cambia */
+#content-box #right-column-micuenta dd a:hover { font-size: 1.0em;  color: #ffffff; text-decoration: underline; } /* Cambia */
 #content-box #right-column-micuenta .light-blue { background-color: #f0f0f0; } /* Cambia */
 #content-box #right-column-micuenta .top { height: auto; background-image: none; }
 #content-box #right-column-micuenta .top ul { padding: 0; }
