@@ -165,7 +165,7 @@ RIGHT COLUMN FAQ
 RIGHT COLUMN BACKTONES ESCUCHADOS
 
 */
-#content-box #right-column-backtones-escuchados { width: 230px;  float: right; background: #0086cb;   vertical-align: top;margin-bottom: 5px; }
+#content-box #right-column-backtones-escuchados { width: 230px;  float: right; background: #0086cb;   vertical-align: top;margin-bottom: 5px; border-radius:7px}
 #content-box #right-column-backtones-escuchados dl{ width:230px; margin:0 auto;  padding-bottom: 5px; }
 #content-box #right-column-backtones-escuchados dt { width: 230px; height: 30px; color: white; line-height: 30px; vertical-align: top;  font-weight:bold; text-align: center; font-size: 0.9em;text-align: left; padding-left:10px;} /* cambia */
 #content-box #right-column-backtones-escuchados dd { width: 220px; height: 135px;  background: white; font-size: 0.8em; margin: 0 5px; } /* Cambia */
